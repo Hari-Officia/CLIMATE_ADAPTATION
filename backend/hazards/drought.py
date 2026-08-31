@@ -113,20 +113,29 @@ class DroughtHazard(BaseHazard):
 
         raw_prob = float(self.model.predict_proba([feat_vec])[0][1])
 
-        # Probability calibration: smooth uncalibrated XGBoost binary outputs (0.0 / 1.0)
+        # District Hydrological & Reservoir Vulnerability Factors
+        d_clean = district_name.strip().lower()
+        profile = district_profile or {}
+        is_coastal = profile.get("coastal", False) or d_clean in ["chennai", "chengalpattu", "kancheepuram", "kanniyakumari", "tiruvallur", "cuddalore"]
+        is_high_urban = (profile.get("urban_percentage", 0) > 60.0) or d_clean in ["chennai", "coimbatore"]
+        is_mountainous = d_clean in ["nilgiris", "theni", "dindigul"]
+
+        # Water resilience factor: Urban reservoirs & coastal groundwater reduce drought risk
+        resilience_discount = 0.35 if (d_clean == "chennai" or (is_coastal and is_high_urban)) else 0.65 if (is_coastal or is_mountainous) else 1.0
+
         spi_3 = feat_dict.get("SPI_3", 0.0)
         spi_6 = feat_dict.get("SPI_6", 0.0)
         soil = feat_dict.get("soil_wetness", 0.40)
 
-        spi_score = max(0.0, (-spi_3 * 0.35) + (-spi_6 * 0.55))
+        spi_score = max(0.0, (-spi_3 * 0.30) + (-spi_6 * 0.50))
         soil_deficit = max(0.0, (0.45 - soil) / 0.45)
 
-        calibrated_signal = 0.10 + (spi_score * 0.15) + (soil_deficit * 0.18)
+        base_signal = (0.08 + (spi_score * 0.12) + (soil_deficit * 0.15)) * resilience_discount
 
-        if raw_prob > 0.5:
-            final_prob = min(0.76, max(0.42, 0.38 + calibrated_signal * 0.40))
+        if raw_prob > 0.6 and not (is_coastal and is_high_urban):
+            final_prob = min(0.72, max(0.40, base_signal * 1.5))
         else:
-            final_prob = max(0.02, min(0.38, calibrated_signal * 0.30))
+            final_prob = max(0.04, min(0.35, base_signal))
 
         prob_rounded = round(final_prob, 4)
 
