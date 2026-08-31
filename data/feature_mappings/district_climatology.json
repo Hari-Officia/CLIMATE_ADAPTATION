@@ -1,0 +1,5922 @@
+{
+  "Ariyalur": {
+    "district_name": "Ariyalur",
+    "district_id": "ariyalur",
+    "overall": {
+      "temp_max_mean": 33.36,
+      "temp_min_mean": 24.29,
+      "rainfall_daily_mean": 2.96,
+      "rainfall_daily_std": 6.66,
+      "humidity_mean": 71.67,
+      "wind_speed_mean": 2.82,
+      "soil_wetness_mean": 0.558,
+      "annual_rainfall_mm": 1082.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.09,
+        "temp_max_std": 1.4,
+        "temp_min_mean": 20.64,
+        "temp_mean_mean": 24.87,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 4.4,
+        "humidity_mean": 80.96,
+        "wind_speed_mean": 2.73,
+        "soil_wetness_mean": 0.665
+      },
+      "2": {
+        "temp_max_mean": 32.05,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 21.26,
+        "temp_mean_mean": 26.66,
+        "rainfall_mean": 0.35,
+        "rainfall_std": 1.68,
+        "humidity_mean": 73.29,
+        "wind_speed_mean": 2.62,
+        "soil_wetness_mean": 0.54
+      },
+      "3": {
+        "temp_max_mean": 35.9,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 23.64,
+        "temp_mean_mean": 29.77,
+        "rainfall_mean": 0.47,
+        "rainfall_std": 2.03,
+        "humidity_mean": 65.44,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.466
+      },
+      "4": {
+        "temp_max_mean": 37.5,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 26.49,
+        "temp_mean_mean": 31.99,
+        "rainfall_mean": 0.91,
+        "rainfall_std": 2.49,
+        "humidity_mean": 62.57,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.439
+      },
+      "5": {
+        "temp_max_mean": 36.4,
+        "temp_max_std": 2.44,
+        "temp_min_mean": 27.16,
+        "temp_mean_mean": 31.78,
+        "rainfall_mean": 2.59,
+        "rainfall_std": 5.89,
+        "humidity_mean": 64.81,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.474
+      },
+      "6": {
+        "temp_max_mean": 35.68,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 26.2,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 2.22,
+        "rainfall_std": 3.66,
+        "humidity_mean": 63.27,
+        "wind_speed_mean": 3.65,
+        "soil_wetness_mean": 0.485
+      },
+      "7": {
+        "temp_max_mean": 35.45,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 25.84,
+        "temp_mean_mean": 30.65,
+        "rainfall_mean": 1.99,
+        "rainfall_std": 3.56,
+        "humidity_mean": 61.9,
+        "wind_speed_mean": 3.83,
+        "soil_wetness_mean": 0.48
+      },
+      "8": {
+        "temp_max_mean": 34.63,
+        "temp_max_std": 2.14,
+        "temp_min_mean": 25.47,
+        "temp_mean_mean": 30.05,
+        "rainfall_mean": 3.43,
+        "rainfall_std": 5.12,
+        "humidity_mean": 66.61,
+        "wind_speed_mean": 3.16,
+        "soil_wetness_mean": 0.504
+      },
+      "9": {
+        "temp_max_mean": 33.78,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 24.98,
+        "temp_mean_mean": 29.38,
+        "rainfall_mean": 3.67,
+        "rainfall_std": 5.23,
+        "humidity_mean": 71.23,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.543
+      },
+      "10": {
+        "temp_max_mean": 31.69,
+        "temp_max_std": 2.17,
+        "temp_min_mean": 24.57,
+        "temp_mean_mean": 28.13,
+        "rainfall_mean": 6.08,
+        "rainfall_std": 8.37,
+        "humidity_mean": 79.11,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.597
+      },
+      "11": {
+        "temp_max_mean": 29.22,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 23.26,
+        "temp_mean_mean": 26.24,
+        "rainfall_mean": 9.06,
+        "rainfall_std": 12.87,
+        "humidity_mean": 86.25,
+        "wind_speed_mean": 2.54,
+        "soil_wetness_mean": 0.734
+      },
+      "12": {
+        "temp_max_mean": 28.48,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 21.76,
+        "temp_mean_mean": 25.12,
+        "rainfall_mean": 4.14,
+        "rainfall_std": 9.45,
+        "humidity_mean": 85.85,
+        "wind_speed_mean": 2.89,
+        "soil_wetness_mean": 0.779
+      }
+    }
+  },
+  "Chengalpattu": {
+    "district_name": "Chengalpattu",
+    "district_id": "chengalpattu",
+    "overall": {
+      "temp_max_mean": 31.53,
+      "temp_min_mean": 25.27,
+      "rainfall_daily_mean": 3.52,
+      "rainfall_daily_std": 8.2,
+      "humidity_mean": 74.51,
+      "wind_speed_mean": 3.29,
+      "soil_wetness_mean": 0.587,
+      "annual_rainfall_mm": 1285.3
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 27.81,
+        "temp_max_std": 0.76,
+        "temp_min_mean": 22.09,
+        "temp_mean_mean": 24.95,
+        "rainfall_mean": 0.91,
+        "rainfall_std": 4.02,
+        "humidity_mean": 77.45,
+        "wind_speed_mean": 3.29,
+        "soil_wetness_mean": 0.696
+      },
+      "2": {
+        "temp_max_mean": 29.67,
+        "temp_max_std": 1.29,
+        "temp_min_mean": 22.49,
+        "temp_mean_mean": 26.08,
+        "rainfall_mean": 0.19,
+        "rainfall_std": 1.22,
+        "humidity_mean": 73.49,
+        "wind_speed_mean": 2.96,
+        "soil_wetness_mean": 0.559
+      },
+      "3": {
+        "temp_max_mean": 32.82,
+        "temp_max_std": 1.34,
+        "temp_min_mean": 24.58,
+        "temp_mean_mean": 28.7,
+        "rainfall_mean": 0.35,
+        "rainfall_std": 1.81,
+        "humidity_mean": 69.89,
+        "wind_speed_mean": 2.99,
+        "soil_wetness_mean": 0.472
+      },
+      "4": {
+        "temp_max_mean": 34.69,
+        "temp_max_std": 1.46,
+        "temp_min_mean": 27.01,
+        "temp_mean_mean": 30.85,
+        "rainfall_mean": 0.68,
+        "rainfall_std": 2.16,
+        "humidity_mean": 69.13,
+        "wind_speed_mean": 3.41,
+        "soil_wetness_mean": 0.44
+      },
+      "5": {
+        "temp_max_mean": 34.78,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 27.96,
+        "temp_mean_mean": 31.37,
+        "rainfall_mean": 2.15,
+        "rainfall_std": 5.68,
+        "humidity_mean": 69.68,
+        "wind_speed_mean": 3.58,
+        "soil_wetness_mean": 0.46
+      },
+      "6": {
+        "temp_max_mean": 34.31,
+        "temp_max_std": 1.66,
+        "temp_min_mean": 27.21,
+        "temp_mean_mean": 30.76,
+        "rainfall_mean": 3.07,
+        "rainfall_std": 4.22,
+        "humidity_mean": 67.73,
+        "wind_speed_mean": 3.67,
+        "soil_wetness_mean": 0.479
+      },
+      "7": {
+        "temp_max_mean": 33.37,
+        "temp_max_std": 1.8,
+        "temp_min_mean": 26.49,
+        "temp_mean_mean": 29.93,
+        "rainfall_mean": 3.57,
+        "rainfall_std": 4.7,
+        "humidity_mean": 70.25,
+        "wind_speed_mean": 3.59,
+        "soil_wetness_mean": 0.521
+      },
+      "8": {
+        "temp_max_mean": 32.34,
+        "temp_max_std": 1.77,
+        "temp_min_mean": 26.18,
+        "temp_mean_mean": 29.26,
+        "rainfall_mean": 4.98,
+        "rainfall_std": 5.96,
+        "humidity_mean": 74.95,
+        "wind_speed_mean": 3.15,
+        "soil_wetness_mean": 0.56
+      },
+      "9": {
+        "temp_max_mean": 31.33,
+        "temp_max_std": 1.4,
+        "temp_min_mean": 25.85,
+        "temp_mean_mean": 28.59,
+        "rainfall_mean": 4.81,
+        "rainfall_std": 5.72,
+        "humidity_mean": 78.56,
+        "wind_speed_mean": 2.79,
+        "soil_wetness_mean": 0.613
+      },
+      "10": {
+        "temp_max_mean": 30.27,
+        "temp_max_std": 1.41,
+        "temp_min_mean": 25.67,
+        "temp_mean_mean": 27.97,
+        "rainfall_mean": 6.81,
+        "rainfall_std": 9.84,
+        "humidity_mean": 80.14,
+        "wind_speed_mean": 2.53,
+        "soil_wetness_mean": 0.66
+      },
+      "11": {
+        "temp_max_mean": 28.75,
+        "temp_max_std": 1.13,
+        "temp_min_mean": 24.54,
+        "temp_mean_mean": 26.64,
+        "rainfall_mean": 10.45,
+        "rainfall_std": 17.29,
+        "humidity_mean": 82.74,
+        "wind_speed_mean": 3.6,
+        "soil_wetness_mean": 0.784
+      },
+      "12": {
+        "temp_max_mean": 27.77,
+        "temp_max_std": 0.86,
+        "temp_min_mean": 23.09,
+        "temp_mean_mean": 25.43,
+        "rainfall_mean": 4.95,
+        "rainfall_std": 12.65,
+        "humidity_mean": 81.2,
+        "wind_speed_mean": 3.85,
+        "soil_wetness_mean": 0.816
+      }
+    }
+  },
+  "Chennai": {
+    "district_name": "Chennai",
+    "district_id": "chennai",
+    "overall": {
+      "temp_max_mean": 32.23,
+      "temp_min_mean": 24.68,
+      "rainfall_daily_mean": 3.57,
+      "rainfall_daily_std": 9.09,
+      "humidity_mean": 73.29,
+      "wind_speed_mean": 3.03,
+      "soil_wetness_mean": 0.671,
+      "annual_rainfall_mm": 1304.1
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.08,
+        "temp_max_std": 0.88,
+        "temp_min_mean": 21.27,
+        "temp_mean_mean": 24.68,
+        "rainfall_mean": 0.83,
+        "rainfall_std": 3.95,
+        "humidity_mean": 77.57,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.761
+      },
+      "2": {
+        "temp_max_mean": 30.58,
+        "temp_max_std": 1.56,
+        "temp_min_mean": 21.66,
+        "temp_mean_mean": 26.12,
+        "rainfall_mean": 0.18,
+        "rainfall_std": 1.19,
+        "humidity_mean": 72.07,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.628
+      },
+      "3": {
+        "temp_max_mean": 34.4,
+        "temp_max_std": 1.66,
+        "temp_min_mean": 23.86,
+        "temp_mean_mean": 29.13,
+        "rainfall_mean": 0.3,
+        "rainfall_std": 1.9,
+        "humidity_mean": 66.56,
+        "wind_speed_mean": 2.9,
+        "soil_wetness_mean": 0.543
+      },
+      "4": {
+        "temp_max_mean": 36.42,
+        "temp_max_std": 1.72,
+        "temp_min_mean": 26.52,
+        "temp_mean_mean": 31.47,
+        "rainfall_mean": 0.59,
+        "rainfall_std": 2.49,
+        "humidity_mean": 65.23,
+        "wind_speed_mean": 3.39,
+        "soil_wetness_mean": 0.519
+      },
+      "5": {
+        "temp_max_mean": 36.06,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 27.7,
+        "temp_mean_mean": 31.88,
+        "rainfall_mean": 1.9,
+        "rainfall_std": 5.93,
+        "humidity_mean": 66.35,
+        "wind_speed_mean": 3.41,
+        "soil_wetness_mean": 0.539
+      },
+      "6": {
+        "temp_max_mean": 35.04,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 26.83,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 3.36,
+        "rainfall_std": 5.27,
+        "humidity_mean": 65.95,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.561
+      },
+      "7": {
+        "temp_max_mean": 33.91,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 25.91,
+        "temp_mean_mean": 29.91,
+        "rainfall_mean": 3.93,
+        "rainfall_std": 5.61,
+        "humidity_mean": 69.76,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.619
+      },
+      "8": {
+        "temp_max_mean": 32.81,
+        "temp_max_std": 1.94,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 29.22,
+        "rainfall_mean": 5.17,
+        "rainfall_std": 6.27,
+        "humidity_mean": 74.5,
+        "wind_speed_mean": 2.91,
+        "soil_wetness_mean": 0.665
+      },
+      "9": {
+        "temp_max_mean": 31.74,
+        "temp_max_std": 1.54,
+        "temp_min_mean": 25.27,
+        "temp_mean_mean": 28.51,
+        "rainfall_mean": 4.87,
+        "rainfall_std": 6.5,
+        "humidity_mean": 78.35,
+        "wind_speed_mean": 2.53,
+        "soil_wetness_mean": 0.726
+      },
+      "10": {
+        "temp_max_mean": 30.56,
+        "temp_max_std": 1.62,
+        "temp_min_mean": 25.09,
+        "temp_mean_mean": 27.82,
+        "rainfall_mean": 6.64,
+        "rainfall_std": 10.09,
+        "humidity_mean": 80.1,
+        "wind_speed_mean": 2.3,
+        "soil_wetness_mean": 0.767
+      },
+      "11": {
+        "temp_max_mean": 28.83,
+        "temp_max_std": 1.28,
+        "temp_min_mean": 23.91,
+        "temp_mean_mean": 26.37,
+        "rainfall_mean": 10.62,
+        "rainfall_std": 18.76,
+        "humidity_mean": 82.95,
+        "wind_speed_mean": 3.29,
+        "soil_wetness_mean": 0.867
+      },
+      "12": {
+        "temp_max_mean": 27.8,
+        "temp_max_std": 0.95,
+        "temp_min_mean": 22.33,
+        "temp_mean_mean": 25.07,
+        "rainfall_mean": 5.18,
+        "rainfall_std": 15.8,
+        "humidity_mean": 81.52,
+        "wind_speed_mean": 3.42,
+        "soil_wetness_mean": 0.876
+      }
+    }
+  },
+  "Coimbatore": {
+    "district_name": "Coimbatore",
+    "district_id": "coimbatore",
+    "overall": {
+      "temp_max_mean": 30.37,
+      "temp_min_mean": 20.48,
+      "rainfall_daily_mean": 3.29,
+      "rainfall_daily_std": 5.27,
+      "humidity_mean": 75.49,
+      "wind_speed_mean": 2.07,
+      "soil_wetness_mean": 0.66,
+      "annual_rainfall_mm": 1200.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.88,
+        "temp_max_std": 1.87,
+        "temp_min_mean": 17.11,
+        "temp_mean_mean": 23.49,
+        "rainfall_mean": 0.59,
+        "rainfall_std": 2.55,
+        "humidity_mean": 70.68,
+        "wind_speed_mean": 1.75,
+        "soil_wetness_mean": 0.608
+      },
+      "2": {
+        "temp_max_mean": 33.17,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 18.1,
+        "temp_mean_mean": 25.63,
+        "rainfall_mean": 0.34,
+        "rainfall_std": 1.54,
+        "humidity_mean": 58.12,
+        "wind_speed_mean": 1.82,
+        "soil_wetness_mean": 0.548
+      },
+      "3": {
+        "temp_max_mean": 35.74,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 21.0,
+        "temp_mean_mean": 28.37,
+        "rainfall_mean": 0.75,
+        "rainfall_std": 1.98,
+        "humidity_mean": 53.49,
+        "wind_speed_mean": 1.59,
+        "soil_wetness_mean": 0.532
+      },
+      "4": {
+        "temp_max_mean": 35.59,
+        "temp_max_std": 2.83,
+        "temp_min_mean": 23.26,
+        "temp_mean_mean": 29.42,
+        "rainfall_mean": 1.93,
+        "rainfall_std": 3.62,
+        "humidity_mean": 61.89,
+        "wind_speed_mean": 1.44,
+        "soil_wetness_mean": 0.544
+      },
+      "5": {
+        "temp_max_mean": 31.88,
+        "temp_max_std": 2.62,
+        "temp_min_mean": 22.92,
+        "temp_mean_mean": 27.4,
+        "rainfall_mean": 4.28,
+        "rainfall_std": 5.68,
+        "humidity_mean": 76.56,
+        "wind_speed_mean": 2.06,
+        "soil_wetness_mean": 0.605
+      },
+      "6": {
+        "temp_max_mean": 28.99,
+        "temp_max_std": 1.62,
+        "temp_min_mean": 21.79,
+        "temp_mean_mean": 25.39,
+        "rainfall_mean": 5.45,
+        "rainfall_std": 6.32,
+        "humidity_mean": 83.27,
+        "wind_speed_mean": 3.0,
+        "soil_wetness_mean": 0.681
+      },
+      "7": {
+        "temp_max_mean": 27.98,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 21.16,
+        "temp_mean_mean": 24.57,
+        "rainfall_mean": 5.26,
+        "rainfall_std": 4.72,
+        "humidity_mean": 84.46,
+        "wind_speed_mean": 3.32,
+        "soil_wetness_mean": 0.715
+      },
+      "8": {
+        "temp_max_mean": 28.13,
+        "temp_max_std": 1.69,
+        "temp_min_mean": 21.05,
+        "temp_mean_mean": 24.59,
+        "rainfall_mean": 5.0,
+        "rainfall_std": 6.36,
+        "humidity_mean": 85.13,
+        "wind_speed_mean": 2.84,
+        "soil_wetness_mean": 0.739
+      },
+      "9": {
+        "temp_max_mean": 28.56,
+        "temp_max_std": 1.55,
+        "temp_min_mean": 20.87,
+        "temp_mean_mean": 24.71,
+        "rainfall_mean": 4.32,
+        "rainfall_std": 5.03,
+        "humidity_mean": 84.77,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.738
+      },
+      "10": {
+        "temp_max_mean": 28.35,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 20.69,
+        "temp_mean_mean": 24.52,
+        "rainfall_mean": 5.92,
+        "rainfall_std": 6.99,
+        "humidity_mean": 84.84,
+        "wind_speed_mean": 1.51,
+        "soil_wetness_mean": 0.751
+      },
+      "11": {
+        "temp_max_mean": 27.64,
+        "temp_max_std": 1.76,
+        "temp_min_mean": 19.54,
+        "temp_mean_mean": 23.59,
+        "rainfall_mean": 4.32,
+        "rainfall_std": 6.06,
+        "humidity_mean": 83.98,
+        "wind_speed_mean": 1.46,
+        "soil_wetness_mean": 0.77
+      },
+      "12": {
+        "temp_max_mean": 27.91,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 18.03,
+        "temp_mean_mean": 22.97,
+        "rainfall_mean": 1.5,
+        "rainfall_std": 3.86,
+        "humidity_mean": 80.4,
+        "wind_speed_mean": 1.72,
+        "soil_wetness_mean": 0.707
+      }
+    }
+  },
+  "Cuddalore": {
+    "district_name": "Cuddalore",
+    "district_id": "cuddalore",
+    "overall": {
+      "temp_max_mean": 30.61,
+      "temp_min_mean": 26.14,
+      "rainfall_daily_mean": 3.26,
+      "rainfall_daily_std": 7.1,
+      "humidity_mean": 75.76,
+      "wind_speed_mean": 3.68,
+      "soil_wetness_mean": 0.56,
+      "annual_rainfall_mm": 1191.4
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 27.27,
+        "temp_max_std": 0.63,
+        "temp_min_mean": 23.44,
+        "temp_mean_mean": 25.35,
+        "rainfall_mean": 0.89,
+        "rainfall_std": 3.5,
+        "humidity_mean": 77.54,
+        "wind_speed_mean": 3.89,
+        "soil_wetness_mean": 0.677
+      },
+      "2": {
+        "temp_max_mean": 28.5,
+        "temp_max_std": 1.01,
+        "temp_min_mean": 23.86,
+        "temp_mean_mean": 26.18,
+        "rainfall_mean": 0.21,
+        "rainfall_std": 0.97,
+        "humidity_mean": 75.03,
+        "wind_speed_mean": 3.45,
+        "soil_wetness_mean": 0.548
+      },
+      "3": {
+        "temp_max_mean": 31.01,
+        "temp_max_std": 1.09,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 28.32,
+        "rainfall_mean": 0.41,
+        "rainfall_std": 1.7,
+        "humidity_mean": 73.17,
+        "wind_speed_mean": 3.22,
+        "soil_wetness_mean": 0.464
+      },
+      "4": {
+        "temp_max_mean": 32.79,
+        "temp_max_std": 1.19,
+        "temp_min_mean": 27.69,
+        "temp_mean_mean": 30.24,
+        "rainfall_mean": 0.83,
+        "rainfall_std": 1.84,
+        "humidity_mean": 73.17,
+        "wind_speed_mean": 3.5,
+        "soil_wetness_mean": 0.429
+      },
+      "5": {
+        "temp_max_mean": 33.31,
+        "temp_max_std": 1.47,
+        "temp_min_mean": 28.38,
+        "temp_mean_mean": 30.84,
+        "rainfall_mean": 2.49,
+        "rainfall_std": 5.92,
+        "humidity_mean": 73.17,
+        "wind_speed_mean": 3.89,
+        "soil_wetness_mean": 0.45
+      },
+      "6": {
+        "temp_max_mean": 33.14,
+        "temp_max_std": 1.27,
+        "temp_min_mean": 27.67,
+        "temp_mean_mean": 30.4,
+        "rainfall_mean": 2.67,
+        "rainfall_std": 3.34,
+        "humidity_mean": 70.43,
+        "wind_speed_mean": 4.12,
+        "soil_wetness_mean": 0.462
+      },
+      "7": {
+        "temp_max_mean": 32.54,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 27.19,
+        "temp_mean_mean": 29.86,
+        "rainfall_mean": 3.07,
+        "rainfall_std": 4.04,
+        "humidity_mean": 71.18,
+        "wind_speed_mean": 3.88,
+        "soil_wetness_mean": 0.488
+      },
+      "8": {
+        "temp_max_mean": 31.7,
+        "temp_max_std": 1.41,
+        "temp_min_mean": 26.89,
+        "temp_mean_mean": 29.29,
+        "rainfall_mean": 4.27,
+        "rainfall_std": 5.17,
+        "humidity_mean": 75.11,
+        "wind_speed_mean": 3.52,
+        "soil_wetness_mean": 0.519
+      },
+      "9": {
+        "temp_max_mean": 30.94,
+        "temp_max_std": 1.22,
+        "temp_min_mean": 26.6,
+        "temp_mean_mean": 28.77,
+        "rainfall_mean": 4.4,
+        "rainfall_std": 5.45,
+        "humidity_mean": 77.98,
+        "wind_speed_mean": 3.25,
+        "soil_wetness_mean": 0.562
+      },
+      "10": {
+        "temp_max_mean": 29.91,
+        "temp_max_std": 1.19,
+        "temp_min_mean": 26.54,
+        "temp_mean_mean": 28.23,
+        "rainfall_mean": 6.63,
+        "rainfall_std": 9.15,
+        "humidity_mean": 79.64,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.612
+      },
+      "11": {
+        "temp_max_mean": 28.49,
+        "temp_max_std": 0.91,
+        "temp_min_mean": 25.52,
+        "temp_mean_mean": 27.0,
+        "rainfall_mean": 9.47,
+        "rainfall_std": 14.78,
+        "humidity_mean": 82.45,
+        "wind_speed_mean": 4.04,
+        "soil_wetness_mean": 0.743
+      },
+      "12": {
+        "temp_max_mean": 27.54,
+        "temp_max_std": 0.73,
+        "temp_min_mean": 24.23,
+        "temp_mean_mean": 25.89,
+        "rainfall_mean": 4.39,
+        "rainfall_std": 9.71,
+        "humidity_mean": 80.98,
+        "wind_speed_mean": 4.43,
+        "soil_wetness_mean": 0.787
+      }
+    }
+  },
+  "Dharmapuri": {
+    "district_name": "Dharmapuri",
+    "district_id": "dharmapuri",
+    "overall": {
+      "temp_max_mean": 32.56,
+      "temp_min_mean": 20.8,
+      "rainfall_daily_mean": 2.44,
+      "rainfall_daily_std": 5.52,
+      "humidity_mean": 68.18,
+      "wind_speed_mean": 2.16,
+      "soil_wetness_mean": 0.619,
+      "annual_rainfall_mm": 889.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.63,
+        "temp_max_std": 1.83,
+        "temp_min_mean": 16.73,
+        "temp_mean_mean": 23.68,
+        "rainfall_mean": 0.26,
+        "rainfall_std": 1.12,
+        "humidity_mean": 70.11,
+        "wind_speed_mean": 2.06,
+        "soil_wetness_mean": 0.6
+      },
+      "2": {
+        "temp_max_mean": 34.02,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 17.85,
+        "temp_mean_mean": 25.94,
+        "rainfall_mean": 0.13,
+        "rainfall_std": 0.71,
+        "humidity_mean": 58.06,
+        "wind_speed_mean": 2.23,
+        "soil_wetness_mean": 0.556
+      },
+      "3": {
+        "temp_max_mean": 37.01,
+        "temp_max_std": 1.76,
+        "temp_min_mean": 20.94,
+        "temp_mean_mean": 28.97,
+        "rainfall_mean": 0.4,
+        "rainfall_std": 1.38,
+        "humidity_mean": 49.16,
+        "wind_speed_mean": 2.16,
+        "soil_wetness_mean": 0.544
+      },
+      "4": {
+        "temp_max_mean": 37.92,
+        "temp_max_std": 2.47,
+        "temp_min_mean": 23.98,
+        "temp_mean_mean": 30.95,
+        "rainfall_mean": 1.39,
+        "rainfall_std": 3.58,
+        "humidity_mean": 50.26,
+        "wind_speed_mean": 1.96,
+        "soil_wetness_mean": 0.55
+      },
+      "5": {
+        "temp_max_mean": 34.92,
+        "temp_max_std": 2.83,
+        "temp_min_mean": 23.96,
+        "temp_mean_mean": 29.44,
+        "rainfall_mean": 3.93,
+        "rainfall_std": 9.18,
+        "humidity_mean": 64.95,
+        "wind_speed_mean": 1.88,
+        "soil_wetness_mean": 0.592
+      },
+      "6": {
+        "temp_max_mean": 33.0,
+        "temp_max_std": 2.02,
+        "temp_min_mean": 22.51,
+        "temp_mean_mean": 27.75,
+        "rainfall_mean": 2.71,
+        "rainfall_std": 4.34,
+        "humidity_mean": 68.95,
+        "wind_speed_mean": 2.74,
+        "soil_wetness_mean": 0.61
+      },
+      "7": {
+        "temp_max_mean": 32.43,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 22.01,
+        "temp_mean_mean": 27.22,
+        "rainfall_mean": 2.57,
+        "rainfall_std": 4.49,
+        "humidity_mean": 69.55,
+        "wind_speed_mean": 3.1,
+        "soil_wetness_mean": 0.61
+      },
+      "8": {
+        "temp_max_mean": 31.94,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 21.86,
+        "temp_mean_mean": 26.9,
+        "rainfall_mean": 3.96,
+        "rainfall_std": 7.46,
+        "humidity_mean": 72.79,
+        "wind_speed_mean": 2.48,
+        "soil_wetness_mean": 0.629
+      },
+      "9": {
+        "temp_max_mean": 31.22,
+        "temp_max_std": 2.27,
+        "temp_min_mean": 21.46,
+        "temp_mean_mean": 26.34,
+        "rainfall_mean": 4.37,
+        "rainfall_std": 6.56,
+        "humidity_mean": 75.94,
+        "wind_speed_mean": 1.92,
+        "soil_wetness_mean": 0.668
+      },
+      "10": {
+        "temp_max_mean": 29.71,
+        "temp_max_std": 2.24,
+        "temp_min_mean": 21.09,
+        "temp_mean_mean": 25.4,
+        "rainfall_mean": 5.0,
+        "rainfall_std": 6.64,
+        "humidity_mean": 80.22,
+        "wind_speed_mean": 1.45,
+        "soil_wetness_mean": 0.704
+      },
+      "11": {
+        "temp_max_mean": 28.54,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 19.36,
+        "temp_mean_mean": 23.95,
+        "rainfall_mean": 3.36,
+        "rainfall_std": 5.75,
+        "humidity_mean": 81.93,
+        "wind_speed_mean": 1.85,
+        "soil_wetness_mean": 0.711
+      },
+      "12": {
+        "temp_max_mean": 28.86,
+        "temp_max_std": 2.04,
+        "temp_min_mean": 17.59,
+        "temp_mean_mean": 23.23,
+        "rainfall_mean": 1.36,
+        "rainfall_std": 4.34,
+        "humidity_mean": 78.37,
+        "wind_speed_mean": 2.08,
+        "soil_wetness_mean": 0.671
+      }
+    }
+  },
+  "Dindigul": {
+    "district_name": "Dindigul",
+    "district_id": "dindigul",
+    "overall": {
+      "temp_max_mean": 33.52,
+      "temp_min_mean": 22.52,
+      "rainfall_daily_mean": 2.34,
+      "rainfall_daily_std": 5.01,
+      "humidity_mean": 68.55,
+      "wind_speed_mean": 2.38,
+      "soil_wetness_mean": 0.546,
+      "annual_rainfall_mm": 854.8
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.75,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 18.51,
+        "temp_mean_mean": 24.63,
+        "rainfall_mean": 0.67,
+        "rainfall_std": 2.58,
+        "humidity_mean": 74.79,
+        "wind_speed_mean": 2.04,
+        "soil_wetness_mean": 0.575
+      },
+      "2": {
+        "temp_max_mean": 33.97,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 19.52,
+        "temp_mean_mean": 26.75,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.09,
+        "humidity_mean": 64.62,
+        "wind_speed_mean": 2.13,
+        "soil_wetness_mean": 0.507
+      },
+      "3": {
+        "temp_max_mean": 37.27,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 22.52,
+        "temp_mean_mean": 29.89,
+        "rainfall_mean": 0.48,
+        "rainfall_std": 1.51,
+        "humidity_mean": 55.12,
+        "wind_speed_mean": 2.16,
+        "soil_wetness_mean": 0.474
+      },
+      "4": {
+        "temp_max_mean": 38.01,
+        "temp_max_std": 2.64,
+        "temp_min_mean": 25.3,
+        "temp_mean_mean": 31.65,
+        "rainfall_mean": 1.43,
+        "rainfall_std": 3.2,
+        "humidity_mean": 55.5,
+        "wind_speed_mean": 2.05,
+        "soil_wetness_mean": 0.475
+      },
+      "5": {
+        "temp_max_mean": 35.74,
+        "temp_max_std": 2.72,
+        "temp_min_mean": 25.45,
+        "temp_mean_mean": 30.6,
+        "rainfall_mean": 3.01,
+        "rainfall_std": 5.11,
+        "humidity_mean": 64.14,
+        "wind_speed_mean": 2.2,
+        "soil_wetness_mean": 0.512
+      },
+      "6": {
+        "temp_max_mean": 34.56,
+        "temp_max_std": 1.8,
+        "temp_min_mean": 24.23,
+        "temp_mean_mean": 29.4,
+        "rainfall_mean": 1.88,
+        "rainfall_std": 3.48,
+        "humidity_mean": 65.6,
+        "wind_speed_mean": 3.2,
+        "soil_wetness_mean": 0.516
+      },
+      "7": {
+        "temp_max_mean": 34.02,
+        "temp_max_std": 1.84,
+        "temp_min_mean": 23.88,
+        "temp_mean_mean": 28.95,
+        "rainfall_mean": 1.82,
+        "rainfall_std": 3.85,
+        "humidity_mean": 64.4,
+        "wind_speed_mean": 3.86,
+        "soil_wetness_mean": 0.507
+      },
+      "8": {
+        "temp_max_mean": 33.78,
+        "temp_max_std": 2.02,
+        "temp_min_mean": 23.57,
+        "temp_mean_mean": 28.67,
+        "rainfall_mean": 3.01,
+        "rainfall_std": 5.05,
+        "humidity_mean": 67.52,
+        "wind_speed_mean": 3.13,
+        "soil_wetness_mean": 0.524
+      },
+      "9": {
+        "temp_max_mean": 33.55,
+        "temp_max_std": 2.11,
+        "temp_min_mean": 23.18,
+        "temp_mean_mean": 28.37,
+        "rainfall_mean": 3.58,
+        "rainfall_std": 5.92,
+        "humidity_mean": 70.01,
+        "wind_speed_mean": 2.44,
+        "soil_wetness_mean": 0.554
+      },
+      "10": {
+        "temp_max_mean": 31.51,
+        "temp_max_std": 2.42,
+        "temp_min_mean": 22.81,
+        "temp_mean_mean": 27.16,
+        "rainfall_mean": 5.35,
+        "rainfall_std": 7.91,
+        "humidity_mean": 77.45,
+        "wind_speed_mean": 1.59,
+        "soil_wetness_mean": 0.604
+      },
+      "11": {
+        "temp_max_mean": 29.42,
+        "temp_max_std": 2.02,
+        "temp_min_mean": 21.38,
+        "temp_mean_mean": 25.4,
+        "rainfall_mean": 4.9,
+        "rainfall_std": 7.59,
+        "humidity_mean": 83.13,
+        "wind_speed_mean": 1.77,
+        "soil_wetness_mean": 0.662
+      },
+      "12": {
+        "temp_max_mean": 29.21,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 19.68,
+        "temp_mean_mean": 24.45,
+        "rainfall_mean": 1.99,
+        "rainfall_std": 4.62,
+        "humidity_mean": 81.9,
+        "wind_speed_mean": 2.01,
+        "soil_wetness_mean": 0.655
+      }
+    }
+  },
+  "Erode": {
+    "district_name": "Erode",
+    "district_id": "erode",
+    "overall": {
+      "temp_max_mean": 33.07,
+      "temp_min_mean": 21.45,
+      "rainfall_daily_mean": 2.2,
+      "rainfall_daily_std": 4.68,
+      "humidity_mean": 66.03,
+      "wind_speed_mean": 1.6,
+      "soil_wetness_mean": 0.531,
+      "annual_rainfall_mm": 802.2
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.32,
+        "temp_max_std": 1.75,
+        "temp_min_mean": 17.65,
+        "temp_mean_mean": 24.49,
+        "rainfall_mean": 0.36,
+        "rainfall_std": 1.6,
+        "humidity_mean": 66.67,
+        "wind_speed_mean": 1.25,
+        "soil_wetness_mean": 0.518
+      },
+      "2": {
+        "temp_max_mean": 34.5,
+        "temp_max_std": 1.83,
+        "temp_min_mean": 18.86,
+        "temp_mean_mean": 26.68,
+        "rainfall_mean": 0.16,
+        "rainfall_std": 0.98,
+        "humidity_mean": 53.76,
+        "wind_speed_mean": 1.36,
+        "soil_wetness_mean": 0.478
+      },
+      "3": {
+        "temp_max_mean": 37.14,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 21.98,
+        "temp_mean_mean": 29.56,
+        "rainfall_mean": 0.43,
+        "rainfall_std": 1.45,
+        "humidity_mean": 45.8,
+        "wind_speed_mean": 1.37,
+        "soil_wetness_mean": 0.466
+      },
+      "4": {
+        "temp_max_mean": 37.73,
+        "temp_max_std": 2.6,
+        "temp_min_mean": 24.8,
+        "temp_mean_mean": 31.27,
+        "rainfall_mean": 1.42,
+        "rainfall_std": 3.52,
+        "humidity_mean": 49.58,
+        "wind_speed_mean": 1.3,
+        "soil_wetness_mean": 0.473
+      },
+      "5": {
+        "temp_max_mean": 35.09,
+        "temp_max_std": 2.75,
+        "temp_min_mean": 24.3,
+        "temp_mean_mean": 29.7,
+        "rainfall_mean": 3.36,
+        "rainfall_std": 6.67,
+        "humidity_mean": 64.76,
+        "wind_speed_mean": 1.6,
+        "soil_wetness_mean": 0.513
+      },
+      "6": {
+        "temp_max_mean": 33.29,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 22.86,
+        "temp_mean_mean": 28.07,
+        "rainfall_mean": 2.29,
+        "rainfall_std": 3.81,
+        "humidity_mean": 68.52,
+        "wind_speed_mean": 2.33,
+        "soil_wetness_mean": 0.527
+      },
+      "7": {
+        "temp_max_mean": 32.76,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 22.48,
+        "temp_mean_mean": 27.62,
+        "rainfall_mean": 2.14,
+        "rainfall_std": 4.18,
+        "humidity_mean": 68.06,
+        "wind_speed_mean": 2.57,
+        "soil_wetness_mean": 0.518
+      },
+      "8": {
+        "temp_max_mean": 32.69,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 22.26,
+        "temp_mean_mean": 27.47,
+        "rainfall_mean": 3.04,
+        "rainfall_std": 4.71,
+        "humidity_mean": 70.3,
+        "wind_speed_mean": 2.17,
+        "soil_wetness_mean": 0.532
+      },
+      "9": {
+        "temp_max_mean": 32.38,
+        "temp_max_std": 2.24,
+        "temp_min_mean": 21.86,
+        "temp_mean_mean": 27.12,
+        "rainfall_mean": 3.68,
+        "rainfall_std": 5.79,
+        "humidity_mean": 72.75,
+        "wind_speed_mean": 1.71,
+        "soil_wetness_mean": 0.56
+      },
+      "10": {
+        "temp_max_mean": 30.62,
+        "temp_max_std": 2.35,
+        "temp_min_mean": 21.54,
+        "temp_mean_mean": 26.08,
+        "rainfall_mean": 4.74,
+        "rainfall_std": 6.28,
+        "humidity_mean": 78.32,
+        "wind_speed_mean": 1.14,
+        "soil_wetness_mean": 0.597
+      },
+      "11": {
+        "temp_max_mean": 29.22,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 20.09,
+        "temp_mean_mean": 24.65,
+        "rainfall_mean": 3.6,
+        "rainfall_std": 5.74,
+        "humidity_mean": 79.96,
+        "wind_speed_mean": 1.13,
+        "soil_wetness_mean": 0.617
+      },
+      "12": {
+        "temp_max_mean": 29.54,
+        "temp_max_std": 2.06,
+        "temp_min_mean": 18.5,
+        "temp_mean_mean": 24.02,
+        "rainfall_mean": 1.32,
+        "rainfall_std": 4.14,
+        "humidity_mean": 75.91,
+        "wind_speed_mean": 1.25,
+        "soil_wetness_mean": 0.585
+      }
+    }
+  },
+  "Kallakurichi": {
+    "district_name": "Kallakurichi",
+    "district_id": "kallakurichi",
+    "overall": {
+      "temp_max_mean": 33.17,
+      "temp_min_mean": 21.98,
+      "rainfall_daily_mean": 2.52,
+      "rainfall_daily_std": 5.35,
+      "humidity_mean": 70.14,
+      "wind_speed_mean": 2.43,
+      "soil_wetness_mean": 0.609,
+      "annual_rainfall_mm": 920.1
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.96,
+        "temp_max_std": 1.83,
+        "temp_min_mean": 17.81,
+        "temp_mean_mean": 23.88,
+        "rainfall_mean": 0.55,
+        "rainfall_std": 2.11,
+        "humidity_mean": 76.67,
+        "wind_speed_mean": 2.35,
+        "soil_wetness_mean": 0.629
+      },
+      "2": {
+        "temp_max_mean": 33.44,
+        "temp_max_std": 2.09,
+        "temp_min_mean": 18.66,
+        "temp_mean_mean": 26.05,
+        "rainfall_mean": 0.16,
+        "rainfall_std": 0.89,
+        "humidity_mean": 67.35,
+        "wind_speed_mean": 2.39,
+        "soil_wetness_mean": 0.564
+      },
+      "3": {
+        "temp_max_mean": 37.18,
+        "temp_max_std": 1.98,
+        "temp_min_mean": 21.56,
+        "temp_mean_mean": 29.37,
+        "rainfall_mean": 0.35,
+        "rainfall_std": 1.44,
+        "humidity_mean": 58.09,
+        "wind_speed_mean": 2.29,
+        "soil_wetness_mean": 0.534
+      },
+      "4": {
+        "temp_max_mean": 38.44,
+        "temp_max_std": 2.46,
+        "temp_min_mean": 24.66,
+        "temp_mean_mean": 31.55,
+        "rainfall_mean": 1.06,
+        "rainfall_std": 2.98,
+        "humidity_mean": 55.7,
+        "wind_speed_mean": 2.19,
+        "soil_wetness_mean": 0.533
+      },
+      "5": {
+        "temp_max_mean": 36.02,
+        "temp_max_std": 2.95,
+        "temp_min_mean": 25.17,
+        "temp_mean_mean": 30.6,
+        "rainfall_mean": 2.95,
+        "rainfall_std": 5.95,
+        "humidity_mean": 63.63,
+        "wind_speed_mean": 2.34,
+        "soil_wetness_mean": 0.567
+      },
+      "6": {
+        "temp_max_mean": 34.51,
+        "temp_max_std": 2.05,
+        "temp_min_mean": 23.97,
+        "temp_mean_mean": 29.24,
+        "rainfall_mean": 2.42,
+        "rainfall_std": 4.15,
+        "humidity_mean": 65.53,
+        "wind_speed_mean": 3.17,
+        "soil_wetness_mean": 0.578
+      },
+      "7": {
+        "temp_max_mean": 34.15,
+        "temp_max_std": 2.11,
+        "temp_min_mean": 23.52,
+        "temp_mean_mean": 28.83,
+        "rainfall_mean": 2.31,
+        "rainfall_std": 4.69,
+        "humidity_mean": 65.16,
+        "wind_speed_mean": 3.39,
+        "soil_wetness_mean": 0.579
+      },
+      "8": {
+        "temp_max_mean": 33.39,
+        "temp_max_std": 2.31,
+        "temp_min_mean": 23.3,
+        "temp_mean_mean": 28.35,
+        "rainfall_mean": 3.67,
+        "rainfall_std": 5.61,
+        "humidity_mean": 69.61,
+        "wind_speed_mean": 2.72,
+        "soil_wetness_mean": 0.6
+      },
+      "9": {
+        "temp_max_mean": 32.47,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 22.83,
+        "temp_mean_mean": 27.65,
+        "rainfall_mean": 4.06,
+        "rainfall_std": 5.9,
+        "humidity_mean": 73.61,
+        "wind_speed_mean": 2.16,
+        "soil_wetness_mean": 0.636
+      },
+      "10": {
+        "temp_max_mean": 30.62,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 22.36,
+        "temp_mean_mean": 26.49,
+        "rainfall_mean": 5.21,
+        "rainfall_std": 6.76,
+        "humidity_mean": 80.37,
+        "wind_speed_mean": 1.62,
+        "soil_wetness_mean": 0.674
+      },
+      "11": {
+        "temp_max_mean": 28.75,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 20.77,
+        "temp_mean_mean": 24.76,
+        "rainfall_mean": 5.55,
+        "rainfall_std": 8.29,
+        "humidity_mean": 84.87,
+        "wind_speed_mean": 2.12,
+        "soil_wetness_mean": 0.72
+      },
+      "12": {
+        "temp_max_mean": 28.54,
+        "temp_max_std": 1.84,
+        "temp_min_mean": 18.98,
+        "temp_mean_mean": 23.76,
+        "rainfall_mean": 2.28,
+        "rainfall_std": 6.31,
+        "humidity_mean": 82.83,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.71
+      }
+    }
+  },
+  "Kancheepuram": {
+    "district_name": "Kancheepuram",
+    "district_id": "kancheepuram",
+    "overall": {
+      "temp_max_mean": 32.23,
+      "temp_min_mean": 24.68,
+      "rainfall_daily_mean": 3.57,
+      "rainfall_daily_std": 9.09,
+      "humidity_mean": 73.29,
+      "wind_speed_mean": 3.03,
+      "soil_wetness_mean": 0.671,
+      "annual_rainfall_mm": 1304.1
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.08,
+        "temp_max_std": 0.88,
+        "temp_min_mean": 21.27,
+        "temp_mean_mean": 24.68,
+        "rainfall_mean": 0.83,
+        "rainfall_std": 3.95,
+        "humidity_mean": 77.57,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.761
+      },
+      "2": {
+        "temp_max_mean": 30.58,
+        "temp_max_std": 1.56,
+        "temp_min_mean": 21.66,
+        "temp_mean_mean": 26.12,
+        "rainfall_mean": 0.18,
+        "rainfall_std": 1.19,
+        "humidity_mean": 72.07,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.628
+      },
+      "3": {
+        "temp_max_mean": 34.4,
+        "temp_max_std": 1.66,
+        "temp_min_mean": 23.86,
+        "temp_mean_mean": 29.13,
+        "rainfall_mean": 0.3,
+        "rainfall_std": 1.9,
+        "humidity_mean": 66.56,
+        "wind_speed_mean": 2.9,
+        "soil_wetness_mean": 0.543
+      },
+      "4": {
+        "temp_max_mean": 36.42,
+        "temp_max_std": 1.72,
+        "temp_min_mean": 26.52,
+        "temp_mean_mean": 31.47,
+        "rainfall_mean": 0.59,
+        "rainfall_std": 2.49,
+        "humidity_mean": 65.23,
+        "wind_speed_mean": 3.39,
+        "soil_wetness_mean": 0.519
+      },
+      "5": {
+        "temp_max_mean": 36.06,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 27.7,
+        "temp_mean_mean": 31.88,
+        "rainfall_mean": 1.9,
+        "rainfall_std": 5.93,
+        "humidity_mean": 66.35,
+        "wind_speed_mean": 3.41,
+        "soil_wetness_mean": 0.539
+      },
+      "6": {
+        "temp_max_mean": 35.04,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 26.83,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 3.36,
+        "rainfall_std": 5.27,
+        "humidity_mean": 65.95,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.561
+      },
+      "7": {
+        "temp_max_mean": 33.91,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 25.91,
+        "temp_mean_mean": 29.91,
+        "rainfall_mean": 3.93,
+        "rainfall_std": 5.61,
+        "humidity_mean": 69.76,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.619
+      },
+      "8": {
+        "temp_max_mean": 32.81,
+        "temp_max_std": 1.94,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 29.22,
+        "rainfall_mean": 5.17,
+        "rainfall_std": 6.27,
+        "humidity_mean": 74.5,
+        "wind_speed_mean": 2.91,
+        "soil_wetness_mean": 0.665
+      },
+      "9": {
+        "temp_max_mean": 31.74,
+        "temp_max_std": 1.54,
+        "temp_min_mean": 25.27,
+        "temp_mean_mean": 28.51,
+        "rainfall_mean": 4.87,
+        "rainfall_std": 6.5,
+        "humidity_mean": 78.35,
+        "wind_speed_mean": 2.53,
+        "soil_wetness_mean": 0.726
+      },
+      "10": {
+        "temp_max_mean": 30.56,
+        "temp_max_std": 1.62,
+        "temp_min_mean": 25.09,
+        "temp_mean_mean": 27.82,
+        "rainfall_mean": 6.64,
+        "rainfall_std": 10.09,
+        "humidity_mean": 80.1,
+        "wind_speed_mean": 2.3,
+        "soil_wetness_mean": 0.767
+      },
+      "11": {
+        "temp_max_mean": 28.83,
+        "temp_max_std": 1.28,
+        "temp_min_mean": 23.91,
+        "temp_mean_mean": 26.37,
+        "rainfall_mean": 10.62,
+        "rainfall_std": 18.76,
+        "humidity_mean": 82.95,
+        "wind_speed_mean": 3.29,
+        "soil_wetness_mean": 0.867
+      },
+      "12": {
+        "temp_max_mean": 27.8,
+        "temp_max_std": 0.95,
+        "temp_min_mean": 22.33,
+        "temp_mean_mean": 25.07,
+        "rainfall_mean": 5.18,
+        "rainfall_std": 15.8,
+        "humidity_mean": 81.52,
+        "wind_speed_mean": 3.42,
+        "soil_wetness_mean": 0.876
+      }
+    }
+  },
+  "Kanniyakumari": {
+    "district_name": "Kanniyakumari",
+    "district_id": "kanniyakumari",
+    "overall": {
+      "temp_max_mean": 29.45,
+      "temp_min_mean": 26.41,
+      "rainfall_daily_mean": 3.23,
+      "rainfall_daily_std": 7.78,
+      "humidity_mean": 79.93,
+      "wind_speed_mean": 4.38,
+      "soil_wetness_mean": 0.415,
+      "annual_rainfall_mm": 1178.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.1,
+        "temp_max_std": 0.86,
+        "temp_min_mean": 25.0,
+        "temp_mean_mean": 27.05,
+        "rainfall_mean": 1.43,
+        "rainfall_std": 7.83,
+        "humidity_mean": 75.81,
+        "wind_speed_mean": 4.79,
+        "soil_wetness_mean": 0.434
+      },
+      "2": {
+        "temp_max_mean": 30.25,
+        "temp_max_std": 0.84,
+        "temp_min_mean": 25.5,
+        "temp_mean_mean": 27.88,
+        "rainfall_mean": 0.61,
+        "rainfall_std": 3.59,
+        "humidity_mean": 73.27,
+        "wind_speed_mean": 4.42,
+        "soil_wetness_mean": 0.327
+      },
+      "3": {
+        "temp_max_mean": 31.36,
+        "temp_max_std": 0.92,
+        "temp_min_mean": 26.96,
+        "temp_mean_mean": 29.16,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 3.91,
+        "humidity_mean": 72.8,
+        "wind_speed_mean": 3.22,
+        "soil_wetness_mean": 0.292
+      },
+      "4": {
+        "temp_max_mean": 31.45,
+        "temp_max_std": 1.09,
+        "temp_min_mean": 28.11,
+        "temp_mean_mean": 29.78,
+        "rainfall_mean": 2.24,
+        "rainfall_std": 3.74,
+        "humidity_mean": 75.6,
+        "wind_speed_mean": 3.18,
+        "soil_wetness_mean": 0.299
+      },
+      "5": {
+        "temp_max_mean": 30.39,
+        "temp_max_std": 0.99,
+        "temp_min_mean": 28.04,
+        "temp_mean_mean": 29.21,
+        "rainfall_mean": 3.67,
+        "rainfall_std": 5.96,
+        "humidity_mean": 79.99,
+        "wind_speed_mean": 4.79,
+        "soil_wetness_mean": 0.365
+      },
+      "6": {
+        "temp_max_mean": 29.07,
+        "temp_max_std": 0.71,
+        "temp_min_mean": 26.9,
+        "temp_mean_mean": 27.99,
+        "rainfall_mean": 3.5,
+        "rainfall_std": 4.28,
+        "humidity_mean": 84.26,
+        "wind_speed_mean": 5.31,
+        "soil_wetness_mean": 0.406
+      },
+      "7": {
+        "temp_max_mean": 28.5,
+        "temp_max_std": 0.73,
+        "temp_min_mean": 25.99,
+        "temp_mean_mean": 27.24,
+        "rainfall_mean": 2.38,
+        "rainfall_std": 4.35,
+        "humidity_mean": 85.45,
+        "wind_speed_mean": 5.3,
+        "soil_wetness_mean": 0.413
+      },
+      "8": {
+        "temp_max_mean": 28.41,
+        "temp_max_std": 0.77,
+        "temp_min_mean": 25.79,
+        "temp_mean_mean": 27.1,
+        "rainfall_mean": 2.8,
+        "rainfall_std": 4.98,
+        "humidity_mean": 85.27,
+        "wind_speed_mean": 5.1,
+        "soil_wetness_mean": 0.405
+      },
+      "9": {
+        "temp_max_mean": 28.68,
+        "temp_max_std": 0.76,
+        "temp_min_mean": 26.13,
+        "temp_mean_mean": 27.41,
+        "rainfall_mean": 3.3,
+        "rainfall_std": 5.49,
+        "humidity_mean": 84.06,
+        "wind_speed_mean": 4.8,
+        "soil_wetness_mean": 0.409
+      },
+      "10": {
+        "temp_max_mean": 28.69,
+        "temp_max_std": 0.86,
+        "temp_min_mean": 26.35,
+        "temp_mean_mean": 27.52,
+        "rainfall_mean": 7.19,
+        "rainfall_std": 11.91,
+        "humidity_mean": 82.68,
+        "wind_speed_mean": 3.72,
+        "soil_wetness_mean": 0.482
+      },
+      "11": {
+        "temp_max_mean": 28.71,
+        "temp_max_std": 0.95,
+        "temp_min_mean": 26.29,
+        "temp_mean_mean": 27.5,
+        "rainfall_mean": 7.73,
+        "rainfall_std": 15.25,
+        "humidity_mean": 80.54,
+        "wind_speed_mean": 3.41,
+        "soil_wetness_mean": 0.595
+      },
+      "12": {
+        "temp_max_mean": 28.59,
+        "temp_max_std": 0.93,
+        "temp_min_mean": 25.68,
+        "temp_mean_mean": 27.13,
+        "rainfall_mean": 3.0,
+        "rainfall_std": 8.92,
+        "humidity_mean": 80.09,
+        "wind_speed_mean": 4.49,
+        "soil_wetness_mean": 0.573
+      }
+    }
+  },
+  "Karur": {
+    "district_name": "Karur",
+    "district_id": "karur",
+    "overall": {
+      "temp_max_mean": 33.99,
+      "temp_min_mean": 22.49,
+      "rainfall_daily_mean": 2.17,
+      "rainfall_daily_std": 4.49,
+      "humidity_mean": 67.4,
+      "wind_speed_mean": 2.49,
+      "soil_wetness_mean": 0.537,
+      "annual_rainfall_mm": 791.0
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.68,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 18.42,
+        "temp_mean_mean": 25.05,
+        "rainfall_mean": 0.56,
+        "rainfall_std": 2.24,
+        "humidity_mean": 71.43,
+        "wind_speed_mean": 2.08,
+        "soil_wetness_mean": 0.549
+      },
+      "2": {
+        "temp_max_mean": 34.95,
+        "temp_max_std": 1.98,
+        "temp_min_mean": 19.47,
+        "temp_mean_mean": 27.21,
+        "rainfall_mean": 0.19,
+        "rainfall_std": 1.02,
+        "humidity_mean": 60.85,
+        "wind_speed_mean": 2.21,
+        "soil_wetness_mean": 0.497
+      },
+      "3": {
+        "temp_max_mean": 38.0,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 22.58,
+        "temp_mean_mean": 30.29,
+        "rainfall_mean": 0.44,
+        "rainfall_std": 1.45,
+        "humidity_mean": 51.83,
+        "wind_speed_mean": 2.18,
+        "soil_wetness_mean": 0.477
+      },
+      "4": {
+        "temp_max_mean": 38.69,
+        "temp_max_std": 2.62,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 32.15,
+        "rainfall_mean": 1.25,
+        "rainfall_std": 2.88,
+        "humidity_mean": 52.46,
+        "wind_speed_mean": 2.06,
+        "soil_wetness_mean": 0.479
+      },
+      "5": {
+        "temp_max_mean": 35.98,
+        "temp_max_std": 2.82,
+        "temp_min_mean": 25.51,
+        "temp_mean_mean": 30.74,
+        "rainfall_mean": 2.92,
+        "rainfall_std": 5.03,
+        "humidity_mean": 64.01,
+        "wind_speed_mean": 2.38,
+        "soil_wetness_mean": 0.512
+      },
+      "6": {
+        "temp_max_mean": 34.63,
+        "temp_max_std": 1.88,
+        "temp_min_mean": 24.16,
+        "temp_mean_mean": 29.39,
+        "rainfall_mean": 2.0,
+        "rainfall_std": 3.58,
+        "humidity_mean": 66.81,
+        "wind_speed_mean": 3.53,
+        "soil_wetness_mean": 0.519
+      },
+      "7": {
+        "temp_max_mean": 34.23,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 23.78,
+        "temp_mean_mean": 29.01,
+        "rainfall_mean": 1.69,
+        "rainfall_std": 3.49,
+        "humidity_mean": 65.81,
+        "wind_speed_mean": 4.07,
+        "soil_wetness_mean": 0.508
+      },
+      "8": {
+        "temp_max_mean": 33.95,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 23.57,
+        "temp_mean_mean": 28.76,
+        "rainfall_mean": 2.82,
+        "rainfall_std": 4.58,
+        "humidity_mean": 68.43,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.521
+      },
+      "9": {
+        "temp_max_mean": 33.55,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 23.17,
+        "temp_mean_mean": 28.36,
+        "rainfall_mean": 3.49,
+        "rainfall_std": 5.55,
+        "humidity_mean": 70.96,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.55
+      },
+      "10": {
+        "temp_max_mean": 31.73,
+        "temp_max_std": 2.38,
+        "temp_min_mean": 22.77,
+        "temp_mean_mean": 27.25,
+        "rainfall_mean": 4.86,
+        "rainfall_std": 6.41,
+        "humidity_mean": 77.27,
+        "wind_speed_mean": 1.67,
+        "soil_wetness_mean": 0.591
+      },
+      "11": {
+        "temp_max_mean": 29.94,
+        "temp_max_std": 2.13,
+        "temp_min_mean": 21.19,
+        "temp_mean_mean": 25.57,
+        "rainfall_mean": 4.29,
+        "rainfall_std": 6.6,
+        "humidity_mean": 81.59,
+        "wind_speed_mean": 1.75,
+        "soil_wetness_mean": 0.632
+      },
+      "12": {
+        "temp_max_mean": 30.01,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 19.44,
+        "temp_mean_mean": 24.72,
+        "rainfall_mean": 1.71,
+        "rainfall_std": 4.15,
+        "humidity_mean": 79.13,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.617
+      }
+    }
+  },
+  "Krishnagiri": {
+    "district_name": "Krishnagiri",
+    "district_id": "krishnagiri",
+    "overall": {
+      "temp_max_mean": 31.56,
+      "temp_min_mean": 19.84,
+      "rainfall_daily_mean": 2.55,
+      "rainfall_daily_std": 6.47,
+      "humidity_mean": 68.99,
+      "wind_speed_mean": 2.61,
+      "soil_wetness_mean": 0.639,
+      "annual_rainfall_mm": 930.2
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.9,
+        "temp_max_std": 1.82,
+        "temp_min_mean": 15.99,
+        "temp_mean_mean": 22.94,
+        "rainfall_mean": 0.16,
+        "rainfall_std": 0.88,
+        "humidity_mean": 69.58,
+        "wind_speed_mean": 2.28,
+        "soil_wetness_mean": 0.607
+      },
+      "2": {
+        "temp_max_mean": 33.17,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 16.92,
+        "temp_mean_mean": 25.05,
+        "rainfall_mean": 0.15,
+        "rainfall_std": 0.9,
+        "humidity_mean": 57.5,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.569
+      },
+      "3": {
+        "temp_max_mean": 36.12,
+        "temp_max_std": 1.79,
+        "temp_min_mean": 19.82,
+        "temp_mean_mean": 27.97,
+        "rainfall_mean": 0.38,
+        "rainfall_std": 1.49,
+        "humidity_mean": 48.75,
+        "wind_speed_mean": 2.4,
+        "soil_wetness_mean": 0.559
+      },
+      "4": {
+        "temp_max_mean": 37.15,
+        "temp_max_std": 2.42,
+        "temp_min_mean": 22.77,
+        "temp_mean_mean": 29.96,
+        "rainfall_mean": 1.46,
+        "rainfall_std": 3.93,
+        "humidity_mean": 50.25,
+        "wind_speed_mean": 2.2,
+        "soil_wetness_mean": 0.565
+      },
+      "5": {
+        "temp_max_mean": 34.16,
+        "temp_max_std": 2.82,
+        "temp_min_mean": 23.01,
+        "temp_mean_mean": 28.58,
+        "rainfall_mean": 4.29,
+        "rainfall_std": 9.28,
+        "humidity_mean": 65.28,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.612
+      },
+      "6": {
+        "temp_max_mean": 31.65,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 21.55,
+        "temp_mean_mean": 26.6,
+        "rainfall_mean": 3.05,
+        "rainfall_std": 4.89,
+        "humidity_mean": 71.06,
+        "wind_speed_mean": 3.61,
+        "soil_wetness_mean": 0.635
+      },
+      "7": {
+        "temp_max_mean": 30.91,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 20.99,
+        "temp_mean_mean": 25.95,
+        "rainfall_mean": 2.9,
+        "rainfall_std": 4.61,
+        "humidity_mean": 72.75,
+        "wind_speed_mean": 4.11,
+        "soil_wetness_mean": 0.639
+      },
+      "8": {
+        "temp_max_mean": 30.52,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 20.9,
+        "temp_mean_mean": 25.71,
+        "rainfall_mean": 4.7,
+        "rainfall_std": 13.3,
+        "humidity_mean": 75.39,
+        "wind_speed_mean": 3.3,
+        "soil_wetness_mean": 0.662
+      },
+      "9": {
+        "temp_max_mean": 29.9,
+        "temp_max_std": 2.08,
+        "temp_min_mean": 20.58,
+        "temp_mean_mean": 25.24,
+        "rainfall_mean": 4.8,
+        "rainfall_std": 7.09,
+        "humidity_mean": 78.18,
+        "wind_speed_mean": 2.53,
+        "soil_wetness_mean": 0.702
+      },
+      "10": {
+        "temp_max_mean": 28.72,
+        "temp_max_std": 2.17,
+        "temp_min_mean": 20.12,
+        "temp_mean_mean": 24.42,
+        "rainfall_mean": 4.93,
+        "rainfall_std": 6.55,
+        "humidity_mean": 81.41,
+        "wind_speed_mean": 1.72,
+        "soil_wetness_mean": 0.733
+      },
+      "11": {
+        "temp_max_mean": 27.82,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 18.45,
+        "temp_mean_mean": 23.13,
+        "rainfall_mean": 2.78,
+        "rainfall_std": 5.41,
+        "humidity_mean": 81.89,
+        "wind_speed_mean": 2.14,
+        "soil_wetness_mean": 0.722
+      },
+      "12": {
+        "temp_max_mean": 28.12,
+        "temp_max_std": 2.11,
+        "temp_min_mean": 16.79,
+        "temp_mean_mean": 22.45,
+        "rainfall_mean": 1.15,
+        "rainfall_std": 4.13,
+        "humidity_mean": 78.1,
+        "wind_speed_mean": 2.34,
+        "soil_wetness_mean": 0.675
+      }
+    }
+  },
+  "Madurai": {
+    "district_name": "Madurai",
+    "district_id": "madurai",
+    "overall": {
+      "temp_max_mean": 33.57,
+      "temp_min_mean": 22.71,
+      "rainfall_daily_mean": 2.6,
+      "rainfall_daily_std": 5.63,
+      "humidity_mean": 69.14,
+      "wind_speed_mean": 2.1,
+      "soil_wetness_mean": 0.591,
+      "annual_rainfall_mm": 948.2
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.53,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 18.85,
+        "temp_mean_mean": 24.69,
+        "rainfall_mean": 0.77,
+        "rainfall_std": 2.92,
+        "humidity_mean": 76.16,
+        "wind_speed_mean": 2.19,
+        "soil_wetness_mean": 0.622
+      },
+      "2": {
+        "temp_max_mean": 33.86,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 19.87,
+        "temp_mean_mean": 26.86,
+        "rainfall_mean": 0.28,
+        "rainfall_std": 1.21,
+        "humidity_mean": 65.82,
+        "wind_speed_mean": 2.25,
+        "soil_wetness_mean": 0.542
+      },
+      "3": {
+        "temp_max_mean": 37.08,
+        "temp_max_std": 2.06,
+        "temp_min_mean": 22.74,
+        "temp_mean_mean": 29.91,
+        "rainfall_mean": 0.55,
+        "rainfall_std": 1.59,
+        "humidity_mean": 57.33,
+        "wind_speed_mean": 2.12,
+        "soil_wetness_mean": 0.507
+      },
+      "4": {
+        "temp_max_mean": 37.59,
+        "temp_max_std": 2.73,
+        "temp_min_mean": 25.25,
+        "temp_mean_mean": 31.42,
+        "rainfall_mean": 1.71,
+        "rainfall_std": 3.98,
+        "humidity_mean": 58.55,
+        "wind_speed_mean": 1.94,
+        "soil_wetness_mean": 0.514
+      },
+      "5": {
+        "temp_max_mean": 35.76,
+        "temp_max_std": 2.72,
+        "temp_min_mean": 25.45,
+        "temp_mean_mean": 30.61,
+        "rainfall_mean": 3.21,
+        "rainfall_std": 5.51,
+        "humidity_mean": 65.09,
+        "wind_speed_mean": 1.91,
+        "soil_wetness_mean": 0.556
+      },
+      "6": {
+        "temp_max_mean": 34.92,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 24.28,
+        "temp_mean_mean": 29.6,
+        "rainfall_mean": 1.94,
+        "rainfall_std": 3.93,
+        "humidity_mean": 65.0,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.555
+      },
+      "7": {
+        "temp_max_mean": 34.68,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 24.06,
+        "temp_mean_mean": 29.37,
+        "rainfall_mean": 2.07,
+        "rainfall_std": 4.52,
+        "humidity_mean": 62.11,
+        "wind_speed_mean": 2.84,
+        "soil_wetness_mean": 0.545
+      },
+      "8": {
+        "temp_max_mean": 34.3,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 23.71,
+        "temp_mean_mean": 29.0,
+        "rainfall_mean": 3.21,
+        "rainfall_std": 5.47,
+        "humidity_mean": 66.25,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.566
+      },
+      "9": {
+        "temp_max_mean": 33.98,
+        "temp_max_std": 2.28,
+        "temp_min_mean": 23.34,
+        "temp_mean_mean": 28.66,
+        "rainfall_mean": 3.61,
+        "rainfall_std": 6.3,
+        "humidity_mean": 69.2,
+        "wind_speed_mean": 1.83,
+        "soil_wetness_mean": 0.592
+      },
+      "10": {
+        "temp_max_mean": 31.52,
+        "temp_max_std": 2.54,
+        "temp_min_mean": 23.0,
+        "temp_mean_mean": 27.26,
+        "rainfall_mean": 5.97,
+        "rainfall_std": 8.6,
+        "humidity_mean": 77.91,
+        "wind_speed_mean": 1.43,
+        "soil_wetness_mean": 0.654
+      },
+      "11": {
+        "temp_max_mean": 29.24,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 21.71,
+        "temp_mean_mean": 25.47,
+        "rainfall_mean": 5.77,
+        "rainfall_std": 8.86,
+        "humidity_mean": 84.21,
+        "wind_speed_mean": 1.82,
+        "soil_wetness_mean": 0.73
+      },
+      "12": {
+        "temp_max_mean": 28.95,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 20.09,
+        "temp_mean_mean": 24.52,
+        "rainfall_mean": 2.38,
+        "rainfall_std": 5.65,
+        "humidity_mean": 83.39,
+        "wind_speed_mean": 2.14,
+        "soil_wetness_mean": 0.722
+      }
+    }
+  },
+  "Mayiladuthurai": {
+    "district_name": "Mayiladuthurai",
+    "district_id": "mayiladuthurai",
+    "overall": {
+      "temp_max_mean": 33.36,
+      "temp_min_mean": 24.29,
+      "rainfall_daily_mean": 2.96,
+      "rainfall_daily_std": 6.66,
+      "humidity_mean": 71.67,
+      "wind_speed_mean": 2.82,
+      "soil_wetness_mean": 0.558,
+      "annual_rainfall_mm": 1082.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.09,
+        "temp_max_std": 1.4,
+        "temp_min_mean": 20.64,
+        "temp_mean_mean": 24.87,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 4.4,
+        "humidity_mean": 80.96,
+        "wind_speed_mean": 2.73,
+        "soil_wetness_mean": 0.665
+      },
+      "2": {
+        "temp_max_mean": 32.05,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 21.26,
+        "temp_mean_mean": 26.66,
+        "rainfall_mean": 0.35,
+        "rainfall_std": 1.68,
+        "humidity_mean": 73.29,
+        "wind_speed_mean": 2.62,
+        "soil_wetness_mean": 0.54
+      },
+      "3": {
+        "temp_max_mean": 35.9,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 23.64,
+        "temp_mean_mean": 29.77,
+        "rainfall_mean": 0.47,
+        "rainfall_std": 2.03,
+        "humidity_mean": 65.44,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.466
+      },
+      "4": {
+        "temp_max_mean": 37.5,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 26.49,
+        "temp_mean_mean": 31.99,
+        "rainfall_mean": 0.91,
+        "rainfall_std": 2.49,
+        "humidity_mean": 62.57,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.439
+      },
+      "5": {
+        "temp_max_mean": 36.4,
+        "temp_max_std": 2.44,
+        "temp_min_mean": 27.16,
+        "temp_mean_mean": 31.78,
+        "rainfall_mean": 2.59,
+        "rainfall_std": 5.89,
+        "humidity_mean": 64.81,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.474
+      },
+      "6": {
+        "temp_max_mean": 35.68,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 26.2,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 2.22,
+        "rainfall_std": 3.66,
+        "humidity_mean": 63.27,
+        "wind_speed_mean": 3.65,
+        "soil_wetness_mean": 0.485
+      },
+      "7": {
+        "temp_max_mean": 35.45,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 25.84,
+        "temp_mean_mean": 30.65,
+        "rainfall_mean": 1.99,
+        "rainfall_std": 3.56,
+        "humidity_mean": 61.9,
+        "wind_speed_mean": 3.83,
+        "soil_wetness_mean": 0.48
+      },
+      "8": {
+        "temp_max_mean": 34.63,
+        "temp_max_std": 2.14,
+        "temp_min_mean": 25.47,
+        "temp_mean_mean": 30.05,
+        "rainfall_mean": 3.43,
+        "rainfall_std": 5.12,
+        "humidity_mean": 66.61,
+        "wind_speed_mean": 3.16,
+        "soil_wetness_mean": 0.504
+      },
+      "9": {
+        "temp_max_mean": 33.78,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 24.98,
+        "temp_mean_mean": 29.38,
+        "rainfall_mean": 3.67,
+        "rainfall_std": 5.23,
+        "humidity_mean": 71.23,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.543
+      },
+      "10": {
+        "temp_max_mean": 31.69,
+        "temp_max_std": 2.17,
+        "temp_min_mean": 24.57,
+        "temp_mean_mean": 28.13,
+        "rainfall_mean": 6.08,
+        "rainfall_std": 8.37,
+        "humidity_mean": 79.11,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.597
+      },
+      "11": {
+        "temp_max_mean": 29.22,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 23.26,
+        "temp_mean_mean": 26.24,
+        "rainfall_mean": 9.06,
+        "rainfall_std": 12.87,
+        "humidity_mean": 86.25,
+        "wind_speed_mean": 2.54,
+        "soil_wetness_mean": 0.734
+      },
+      "12": {
+        "temp_max_mean": 28.48,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 21.76,
+        "temp_mean_mean": 25.12,
+        "rainfall_mean": 4.14,
+        "rainfall_std": 9.45,
+        "humidity_mean": 85.85,
+        "wind_speed_mean": 2.89,
+        "soil_wetness_mean": 0.779
+      }
+    }
+  },
+  "Nagapattinam": {
+    "district_name": "Nagapattinam",
+    "district_id": "nagapattinam",
+    "overall": {
+      "temp_max_mean": 30.49,
+      "temp_min_mean": 26.6,
+      "rainfall_daily_mean": 3.18,
+      "rainfall_daily_std": 6.61,
+      "humidity_mean": 75.79,
+      "wind_speed_mean": 4.09,
+      "soil_wetness_mean": 0.513,
+      "annual_rainfall_mm": 1160.0
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 27.3,
+        "temp_max_std": 0.63,
+        "temp_min_mean": 24.28,
+        "temp_mean_mean": 25.79,
+        "rainfall_mean": 1.22,
+        "rainfall_std": 3.94,
+        "humidity_mean": 78.08,
+        "wind_speed_mean": 4.27,
+        "soil_wetness_mean": 0.653
+      },
+      "2": {
+        "temp_max_mean": 28.51,
+        "temp_max_std": 0.99,
+        "temp_min_mean": 24.66,
+        "temp_mean_mean": 26.59,
+        "rainfall_mean": 0.4,
+        "rainfall_std": 1.32,
+        "humidity_mean": 75.23,
+        "wind_speed_mean": 3.9,
+        "soil_wetness_mean": 0.506
+      },
+      "3": {
+        "temp_max_mean": 30.74,
+        "temp_max_std": 1.01,
+        "temp_min_mean": 26.16,
+        "temp_mean_mean": 28.45,
+        "rainfall_mean": 0.54,
+        "rainfall_std": 1.67,
+        "humidity_mean": 73.45,
+        "wind_speed_mean": 3.44,
+        "soil_wetness_mean": 0.415
+      },
+      "4": {
+        "temp_max_mean": 32.27,
+        "temp_max_std": 1.08,
+        "temp_min_mean": 28.1,
+        "temp_mean_mean": 30.19,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 2.05,
+        "humidity_mean": 73.59,
+        "wind_speed_mean": 3.4,
+        "soil_wetness_mean": 0.374
+      },
+      "5": {
+        "temp_max_mean": 32.74,
+        "temp_max_std": 1.21,
+        "temp_min_mean": 28.56,
+        "temp_mean_mean": 30.65,
+        "rainfall_mean": 3.18,
+        "rainfall_std": 7.8,
+        "humidity_mean": 74.37,
+        "wind_speed_mean": 4.29,
+        "soil_wetness_mean": 0.412
+      },
+      "6": {
+        "temp_max_mean": 32.65,
+        "temp_max_std": 1.1,
+        "temp_min_mean": 27.84,
+        "temp_mean_mean": 30.24,
+        "rainfall_mean": 2.3,
+        "rainfall_std": 2.78,
+        "humidity_mean": 71.8,
+        "wind_speed_mean": 4.9,
+        "soil_wetness_mean": 0.428
+      },
+      "7": {
+        "temp_max_mean": 32.5,
+        "temp_max_std": 1.13,
+        "temp_min_mean": 27.46,
+        "temp_mean_mean": 29.98,
+        "rainfall_mean": 2.36,
+        "rainfall_std": 3.5,
+        "humidity_mean": 69.97,
+        "wind_speed_mean": 4.78,
+        "soil_wetness_mean": 0.422
+      },
+      "8": {
+        "temp_max_mean": 31.8,
+        "temp_max_std": 1.21,
+        "temp_min_mean": 27.16,
+        "temp_mean_mean": 29.48,
+        "rainfall_mean": 3.28,
+        "rainfall_std": 4.02,
+        "humidity_mean": 73.37,
+        "wind_speed_mean": 4.29,
+        "soil_wetness_mean": 0.444
+      },
+      "9": {
+        "temp_max_mean": 31.24,
+        "temp_max_std": 1.18,
+        "temp_min_mean": 26.95,
+        "temp_mean_mean": 29.09,
+        "rainfall_mean": 3.57,
+        "rainfall_std": 4.12,
+        "humidity_mean": 76.07,
+        "wind_speed_mean": 3.91,
+        "soil_wetness_mean": 0.482
+      },
+      "10": {
+        "temp_max_mean": 29.98,
+        "temp_max_std": 1.25,
+        "temp_min_mean": 26.86,
+        "temp_mean_mean": 28.42,
+        "rainfall_mean": 6.32,
+        "rainfall_std": 8.19,
+        "humidity_mean": 79.24,
+        "wind_speed_mean": 3.24,
+        "soil_wetness_mean": 0.542
+      },
+      "11": {
+        "temp_max_mean": 28.42,
+        "temp_max_std": 0.84,
+        "temp_min_mean": 26.09,
+        "temp_mean_mean": 27.25,
+        "rainfall_mean": 9.54,
+        "rainfall_std": 13.37,
+        "humidity_mean": 82.94,
+        "wind_speed_mean": 4.07,
+        "soil_wetness_mean": 0.712
+      },
+      "12": {
+        "temp_max_mean": 27.58,
+        "temp_max_std": 0.7,
+        "temp_min_mean": 25.02,
+        "temp_mean_mean": 26.3,
+        "rainfall_mean": 4.74,
+        "rainfall_std": 8.47,
+        "humidity_mean": 81.88,
+        "wind_speed_mean": 4.6,
+        "soil_wetness_mean": 0.777
+      }
+    }
+  },
+  "Namakkal": {
+    "district_name": "Namakkal",
+    "district_id": "namakkal",
+    "overall": {
+      "temp_max_mean": 33.99,
+      "temp_min_mean": 22.49,
+      "rainfall_daily_mean": 2.17,
+      "rainfall_daily_std": 4.49,
+      "humidity_mean": 67.4,
+      "wind_speed_mean": 2.49,
+      "soil_wetness_mean": 0.537,
+      "annual_rainfall_mm": 791.0
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.68,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 18.42,
+        "temp_mean_mean": 25.05,
+        "rainfall_mean": 0.56,
+        "rainfall_std": 2.24,
+        "humidity_mean": 71.43,
+        "wind_speed_mean": 2.08,
+        "soil_wetness_mean": 0.549
+      },
+      "2": {
+        "temp_max_mean": 34.95,
+        "temp_max_std": 1.98,
+        "temp_min_mean": 19.47,
+        "temp_mean_mean": 27.21,
+        "rainfall_mean": 0.19,
+        "rainfall_std": 1.02,
+        "humidity_mean": 60.85,
+        "wind_speed_mean": 2.21,
+        "soil_wetness_mean": 0.497
+      },
+      "3": {
+        "temp_max_mean": 38.0,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 22.58,
+        "temp_mean_mean": 30.29,
+        "rainfall_mean": 0.44,
+        "rainfall_std": 1.45,
+        "humidity_mean": 51.83,
+        "wind_speed_mean": 2.18,
+        "soil_wetness_mean": 0.477
+      },
+      "4": {
+        "temp_max_mean": 38.69,
+        "temp_max_std": 2.62,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 32.15,
+        "rainfall_mean": 1.25,
+        "rainfall_std": 2.88,
+        "humidity_mean": 52.46,
+        "wind_speed_mean": 2.06,
+        "soil_wetness_mean": 0.479
+      },
+      "5": {
+        "temp_max_mean": 35.98,
+        "temp_max_std": 2.82,
+        "temp_min_mean": 25.51,
+        "temp_mean_mean": 30.74,
+        "rainfall_mean": 2.92,
+        "rainfall_std": 5.03,
+        "humidity_mean": 64.01,
+        "wind_speed_mean": 2.38,
+        "soil_wetness_mean": 0.512
+      },
+      "6": {
+        "temp_max_mean": 34.63,
+        "temp_max_std": 1.88,
+        "temp_min_mean": 24.16,
+        "temp_mean_mean": 29.39,
+        "rainfall_mean": 2.0,
+        "rainfall_std": 3.58,
+        "humidity_mean": 66.81,
+        "wind_speed_mean": 3.53,
+        "soil_wetness_mean": 0.519
+      },
+      "7": {
+        "temp_max_mean": 34.23,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 23.78,
+        "temp_mean_mean": 29.01,
+        "rainfall_mean": 1.69,
+        "rainfall_std": 3.49,
+        "humidity_mean": 65.81,
+        "wind_speed_mean": 4.07,
+        "soil_wetness_mean": 0.508
+      },
+      "8": {
+        "temp_max_mean": 33.95,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 23.57,
+        "temp_mean_mean": 28.76,
+        "rainfall_mean": 2.82,
+        "rainfall_std": 4.58,
+        "humidity_mean": 68.43,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.521
+      },
+      "9": {
+        "temp_max_mean": 33.55,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 23.17,
+        "temp_mean_mean": 28.36,
+        "rainfall_mean": 3.49,
+        "rainfall_std": 5.55,
+        "humidity_mean": 70.96,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.55
+      },
+      "10": {
+        "temp_max_mean": 31.73,
+        "temp_max_std": 2.38,
+        "temp_min_mean": 22.77,
+        "temp_mean_mean": 27.25,
+        "rainfall_mean": 4.86,
+        "rainfall_std": 6.41,
+        "humidity_mean": 77.27,
+        "wind_speed_mean": 1.67,
+        "soil_wetness_mean": 0.591
+      },
+      "11": {
+        "temp_max_mean": 29.94,
+        "temp_max_std": 2.13,
+        "temp_min_mean": 21.19,
+        "temp_mean_mean": 25.57,
+        "rainfall_mean": 4.29,
+        "rainfall_std": 6.6,
+        "humidity_mean": 81.59,
+        "wind_speed_mean": 1.75,
+        "soil_wetness_mean": 0.632
+      },
+      "12": {
+        "temp_max_mean": 30.01,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 19.44,
+        "temp_mean_mean": 24.72,
+        "rainfall_mean": 1.71,
+        "rainfall_std": 4.15,
+        "humidity_mean": 79.13,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.617
+      }
+    }
+  },
+  "Nilgris": {
+    "district_name": "Nilgris",
+    "district_id": "nilgris",
+    "overall": {
+      "temp_max_mean": 29.73,
+      "temp_min_mean": 19.07,
+      "rainfall_daily_mean": 2.69,
+      "rainfall_daily_std": 4.57,
+      "humidity_mean": 72.93,
+      "wind_speed_mean": 1.93,
+      "soil_wetness_mean": 0.582,
+      "annual_rainfall_mm": 982.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.11,
+        "temp_max_std": 1.68,
+        "temp_min_mean": 15.7,
+        "temp_mean_mean": 22.4,
+        "rainfall_mean": 0.51,
+        "rainfall_std": 2.29,
+        "humidity_mean": 68.57,
+        "wind_speed_mean": 1.43,
+        "soil_wetness_mean": 0.546
+      },
+      "2": {
+        "temp_max_mean": 32.14,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 16.57,
+        "temp_mean_mean": 24.36,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.11,
+        "humidity_mean": 56.2,
+        "wind_speed_mean": 1.57,
+        "soil_wetness_mean": 0.493
+      },
+      "3": {
+        "temp_max_mean": 34.54,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 19.35,
+        "temp_mean_mean": 26.94,
+        "rainfall_mean": 0.64,
+        "rainfall_std": 1.88,
+        "humidity_mean": 50.89,
+        "wind_speed_mean": 1.54,
+        "soil_wetness_mean": 0.479
+      },
+      "4": {
+        "temp_max_mean": 34.71,
+        "temp_max_std": 2.7,
+        "temp_min_mean": 21.83,
+        "temp_mean_mean": 28.27,
+        "rainfall_mean": 1.72,
+        "rainfall_std": 3.46,
+        "humidity_mean": 57.99,
+        "wind_speed_mean": 1.39,
+        "soil_wetness_mean": 0.487
+      },
+      "5": {
+        "temp_max_mean": 31.4,
+        "temp_max_std": 2.66,
+        "temp_min_mean": 21.64,
+        "temp_mean_mean": 26.52,
+        "rainfall_mean": 3.99,
+        "rainfall_std": 6.05,
+        "humidity_mean": 74.03,
+        "wind_speed_mean": 1.79,
+        "soil_wetness_mean": 0.543
+      },
+      "6": {
+        "temp_max_mean": 28.65,
+        "temp_max_std": 1.74,
+        "temp_min_mean": 20.44,
+        "temp_mean_mean": 24.55,
+        "rainfall_mean": 4.03,
+        "rainfall_std": 5.08,
+        "humidity_mean": 80.42,
+        "wind_speed_mean": 2.9,
+        "soil_wetness_mean": 0.596
+      },
+      "7": {
+        "temp_max_mean": 27.68,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 19.84,
+        "temp_mean_mean": 23.76,
+        "rainfall_mean": 3.88,
+        "rainfall_std": 3.62,
+        "humidity_mean": 81.4,
+        "wind_speed_mean": 3.36,
+        "soil_wetness_mean": 0.611
+      },
+      "8": {
+        "temp_max_mean": 27.92,
+        "temp_max_std": 1.87,
+        "temp_min_mean": 19.76,
+        "temp_mean_mean": 23.84,
+        "rainfall_mean": 3.91,
+        "rainfall_std": 5.12,
+        "humidity_mean": 81.99,
+        "wind_speed_mean": 2.81,
+        "soil_wetness_mean": 0.634
+      },
+      "9": {
+        "temp_max_mean": 28.3,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 19.54,
+        "temp_mean_mean": 23.92,
+        "rainfall_mean": 3.68,
+        "rainfall_std": 4.67,
+        "humidity_mean": 81.74,
+        "wind_speed_mean": 2.22,
+        "soil_wetness_mean": 0.642
+      },
+      "10": {
+        "temp_max_mean": 27.68,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 19.36,
+        "temp_mean_mean": 23.52,
+        "rainfall_mean": 4.91,
+        "rainfall_std": 5.66,
+        "humidity_mean": 83.17,
+        "wind_speed_mean": 1.37,
+        "soil_wetness_mean": 0.663
+      },
+      "11": {
+        "temp_max_mean": 26.9,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 18.1,
+        "temp_mean_mean": 22.5,
+        "rainfall_mean": 3.62,
+        "rainfall_std": 5.28,
+        "humidity_mean": 82.34,
+        "wind_speed_mean": 1.34,
+        "soil_wetness_mean": 0.678
+      },
+      "12": {
+        "temp_max_mean": 27.24,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 16.57,
+        "temp_mean_mean": 21.91,
+        "rainfall_mean": 1.33,
+        "rainfall_std": 3.9,
+        "humidity_mean": 78.23,
+        "wind_speed_mean": 1.46,
+        "soil_wetness_mean": 0.627
+      }
+    }
+  },
+  "Perambalur": {
+    "district_name": "Perambalur",
+    "district_id": "perambalur",
+    "overall": {
+      "temp_max_mean": 33.83,
+      "temp_min_mean": 22.83,
+      "rainfall_daily_mean": 2.42,
+      "rainfall_daily_std": 5.16,
+      "humidity_mean": 69.57,
+      "wind_speed_mean": 2.59,
+      "soil_wetness_mean": 0.575,
+      "annual_rainfall_mm": 882.4
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.51,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 18.68,
+        "temp_mean_mean": 24.59,
+        "rainfall_mean": 0.72,
+        "rainfall_std": 2.7,
+        "humidity_mean": 76.91,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.615
+      },
+      "2": {
+        "temp_max_mean": 33.91,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 19.5,
+        "temp_mean_mean": 26.71,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.12,
+        "humidity_mean": 67.64,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.54
+      },
+      "3": {
+        "temp_max_mean": 37.61,
+        "temp_max_std": 1.98,
+        "temp_min_mean": 22.44,
+        "temp_mean_mean": 30.03,
+        "rainfall_mean": 0.37,
+        "rainfall_std": 1.5,
+        "humidity_mean": 58.51,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.503
+      },
+      "4": {
+        "temp_max_mean": 38.68,
+        "temp_max_std": 2.56,
+        "temp_min_mean": 25.58,
+        "temp_mean_mean": 32.13,
+        "rainfall_mean": 1.03,
+        "rainfall_std": 2.74,
+        "humidity_mean": 56.54,
+        "wind_speed_mean": 2.21,
+        "soil_wetness_mean": 0.497
+      },
+      "5": {
+        "temp_max_mean": 36.4,
+        "temp_max_std": 2.88,
+        "temp_min_mean": 25.95,
+        "temp_mean_mean": 31.17,
+        "rainfall_mean": 2.73,
+        "rainfall_std": 5.52,
+        "humidity_mean": 63.66,
+        "wind_speed_mean": 2.5,
+        "soil_wetness_mean": 0.531
+      },
+      "6": {
+        "temp_max_mean": 35.21,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 24.75,
+        "temp_mean_mean": 29.98,
+        "rainfall_mean": 2.14,
+        "rainfall_std": 3.88,
+        "humidity_mean": 64.8,
+        "wind_speed_mean": 3.46,
+        "soil_wetness_mean": 0.538
+      },
+      "7": {
+        "temp_max_mean": 34.95,
+        "temp_max_std": 2.04,
+        "temp_min_mean": 24.4,
+        "temp_mean_mean": 29.68,
+        "rainfall_mean": 1.87,
+        "rainfall_std": 4.21,
+        "humidity_mean": 63.54,
+        "wind_speed_mean": 3.92,
+        "soil_wetness_mean": 0.532
+      },
+      "8": {
+        "temp_max_mean": 34.33,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 24.12,
+        "temp_mean_mean": 29.23,
+        "rainfall_mean": 3.18,
+        "rainfall_std": 5.23,
+        "humidity_mean": 67.38,
+        "wind_speed_mean": 3.15,
+        "soil_wetness_mean": 0.551
+      },
+      "9": {
+        "temp_max_mean": 33.62,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 23.67,
+        "temp_mean_mean": 28.65,
+        "rainfall_mean": 3.69,
+        "rainfall_std": 5.71,
+        "humidity_mean": 71.04,
+        "wind_speed_mean": 2.45,
+        "soil_wetness_mean": 0.584
+      },
+      "10": {
+        "temp_max_mean": 31.56,
+        "temp_max_std": 2.31,
+        "temp_min_mean": 23.18,
+        "temp_mean_mean": 27.37,
+        "rainfall_mean": 5.13,
+        "rainfall_std": 6.43,
+        "humidity_mean": 78.84,
+        "wind_speed_mean": 1.7,
+        "soil_wetness_mean": 0.629
+      },
+      "11": {
+        "temp_max_mean": 29.48,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 21.65,
+        "temp_mean_mean": 25.56,
+        "rainfall_mean": 5.78,
+        "rainfall_std": 8.18,
+        "humidity_mean": 84.51,
+        "wind_speed_mean": 2.09,
+        "soil_wetness_mean": 0.695
+      },
+      "12": {
+        "temp_max_mean": 29.17,
+        "temp_max_std": 1.85,
+        "temp_min_mean": 19.91,
+        "temp_mean_mean": 24.54,
+        "rainfall_mean": 2.47,
+        "rainfall_std": 6.23,
+        "humidity_mean": 83.0,
+        "wind_speed_mean": 2.45,
+        "soil_wetness_mean": 0.701
+      }
+    }
+  },
+  "Pudukkottai": {
+    "district_name": "Pudukkottai",
+    "district_id": "pudukkottai",
+    "overall": {
+      "temp_max_mean": 33.99,
+      "temp_min_mean": 23.52,
+      "rainfall_daily_mean": 2.46,
+      "rainfall_daily_std": 5.27,
+      "humidity_mean": 69.44,
+      "wind_speed_mean": 2.57,
+      "soil_wetness_mean": 0.536,
+      "annual_rainfall_mm": 899.3
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.5,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 19.49,
+        "temp_mean_mean": 25.0,
+        "rainfall_mean": 0.87,
+        "rainfall_std": 3.22,
+        "humidity_mean": 77.82,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.599
+      },
+      "2": {
+        "temp_max_mean": 33.78,
+        "temp_max_std": 2.18,
+        "temp_min_mean": 20.35,
+        "temp_mean_mean": 27.06,
+        "rainfall_mean": 0.3,
+        "rainfall_std": 1.41,
+        "humidity_mean": 68.65,
+        "wind_speed_mean": 2.58,
+        "soil_wetness_mean": 0.505
+      },
+      "3": {
+        "temp_max_mean": 37.31,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 23.24,
+        "temp_mean_mean": 30.27,
+        "rainfall_mean": 0.41,
+        "rainfall_std": 1.57,
+        "humidity_mean": 60.09,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.455
+      },
+      "4": {
+        "temp_max_mean": 38.2,
+        "temp_max_std": 2.55,
+        "temp_min_mean": 26.17,
+        "temp_mean_mean": 32.19,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 2.85,
+        "humidity_mean": 58.78,
+        "wind_speed_mean": 2.31,
+        "soil_wetness_mean": 0.447
+      },
+      "5": {
+        "temp_max_mean": 36.33,
+        "temp_max_std": 2.71,
+        "temp_min_mean": 26.41,
+        "temp_mean_mean": 31.37,
+        "rainfall_mean": 2.73,
+        "rainfall_std": 5.6,
+        "humidity_mean": 64.32,
+        "wind_speed_mean": 2.44,
+        "soil_wetness_mean": 0.486
+      },
+      "6": {
+        "temp_max_mean": 35.68,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 25.37,
+        "temp_mean_mean": 30.52,
+        "rainfall_mean": 1.86,
+        "rainfall_std": 3.63,
+        "humidity_mean": 63.33,
+        "wind_speed_mean": 3.14,
+        "soil_wetness_mean": 0.489
+      },
+      "7": {
+        "temp_max_mean": 35.53,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 25.15,
+        "temp_mean_mean": 30.34,
+        "rainfall_mean": 1.63,
+        "rainfall_std": 3.77,
+        "humidity_mean": 60.81,
+        "wind_speed_mean": 3.65,
+        "soil_wetness_mean": 0.477
+      },
+      "8": {
+        "temp_max_mean": 34.9,
+        "temp_max_std": 2.19,
+        "temp_min_mean": 24.77,
+        "temp_mean_mean": 29.83,
+        "rainfall_mean": 2.89,
+        "rainfall_std": 5.01,
+        "humidity_mean": 65.21,
+        "wind_speed_mean": 2.96,
+        "soil_wetness_mean": 0.495
+      },
+      "9": {
+        "temp_max_mean": 34.32,
+        "temp_max_std": 2.27,
+        "temp_min_mean": 24.3,
+        "temp_mean_mean": 29.31,
+        "rainfall_mean": 3.5,
+        "rainfall_std": 5.58,
+        "humidity_mean": 69.03,
+        "wind_speed_mean": 2.31,
+        "soil_wetness_mean": 0.527
+      },
+      "10": {
+        "temp_max_mean": 31.95,
+        "temp_max_std": 2.38,
+        "temp_min_mean": 23.79,
+        "temp_mean_mean": 27.87,
+        "rainfall_mean": 5.37,
+        "rainfall_std": 6.52,
+        "humidity_mean": 78.02,
+        "wind_speed_mean": 1.73,
+        "soil_wetness_mean": 0.586
+      },
+      "11": {
+        "temp_max_mean": 29.7,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 22.35,
+        "temp_mean_mean": 26.02,
+        "rainfall_mean": 6.28,
+        "rainfall_std": 8.61,
+        "humidity_mean": 84.75,
+        "wind_speed_mean": 2.17,
+        "soil_wetness_mean": 0.676
+      },
+      "12": {
+        "temp_max_mean": 29.29,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 20.72,
+        "temp_mean_mean": 25.01,
+        "rainfall_mean": 2.9,
+        "rainfall_std": 6.73,
+        "humidity_mean": 83.84,
+        "wind_speed_mean": 2.55,
+        "soil_wetness_mean": 0.698
+      }
+    }
+  },
+  "Ramanathapuram": {
+    "district_name": "Ramanathapuram",
+    "district_id": "ramanathapuram",
+    "overall": {
+      "temp_max_mean": 32.51,
+      "temp_min_mean": 25.38,
+      "rainfall_daily_mean": 2.59,
+      "rainfall_daily_std": 6.04,
+      "humidity_mean": 71.95,
+      "wind_speed_mean": 3.66,
+      "soil_wetness_mean": 0.459,
+      "annual_rainfall_mm": 947.3
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.32,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 22.3,
+        "temp_mean_mean": 25.81,
+        "rainfall_mean": 1.23,
+        "rainfall_std": 4.28,
+        "humidity_mean": 78.02,
+        "wind_speed_mean": 3.85,
+        "soil_wetness_mean": 0.564
+      },
+      "2": {
+        "temp_max_mean": 31.62,
+        "temp_max_std": 1.5,
+        "temp_min_mean": 23.16,
+        "temp_mean_mean": 27.39,
+        "rainfall_mean": 0.44,
+        "rainfall_std": 1.67,
+        "humidity_mean": 70.85,
+        "wind_speed_mean": 3.78,
+        "soil_wetness_mean": 0.433
+      },
+      "3": {
+        "temp_max_mean": 34.15,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 25.5,
+        "temp_mean_mean": 29.83,
+        "rainfall_mean": 0.6,
+        "rainfall_std": 1.95,
+        "humidity_mean": 65.39,
+        "wind_speed_mean": 3.16,
+        "soil_wetness_mean": 0.37
+      },
+      "4": {
+        "temp_max_mean": 34.86,
+        "temp_max_std": 1.83,
+        "temp_min_mean": 27.57,
+        "temp_mean_mean": 31.21,
+        "rainfall_mean": 1.57,
+        "rainfall_std": 3.85,
+        "humidity_mean": 66.4,
+        "wind_speed_mean": 2.86,
+        "soil_wetness_mean": 0.364
+      },
+      "5": {
+        "temp_max_mean": 34.25,
+        "temp_max_std": 1.94,
+        "temp_min_mean": 27.51,
+        "temp_mean_mean": 30.88,
+        "rainfall_mean": 2.48,
+        "rainfall_std": 5.4,
+        "humidity_mean": 70.18,
+        "wind_speed_mean": 3.97,
+        "soil_wetness_mean": 0.41
+      },
+      "6": {
+        "temp_max_mean": 34.24,
+        "temp_max_std": 1.52,
+        "temp_min_mean": 26.66,
+        "temp_mean_mean": 30.45,
+        "rainfall_mean": 1.26,
+        "rainfall_std": 2.9,
+        "humidity_mean": 68.17,
+        "wind_speed_mean": 4.58,
+        "soil_wetness_mean": 0.39
+      },
+      "7": {
+        "temp_max_mean": 34.49,
+        "temp_max_std": 1.6,
+        "temp_min_mean": 26.39,
+        "temp_mean_mean": 30.44,
+        "rainfall_mean": 1.06,
+        "rainfall_std": 2.57,
+        "humidity_mean": 64.11,
+        "wind_speed_mean": 4.24,
+        "soil_wetness_mean": 0.369
+      },
+      "8": {
+        "temp_max_mean": 33.92,
+        "temp_max_std": 1.73,
+        "temp_min_mean": 26.14,
+        "temp_mean_mean": 30.03,
+        "rainfall_mean": 1.9,
+        "rainfall_std": 3.77,
+        "humidity_mean": 67.22,
+        "wind_speed_mean": 3.99,
+        "soil_wetness_mean": 0.378
+      },
+      "9": {
+        "temp_max_mean": 33.57,
+        "temp_max_std": 1.85,
+        "temp_min_mean": 26.02,
+        "temp_mean_mean": 29.8,
+        "rainfall_mean": 2.57,
+        "rainfall_std": 4.96,
+        "humidity_mean": 69.45,
+        "wind_speed_mean": 3.81,
+        "soil_wetness_mean": 0.398
+      },
+      "10": {
+        "temp_max_mean": 31.38,
+        "temp_max_std": 2.07,
+        "temp_min_mean": 25.6,
+        "temp_mean_mean": 28.49,
+        "rainfall_mean": 6.24,
+        "rainfall_std": 8.42,
+        "humidity_mean": 77.2,
+        "wind_speed_mean": 2.88,
+        "soil_wetness_mean": 0.494
+      },
+      "11": {
+        "temp_max_mean": 29.31,
+        "temp_max_std": 1.43,
+        "temp_min_mean": 24.46,
+        "temp_mean_mean": 26.89,
+        "rainfall_mean": 8.06,
+        "rainfall_std": 10.62,
+        "humidity_mean": 83.4,
+        "wind_speed_mean": 3.12,
+        "soil_wetness_mean": 0.651
+      },
+      "12": {
+        "temp_max_mean": 28.74,
+        "temp_max_std": 1.29,
+        "temp_min_mean": 23.15,
+        "temp_mean_mean": 25.94,
+        "rainfall_mean": 4.1,
+        "rainfall_std": 8.81,
+        "humidity_mean": 83.66,
+        "wind_speed_mean": 3.7,
+        "soil_wetness_mean": 0.698
+      }
+    }
+  },
+  "Ranipet": {
+    "district_name": "Ranipet",
+    "district_id": "ranipet",
+    "overall": {
+      "temp_max_mean": 33.29,
+      "temp_min_mean": 22.2,
+      "rainfall_daily_mean": 3.04,
+      "rainfall_daily_std": 7.15,
+      "humidity_mean": 70.92,
+      "wind_speed_mean": 2.28,
+      "soil_wetness_mean": 0.643,
+      "annual_rainfall_mm": 1109.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.92,
+        "temp_max_std": 1.57,
+        "temp_min_mean": 17.69,
+        "temp_mean_mean": 23.31,
+        "rainfall_mean": 0.54,
+        "rainfall_std": 2.67,
+        "humidity_mean": 79.15,
+        "wind_speed_mean": 1.96,
+        "soil_wetness_mean": 0.682
+      },
+      "2": {
+        "temp_max_mean": 32.68,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 18.32,
+        "temp_mean_mean": 25.5,
+        "rainfall_mean": 0.18,
+        "rainfall_std": 1.24,
+        "humidity_mean": 69.23,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.596
+      },
+      "3": {
+        "temp_max_mean": 37.32,
+        "temp_max_std": 2.07,
+        "temp_min_mean": 21.33,
+        "temp_mean_mean": 29.32,
+        "rainfall_mean": 0.34,
+        "rainfall_std": 2.0,
+        "humidity_mean": 59.25,
+        "wind_speed_mean": 2.25,
+        "soil_wetness_mean": 0.553
+      },
+      "4": {
+        "temp_max_mean": 39.5,
+        "temp_max_std": 2.32,
+        "temp_min_mean": 24.57,
+        "temp_mean_mean": 32.03,
+        "rainfall_mean": 0.78,
+        "rainfall_std": 2.8,
+        "humidity_mean": 56.33,
+        "wind_speed_mean": 2.52,
+        "soil_wetness_mean": 0.544
+      },
+      "5": {
+        "temp_max_mean": 37.79,
+        "temp_max_std": 2.94,
+        "temp_min_mean": 26.04,
+        "temp_mean_mean": 31.91,
+        "rainfall_mean": 2.23,
+        "rainfall_std": 4.59,
+        "humidity_mean": 59.77,
+        "wind_speed_mean": 2.5,
+        "soil_wetness_mean": 0.563
+      },
+      "6": {
+        "temp_max_mean": 35.56,
+        "temp_max_std": 2.32,
+        "temp_min_mean": 24.98,
+        "temp_mean_mean": 30.27,
+        "rainfall_mean": 3.34,
+        "rainfall_std": 5.09,
+        "humidity_mean": 62.44,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.583
+      },
+      "7": {
+        "temp_max_mean": 34.38,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 24.06,
+        "temp_mean_mean": 29.22,
+        "rainfall_mean": 3.72,
+        "rainfall_std": 6.22,
+        "humidity_mean": 66.86,
+        "wind_speed_mean": 2.97,
+        "soil_wetness_mean": 0.619
+      },
+      "8": {
+        "temp_max_mean": 33.26,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 23.73,
+        "temp_mean_mean": 28.5,
+        "rainfall_mean": 4.84,
+        "rainfall_std": 6.79,
+        "humidity_mean": 72.29,
+        "wind_speed_mean": 2.37,
+        "soil_wetness_mean": 0.651
+      },
+      "9": {
+        "temp_max_mean": 32.14,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 23.21,
+        "temp_mean_mean": 27.68,
+        "rainfall_mean": 4.8,
+        "rainfall_std": 6.78,
+        "humidity_mean": 77.01,
+        "wind_speed_mean": 1.86,
+        "soil_wetness_mean": 0.691
+      },
+      "10": {
+        "temp_max_mean": 30.64,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 22.54,
+        "temp_mean_mean": 26.59,
+        "rainfall_mean": 5.35,
+        "rainfall_std": 7.62,
+        "humidity_mean": 81.39,
+        "wind_speed_mean": 1.56,
+        "soil_wetness_mean": 0.713
+      },
+      "11": {
+        "temp_max_mean": 28.76,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 20.84,
+        "temp_mean_mean": 24.8,
+        "rainfall_mean": 7.44,
+        "rainfall_std": 14.45,
+        "humidity_mean": 85.23,
+        "wind_speed_mean": 2.2,
+        "soil_wetness_mean": 0.766
+      },
+      "12": {
+        "temp_max_mean": 27.85,
+        "temp_max_std": 1.47,
+        "temp_min_mean": 18.92,
+        "temp_mean_mean": 23.38,
+        "rainfall_mean": 3.44,
+        "rainfall_std": 10.12,
+        "humidity_mean": 84.32,
+        "wind_speed_mean": 2.28,
+        "soil_wetness_mean": 0.775
+      }
+    }
+  },
+  "Salem": {
+    "district_name": "Salem",
+    "district_id": "salem",
+    "overall": {
+      "temp_max_mean": 33.69,
+      "temp_min_mean": 21.83,
+      "rainfall_daily_mean": 2.25,
+      "rainfall_daily_std": 4.74,
+      "humidity_mean": 67.02,
+      "wind_speed_mean": 2.17,
+      "soil_wetness_mean": 0.572,
+      "annual_rainfall_mm": 821.2
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.58,
+        "temp_max_std": 1.87,
+        "temp_min_mean": 17.68,
+        "temp_mean_mean": 24.63,
+        "rainfall_mean": 0.41,
+        "rainfall_std": 1.66,
+        "humidity_mean": 69.89,
+        "wind_speed_mean": 2.05,
+        "soil_wetness_mean": 0.568
+      },
+      "2": {
+        "temp_max_mean": 34.95,
+        "temp_max_std": 1.94,
+        "temp_min_mean": 18.8,
+        "temp_mean_mean": 26.88,
+        "rainfall_mean": 0.15,
+        "rainfall_std": 0.86,
+        "humidity_mean": 58.54,
+        "wind_speed_mean": 2.21,
+        "soil_wetness_mean": 0.523
+      },
+      "3": {
+        "temp_max_mean": 37.87,
+        "temp_max_std": 1.78,
+        "temp_min_mean": 21.98,
+        "temp_mean_mean": 29.92,
+        "rainfall_mean": 0.42,
+        "rainfall_std": 1.41,
+        "humidity_mean": 49.8,
+        "wind_speed_mean": 2.1,
+        "soil_wetness_mean": 0.508
+      },
+      "4": {
+        "temp_max_mean": 38.59,
+        "temp_max_std": 2.57,
+        "temp_min_mean": 25.1,
+        "temp_mean_mean": 31.84,
+        "rainfall_mean": 1.28,
+        "rainfall_std": 3.18,
+        "humidity_mean": 50.76,
+        "wind_speed_mean": 1.93,
+        "soil_wetness_mean": 0.513
+      },
+      "5": {
+        "temp_max_mean": 35.74,
+        "temp_max_std": 2.86,
+        "temp_min_mean": 24.95,
+        "temp_mean_mean": 30.34,
+        "rainfall_mean": 3.31,
+        "rainfall_std": 6.58,
+        "humidity_mean": 64.12,
+        "wind_speed_mean": 1.98,
+        "soil_wetness_mean": 0.55
+      },
+      "6": {
+        "temp_max_mean": 34.29,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 23.5,
+        "temp_mean_mean": 28.89,
+        "rainfall_mean": 2.35,
+        "rainfall_std": 4.04,
+        "humidity_mean": 67.17,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.561
+      },
+      "7": {
+        "temp_max_mean": 33.99,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 23.1,
+        "temp_mean_mean": 28.54,
+        "rainfall_mean": 2.05,
+        "rainfall_std": 4.0,
+        "humidity_mean": 66.23,
+        "wind_speed_mean": 3.15,
+        "soil_wetness_mean": 0.554
+      },
+      "8": {
+        "temp_max_mean": 33.52,
+        "temp_max_std": 2.31,
+        "temp_min_mean": 22.95,
+        "temp_mean_mean": 28.23,
+        "rainfall_mean": 3.2,
+        "rainfall_std": 4.98,
+        "humidity_mean": 69.44,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.568
+      },
+      "9": {
+        "temp_max_mean": 32.81,
+        "temp_max_std": 2.37,
+        "temp_min_mean": 22.51,
+        "temp_mean_mean": 27.66,
+        "rainfall_mean": 3.81,
+        "rainfall_std": 5.87,
+        "humidity_mean": 72.64,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.601
+      },
+      "10": {
+        "temp_max_mean": 31.01,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 22.12,
+        "temp_mean_mean": 26.57,
+        "rainfall_mean": 4.86,
+        "rainfall_std": 6.35,
+        "humidity_mean": 78.31,
+        "wind_speed_mean": 1.46,
+        "soil_wetness_mean": 0.637
+      },
+      "11": {
+        "temp_max_mean": 29.54,
+        "temp_max_std": 2.22,
+        "temp_min_mean": 20.42,
+        "temp_mean_mean": 24.98,
+        "rainfall_mean": 3.84,
+        "rainfall_std": 6.05,
+        "humidity_mean": 81.27,
+        "wind_speed_mean": 1.75,
+        "soil_wetness_mean": 0.662
+      },
+      "12": {
+        "temp_max_mean": 29.83,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 18.62,
+        "temp_mean_mean": 24.22,
+        "rainfall_mean": 1.53,
+        "rainfall_std": 4.24,
+        "humidity_mean": 77.93,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.634
+      }
+    }
+  },
+  "Sivaganga": {
+    "district_name": "Sivaganga",
+    "district_id": "sivaganga",
+    "overall": {
+      "temp_max_mean": 33.58,
+      "temp_min_mean": 24.17,
+      "rainfall_daily_mean": 2.6,
+      "rainfall_daily_std": 5.79,
+      "humidity_mean": 70.16,
+      "wind_speed_mean": 2.74,
+      "soil_wetness_mean": 0.524,
+      "annual_rainfall_mm": 950.4
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.02,
+        "temp_max_std": 1.77,
+        "temp_min_mean": 20.46,
+        "temp_mean_mean": 25.24,
+        "rainfall_mean": 1.01,
+        "rainfall_std": 3.58,
+        "humidity_mean": 78.67,
+        "wind_speed_mean": 2.99,
+        "soil_wetness_mean": 0.607
+      },
+      "2": {
+        "temp_max_mean": 33.04,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 21.37,
+        "temp_mean_mean": 27.21,
+        "rainfall_mean": 0.39,
+        "rainfall_std": 1.67,
+        "humidity_mean": 69.9,
+        "wind_speed_mean": 2.99,
+        "soil_wetness_mean": 0.491
+      },
+      "3": {
+        "temp_max_mean": 36.19,
+        "temp_max_std": 1.78,
+        "temp_min_mean": 24.12,
+        "temp_mean_mean": 30.16,
+        "rainfall_mean": 0.49,
+        "rainfall_std": 1.75,
+        "humidity_mean": 62.42,
+        "wind_speed_mean": 2.69,
+        "soil_wetness_mean": 0.434
+      },
+      "4": {
+        "temp_max_mean": 36.91,
+        "temp_max_std": 2.36,
+        "temp_min_mean": 26.64,
+        "temp_mean_mean": 31.77,
+        "rainfall_mean": 1.43,
+        "rainfall_std": 3.53,
+        "humidity_mean": 62.16,
+        "wind_speed_mean": 2.49,
+        "soil_wetness_mean": 0.429
+      },
+      "5": {
+        "temp_max_mean": 35.61,
+        "temp_max_std": 2.5,
+        "temp_min_mean": 26.66,
+        "temp_mean_mean": 31.14,
+        "rainfall_mean": 2.75,
+        "rainfall_std": 5.83,
+        "humidity_mean": 66.67,
+        "wind_speed_mean": 2.75,
+        "soil_wetness_mean": 0.475
+      },
+      "6": {
+        "temp_max_mean": 35.51,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 25.76,
+        "temp_mean_mean": 30.64,
+        "rainfall_mean": 1.6,
+        "rainfall_std": 3.45,
+        "humidity_mean": 63.89,
+        "wind_speed_mean": 3.1,
+        "soil_wetness_mean": 0.465
+      },
+      "7": {
+        "temp_max_mean": 35.68,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 25.65,
+        "temp_mean_mean": 30.66,
+        "rainfall_mean": 1.43,
+        "rainfall_std": 3.34,
+        "humidity_mean": 59.58,
+        "wind_speed_mean": 3.17,
+        "soil_wetness_mean": 0.448
+      },
+      "8": {
+        "temp_max_mean": 34.96,
+        "temp_max_std": 2.18,
+        "temp_min_mean": 25.29,
+        "temp_mean_mean": 30.13,
+        "rainfall_mean": 2.54,
+        "rainfall_std": 4.64,
+        "humidity_mean": 64.36,
+        "wind_speed_mean": 2.77,
+        "soil_wetness_mean": 0.464
+      },
+      "9": {
+        "temp_max_mean": 34.4,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 24.91,
+        "temp_mean_mean": 29.65,
+        "rainfall_mean": 3.22,
+        "rainfall_std": 5.56,
+        "humidity_mean": 68.09,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.491
+      },
+      "10": {
+        "temp_max_mean": 31.82,
+        "temp_max_std": 2.39,
+        "temp_min_mean": 24.4,
+        "temp_mean_mean": 28.11,
+        "rainfall_mean": 5.94,
+        "rainfall_std": 7.53,
+        "humidity_mean": 77.71,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.572
+      },
+      "11": {
+        "temp_max_mean": 29.5,
+        "temp_max_std": 1.75,
+        "temp_min_mean": 23.07,
+        "temp_mean_mean": 26.28,
+        "rainfall_mean": 7.25,
+        "rainfall_std": 9.71,
+        "humidity_mean": 84.86,
+        "wind_speed_mean": 2.49,
+        "soil_wetness_mean": 0.695
+      },
+      "12": {
+        "temp_max_mean": 29.01,
+        "temp_max_std": 1.64,
+        "temp_min_mean": 21.58,
+        "temp_mean_mean": 25.3,
+        "rainfall_mean": 3.56,
+        "rainfall_std": 8.18,
+        "humidity_mean": 84.56,
+        "wind_speed_mean": 2.93,
+        "soil_wetness_mean": 0.729
+      }
+    }
+  },
+  "Tenkasi": {
+    "district_name": "Tenkasi",
+    "district_id": "tenkasi",
+    "overall": {
+      "temp_max_mean": 31.66,
+      "temp_min_mean": 22.15,
+      "rainfall_daily_mean": 3.08,
+      "rainfall_daily_std": 6.96,
+      "humidity_mean": 76.91,
+      "wind_speed_mean": 2.38,
+      "soil_wetness_mean": 0.623,
+      "annual_rainfall_mm": 1126.0
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.18,
+        "temp_max_std": 2.19,
+        "temp_min_mean": 18.86,
+        "temp_mean_mean": 24.52,
+        "rainfall_mean": 1.32,
+        "rainfall_std": 10.03,
+        "humidity_mean": 77.21,
+        "wind_speed_mean": 1.91,
+        "soil_wetness_mean": 0.647
+      },
+      "2": {
+        "temp_max_mean": 33.81,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 20.02,
+        "temp_mean_mean": 26.91,
+        "rainfall_mean": 0.45,
+        "rainfall_std": 1.64,
+        "humidity_mean": 66.0,
+        "wind_speed_mean": 2.02,
+        "soil_wetness_mean": 0.55
+      },
+      "3": {
+        "temp_max_mean": 36.65,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 22.66,
+        "temp_mean_mean": 29.65,
+        "rainfall_mean": 0.97,
+        "rainfall_std": 2.4,
+        "humidity_mean": 59.42,
+        "wind_speed_mean": 1.77,
+        "soil_wetness_mean": 0.517
+      },
+      "4": {
+        "temp_max_mean": 36.15,
+        "temp_max_std": 2.95,
+        "temp_min_mean": 24.51,
+        "temp_mean_mean": 30.33,
+        "rainfall_mean": 2.26,
+        "rainfall_std": 4.4,
+        "humidity_mean": 65.33,
+        "wind_speed_mean": 1.56,
+        "soil_wetness_mean": 0.531
+      },
+      "5": {
+        "temp_max_mean": 32.67,
+        "temp_max_std": 2.68,
+        "temp_min_mean": 24.27,
+        "temp_mean_mean": 28.47,
+        "rainfall_mean": 3.9,
+        "rainfall_std": 6.31,
+        "humidity_mean": 77.49,
+        "wind_speed_mean": 2.57,
+        "soil_wetness_mean": 0.588
+      },
+      "6": {
+        "temp_max_mean": 30.66,
+        "temp_max_std": 1.55,
+        "temp_min_mean": 23.36,
+        "temp_mean_mean": 27.01,
+        "rainfall_mean": 3.03,
+        "rainfall_std": 3.74,
+        "humidity_mean": 81.79,
+        "wind_speed_mean": 3.43,
+        "soil_wetness_mean": 0.612
+      },
+      "7": {
+        "temp_max_mean": 30.41,
+        "temp_max_std": 1.57,
+        "temp_min_mean": 22.83,
+        "temp_mean_mean": 26.62,
+        "rainfall_mean": 2.32,
+        "rainfall_std": 2.98,
+        "humidity_mean": 80.13,
+        "wind_speed_mean": 3.81,
+        "soil_wetness_mean": 0.607
+      },
+      "8": {
+        "temp_max_mean": 30.83,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 22.65,
+        "temp_mean_mean": 26.74,
+        "rainfall_mean": 2.96,
+        "rainfall_std": 4.68,
+        "humidity_mean": 80.28,
+        "wind_speed_mean": 3.51,
+        "soil_wetness_mean": 0.607
+      },
+      "9": {
+        "temp_max_mean": 31.11,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 22.52,
+        "temp_mean_mean": 26.81,
+        "rainfall_mean": 3.15,
+        "rainfall_std": 4.6,
+        "humidity_mean": 81.01,
+        "wind_speed_mean": 2.94,
+        "soil_wetness_mean": 0.613
+      },
+      "10": {
+        "temp_max_mean": 30.15,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 22.32,
+        "temp_mean_mean": 26.24,
+        "rainfall_mean": 6.54,
+        "rainfall_std": 8.69,
+        "humidity_mean": 83.71,
+        "wind_speed_mean": 1.8,
+        "soil_wetness_mean": 0.673
+      },
+      "11": {
+        "temp_max_mean": 28.41,
+        "temp_max_std": 1.53,
+        "temp_min_mean": 21.52,
+        "temp_mean_mean": 24.96,
+        "rainfall_mean": 7.36,
+        "rainfall_std": 10.77,
+        "humidity_mean": 86.89,
+        "wind_speed_mean": 1.45,
+        "soil_wetness_mean": 0.78
+      },
+      "12": {
+        "temp_max_mean": 28.45,
+        "temp_max_std": 1.8,
+        "temp_min_mean": 20.11,
+        "temp_mean_mean": 24.28,
+        "rainfall_mean": 3.0,
+        "rainfall_std": 10.56,
+        "humidity_mean": 84.98,
+        "wind_speed_mean": 1.82,
+        "soil_wetness_mean": 0.763
+      }
+    }
+  },
+  "Thanjavur": {
+    "district_name": "Thanjavur",
+    "district_id": "thanjavur",
+    "overall": {
+      "temp_max_mean": 33.36,
+      "temp_min_mean": 24.29,
+      "rainfall_daily_mean": 2.96,
+      "rainfall_daily_std": 6.66,
+      "humidity_mean": 71.67,
+      "wind_speed_mean": 2.82,
+      "soil_wetness_mean": 0.558,
+      "annual_rainfall_mm": 1082.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.09,
+        "temp_max_std": 1.4,
+        "temp_min_mean": 20.64,
+        "temp_mean_mean": 24.87,
+        "rainfall_mean": 1.16,
+        "rainfall_std": 4.4,
+        "humidity_mean": 80.96,
+        "wind_speed_mean": 2.73,
+        "soil_wetness_mean": 0.665
+      },
+      "2": {
+        "temp_max_mean": 32.05,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 21.26,
+        "temp_mean_mean": 26.66,
+        "rainfall_mean": 0.35,
+        "rainfall_std": 1.68,
+        "humidity_mean": 73.29,
+        "wind_speed_mean": 2.62,
+        "soil_wetness_mean": 0.54
+      },
+      "3": {
+        "temp_max_mean": 35.9,
+        "temp_max_std": 1.91,
+        "temp_min_mean": 23.64,
+        "temp_mean_mean": 29.77,
+        "rainfall_mean": 0.47,
+        "rainfall_std": 2.03,
+        "humidity_mean": 65.44,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.466
+      },
+      "4": {
+        "temp_max_mean": 37.5,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 26.49,
+        "temp_mean_mean": 31.99,
+        "rainfall_mean": 0.91,
+        "rainfall_std": 2.49,
+        "humidity_mean": 62.57,
+        "wind_speed_mean": 2.43,
+        "soil_wetness_mean": 0.439
+      },
+      "5": {
+        "temp_max_mean": 36.4,
+        "temp_max_std": 2.44,
+        "temp_min_mean": 27.16,
+        "temp_mean_mean": 31.78,
+        "rainfall_mean": 2.59,
+        "rainfall_std": 5.89,
+        "humidity_mean": 64.81,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.474
+      },
+      "6": {
+        "temp_max_mean": 35.68,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 26.2,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 2.22,
+        "rainfall_std": 3.66,
+        "humidity_mean": 63.27,
+        "wind_speed_mean": 3.65,
+        "soil_wetness_mean": 0.485
+      },
+      "7": {
+        "temp_max_mean": 35.45,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 25.84,
+        "temp_mean_mean": 30.65,
+        "rainfall_mean": 1.99,
+        "rainfall_std": 3.56,
+        "humidity_mean": 61.9,
+        "wind_speed_mean": 3.83,
+        "soil_wetness_mean": 0.48
+      },
+      "8": {
+        "temp_max_mean": 34.63,
+        "temp_max_std": 2.14,
+        "temp_min_mean": 25.47,
+        "temp_mean_mean": 30.05,
+        "rainfall_mean": 3.43,
+        "rainfall_std": 5.12,
+        "humidity_mean": 66.61,
+        "wind_speed_mean": 3.16,
+        "soil_wetness_mean": 0.504
+      },
+      "9": {
+        "temp_max_mean": 33.78,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 24.98,
+        "temp_mean_mean": 29.38,
+        "rainfall_mean": 3.67,
+        "rainfall_std": 5.23,
+        "humidity_mean": 71.23,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.543
+      },
+      "10": {
+        "temp_max_mean": 31.69,
+        "temp_max_std": 2.17,
+        "temp_min_mean": 24.57,
+        "temp_mean_mean": 28.13,
+        "rainfall_mean": 6.08,
+        "rainfall_std": 8.37,
+        "humidity_mean": 79.11,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.597
+      },
+      "11": {
+        "temp_max_mean": 29.22,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 23.26,
+        "temp_mean_mean": 26.24,
+        "rainfall_mean": 9.06,
+        "rainfall_std": 12.87,
+        "humidity_mean": 86.25,
+        "wind_speed_mean": 2.54,
+        "soil_wetness_mean": 0.734
+      },
+      "12": {
+        "temp_max_mean": 28.48,
+        "temp_max_std": 1.37,
+        "temp_min_mean": 21.76,
+        "temp_mean_mean": 25.12,
+        "rainfall_mean": 4.14,
+        "rainfall_std": 9.45,
+        "humidity_mean": 85.85,
+        "wind_speed_mean": 2.89,
+        "soil_wetness_mean": 0.779
+      }
+    }
+  },
+  "Theni": {
+    "district_name": "Theni",
+    "district_id": "theni",
+    "overall": {
+      "temp_max_mean": 29.72,
+      "temp_min_mean": 19.61,
+      "rainfall_daily_mean": 2.97,
+      "rainfall_daily_std": 5.76,
+      "humidity_mean": 73.94,
+      "wind_speed_mean": 1.6,
+      "soil_wetness_mean": 0.611,
+      "annual_rainfall_mm": 1086.6
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 27.56,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 16.51,
+        "temp_mean_mean": 22.03,
+        "rainfall_mean": 0.75,
+        "rainfall_std": 2.94,
+        "humidity_mean": 76.45,
+        "wind_speed_mean": 1.21,
+        "soil_wetness_mean": 0.629
+      },
+      "2": {
+        "temp_max_mean": 30.63,
+        "temp_max_std": 2.21,
+        "temp_min_mean": 17.28,
+        "temp_mean_mean": 23.96,
+        "rainfall_mean": 0.37,
+        "rainfall_std": 1.42,
+        "humidity_mean": 65.54,
+        "wind_speed_mean": 1.27,
+        "soil_wetness_mean": 0.549
+      },
+      "3": {
+        "temp_max_mean": 33.68,
+        "temp_max_std": 2.27,
+        "temp_min_mean": 19.77,
+        "temp_mean_mean": 26.72,
+        "rainfall_mean": 0.74,
+        "rainfall_std": 1.84,
+        "humidity_mean": 57.39,
+        "wind_speed_mean": 1.26,
+        "soil_wetness_mean": 0.508
+      },
+      "4": {
+        "temp_max_mean": 34.41,
+        "temp_max_std": 2.66,
+        "temp_min_mean": 22.04,
+        "temp_mean_mean": 28.23,
+        "rainfall_mean": 2.09,
+        "rainfall_std": 4.15,
+        "humidity_mean": 60.29,
+        "wind_speed_mean": 1.1,
+        "soil_wetness_mean": 0.511
+      },
+      "5": {
+        "temp_max_mean": 31.96,
+        "temp_max_std": 2.57,
+        "temp_min_mean": 22.04,
+        "temp_mean_mean": 27.0,
+        "rainfall_mean": 3.79,
+        "rainfall_std": 5.34,
+        "humidity_mean": 71.54,
+        "wind_speed_mean": 1.46,
+        "soil_wetness_mean": 0.559
+      },
+      "6": {
+        "temp_max_mean": 29.84,
+        "temp_max_std": 1.72,
+        "temp_min_mean": 20.83,
+        "temp_mean_mean": 25.34,
+        "rainfall_mean": 3.14,
+        "rainfall_std": 5.05,
+        "humidity_mean": 75.48,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.588
+      },
+      "7": {
+        "temp_max_mean": 29.12,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 20.33,
+        "temp_mean_mean": 24.72,
+        "rainfall_mean": 3.11,
+        "rainfall_std": 4.92,
+        "humidity_mean": 74.62,
+        "wind_speed_mean": 2.93,
+        "soil_wetness_mean": 0.591
+      },
+      "8": {
+        "temp_max_mean": 29.18,
+        "temp_max_std": 1.74,
+        "temp_min_mean": 20.09,
+        "temp_mean_mean": 24.64,
+        "rainfall_mean": 4.07,
+        "rainfall_std": 5.62,
+        "humidity_mean": 76.77,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.618
+      },
+      "9": {
+        "temp_max_mean": 29.29,
+        "temp_max_std": 1.8,
+        "temp_min_mean": 19.84,
+        "temp_mean_mean": 24.56,
+        "rainfall_mean": 3.96,
+        "rainfall_std": 5.88,
+        "humidity_mean": 78.15,
+        "wind_speed_mean": 1.79,
+        "soil_wetness_mean": 0.641
+      },
+      "10": {
+        "temp_max_mean": 27.97,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 19.91,
+        "temp_mean_mean": 23.94,
+        "rainfall_mean": 6.42,
+        "rainfall_std": 9.77,
+        "humidity_mean": 82.85,
+        "wind_speed_mean": 1.1,
+        "soil_wetness_mean": 0.687
+      },
+      "11": {
+        "temp_max_mean": 26.32,
+        "temp_max_std": 1.79,
+        "temp_min_mean": 18.98,
+        "temp_mean_mean": 22.65,
+        "rainfall_mean": 5.37,
+        "rainfall_std": 7.98,
+        "humidity_mean": 85.71,
+        "wind_speed_mean": 1.14,
+        "soil_wetness_mean": 0.745
+      },
+      "12": {
+        "temp_max_mean": 26.14,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 17.6,
+        "temp_mean_mean": 21.87,
+        "rainfall_mean": 2.17,
+        "rainfall_std": 5.39,
+        "humidity_mean": 84.12,
+        "wind_speed_mean": 1.25,
+        "soil_wetness_mean": 0.725
+      }
+    }
+  },
+  "Thirupathur": {
+    "district_name": "Thirupathur",
+    "district_id": "thirupathur",
+    "overall": {
+      "temp_max_mean": 32.57,
+      "temp_min_mean": 21.1,
+      "rainfall_daily_mean": 2.6,
+      "rainfall_daily_std": 5.54,
+      "humidity_mean": 69.87,
+      "wind_speed_mean": 2.4,
+      "soil_wetness_mean": 0.642,
+      "annual_rainfall_mm": 947.9
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.58,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 16.85,
+        "temp_mean_mean": 23.21,
+        "rainfall_mean": 0.29,
+        "rainfall_std": 1.35,
+        "humidity_mean": 74.86,
+        "wind_speed_mean": 2.14,
+        "soil_wetness_mean": 0.635
+      },
+      "2": {
+        "temp_max_mean": 33.14,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 17.77,
+        "temp_mean_mean": 25.46,
+        "rainfall_mean": 0.14,
+        "rainfall_std": 0.82,
+        "humidity_mean": 64.05,
+        "wind_speed_mean": 2.24,
+        "soil_wetness_mean": 0.584
+      },
+      "3": {
+        "temp_max_mean": 36.88,
+        "temp_max_std": 1.88,
+        "temp_min_mean": 20.75,
+        "temp_mean_mean": 28.82,
+        "rainfall_mean": 0.33,
+        "rainfall_std": 1.5,
+        "humidity_mean": 54.69,
+        "wind_speed_mean": 2.29,
+        "soil_wetness_mean": 0.565
+      },
+      "4": {
+        "temp_max_mean": 38.36,
+        "temp_max_std": 2.37,
+        "temp_min_mean": 23.72,
+        "temp_mean_mean": 31.04,
+        "rainfall_mean": 1.14,
+        "rainfall_std": 3.16,
+        "humidity_mean": 53.7,
+        "wind_speed_mean": 2.24,
+        "soil_wetness_mean": 0.567
+      },
+      "5": {
+        "temp_max_mean": 35.96,
+        "temp_max_std": 2.85,
+        "temp_min_mean": 24.55,
+        "temp_mean_mean": 30.26,
+        "rainfall_mean": 3.3,
+        "rainfall_std": 6.68,
+        "humidity_mean": 62.6,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.598
+      },
+      "6": {
+        "temp_max_mean": 33.79,
+        "temp_max_std": 2.13,
+        "temp_min_mean": 23.3,
+        "temp_mean_mean": 28.54,
+        "rainfall_mean": 2.94,
+        "rainfall_std": 4.56,
+        "humidity_mean": 65.93,
+        "wind_speed_mean": 3.22,
+        "soil_wetness_mean": 0.614
+      },
+      "7": {
+        "temp_max_mean": 32.94,
+        "temp_max_std": 2.21,
+        "temp_min_mean": 22.64,
+        "temp_mean_mean": 27.79,
+        "rainfall_mean": 3.09,
+        "rainfall_std": 5.15,
+        "humidity_mean": 68.3,
+        "wind_speed_mean": 3.55,
+        "soil_wetness_mean": 0.63
+      },
+      "8": {
+        "temp_max_mean": 32.17,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 22.43,
+        "temp_mean_mean": 27.3,
+        "rainfall_mean": 4.55,
+        "rainfall_std": 6.99,
+        "humidity_mean": 72.68,
+        "wind_speed_mean": 2.78,
+        "soil_wetness_mean": 0.657
+      },
+      "9": {
+        "temp_max_mean": 31.31,
+        "temp_max_std": 2.22,
+        "temp_min_mean": 21.99,
+        "temp_mean_mean": 26.65,
+        "rainfall_mean": 4.73,
+        "rainfall_std": 6.57,
+        "humidity_mean": 76.59,
+        "wind_speed_mean": 2.13,
+        "soil_wetness_mean": 0.698
+      },
+      "10": {
+        "temp_max_mean": 29.7,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 21.42,
+        "temp_mean_mean": 25.56,
+        "rainfall_mean": 4.79,
+        "rainfall_std": 6.02,
+        "humidity_mean": 81.57,
+        "wind_speed_mean": 1.56,
+        "soil_wetness_mean": 0.726
+      },
+      "11": {
+        "temp_max_mean": 28.35,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 19.7,
+        "temp_mean_mean": 24.03,
+        "rainfall_mean": 4.44,
+        "rainfall_std": 8.46,
+        "humidity_mean": 83.89,
+        "wind_speed_mean": 2.09,
+        "soil_wetness_mean": 0.735
+      },
+      "12": {
+        "temp_max_mean": 28.05,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 17.87,
+        "temp_mean_mean": 22.96,
+        "rainfall_mean": 1.74,
+        "rainfall_std": 5.46,
+        "humidity_mean": 81.71,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.713
+      }
+    }
+  },
+  "Thoothukudi": {
+    "district_name": "Thoothukudi",
+    "district_id": "thoothukudi",
+    "overall": {
+      "temp_max_mean": 33.19,
+      "temp_min_mean": 24.61,
+      "rainfall_daily_mean": 2.47,
+      "rainfall_daily_std": 7.08,
+      "humidity_mean": 72.32,
+      "wind_speed_mean": 3.35,
+      "soil_wetness_mean": 0.576,
+      "annual_rainfall_mm": 901.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.6,
+        "temp_max_std": 1.67,
+        "temp_min_mean": 21.44,
+        "temp_mean_mean": 26.02,
+        "rainfall_mean": 1.35,
+        "rainfall_std": 8.92,
+        "humidity_mean": 76.93,
+        "wind_speed_mean": 3.18,
+        "soil_wetness_mean": 0.629
+      },
+      "2": {
+        "temp_max_mean": 33.49,
+        "temp_max_std": 1.68,
+        "temp_min_mean": 22.55,
+        "temp_mean_mean": 28.02,
+        "rainfall_mean": 0.39,
+        "rainfall_std": 1.54,
+        "humidity_mean": 67.93,
+        "wind_speed_mean": 3.17,
+        "soil_wetness_mean": 0.534
+      },
+      "3": {
+        "temp_max_mean": 35.72,
+        "temp_max_std": 1.55,
+        "temp_min_mean": 24.92,
+        "temp_mean_mean": 30.32,
+        "rainfall_mean": 0.87,
+        "rainfall_std": 3.0,
+        "humidity_mean": 63.58,
+        "wind_speed_mean": 2.61,
+        "soil_wetness_mean": 0.507
+      },
+      "4": {
+        "temp_max_mean": 36.08,
+        "temp_max_std": 2.24,
+        "temp_min_mean": 26.8,
+        "temp_mean_mean": 31.44,
+        "rainfall_mean": 1.57,
+        "rainfall_std": 3.96,
+        "humidity_mean": 65.26,
+        "wind_speed_mean": 2.35,
+        "soil_wetness_mean": 0.514
+      },
+      "5": {
+        "temp_max_mean": 34.68,
+        "temp_max_std": 2.19,
+        "temp_min_mean": 26.74,
+        "temp_mean_mean": 30.71,
+        "rainfall_mean": 2.4,
+        "rainfall_std": 4.7,
+        "humidity_mean": 70.65,
+        "wind_speed_mean": 3.57,
+        "soil_wetness_mean": 0.545
+      },
+      "6": {
+        "temp_max_mean": 34.02,
+        "temp_max_std": 1.57,
+        "temp_min_mean": 25.88,
+        "temp_mean_mean": 29.95,
+        "rainfall_mean": 1.32,
+        "rainfall_std": 2.46,
+        "humidity_mean": 71.1,
+        "wind_speed_mean": 4.59,
+        "soil_wetness_mean": 0.526
+      },
+      "7": {
+        "temp_max_mean": 34.13,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 25.41,
+        "temp_mean_mean": 29.77,
+        "rainfall_mean": 1.02,
+        "rainfall_std": 1.75,
+        "humidity_mean": 68.24,
+        "wind_speed_mean": 4.73,
+        "soil_wetness_mean": 0.513
+      },
+      "8": {
+        "temp_max_mean": 34.19,
+        "temp_max_std": 1.82,
+        "temp_min_mean": 25.22,
+        "temp_mean_mean": 29.71,
+        "rainfall_mean": 1.61,
+        "rainfall_std": 3.03,
+        "humidity_mean": 69.22,
+        "wind_speed_mean": 4.28,
+        "soil_wetness_mean": 0.517
+      },
+      "9": {
+        "temp_max_mean": 34.22,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 25.23,
+        "temp_mean_mean": 29.73,
+        "rainfall_mean": 2.02,
+        "rainfall_std": 3.65,
+        "humidity_mean": 70.09,
+        "wind_speed_mean": 3.83,
+        "soil_wetness_mean": 0.525
+      },
+      "10": {
+        "temp_max_mean": 32.13,
+        "temp_max_std": 2.41,
+        "temp_min_mean": 24.84,
+        "temp_mean_mean": 28.48,
+        "rainfall_mean": 5.9,
+        "rainfall_std": 8.82,
+        "humidity_mean": 76.97,
+        "wind_speed_mean": 2.54,
+        "soil_wetness_mean": 0.606
+      },
+      "11": {
+        "temp_max_mean": 29.5,
+        "temp_max_std": 1.52,
+        "temp_min_mean": 23.76,
+        "temp_mean_mean": 26.63,
+        "rainfall_mean": 7.97,
+        "rainfall_std": 13.26,
+        "humidity_mean": 84.5,
+        "wind_speed_mean": 2.39,
+        "soil_wetness_mean": 0.752
+      },
+      "12": {
+        "temp_max_mean": 29.21,
+        "temp_max_std": 1.48,
+        "temp_min_mean": 22.45,
+        "temp_mean_mean": 25.83,
+        "rainfall_mean": 3.53,
+        "rainfall_std": 11.77,
+        "humidity_mean": 84.21,
+        "wind_speed_mean": 2.97,
+        "soil_wetness_mean": 0.759
+      }
+    }
+  },
+  "Tiruchirappalli": {
+    "district_name": "Tiruchirappalli",
+    "district_id": "tiruchirappalli",
+    "overall": {
+      "temp_max_mean": 33.83,
+      "temp_min_mean": 22.83,
+      "rainfall_daily_mean": 2.42,
+      "rainfall_daily_std": 5.16,
+      "humidity_mean": 69.57,
+      "wind_speed_mean": 2.59,
+      "soil_wetness_mean": 0.575,
+      "annual_rainfall_mm": 882.4
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 30.51,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 18.68,
+        "temp_mean_mean": 24.59,
+        "rainfall_mean": 0.72,
+        "rainfall_std": 2.7,
+        "humidity_mean": 76.91,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.615
+      },
+      "2": {
+        "temp_max_mean": 33.91,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 19.5,
+        "temp_mean_mean": 26.71,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.12,
+        "humidity_mean": 67.64,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.54
+      },
+      "3": {
+        "temp_max_mean": 37.61,
+        "temp_max_std": 1.98,
+        "temp_min_mean": 22.44,
+        "temp_mean_mean": 30.03,
+        "rainfall_mean": 0.37,
+        "rainfall_std": 1.5,
+        "humidity_mean": 58.51,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.503
+      },
+      "4": {
+        "temp_max_mean": 38.68,
+        "temp_max_std": 2.56,
+        "temp_min_mean": 25.58,
+        "temp_mean_mean": 32.13,
+        "rainfall_mean": 1.03,
+        "rainfall_std": 2.74,
+        "humidity_mean": 56.54,
+        "wind_speed_mean": 2.21,
+        "soil_wetness_mean": 0.497
+      },
+      "5": {
+        "temp_max_mean": 36.4,
+        "temp_max_std": 2.88,
+        "temp_min_mean": 25.95,
+        "temp_mean_mean": 31.17,
+        "rainfall_mean": 2.73,
+        "rainfall_std": 5.52,
+        "humidity_mean": 63.66,
+        "wind_speed_mean": 2.5,
+        "soil_wetness_mean": 0.531
+      },
+      "6": {
+        "temp_max_mean": 35.21,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 24.75,
+        "temp_mean_mean": 29.98,
+        "rainfall_mean": 2.14,
+        "rainfall_std": 3.88,
+        "humidity_mean": 64.8,
+        "wind_speed_mean": 3.46,
+        "soil_wetness_mean": 0.538
+      },
+      "7": {
+        "temp_max_mean": 34.95,
+        "temp_max_std": 2.04,
+        "temp_min_mean": 24.4,
+        "temp_mean_mean": 29.68,
+        "rainfall_mean": 1.87,
+        "rainfall_std": 4.21,
+        "humidity_mean": 63.54,
+        "wind_speed_mean": 3.92,
+        "soil_wetness_mean": 0.532
+      },
+      "8": {
+        "temp_max_mean": 34.33,
+        "temp_max_std": 2.23,
+        "temp_min_mean": 24.12,
+        "temp_mean_mean": 29.23,
+        "rainfall_mean": 3.18,
+        "rainfall_std": 5.23,
+        "humidity_mean": 67.38,
+        "wind_speed_mean": 3.15,
+        "soil_wetness_mean": 0.551
+      },
+      "9": {
+        "temp_max_mean": 33.62,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 23.67,
+        "temp_mean_mean": 28.65,
+        "rainfall_mean": 3.69,
+        "rainfall_std": 5.71,
+        "humidity_mean": 71.04,
+        "wind_speed_mean": 2.45,
+        "soil_wetness_mean": 0.584
+      },
+      "10": {
+        "temp_max_mean": 31.56,
+        "temp_max_std": 2.31,
+        "temp_min_mean": 23.18,
+        "temp_mean_mean": 27.37,
+        "rainfall_mean": 5.13,
+        "rainfall_std": 6.43,
+        "humidity_mean": 78.84,
+        "wind_speed_mean": 1.7,
+        "soil_wetness_mean": 0.629
+      },
+      "11": {
+        "temp_max_mean": 29.48,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 21.65,
+        "temp_mean_mean": 25.56,
+        "rainfall_mean": 5.78,
+        "rainfall_std": 8.18,
+        "humidity_mean": 84.51,
+        "wind_speed_mean": 2.09,
+        "soil_wetness_mean": 0.695
+      },
+      "12": {
+        "temp_max_mean": 29.17,
+        "temp_max_std": 1.85,
+        "temp_min_mean": 19.91,
+        "temp_mean_mean": 24.54,
+        "rainfall_mean": 2.47,
+        "rainfall_std": 6.23,
+        "humidity_mean": 83.0,
+        "wind_speed_mean": 2.45,
+        "soil_wetness_mean": 0.701
+      }
+    }
+  },
+  "Tirunelveli": {
+    "district_name": "Tirunelveli",
+    "district_id": "tirunelveli",
+    "overall": {
+      "temp_max_mean": 31.01,
+      "temp_min_mean": 22.65,
+      "rainfall_daily_mean": 3.01,
+      "rainfall_daily_std": 7.4,
+      "humidity_mean": 78.36,
+      "wind_speed_mean": 2.87,
+      "soil_wetness_mean": 0.577,
+      "annual_rainfall_mm": 1097.6
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.67,
+        "temp_max_std": 1.99,
+        "temp_min_mean": 19.61,
+        "temp_mean_mean": 24.64,
+        "rainfall_mean": 1.44,
+        "rainfall_std": 10.01,
+        "humidity_mean": 78.96,
+        "wind_speed_mean": 2.57,
+        "soil_wetness_mean": 0.611
+      },
+      "2": {
+        "temp_max_mean": 32.93,
+        "temp_max_std": 2.13,
+        "temp_min_mean": 20.63,
+        "temp_mean_mean": 26.78,
+        "rainfall_mean": 0.45,
+        "rainfall_std": 1.88,
+        "humidity_mean": 69.54,
+        "wind_speed_mean": 2.61,
+        "soil_wetness_mean": 0.501
+      },
+      "3": {
+        "temp_max_mean": 35.6,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 22.98,
+        "temp_mean_mean": 29.29,
+        "rainfall_mean": 0.96,
+        "rainfall_std": 2.68,
+        "humidity_mean": 63.91,
+        "wind_speed_mean": 2.12,
+        "soil_wetness_mean": 0.463
+      },
+      "4": {
+        "temp_max_mean": 35.1,
+        "temp_max_std": 2.69,
+        "temp_min_mean": 24.83,
+        "temp_mean_mean": 29.96,
+        "rainfall_mean": 2.05,
+        "rainfall_std": 4.23,
+        "humidity_mean": 67.91,
+        "wind_speed_mean": 1.93,
+        "soil_wetness_mean": 0.475
+      },
+      "5": {
+        "temp_max_mean": 31.84,
+        "temp_max_std": 2.47,
+        "temp_min_mean": 24.73,
+        "temp_mean_mean": 28.29,
+        "rainfall_mean": 3.82,
+        "rainfall_std": 7.11,
+        "humidity_mean": 78.25,
+        "wind_speed_mean": 3.07,
+        "soil_wetness_mean": 0.539
+      },
+      "6": {
+        "temp_max_mean": 29.83,
+        "temp_max_std": 1.49,
+        "temp_min_mean": 23.87,
+        "temp_mean_mean": 26.85,
+        "rainfall_mean": 3.05,
+        "rainfall_std": 4.05,
+        "humidity_mean": 83.28,
+        "wind_speed_mean": 3.88,
+        "soil_wetness_mean": 0.58
+      },
+      "7": {
+        "temp_max_mean": 29.63,
+        "temp_max_std": 1.49,
+        "temp_min_mean": 23.2,
+        "temp_mean_mean": 26.42,
+        "rainfall_mean": 1.94,
+        "rainfall_std": 3.03,
+        "humidity_mean": 82.31,
+        "wind_speed_mean": 4.27,
+        "soil_wetness_mean": 0.564
+      },
+      "8": {
+        "temp_max_mean": 30.22,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 23.11,
+        "temp_mean_mean": 26.66,
+        "rainfall_mean": 2.35,
+        "rainfall_std": 4.53,
+        "humidity_mean": 81.17,
+        "wind_speed_mean": 4.04,
+        "soil_wetness_mean": 0.55
+      },
+      "9": {
+        "temp_max_mean": 30.64,
+        "temp_max_std": 1.88,
+        "temp_min_mean": 23.17,
+        "temp_mean_mean": 26.9,
+        "rainfall_mean": 2.86,
+        "rainfall_std": 4.96,
+        "humidity_mean": 80.95,
+        "wind_speed_mean": 3.49,
+        "soil_wetness_mean": 0.552
+      },
+      "10": {
+        "temp_max_mean": 29.86,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 22.86,
+        "temp_mean_mean": 26.36,
+        "rainfall_mean": 6.54,
+        "rainfall_std": 9.58,
+        "humidity_mean": 83.08,
+        "wind_speed_mean": 2.23,
+        "soil_wetness_mean": 0.625
+      },
+      "11": {
+        "temp_max_mean": 28.24,
+        "temp_max_std": 1.56,
+        "temp_min_mean": 21.93,
+        "temp_mean_mean": 25.09,
+        "rainfall_mean": 7.65,
+        "rainfall_std": 11.68,
+        "humidity_mean": 86.58,
+        "wind_speed_mean": 1.85,
+        "soil_wetness_mean": 0.747
+      },
+      "12": {
+        "temp_max_mean": 28.17,
+        "temp_max_std": 1.72,
+        "temp_min_mean": 20.78,
+        "temp_mean_mean": 24.48,
+        "rainfall_mean": 3.23,
+        "rainfall_std": 11.52,
+        "humidity_mean": 85.47,
+        "wind_speed_mean": 2.42,
+        "soil_wetness_mean": 0.735
+      }
+    }
+  },
+  "Tiruppur": {
+    "district_name": "Tiruppur",
+    "district_id": "tiruppur",
+    "overall": {
+      "temp_max_mean": 33.43,
+      "temp_min_mean": 22.31,
+      "rainfall_daily_mean": 2.19,
+      "rainfall_daily_std": 4.44,
+      "humidity_mean": 66.98,
+      "wind_speed_mean": 2.56,
+      "soil_wetness_mean": 0.532,
+      "annual_rainfall_mm": 799.8
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.64,
+        "temp_max_std": 1.85,
+        "temp_min_mean": 18.53,
+        "temp_mean_mean": 25.08,
+        "rainfall_mean": 0.51,
+        "rainfall_std": 2.14,
+        "humidity_mean": 68.4,
+        "wind_speed_mean": 1.8,
+        "soil_wetness_mean": 0.532
+      },
+      "2": {
+        "temp_max_mean": 34.81,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 19.64,
+        "temp_mean_mean": 27.23,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.31,
+        "humidity_mean": 56.14,
+        "wind_speed_mean": 1.91,
+        "soil_wetness_mean": 0.484
+      },
+      "3": {
+        "temp_max_mean": 37.65,
+        "temp_max_std": 1.93,
+        "temp_min_mean": 22.81,
+        "temp_mean_mean": 30.23,
+        "rainfall_mean": 0.49,
+        "rainfall_std": 1.52,
+        "humidity_mean": 47.32,
+        "wind_speed_mean": 1.91,
+        "soil_wetness_mean": 0.466
+      },
+      "4": {
+        "temp_max_mean": 38.28,
+        "temp_max_std": 2.69,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 31.95,
+        "rainfall_mean": 1.44,
+        "rainfall_std": 3.21,
+        "humidity_mean": 50.66,
+        "wind_speed_mean": 1.86,
+        "soil_wetness_mean": 0.472
+      },
+      "5": {
+        "temp_max_mean": 35.33,
+        "temp_max_std": 2.72,
+        "temp_min_mean": 25.12,
+        "temp_mean_mean": 30.23,
+        "rainfall_mean": 2.98,
+        "rainfall_std": 4.71,
+        "humidity_mean": 65.42,
+        "wind_speed_mean": 2.72,
+        "soil_wetness_mean": 0.506
+      },
+      "6": {
+        "temp_max_mean": 33.36,
+        "temp_max_std": 1.79,
+        "temp_min_mean": 23.71,
+        "temp_mean_mean": 28.53,
+        "rainfall_mean": 2.19,
+        "rainfall_std": 3.66,
+        "humidity_mean": 69.97,
+        "wind_speed_mean": 3.95,
+        "soil_wetness_mean": 0.522
+      },
+      "7": {
+        "temp_max_mean": 32.72,
+        "temp_max_std": 1.69,
+        "temp_min_mean": 23.3,
+        "temp_mean_mean": 28.01,
+        "rainfall_mean": 2.0,
+        "rainfall_std": 3.6,
+        "humidity_mean": 69.71,
+        "wind_speed_mean": 4.38,
+        "soil_wetness_mean": 0.512
+      },
+      "8": {
+        "temp_max_mean": 32.79,
+        "temp_max_std": 2.01,
+        "temp_min_mean": 23.11,
+        "temp_mean_mean": 27.95,
+        "rainfall_mean": 2.88,
+        "rainfall_std": 4.43,
+        "humidity_mean": 71.16,
+        "wind_speed_mean": 3.79,
+        "soil_wetness_mean": 0.527
+      },
+      "9": {
+        "temp_max_mean": 32.84,
+        "temp_max_std": 2.05,
+        "temp_min_mean": 22.79,
+        "temp_mean_mean": 27.82,
+        "rainfall_mean": 3.38,
+        "rainfall_std": 5.11,
+        "humidity_mean": 72.48,
+        "wind_speed_mean": 3.1,
+        "soil_wetness_mean": 0.553
+      },
+      "10": {
+        "temp_max_mean": 31.39,
+        "temp_max_std": 2.34,
+        "temp_min_mean": 22.43,
+        "temp_mean_mean": 26.91,
+        "rainfall_mean": 4.93,
+        "rainfall_std": 7.13,
+        "humidity_mean": 77.28,
+        "wind_speed_mean": 1.88,
+        "soil_wetness_mean": 0.592
+      },
+      "11": {
+        "temp_max_mean": 29.9,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 21.06,
+        "temp_mean_mean": 25.48,
+        "rainfall_mean": 3.96,
+        "rainfall_std": 6.05,
+        "humidity_mean": 79.78,
+        "wind_speed_mean": 1.62,
+        "soil_wetness_mean": 0.628
+      },
+      "12": {
+        "temp_max_mean": 29.95,
+        "temp_max_std": 2.05,
+        "temp_min_mean": 19.42,
+        "temp_mean_mean": 24.68,
+        "rainfall_mean": 1.49,
+        "rainfall_std": 3.88,
+        "humidity_mean": 77.25,
+        "wind_speed_mean": 1.79,
+        "soil_wetness_mean": 0.604
+      }
+    }
+  },
+  "Tiruvallur": {
+    "district_name": "Tiruvallur",
+    "district_id": "tiruvallur",
+    "overall": {
+      "temp_max_mean": 32.23,
+      "temp_min_mean": 24.68,
+      "rainfall_daily_mean": 3.57,
+      "rainfall_daily_std": 9.09,
+      "humidity_mean": 73.29,
+      "wind_speed_mean": 3.03,
+      "soil_wetness_mean": 0.671,
+      "annual_rainfall_mm": 1304.1
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.08,
+        "temp_max_std": 0.88,
+        "temp_min_mean": 21.27,
+        "temp_mean_mean": 24.68,
+        "rainfall_mean": 0.83,
+        "rainfall_std": 3.95,
+        "humidity_mean": 77.57,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.761
+      },
+      "2": {
+        "temp_max_mean": 30.58,
+        "temp_max_std": 1.56,
+        "temp_min_mean": 21.66,
+        "temp_mean_mean": 26.12,
+        "rainfall_mean": 0.18,
+        "rainfall_std": 1.19,
+        "humidity_mean": 72.07,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.628
+      },
+      "3": {
+        "temp_max_mean": 34.4,
+        "temp_max_std": 1.66,
+        "temp_min_mean": 23.86,
+        "temp_mean_mean": 29.13,
+        "rainfall_mean": 0.3,
+        "rainfall_std": 1.9,
+        "humidity_mean": 66.56,
+        "wind_speed_mean": 2.9,
+        "soil_wetness_mean": 0.543
+      },
+      "4": {
+        "temp_max_mean": 36.42,
+        "temp_max_std": 1.72,
+        "temp_min_mean": 26.52,
+        "temp_mean_mean": 31.47,
+        "rainfall_mean": 0.59,
+        "rainfall_std": 2.49,
+        "humidity_mean": 65.23,
+        "wind_speed_mean": 3.39,
+        "soil_wetness_mean": 0.519
+      },
+      "5": {
+        "temp_max_mean": 36.06,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 27.7,
+        "temp_mean_mean": 31.88,
+        "rainfall_mean": 1.9,
+        "rainfall_std": 5.93,
+        "humidity_mean": 66.35,
+        "wind_speed_mean": 3.41,
+        "soil_wetness_mean": 0.539
+      },
+      "6": {
+        "temp_max_mean": 35.04,
+        "temp_max_std": 2.0,
+        "temp_min_mean": 26.83,
+        "temp_mean_mean": 30.94,
+        "rainfall_mean": 3.36,
+        "rainfall_std": 5.27,
+        "humidity_mean": 65.95,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.561
+      },
+      "7": {
+        "temp_max_mean": 33.91,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 25.91,
+        "temp_mean_mean": 29.91,
+        "rainfall_mean": 3.93,
+        "rainfall_std": 5.61,
+        "humidity_mean": 69.76,
+        "wind_speed_mean": 3.35,
+        "soil_wetness_mean": 0.619
+      },
+      "8": {
+        "temp_max_mean": 32.81,
+        "temp_max_std": 1.94,
+        "temp_min_mean": 25.62,
+        "temp_mean_mean": 29.22,
+        "rainfall_mean": 5.17,
+        "rainfall_std": 6.27,
+        "humidity_mean": 74.5,
+        "wind_speed_mean": 2.91,
+        "soil_wetness_mean": 0.665
+      },
+      "9": {
+        "temp_max_mean": 31.74,
+        "temp_max_std": 1.54,
+        "temp_min_mean": 25.27,
+        "temp_mean_mean": 28.51,
+        "rainfall_mean": 4.87,
+        "rainfall_std": 6.5,
+        "humidity_mean": 78.35,
+        "wind_speed_mean": 2.53,
+        "soil_wetness_mean": 0.726
+      },
+      "10": {
+        "temp_max_mean": 30.56,
+        "temp_max_std": 1.62,
+        "temp_min_mean": 25.09,
+        "temp_mean_mean": 27.82,
+        "rainfall_mean": 6.64,
+        "rainfall_std": 10.09,
+        "humidity_mean": 80.1,
+        "wind_speed_mean": 2.3,
+        "soil_wetness_mean": 0.767
+      },
+      "11": {
+        "temp_max_mean": 28.83,
+        "temp_max_std": 1.28,
+        "temp_min_mean": 23.91,
+        "temp_mean_mean": 26.37,
+        "rainfall_mean": 10.62,
+        "rainfall_std": 18.76,
+        "humidity_mean": 82.95,
+        "wind_speed_mean": 3.29,
+        "soil_wetness_mean": 0.867
+      },
+      "12": {
+        "temp_max_mean": 27.8,
+        "temp_max_std": 0.95,
+        "temp_min_mean": 22.33,
+        "temp_mean_mean": 25.07,
+        "rainfall_mean": 5.18,
+        "rainfall_std": 15.8,
+        "humidity_mean": 81.52,
+        "wind_speed_mean": 3.42,
+        "soil_wetness_mean": 0.876
+      }
+    }
+  },
+  "Tiruvannamalai": {
+    "district_name": "Tiruvannamalai",
+    "district_id": "tiruvannamalai",
+    "overall": {
+      "temp_max_mean": 33.45,
+      "temp_min_mean": 23.52,
+      "rainfall_daily_mean": 3.08,
+      "rainfall_daily_std": 6.98,
+      "humidity_mean": 71.45,
+      "wind_speed_mean": 2.47,
+      "soil_wetness_mean": 0.628,
+      "annual_rainfall_mm": 1126.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.45,
+        "temp_max_std": 1.29,
+        "temp_min_mean": 19.43,
+        "temp_mean_mean": 24.44,
+        "rainfall_mean": 0.78,
+        "rainfall_std": 3.43,
+        "humidity_mean": 78.66,
+        "wind_speed_mean": 2.49,
+        "soil_wetness_mean": 0.686
+      },
+      "2": {
+        "temp_max_mean": 32.42,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 20.15,
+        "temp_mean_mean": 26.28,
+        "rainfall_mean": 0.21,
+        "rainfall_std": 1.43,
+        "humidity_mean": 71.4,
+        "wind_speed_mean": 2.37,
+        "soil_wetness_mean": 0.601
+      },
+      "3": {
+        "temp_max_mean": 36.25,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 22.8,
+        "temp_mean_mean": 29.53,
+        "rainfall_mean": 0.37,
+        "rainfall_std": 1.74,
+        "humidity_mean": 64.05,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.554
+      },
+      "4": {
+        "temp_max_mean": 38.17,
+        "temp_max_std": 2.19,
+        "temp_min_mean": 25.75,
+        "temp_mean_mean": 31.96,
+        "rainfall_mean": 0.76,
+        "rainfall_std": 2.35,
+        "humidity_mean": 60.96,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.539
+      },
+      "5": {
+        "temp_max_mean": 37.14,
+        "temp_max_std": 2.67,
+        "temp_min_mean": 26.79,
+        "temp_mean_mean": 31.97,
+        "rainfall_mean": 2.41,
+        "rainfall_std": 5.11,
+        "humidity_mean": 62.91,
+        "wind_speed_mean": 2.59,
+        "soil_wetness_mean": 0.561
+      },
+      "6": {
+        "temp_max_mean": 35.96,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 25.85,
+        "temp_mean_mean": 30.9,
+        "rainfall_mean": 2.65,
+        "rainfall_std": 3.71,
+        "humidity_mean": 62.36,
+        "wind_speed_mean": 2.97,
+        "soil_wetness_mean": 0.565
+      },
+      "7": {
+        "temp_max_mean": 35.19,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 25.25,
+        "temp_mean_mean": 30.22,
+        "rainfall_mean": 2.87,
+        "rainfall_std": 4.53,
+        "humidity_mean": 64.17,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.584
+      },
+      "8": {
+        "temp_max_mean": 34.08,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 24.86,
+        "temp_mean_mean": 29.47,
+        "rainfall_mean": 4.51,
+        "rainfall_std": 6.22,
+        "humidity_mean": 70.15,
+        "wind_speed_mean": 2.41,
+        "soil_wetness_mean": 0.611
+      },
+      "9": {
+        "temp_max_mean": 33.04,
+        "temp_max_std": 2.01,
+        "temp_min_mean": 24.34,
+        "temp_mean_mean": 28.69,
+        "rainfall_mean": 4.39,
+        "rainfall_std": 5.59,
+        "humidity_mean": 75.04,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.644
+      },
+      "10": {
+        "temp_max_mean": 31.3,
+        "temp_max_std": 2.01,
+        "temp_min_mean": 23.88,
+        "temp_mean_mean": 27.59,
+        "rainfall_mean": 6.2,
+        "rainfall_std": 8.69,
+        "humidity_mean": 80.43,
+        "wind_speed_mean": 1.78,
+        "soil_wetness_mean": 0.677
+      },
+      "11": {
+        "temp_max_mean": 29.28,
+        "temp_max_std": 1.76,
+        "temp_min_mean": 22.34,
+        "temp_mean_mean": 25.81,
+        "rainfall_mean": 8.69,
+        "rainfall_std": 14.23,
+        "humidity_mean": 85.13,
+        "wind_speed_mean": 2.52,
+        "soil_wetness_mean": 0.757
+      },
+      "12": {
+        "temp_max_mean": 28.61,
+        "temp_max_std": 1.35,
+        "temp_min_mean": 20.61,
+        "temp_mean_mean": 24.61,
+        "rainfall_mean": 3.74,
+        "rainfall_std": 9.76,
+        "humidity_mean": 83.82,
+        "wind_speed_mean": 2.77,
+        "soil_wetness_mean": 0.772
+      }
+    }
+  },
+  "Tiruvarur": {
+    "district_name": "Tiruvarur",
+    "district_id": "tiruvarur",
+    "overall": {
+      "temp_max_mean": 32.64,
+      "temp_min_mean": 25.11,
+      "rainfall_daily_mean": 3.03,
+      "rainfall_daily_std": 6.59,
+      "humidity_mean": 72.52,
+      "wind_speed_mean": 3.14,
+      "soil_wetness_mean": 0.494,
+      "annual_rainfall_mm": 1105.2
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.75,
+        "temp_max_std": 1.26,
+        "temp_min_mean": 21.62,
+        "temp_mean_mean": 25.19,
+        "rainfall_mean": 1.34,
+        "rainfall_std": 4.73,
+        "humidity_mean": 81.03,
+        "wind_speed_mean": 3.18,
+        "soil_wetness_mean": 0.619
+      },
+      "2": {
+        "temp_max_mean": 31.38,
+        "temp_max_std": 1.75,
+        "temp_min_mean": 22.32,
+        "temp_mean_mean": 26.85,
+        "rainfall_mean": 0.48,
+        "rainfall_std": 2.17,
+        "humidity_mean": 73.54,
+        "wind_speed_mean": 3.07,
+        "soil_wetness_mean": 0.472
+      },
+      "3": {
+        "temp_max_mean": 34.61,
+        "temp_max_std": 1.56,
+        "temp_min_mean": 24.67,
+        "temp_mean_mean": 29.64,
+        "rainfall_mean": 0.53,
+        "rainfall_std": 2.09,
+        "humidity_mean": 66.91,
+        "wind_speed_mean": 2.79,
+        "soil_wetness_mean": 0.389
+      },
+      "4": {
+        "temp_max_mean": 35.83,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 27.3,
+        "temp_mean_mean": 31.56,
+        "rainfall_mean": 1.19,
+        "rainfall_std": 2.79,
+        "humidity_mean": 65.44,
+        "wind_speed_mean": 2.73,
+        "soil_wetness_mean": 0.363
+      },
+      "5": {
+        "temp_max_mean": 35.07,
+        "temp_max_std": 2.02,
+        "temp_min_mean": 27.68,
+        "temp_mean_mean": 31.38,
+        "rainfall_mean": 2.79,
+        "rainfall_std": 6.36,
+        "humidity_mean": 68.05,
+        "wind_speed_mean": 3.33,
+        "soil_wetness_mean": 0.412
+      },
+      "6": {
+        "temp_max_mean": 34.82,
+        "temp_max_std": 1.63,
+        "temp_min_mean": 26.89,
+        "temp_mean_mean": 30.86,
+        "rainfall_mean": 1.98,
+        "rainfall_std": 3.18,
+        "humidity_mean": 65.24,
+        "wind_speed_mean": 3.83,
+        "soil_wetness_mean": 0.416
+      },
+      "7": {
+        "temp_max_mean": 34.77,
+        "temp_max_std": 1.71,
+        "temp_min_mean": 26.61,
+        "temp_mean_mean": 30.69,
+        "rainfall_mean": 1.77,
+        "rainfall_std": 3.4,
+        "humidity_mean": 62.66,
+        "wind_speed_mean": 3.91,
+        "soil_wetness_mean": 0.407
+      },
+      "8": {
+        "temp_max_mean": 34.05,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 26.22,
+        "temp_mean_mean": 30.14,
+        "rainfall_mean": 3.05,
+        "rainfall_std": 4.79,
+        "humidity_mean": 67.04,
+        "wind_speed_mean": 3.38,
+        "soil_wetness_mean": 0.426
+      },
+      "9": {
+        "temp_max_mean": 33.4,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 25.85,
+        "temp_mean_mean": 29.63,
+        "rainfall_mean": 3.58,
+        "rainfall_std": 5.23,
+        "humidity_mean": 70.94,
+        "wind_speed_mean": 2.93,
+        "soil_wetness_mean": 0.464
+      },
+      "10": {
+        "temp_max_mean": 31.34,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 25.37,
+        "temp_mean_mean": 28.35,
+        "rainfall_mean": 6.28,
+        "rainfall_std": 8.13,
+        "humidity_mean": 78.64,
+        "wind_speed_mean": 2.35,
+        "soil_wetness_mean": 0.533
+      },
+      "11": {
+        "temp_max_mean": 29.06,
+        "temp_max_std": 1.44,
+        "temp_min_mean": 24.03,
+        "temp_mean_mean": 26.55,
+        "rainfall_mean": 9.24,
+        "rainfall_std": 12.23,
+        "humidity_mean": 85.83,
+        "wind_speed_mean": 2.86,
+        "soil_wetness_mean": 0.692
+      },
+      "12": {
+        "temp_max_mean": 28.3,
+        "temp_max_std": 1.24,
+        "temp_min_mean": 22.62,
+        "temp_mean_mean": 25.46,
+        "rainfall_mean": 4.57,
+        "rainfall_std": 9.42,
+        "humidity_mean": 85.9,
+        "wind_speed_mean": 3.26,
+        "soil_wetness_mean": 0.751
+      }
+    }
+  },
+  "Vellore": {
+    "district_name": "Vellore",
+    "district_id": "vellore",
+    "overall": {
+      "temp_max_mean": 33.29,
+      "temp_min_mean": 22.2,
+      "rainfall_daily_mean": 3.04,
+      "rainfall_daily_std": 7.15,
+      "humidity_mean": 70.92,
+      "wind_speed_mean": 2.28,
+      "soil_wetness_mean": 0.643,
+      "annual_rainfall_mm": 1109.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 28.92,
+        "temp_max_std": 1.57,
+        "temp_min_mean": 17.69,
+        "temp_mean_mean": 23.31,
+        "rainfall_mean": 0.54,
+        "rainfall_std": 2.67,
+        "humidity_mean": 79.15,
+        "wind_speed_mean": 1.96,
+        "soil_wetness_mean": 0.682
+      },
+      "2": {
+        "temp_max_mean": 32.68,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 18.32,
+        "temp_mean_mean": 25.5,
+        "rainfall_mean": 0.18,
+        "rainfall_std": 1.24,
+        "humidity_mean": 69.23,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.596
+      },
+      "3": {
+        "temp_max_mean": 37.32,
+        "temp_max_std": 2.07,
+        "temp_min_mean": 21.33,
+        "temp_mean_mean": 29.32,
+        "rainfall_mean": 0.34,
+        "rainfall_std": 2.0,
+        "humidity_mean": 59.25,
+        "wind_speed_mean": 2.25,
+        "soil_wetness_mean": 0.553
+      },
+      "4": {
+        "temp_max_mean": 39.5,
+        "temp_max_std": 2.32,
+        "temp_min_mean": 24.57,
+        "temp_mean_mean": 32.03,
+        "rainfall_mean": 0.78,
+        "rainfall_std": 2.8,
+        "humidity_mean": 56.33,
+        "wind_speed_mean": 2.52,
+        "soil_wetness_mean": 0.544
+      },
+      "5": {
+        "temp_max_mean": 37.79,
+        "temp_max_std": 2.94,
+        "temp_min_mean": 26.04,
+        "temp_mean_mean": 31.91,
+        "rainfall_mean": 2.23,
+        "rainfall_std": 4.59,
+        "humidity_mean": 59.77,
+        "wind_speed_mean": 2.5,
+        "soil_wetness_mean": 0.563
+      },
+      "6": {
+        "temp_max_mean": 35.56,
+        "temp_max_std": 2.32,
+        "temp_min_mean": 24.98,
+        "temp_mean_mean": 30.27,
+        "rainfall_mean": 3.34,
+        "rainfall_std": 5.09,
+        "humidity_mean": 62.44,
+        "wind_speed_mean": 2.85,
+        "soil_wetness_mean": 0.583
+      },
+      "7": {
+        "temp_max_mean": 34.38,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 24.06,
+        "temp_mean_mean": 29.22,
+        "rainfall_mean": 3.72,
+        "rainfall_std": 6.22,
+        "humidity_mean": 66.86,
+        "wind_speed_mean": 2.97,
+        "soil_wetness_mean": 0.619
+      },
+      "8": {
+        "temp_max_mean": 33.26,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 23.73,
+        "temp_mean_mean": 28.5,
+        "rainfall_mean": 4.84,
+        "rainfall_std": 6.79,
+        "humidity_mean": 72.29,
+        "wind_speed_mean": 2.37,
+        "soil_wetness_mean": 0.651
+      },
+      "9": {
+        "temp_max_mean": 32.14,
+        "temp_max_std": 2.03,
+        "temp_min_mean": 23.21,
+        "temp_mean_mean": 27.68,
+        "rainfall_mean": 4.8,
+        "rainfall_std": 6.78,
+        "humidity_mean": 77.01,
+        "wind_speed_mean": 1.86,
+        "soil_wetness_mean": 0.691
+      },
+      "10": {
+        "temp_max_mean": 30.64,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 22.54,
+        "temp_mean_mean": 26.59,
+        "rainfall_mean": 5.35,
+        "rainfall_std": 7.62,
+        "humidity_mean": 81.39,
+        "wind_speed_mean": 1.56,
+        "soil_wetness_mean": 0.713
+      },
+      "11": {
+        "temp_max_mean": 28.76,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 20.84,
+        "temp_mean_mean": 24.8,
+        "rainfall_mean": 7.44,
+        "rainfall_std": 14.45,
+        "humidity_mean": 85.23,
+        "wind_speed_mean": 2.2,
+        "soil_wetness_mean": 0.766
+      },
+      "12": {
+        "temp_max_mean": 27.85,
+        "temp_max_std": 1.47,
+        "temp_min_mean": 18.92,
+        "temp_mean_mean": 23.38,
+        "rainfall_mean": 3.44,
+        "rainfall_std": 10.12,
+        "humidity_mean": 84.32,
+        "wind_speed_mean": 2.28,
+        "soil_wetness_mean": 0.775
+      }
+    }
+  },
+  "Viluppuram": {
+    "district_name": "Viluppuram",
+    "district_id": "viluppuram",
+    "overall": {
+      "temp_max_mean": 33.45,
+      "temp_min_mean": 23.52,
+      "rainfall_daily_mean": 3.08,
+      "rainfall_daily_std": 6.98,
+      "humidity_mean": 71.45,
+      "wind_speed_mean": 2.47,
+      "soil_wetness_mean": 0.628,
+      "annual_rainfall_mm": 1126.5
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.45,
+        "temp_max_std": 1.29,
+        "temp_min_mean": 19.43,
+        "temp_mean_mean": 24.44,
+        "rainfall_mean": 0.78,
+        "rainfall_std": 3.43,
+        "humidity_mean": 78.66,
+        "wind_speed_mean": 2.49,
+        "soil_wetness_mean": 0.686
+      },
+      "2": {
+        "temp_max_mean": 32.42,
+        "temp_max_std": 1.89,
+        "temp_min_mean": 20.15,
+        "temp_mean_mean": 26.28,
+        "rainfall_mean": 0.21,
+        "rainfall_std": 1.43,
+        "humidity_mean": 71.4,
+        "wind_speed_mean": 2.37,
+        "soil_wetness_mean": 0.601
+      },
+      "3": {
+        "temp_max_mean": 36.25,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 22.8,
+        "temp_mean_mean": 29.53,
+        "rainfall_mean": 0.37,
+        "rainfall_std": 1.74,
+        "humidity_mean": 64.05,
+        "wind_speed_mean": 2.32,
+        "soil_wetness_mean": 0.554
+      },
+      "4": {
+        "temp_max_mean": 38.17,
+        "temp_max_std": 2.19,
+        "temp_min_mean": 25.75,
+        "temp_mean_mean": 31.96,
+        "rainfall_mean": 0.76,
+        "rainfall_std": 2.35,
+        "humidity_mean": 60.96,
+        "wind_speed_mean": 2.46,
+        "soil_wetness_mean": 0.539
+      },
+      "5": {
+        "temp_max_mean": 37.14,
+        "temp_max_std": 2.67,
+        "temp_min_mean": 26.79,
+        "temp_mean_mean": 31.97,
+        "rainfall_mean": 2.41,
+        "rainfall_std": 5.11,
+        "humidity_mean": 62.91,
+        "wind_speed_mean": 2.59,
+        "soil_wetness_mean": 0.561
+      },
+      "6": {
+        "temp_max_mean": 35.96,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 25.85,
+        "temp_mean_mean": 30.9,
+        "rainfall_mean": 2.65,
+        "rainfall_std": 3.71,
+        "humidity_mean": 62.36,
+        "wind_speed_mean": 2.97,
+        "soil_wetness_mean": 0.565
+      },
+      "7": {
+        "temp_max_mean": 35.19,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 25.25,
+        "temp_mean_mean": 30.22,
+        "rainfall_mean": 2.87,
+        "rainfall_std": 4.53,
+        "humidity_mean": 64.17,
+        "wind_speed_mean": 2.95,
+        "soil_wetness_mean": 0.584
+      },
+      "8": {
+        "temp_max_mean": 34.08,
+        "temp_max_std": 2.29,
+        "temp_min_mean": 24.86,
+        "temp_mean_mean": 29.47,
+        "rainfall_mean": 4.51,
+        "rainfall_std": 6.22,
+        "humidity_mean": 70.15,
+        "wind_speed_mean": 2.41,
+        "soil_wetness_mean": 0.611
+      },
+      "9": {
+        "temp_max_mean": 33.04,
+        "temp_max_std": 2.01,
+        "temp_min_mean": 24.34,
+        "temp_mean_mean": 28.69,
+        "rainfall_mean": 4.39,
+        "rainfall_std": 5.59,
+        "humidity_mean": 75.04,
+        "wind_speed_mean": 2.0,
+        "soil_wetness_mean": 0.644
+      },
+      "10": {
+        "temp_max_mean": 31.3,
+        "temp_max_std": 2.01,
+        "temp_min_mean": 23.88,
+        "temp_mean_mean": 27.59,
+        "rainfall_mean": 6.2,
+        "rainfall_std": 8.69,
+        "humidity_mean": 80.43,
+        "wind_speed_mean": 1.78,
+        "soil_wetness_mean": 0.677
+      },
+      "11": {
+        "temp_max_mean": 29.28,
+        "temp_max_std": 1.76,
+        "temp_min_mean": 22.34,
+        "temp_mean_mean": 25.81,
+        "rainfall_mean": 8.69,
+        "rainfall_std": 14.23,
+        "humidity_mean": 85.13,
+        "wind_speed_mean": 2.52,
+        "soil_wetness_mean": 0.757
+      },
+      "12": {
+        "temp_max_mean": 28.61,
+        "temp_max_std": 1.35,
+        "temp_min_mean": 20.61,
+        "temp_mean_mean": 24.61,
+        "rainfall_mean": 3.74,
+        "rainfall_std": 9.76,
+        "humidity_mean": 83.82,
+        "wind_speed_mean": 2.77,
+        "soil_wetness_mean": 0.772
+      }
+    }
+  },
+  "Virudhunagar": {
+    "district_name": "Virudhunagar",
+    "district_id": "virudhunagar",
+    "overall": {
+      "temp_max_mean": 34.03,
+      "temp_min_mean": 23.64,
+      "rainfall_daily_mean": 2.62,
+      "rainfall_daily_std": 5.97,
+      "humidity_mean": 70.19,
+      "wind_speed_mean": 2.54,
+      "soil_wetness_mean": 0.629,
+      "annual_rainfall_mm": 957.4
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 31.3,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 20.11,
+        "temp_mean_mean": 25.71,
+        "rainfall_mean": 1.0,
+        "rainfall_std": 5.11,
+        "humidity_mean": 75.19,
+        "wind_speed_mean": 2.6,
+        "soil_wetness_mean": 0.657
+      },
+      "2": {
+        "temp_max_mean": 34.71,
+        "temp_max_std": 2.05,
+        "temp_min_mean": 21.23,
+        "temp_mean_mean": 27.97,
+        "rainfall_mean": 0.33,
+        "rainfall_std": 1.32,
+        "humidity_mean": 64.59,
+        "wind_speed_mean": 2.65,
+        "soil_wetness_mean": 0.573
+      },
+      "3": {
+        "temp_max_mean": 37.46,
+        "temp_max_std": 1.85,
+        "temp_min_mean": 23.88,
+        "temp_mean_mean": 30.67,
+        "rainfall_mean": 0.68,
+        "rainfall_std": 1.92,
+        "humidity_mean": 58.6,
+        "wind_speed_mean": 2.3,
+        "soil_wetness_mean": 0.549
+      },
+      "4": {
+        "temp_max_mean": 37.59,
+        "temp_max_std": 2.71,
+        "temp_min_mean": 26.13,
+        "temp_mean_mean": 31.86,
+        "rainfall_mean": 1.77,
+        "rainfall_std": 4.23,
+        "humidity_mean": 61.09,
+        "wind_speed_mean": 2.04,
+        "soil_wetness_mean": 0.56
+      },
+      "5": {
+        "temp_max_mean": 35.72,
+        "temp_max_std": 2.64,
+        "temp_min_mean": 26.0,
+        "temp_mean_mean": 30.86,
+        "rainfall_mean": 2.97,
+        "rainfall_std": 5.2,
+        "humidity_mean": 68.1,
+        "wind_speed_mean": 2.6,
+        "soil_wetness_mean": 0.601
+      },
+      "6": {
+        "temp_max_mean": 34.98,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 24.94,
+        "temp_mean_mean": 29.96,
+        "rainfall_mean": 1.8,
+        "rainfall_std": 3.86,
+        "humidity_mean": 68.34,
+        "wind_speed_mean": 3.26,
+        "soil_wetness_mean": 0.59
+      },
+      "7": {
+        "temp_max_mean": 35.11,
+        "temp_max_std": 1.97,
+        "temp_min_mean": 24.73,
+        "temp_mean_mean": 29.92,
+        "rainfall_mean": 1.75,
+        "rainfall_std": 3.72,
+        "humidity_mean": 64.52,
+        "wind_speed_mean": 3.33,
+        "soil_wetness_mean": 0.578
+      },
+      "8": {
+        "temp_max_mean": 34.84,
+        "temp_max_std": 2.16,
+        "temp_min_mean": 24.45,
+        "temp_mean_mean": 29.64,
+        "rainfall_mean": 2.67,
+        "rainfall_std": 4.66,
+        "humidity_mean": 67.73,
+        "wind_speed_mean": 2.91,
+        "soil_wetness_mean": 0.594
+      },
+      "9": {
+        "temp_max_mean": 34.65,
+        "temp_max_std": 2.33,
+        "temp_min_mean": 24.23,
+        "temp_mean_mean": 29.44,
+        "rainfall_mean": 2.98,
+        "rainfall_std": 5.26,
+        "humidity_mean": 69.76,
+        "wind_speed_mean": 2.56,
+        "soil_wetness_mean": 0.61
+      },
+      "10": {
+        "temp_max_mean": 32.26,
+        "temp_max_std": 2.59,
+        "temp_min_mean": 23.89,
+        "temp_mean_mean": 28.07,
+        "rainfall_mean": 6.11,
+        "rainfall_std": 8.17,
+        "humidity_mean": 77.76,
+        "wind_speed_mean": 1.83,
+        "soil_wetness_mean": 0.681
+      },
+      "11": {
+        "temp_max_mean": 29.8,
+        "temp_max_std": 1.78,
+        "temp_min_mean": 22.71,
+        "temp_mean_mean": 26.26,
+        "rainfall_mean": 6.84,
+        "rainfall_std": 10.42,
+        "humidity_mean": 84.36,
+        "wind_speed_mean": 1.99,
+        "soil_wetness_mean": 0.785
+      },
+      "12": {
+        "temp_max_mean": 29.57,
+        "temp_max_std": 1.82,
+        "temp_min_mean": 21.24,
+        "temp_mean_mean": 25.4,
+        "rainfall_mean": 2.89,
+        "rainfall_std": 7.7,
+        "humidity_mean": 83.4,
+        "wind_speed_mean": 2.44,
+        "soil_wetness_mean": 0.776
+      }
+    }
+  },
+  "Nilgiris": {
+    "district_name": "Nilgris",
+    "district_id": "nilgris",
+    "overall": {
+      "temp_max_mean": 29.73,
+      "temp_min_mean": 19.07,
+      "rainfall_daily_mean": 2.69,
+      "rainfall_daily_std": 4.57,
+      "humidity_mean": 72.93,
+      "wind_speed_mean": 1.93,
+      "soil_wetness_mean": 0.582,
+      "annual_rainfall_mm": 982.7
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.11,
+        "temp_max_std": 1.68,
+        "temp_min_mean": 15.7,
+        "temp_mean_mean": 22.4,
+        "rainfall_mean": 0.51,
+        "rainfall_std": 2.29,
+        "humidity_mean": 68.57,
+        "wind_speed_mean": 1.43,
+        "soil_wetness_mean": 0.546
+      },
+      "2": {
+        "temp_max_mean": 32.14,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 16.57,
+        "temp_mean_mean": 24.36,
+        "rainfall_mean": 0.23,
+        "rainfall_std": 1.11,
+        "humidity_mean": 56.2,
+        "wind_speed_mean": 1.57,
+        "soil_wetness_mean": 0.493
+      },
+      "3": {
+        "temp_max_mean": 34.54,
+        "temp_max_std": 1.86,
+        "temp_min_mean": 19.35,
+        "temp_mean_mean": 26.94,
+        "rainfall_mean": 0.64,
+        "rainfall_std": 1.88,
+        "humidity_mean": 50.89,
+        "wind_speed_mean": 1.54,
+        "soil_wetness_mean": 0.479
+      },
+      "4": {
+        "temp_max_mean": 34.71,
+        "temp_max_std": 2.7,
+        "temp_min_mean": 21.83,
+        "temp_mean_mean": 28.27,
+        "rainfall_mean": 1.72,
+        "rainfall_std": 3.46,
+        "humidity_mean": 57.99,
+        "wind_speed_mean": 1.39,
+        "soil_wetness_mean": 0.487
+      },
+      "5": {
+        "temp_max_mean": 31.4,
+        "temp_max_std": 2.66,
+        "temp_min_mean": 21.64,
+        "temp_mean_mean": 26.52,
+        "rainfall_mean": 3.99,
+        "rainfall_std": 6.05,
+        "humidity_mean": 74.03,
+        "wind_speed_mean": 1.79,
+        "soil_wetness_mean": 0.543
+      },
+      "6": {
+        "temp_max_mean": 28.65,
+        "temp_max_std": 1.74,
+        "temp_min_mean": 20.44,
+        "temp_mean_mean": 24.55,
+        "rainfall_mean": 4.03,
+        "rainfall_std": 5.08,
+        "humidity_mean": 80.42,
+        "wind_speed_mean": 2.9,
+        "soil_wetness_mean": 0.596
+      },
+      "7": {
+        "temp_max_mean": 27.68,
+        "temp_max_std": 1.58,
+        "temp_min_mean": 19.84,
+        "temp_mean_mean": 23.76,
+        "rainfall_mean": 3.88,
+        "rainfall_std": 3.62,
+        "humidity_mean": 81.4,
+        "wind_speed_mean": 3.36,
+        "soil_wetness_mean": 0.611
+      },
+      "8": {
+        "temp_max_mean": 27.92,
+        "temp_max_std": 1.87,
+        "temp_min_mean": 19.76,
+        "temp_mean_mean": 23.84,
+        "rainfall_mean": 3.91,
+        "rainfall_std": 5.12,
+        "humidity_mean": 81.99,
+        "wind_speed_mean": 2.81,
+        "soil_wetness_mean": 0.634
+      },
+      "9": {
+        "temp_max_mean": 28.3,
+        "temp_max_std": 1.81,
+        "temp_min_mean": 19.54,
+        "temp_mean_mean": 23.92,
+        "rainfall_mean": 3.68,
+        "rainfall_std": 4.67,
+        "humidity_mean": 81.74,
+        "wind_speed_mean": 2.22,
+        "soil_wetness_mean": 0.642
+      },
+      "10": {
+        "temp_max_mean": 27.68,
+        "temp_max_std": 2.15,
+        "temp_min_mean": 19.36,
+        "temp_mean_mean": 23.52,
+        "rainfall_mean": 4.91,
+        "rainfall_std": 5.66,
+        "humidity_mean": 83.17,
+        "wind_speed_mean": 1.37,
+        "soil_wetness_mean": 0.663
+      },
+      "11": {
+        "temp_max_mean": 26.9,
+        "temp_max_std": 1.96,
+        "temp_min_mean": 18.1,
+        "temp_mean_mean": 22.5,
+        "rainfall_mean": 3.62,
+        "rainfall_std": 5.28,
+        "humidity_mean": 82.34,
+        "wind_speed_mean": 1.34,
+        "soil_wetness_mean": 0.678
+      },
+      "12": {
+        "temp_max_mean": 27.24,
+        "temp_max_std": 1.9,
+        "temp_min_mean": 16.57,
+        "temp_mean_mean": 21.91,
+        "rainfall_mean": 1.33,
+        "rainfall_std": 3.9,
+        "humidity_mean": 78.23,
+        "wind_speed_mean": 1.46,
+        "soil_wetness_mean": 0.627
+      }
+    }
+  },
+  "Tirupathur": {
+    "district_name": "Thirupathur",
+    "district_id": "thirupathur",
+    "overall": {
+      "temp_max_mean": 32.57,
+      "temp_min_mean": 21.1,
+      "rainfall_daily_mean": 2.6,
+      "rainfall_daily_std": 5.54,
+      "humidity_mean": 69.87,
+      "wind_speed_mean": 2.4,
+      "soil_wetness_mean": 0.642,
+      "annual_rainfall_mm": 947.9
+    },
+    "monthly": {
+      "1": {
+        "temp_max_mean": 29.58,
+        "temp_max_std": 1.95,
+        "temp_min_mean": 16.85,
+        "temp_mean_mean": 23.21,
+        "rainfall_mean": 0.29,
+        "rainfall_std": 1.35,
+        "humidity_mean": 74.86,
+        "wind_speed_mean": 2.14,
+        "soil_wetness_mean": 0.635
+      },
+      "2": {
+        "temp_max_mean": 33.14,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 17.77,
+        "temp_mean_mean": 25.46,
+        "rainfall_mean": 0.14,
+        "rainfall_std": 0.82,
+        "humidity_mean": 64.05,
+        "wind_speed_mean": 2.24,
+        "soil_wetness_mean": 0.584
+      },
+      "3": {
+        "temp_max_mean": 36.88,
+        "temp_max_std": 1.88,
+        "temp_min_mean": 20.75,
+        "temp_mean_mean": 28.82,
+        "rainfall_mean": 0.33,
+        "rainfall_std": 1.5,
+        "humidity_mean": 54.69,
+        "wind_speed_mean": 2.29,
+        "soil_wetness_mean": 0.565
+      },
+      "4": {
+        "temp_max_mean": 38.36,
+        "temp_max_std": 2.37,
+        "temp_min_mean": 23.72,
+        "temp_mean_mean": 31.04,
+        "rainfall_mean": 1.14,
+        "rainfall_std": 3.16,
+        "humidity_mean": 53.7,
+        "wind_speed_mean": 2.24,
+        "soil_wetness_mean": 0.567
+      },
+      "5": {
+        "temp_max_mean": 35.96,
+        "temp_max_std": 2.85,
+        "temp_min_mean": 24.55,
+        "temp_mean_mean": 30.26,
+        "rainfall_mean": 3.3,
+        "rainfall_std": 6.68,
+        "humidity_mean": 62.6,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.598
+      },
+      "6": {
+        "temp_max_mean": 33.79,
+        "temp_max_std": 2.13,
+        "temp_min_mean": 23.3,
+        "temp_mean_mean": 28.54,
+        "rainfall_mean": 2.94,
+        "rainfall_std": 4.56,
+        "humidity_mean": 65.93,
+        "wind_speed_mean": 3.22,
+        "soil_wetness_mean": 0.614
+      },
+      "7": {
+        "temp_max_mean": 32.94,
+        "temp_max_std": 2.21,
+        "temp_min_mean": 22.64,
+        "temp_mean_mean": 27.79,
+        "rainfall_mean": 3.09,
+        "rainfall_std": 5.15,
+        "humidity_mean": 68.3,
+        "wind_speed_mean": 3.55,
+        "soil_wetness_mean": 0.63
+      },
+      "8": {
+        "temp_max_mean": 32.17,
+        "temp_max_std": 2.2,
+        "temp_min_mean": 22.43,
+        "temp_mean_mean": 27.3,
+        "rainfall_mean": 4.55,
+        "rainfall_std": 6.99,
+        "humidity_mean": 72.68,
+        "wind_speed_mean": 2.78,
+        "soil_wetness_mean": 0.657
+      },
+      "9": {
+        "temp_max_mean": 31.31,
+        "temp_max_std": 2.22,
+        "temp_min_mean": 21.99,
+        "temp_mean_mean": 26.65,
+        "rainfall_mean": 4.73,
+        "rainfall_std": 6.57,
+        "humidity_mean": 76.59,
+        "wind_speed_mean": 2.13,
+        "soil_wetness_mean": 0.698
+      },
+      "10": {
+        "temp_max_mean": 29.7,
+        "temp_max_std": 2.1,
+        "temp_min_mean": 21.42,
+        "temp_mean_mean": 25.56,
+        "rainfall_mean": 4.79,
+        "rainfall_std": 6.02,
+        "humidity_mean": 81.57,
+        "wind_speed_mean": 1.56,
+        "soil_wetness_mean": 0.726
+      },
+      "11": {
+        "temp_max_mean": 28.35,
+        "temp_max_std": 2.12,
+        "temp_min_mean": 19.7,
+        "temp_mean_mean": 24.03,
+        "rainfall_mean": 4.44,
+        "rainfall_std": 8.46,
+        "humidity_mean": 83.89,
+        "wind_speed_mean": 2.09,
+        "soil_wetness_mean": 0.735
+      },
+      "12": {
+        "temp_max_mean": 28.05,
+        "temp_max_std": 1.92,
+        "temp_min_mean": 17.87,
+        "temp_mean_mean": 22.96,
+        "rainfall_mean": 1.74,
+        "rainfall_std": 5.46,
+        "humidity_mean": 81.71,
+        "wind_speed_mean": 2.27,
+        "soil_wetness_mean": 0.713
+      }
+    }
+  }
+}
