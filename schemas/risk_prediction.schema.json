@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RiskPredictionContract",
+  "type": "object",
+  "properties": {
+    "risk_prediction_id": {
+      "type": "string"
+    },
+    "canonical_district_id": {
+      "type": "string"
+    },
+    "hazard_id": {
+      "type": "string"
+    },
+    "risk_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "UNAVAILABLE"
+      ]
+    },
+    "prediction_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model_id": {
+      "type": "string"
+    },
+    "feature_contract_id": {
+      "type": "string"
+    },
+    "dataset_id": {
+      "type": "string"
+    },
+    "knowledge_base_version": {
+      "type": "string"
+    },
+    "calibration_status": {
+      "type": "string"
+    },
+    "missing_data_flag": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "risk_prediction_id",
+    "canonical_district_id",
+    "hazard_id",
+    "risk_score",
+    "risk_level",
+    "model_id",
+    "feature_contract_id"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "workflow_id": "WF-TN-DECISION-001",
+  "name": "Tamil Nadu Climate Adaptation Decision Workflow",
+  "version": "1.0.0",
+  "stages": [
+    { "stage_id": "DISTRICT_RESOLUTION", "dependencies": [], "retryable": false },
+    { "stage_id": "CLIMATE_DATA_CONTEXT", "dependencies": ["DISTRICT_RESOLUTION"], "retryable": true },
+    { "stage_id": "RISK_ENGINE", "dependencies": ["CLIMATE_DATA_CONTEXT"], "retryable": true },
+    { "stage_id": "EXPOSURE_ENGINE", "dependencies": ["CLIMATE_DATA_CONTEXT"], "retryable": true },
+    { "stage_id": "VULNERABILITY_ENGINE", "dependencies": ["CLIMATE_DATA_CONTEXT"], "retryable": true },
+    { "stage_id": "RESILIENCE_ENGINE", "dependencies": ["CLIMATE_DATA_CONTEXT"], "retryable": true },
+    { "stage_id": "ADAPTATION_PRIORITY", "dependencies": ["RISK_ENGINE", "EXPOSURE_ENGINE", "VULNERABILITY_ENGINE", "RESILIENCE_ENGINE"], "retryable": true },
+    { "stage_id": "STRATEGY_APPLICABILITY", "dependencies": ["ADAPTATION_PRIORITY"], "retryable": true },
+    { "stage_id": "CLASSICAL_OPTIMIZATION", "dependencies": ["STRATEGY_APPLICABILITY"], "retryable": true },
+    { "stage_id": "QUBO_FORMULATION", "dependencies": ["CLASSICAL_OPTIMIZATION"], "retryable": true },
+    { "stage_id": "QAOA_OPTIMIZATION", "dependencies": ["QUBO_FORMULATION"], "retryable": true },
+    { "stage_id": "PORTFOLIO_VALIDATION", "dependencies": ["CLASSICAL_OPTIMIZATION", "QAOA_OPTIMIZATION"], "retryable": false },
+    { "stage_id": "RAG_RETRIEVAL", "dependencies": ["PORTFOLIO_VALIDATION"], "retryable": true },
+    { "stage_id": "LLM_EXPLANATION", "dependencies": ["RAG_RETRIEVAL"], "retryable": true },
+    { "stage_id": "OUTPUT_VALIDATION", "dependencies": ["LLM_EXPLANATION"], "retryable": false }
+  ]
+}

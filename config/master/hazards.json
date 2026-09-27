@@ -1,0 +1,52 @@
+[
+  {
+    "hazard_id": "HAZ-FLD",
+    "canonical_name": "Urban & Riverine Flooding",
+    "code": "flood",
+    "unit": "Probability (0-1)",
+    "risk_type": "MODEL_PREDICTED",
+    "model_supported": true,
+    "data_source": "Open-Meteo & XGBoost Flood Classifier",
+    "status": "ACTIVE"
+  },
+  {
+    "hazard_id": "HAZ-DRG",
+    "canonical_name": "Agricultural & Meteorological Drought",
+    "code": "drought",
+    "unit": "Probability (0-1)",
+    "risk_type": "MODEL_PREDICTED",
+    "model_supported": true,
+    "data_source": "Open-Meteo SPI Indices & XGBoost Drought Classifier",
+    "status": "ACTIVE"
+  },
+  {
+    "hazard_id": "HAZ-HTW",
+    "canonical_name": "Extreme Heatwave & Thermal Stress",
+    "code": "heatwave",
+    "unit": "Probability (0-1)",
+    "risk_type": "MODEL_PREDICTED",
+    "model_supported": true,
+    "data_source": "Open-Meteo & XGBoost Heatwave Classifier",
+    "status": "ACTIVE"
+  },
+  {
+    "hazard_id": "HAZ-EXT-RNF",
+    "canonical_name": "Extreme Rainfall / Cloudburst",
+    "code": "extreme_rainfall",
+    "unit": "mm/day",
+    "risk_type": "RULE_BASED",
+    "model_supported": true,
+    "data_source": "Physical Index Threshold (>100mm/day)",
+    "status": "ACTIVE"
+  },
+  {
+    "hazard_id": "HAZ-CST",
+    "canonical_name": "Coastal Inundation & Storm Surge",
+    "code": "coastal",
+    "unit": "Severity Index (0-1)",
+    "risk_type": "RULE_BASED",
+    "model_supported": true,
+    "data_source": "Coastal Elevation & Wind Gust Index",
+    "status": "ACTIVE"
+  }
+]

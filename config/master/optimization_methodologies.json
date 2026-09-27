@@ -1,0 +1,9 @@
+[
+  {
+    "methodology_id": "MTH-OPT-TN-001",
+    "name": "Tamil Nadu Classical Adaptation Strategy Portfolio Optimization Framework",
+    "version": "1.0.0",
+    "description": "Multi-objective classical baseline framework. Formulates binary decision variables x_i for Phase I strategy candidates, evaluating hazard coverage, adaptation priority alignment, evidence strength, feasibility, and strategy interaction terms under hard conflict and dependency constraints.",
+    "status": "ACTIVE"
+  }
+]

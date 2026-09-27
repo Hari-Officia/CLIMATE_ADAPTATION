@@ -13,6 +13,16 @@ from backend.api.risk import router as risk_router
 from backend.api.gis import router as gis_router
 from backend.api.system import router as system_router
 from backend.api.hazards import router as hazards_router
+from backend.api.exposure import router as exposure_router
+from backend.api.priority import router as priority_router
+from backend.api.strategies import router as strategies_router
+from backend.api.optimization import router as optimization_router
+from backend.api.qubo import qubo_router
+from backend.api.qaoa import qaoa_router
+from backend.api.rag import router as rag_router
+from backend.api.explanation import router as explanation_router
+from backend.api.decision import router as decision_router
+from backend.api.governance import router as governance_router
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("api_main")
@@ -30,8 +40,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Quantum Multi-Agent Climate Risk Intelligence API",
-    description="Operational Backend for Review II — Multi-Hazard Climate Risk & Decision Support System",
-    version="2.0.0",
+    description="Operational Backend for Phase O — Enterprise Decision Intelligence API & Multi-Agent Orchestration",
+    version="3.0.0",
     lifespan=lifespan
 )
 
@@ -53,6 +63,23 @@ app.include_router(risk_router, prefix="/risk")
 app.include_router(gis_router, prefix="/gis")
 app.include_router(system_router, prefix="/system")
 app.include_router(hazards_router)
+app.include_router(exposure_router)
+app.include_router(priority_router)
+app.include_router(strategies_router)
+app.include_router(optimization_router)
+app.include_router(qubo_router, prefix="/api/v1/qubo")
+app.include_router(qubo_router, prefix="/qubo")
+app.include_router(qaoa_router, prefix="/api/v1/qaoa")
+app.include_router(qaoa_router, prefix="/qaoa")
+app.include_router(rag_router)
+app.include_router(explanation_router)
+app.include_router(decision_router)
+app.include_router(governance_router)
+
+
+
+
+
 
 @app.get("/")
 async def root():

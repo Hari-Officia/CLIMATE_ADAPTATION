@@ -1,0 +1,9 @@
+{
+  "provider_mode": "SIMULATOR_ONLY",
+  "provider_class": "<class 'type'>",
+  "engine_class": "<class 'type'>",
+  "ibm_quantum_available": false,
+  "aws_braket_available": false,
+  "authenticated": false,
+  "provider_type": "LOCAL_WRAPPER_PROXY"
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DecisionResultSchema",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "request_id",
+    "workflow_id",
+    "district_id",
+    "district_name",
+    "risk_score",
+    "priority_score",
+    "selected_strategies",
+    "optimization_summary",
+    "explanation",
+    "validation_status"
+  ],
+  "properties": {
+    "decision_id": { "type": "string" },
+    "request_id": { "type": "string" },
+    "workflow_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "risk_score": { "type": "number" },
+    "hazard_profile": { "type": "array", "items": { "type": "string" } },
+    "priority_score": { "type": "number" },
+    "selected_strategies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["strategy_id", "name", "selection_reason"],
+        "properties": {
+          "strategy_id": { "type": "string" },
+          "name": { "type": "string" },
+          "domain": { "type": "string" },
+          "selection_reason": { "type": "string" }
+        }
+      }
+    },
+    "optimization_summary": {
+      "type": "object",
+      "required": ["solver_type", "objective_value"],
+      "properties": {
+        "solver_type": { "type": "string" },
+        "objective_value": { "type": "number" },
+        "qaoa_p_depth": { "type": ["integer", "null"] },
+        "qaoa_feasibility_probability": { "type": ["number", "null"] },
+        "objective_gap": { "type": ["number", "null"] },
+        "quantum_advantage_claimed": { "type": "boolean" }
+      }
+    },
+    "explanation": { "type": "object" },
+    "validation_status": { "type": "string" },
+    "context_hash": { "type": "string" },
+    "decision_schema_version": { "type": "string", "default": "1.0.0" }
+  }
+}

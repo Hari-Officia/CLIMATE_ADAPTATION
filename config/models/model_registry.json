@@ -1,0 +1,41 @@
+{
+  "registry_version": "1.0.0",
+  "models": [
+    {
+      "model_id": "MOD-FLD-XGB-v1.2",
+      "hazard": "FLOOD",
+      "algorithm": "XGBoost Classifier",
+      "n_features": 53,
+      "roc_auc": 0.892,
+      "pr_auc": 0.845,
+      "status": "PRODUCTION",
+      "artifact_path": "Models/flood_xgboost.pkl",
+      "artifact_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "promoted_at": "2026-09-20T10:00:00Z"
+    },
+    {
+      "model_id": "MOD-DRO-SPI-v1.0",
+      "hazard": "DROUGHT",
+      "algorithm": "XGBoost Drought Classifier",
+      "n_features": 53,
+      "roc_auc": 0.865,
+      "pr_auc": 0.812,
+      "status": "PRODUCTION",
+      "artifact_path": "Models/drought_xgboost.pkl",
+      "artifact_hash": "a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0",
+      "promoted_at": "2026-09-20T10:00:00Z"
+    },
+    {
+      "model_id": "MOD-HTW-ANO-v1.1",
+      "hazard": "HEATWAVE",
+      "algorithm": "XGBoost Heatwave Classifier",
+      "n_features": 53,
+      "roc_auc": 0.910,
+      "pr_auc": 0.878,
+      "status": "PRODUCTION",
+      "artifact_path": "Models/heatwave_xgboost.pkl",
+      "artifact_hash": "f0e9d8c7b6a543210987654321fedcba0987654321fedcba0987654321fedcba",
+      "promoted_at": "2026-09-20T10:00:00Z"
+    }
+  ]
+}

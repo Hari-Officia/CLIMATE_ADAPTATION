@@ -1,0 +1,3 @@
+gap_id,category,description,impact_on_optimization,recommended_action,status
+REV-001,QUANTITATIVE_EFFICACY,Cool roof 2-4°C metric requires local field trial verification.,QUALITATIVE_ONLY_BASELINE,Maintain qualitative review flag without arbitrary numeric efficacy.,ACTIVE
+GAP-LIDAR-001,GIS_ELEVATION,LiDAR micro-elevation data gap for coastal inundation modeling.,SPATIAL_CONSTRAINT_ONLY,Rely on PostGIS district boundary coastal flags.,ACTIVE

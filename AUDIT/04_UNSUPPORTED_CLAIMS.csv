@@ -1,0 +1,2 @@
+claim_id,claim_description,source_id,claimed_value,verified_value,support_status,issue,severity,required_action
+CLM-AUD-001,Numeric effectiveness reduction percentages for urban bioswales in Tamil Nadu,RES-TN-001,NULL,NULL,STRICT_NULL_ENFORCED,No local empirical field trial provided exact static percentage.,INFO,Retain NULL and preserve qualitative evidence label HIGH.

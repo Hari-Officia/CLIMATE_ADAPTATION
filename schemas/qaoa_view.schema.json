@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QAOAViewSchema",
+  "type": "object",
+  "required": ["experiment_id", "p_depth", "feasibility_probability", "objective_gap", "quantum_advantage_claimed"],
+  "properties": {
+    "experiment_id": { "type": "string" },
+    "p_depth": { "type": "integer" },
+    "feasibility_probability": { "type": "number" },
+    "objective_gap": { "type": "number" },
+    "quantum_advantage_claimed": { "type": "boolean" }
+  }
+}

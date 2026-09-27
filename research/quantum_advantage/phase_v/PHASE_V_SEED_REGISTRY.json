@@ -1,0 +1,64 @@
+{
+  "seeds": [
+    {
+      "seed_id": "SEED-1000",
+      "seed_value": 1000,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1001",
+      "seed_value": 1001,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1002",
+      "seed_value": 1002,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1003",
+      "seed_value": 1003,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1004",
+      "seed_value": 1004,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1005",
+      "seed_value": 1005,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1006",
+      "seed_value": 1006,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1007",
+      "seed_value": 1007,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1008",
+      "seed_value": 1008,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    },
+    {
+      "seed_id": "SEED-1009",
+      "seed_value": 1009,
+      "group": "BASELINE_BENCHMARK",
+      "status": "VERIFIED"
+    }
+  ]
+}

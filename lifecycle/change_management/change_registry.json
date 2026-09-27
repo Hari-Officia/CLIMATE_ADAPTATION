@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "change_requests": [
+    {
+      "cr_id": "CR-2026-001",
+      "classification": "CLASS 1: Non-functional maintenance",
+      "requester": "System Governance Engine",
+      "reason": "Establish quarterly review framework and NCR governance engine",
+      "baseline": "BASE-3.0.0-20260923",
+      "scientific_impact": "NONE",
+      "status": "APPROVED_AND_APPLIED"
+    },
+    {
+      "change_id": "CR-V3.1-001",
+      "cr_id": "CR-V3.1-001",
+      "classification": "CLASS 2: Technical/Infrastructure Hardening",
+      "requester": "Release Management & Engineering",
+      "baseline": "BASE-3.0.0-20260923",
+      "target_release": "3.1.0-rc1",
+      "reason": "Pydantic V2 migration for deprecation warning elimination and production readiness hardening",
+      "scope": "Backend configuration, Pydantic schemas, API routers, database context & query handling, release packaging",
+      "affected_modules": ["backend.config", "backend.schemas.*", "backend.api.*", "backend.hazards.base"],
+      "scientific_impact": "ZERO_EQUIVALENT_VERIFIED",
+      "mathematical_impact": "ZERO_EQUIVALENT_VERIFIED",
+      "data_impact": "ZERO_PRESERVED",
+      "API_impact": "BACKWARD_COMPATIBLE",
+      "security_impact": "HARDENED",
+      "performance_impact": "OPTIMIZED_STABLE",
+      "reproducibility_impact": "100% DETERMINISTIC",
+      "rollback": "REVERT_GIT_BRANCH_TO_BASE-3.0.0-20260923",
+      "tests": "181/181 AUTOMATED + 27 INDEPENDENT VERIFICATION SCRIPTS",
+      "approval": "APPROVED_FOR_RELEASE_CANDIDATE",
+      "status": "IMPLEMENTED_VERIFIED"
+    }
+  ]
+}

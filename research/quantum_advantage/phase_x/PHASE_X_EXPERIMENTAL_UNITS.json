@@ -1,0 +1,18 @@
+{
+  "level_1_measurement_shot": {
+    "count": 1945600,
+    "description": "1024 measurement shots per run (Nested observation)"
+  },
+  "level_2_qaoa_run": {
+    "count": 1900,
+    "description": "Primary experimental unit (38 districts x 5 depths x 10 seeds)"
+  },
+  "level_3_district": {
+    "count": 38,
+    "description": "Problem instance grouping"
+  },
+  "level_4_depth": {
+    "count": 5,
+    "description": "Circuit depth factor (p=1..5)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "protocol_id": "PHASE_AB_HARDWARE_PROTOCOL_V1",
+  "timestamp": "2026-09-23T17:34:00Z",
+  "scope": "CLIMATE_ADAPTATION_ONLY",
+  "hardware_progression": [
+    "H1 (N=4)",
+    "H2 (N=6)",
+    "H3 (N=8)",
+    "H4 (N=10)",
+    "H5 (N=12)",
+    "H6 (N=14)"
+  ],
+  "transpilation_policy": "TRANSPILE_ONCE_RECORD_EVERYTHING",
+  "raw_count_policy": "sum(raw_counts) == shots",
+  "gap_formula": "(exact_optimum - hardware_objective) / abs(exact_optimum)"
+}

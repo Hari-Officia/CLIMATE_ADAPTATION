@@ -1,0 +1,4 @@
+# Service Initialization Audit
+
+- **Authentication Status**: `BLOCKED_UNAUTHENTICATED`
+- **Provider Type**: `UNAUTHENTICATED_LOCAL_DRIVER`

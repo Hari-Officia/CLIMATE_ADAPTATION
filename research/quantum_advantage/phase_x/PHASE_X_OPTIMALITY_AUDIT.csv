@@ -1,0 +1,2 @@
+metric,numerator_exact_hits,denominator_total_runs,percentage,definition
+optimality_hit_rate_p2,50,350,14.3%,Exact optimum hit rate of QAOA p=2 runs

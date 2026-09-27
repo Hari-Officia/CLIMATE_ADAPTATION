@@ -1,0 +1,18 @@
+{
+  "VIEWER": {
+    "requests_per_minute": 60,
+    "qaoa_execution_allowed": false
+  },
+  "ANALYST": {
+    "requests_per_minute": 120,
+    "qaoa_execution_allowed": true
+  },
+  "RESEARCHER": {
+    "requests_per_minute": 300,
+    "qaoa_execution_allowed": true
+  },
+  "ADMIN": {
+    "requests_per_minute": 600,
+    "qaoa_execution_allowed": true
+  }
+}

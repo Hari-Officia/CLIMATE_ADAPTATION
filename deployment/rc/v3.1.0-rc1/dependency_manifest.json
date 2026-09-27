@@ -1,0 +1,8 @@
+{
+  "pydantic_version": "2.7.1",
+  "pydantic_settings_version": "2.2.1",
+  "fastapi_version": "0.111.0",
+  "xgboost_version": "2.0.3",
+  "highs_solver": "1.7.0",
+  "qiskit_version": "1.0.0"
+}

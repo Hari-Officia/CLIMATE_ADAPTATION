@@ -1,0 +1,12 @@
+{
+  "protocol_id": "PHASE_AC_PHYSICAL_HARDWARE_PROTOCOL_V1",
+  "timestamp": "2026-09-23T17:41:00Z",
+  "scope": "CLIMATE_ADAPTATION_ONLY",
+  "scientific_labels": {
+    "REAL_HARDWARE": "Physical quantum processor execution with real job ID",
+    "HARDWARE_CALIBRATED_SIMULATION": "Calibrated noise simulation (Phase AB)",
+    "NOISY_SIMULATION": "Synthetic noise simulation (Phase Z)",
+    "IDEAL_SIMULATION": "Statevector / shot simulation without noise"
+  },
+  "no_simulator_fallback_policy": "If physical hardware unauthenticated, report BLOCKED / SIMULATED_DRIVER without mislabeling"
+}

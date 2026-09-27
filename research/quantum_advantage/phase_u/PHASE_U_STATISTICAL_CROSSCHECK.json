@@ -1,0 +1,12 @@
+{
+  "best_valid_gap": 0.0743,
+  "mean_valid_gap": 0.1017,
+  "median_valid_gap": 0.0743,
+  "std_valid_gap": 0.0336,
+  "min_valid_gap": 0.0743,
+  "max_valid_gap": 0.1429,
+  "best_optimal_probability": 0.006836,
+  "mean_optimal_probability": 0.004102,
+  "feasible_probability": 1.0,
+  "phase_t_comparison": "MATCH"
+}

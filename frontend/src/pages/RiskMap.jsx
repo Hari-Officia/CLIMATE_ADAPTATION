@@ -12,9 +12,7 @@ import {
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import {
-  ShieldAlert,
   Search,
-  Calendar,
   Layers,
   MapPin,
   Info,
@@ -26,36 +24,41 @@ import {
   CloudRain,
   Droplets,
   Wind,
-  Zap,
+  Shield,
   Activity,
-  Shield
+  Compass,
+  CheckCircle,
+  AlertTriangle,
+  Clock,
+  ExternalLink
 } from 'lucide-react';
 
 const API_BASE = 'http://localhost:8000';
 
-// Custom Pin Icon for Leaflet
-const customPinIcon = new L.DivIcon({
-  className: 'custom-pin',
+// Professional Google-Maps style pin icon
+const customLocationPin = new L.DivIcon({
+  className: 'gmaps-pin',
   html: `
     <div style="
-      background: #06b6d4;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      border: 3px solid #ffffff;
-      box-shadow: 0 0 12px rgba(6, 182, 212, 0.8);
+      position: relative;
+      width: 28px;
+      height: 38px;
       display: flex;
       align-items: center;
       justify-content: center;
     ">
-      <div style="background: white; width: 6px; height: 6px; border-radius: 50%;"></div>
+      <svg width="28" height="38" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0C5.37 0 0 5.37 0 12C0 21 12 34 12 34C12 34 24 21 24 12C24 5.37 18.63 0 12 0Z" fill="#EA4335" stroke="#FFFFFF" stroke-width="1.5"/>
+        <circle cx="12" cy="11" r="5" fill="#FFFFFF"/>
+      </svg>
     </div>
   `,
-  iconSize: [24, 24],
-  iconAnchor: [12, 12]
+  iconSize: [28, 38],
+  iconAnchor: [14, 38],
+  popupAnchor: [0, -36]
 });
 
-// Map Controller helper
+// Map Controller for smooth flyTo
 function MapController({ center, zoom }) {
   const map = useMap();
   useEffect(() => {
@@ -80,10 +83,10 @@ export default function RiskMap() {
   const [hazard, setHazard] = useState('flood');
   const [dayIndex, setDayIndex] = useState(0);
   const [geoJsonData, setGeoJsonData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loadingOverlay, setLoadingOverlay] = useState(true);
 
   // Selected Pin / Location Data
-  const [selectedPoint, setSelectedPoint] = useState(null);
+  const [selectedPoint, setSelectedPoint] = useState({ lat: 13.0827, lon: 80.2707 }); // Default Chennai
   const [selectedDetails, setSelectedDetails] = useState(null);
   const [detailsLoading, setDetailsLoading] = useState(false);
   const [mapCenter, setMapCenter] = useState([11.1271, 78.6569]); // Center of Tamil Nadu
@@ -95,16 +98,21 @@ export default function RiskMap() {
   const [searching, setSearching] = useState(false);
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
 
-  // Load GeoJSON Overlay
+  // Layer control state
+  const [showBoundaries, setShowBoundaries] = useState(true);
+  const [showRiskOverlay, setShowRiskOverlay] = useState(true);
+  const [activeBasemap, setActiveBasemap] = useState('road'); // 'road' | 'light' | 'dark'
+
+  // Load GeoJSON Overlay from authoritative API
   const loadRiskOverlay = async () => {
-    setLoading(true);
+    setLoadingOverlay(true);
     try {
       const resp = await axios.get(`${API_BASE}/gis/risk-overlay?hazard=${hazard}&day=${dayIndex}`);
       setGeoJsonData(resp.data);
     } catch (err) {
       console.error('Failed to load risk overlay:', err);
     } finally {
-      setLoading(false);
+      setLoadingOverlay(false);
     }
   };
 
@@ -112,7 +120,12 @@ export default function RiskMap() {
     loadRiskOverlay();
   }, [hazard, dayIndex]);
 
-  // Debounced search
+  // Initial load for default location
+  useEffect(() => {
+    handleMapClick(13.0827, 80.2707, 'Chennai');
+  }, []);
+
+  // Debounced place search
   useEffect(() => {
     if (!searchQuery.trim()) {
       setSearchResults([]);
@@ -131,40 +144,50 @@ export default function RiskMap() {
       } finally {
         setSearching(false);
       }
-    }, 280);
+    }, 250);
 
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  // Handle map click
-  const handleMapClick = async (lat, lon) => {
+  // Handle map click with authoritative multi-hazard & point-in-polygon resolution
+  const handleMapClick = async (lat, lon, placeLabel = null) => {
     setSelectedPoint({ lat, lon });
     setDetailsLoading(true);
     try {
-      // Find district via reverse geocode
+      // 1. Identify containing district via Point-in-Polygon
       const revRes = await axios.get(`${API_BASE}/locations/reverse?lat=${lat}&lon=${lon}`);
       const districtId = revRes.data.district_id;
+      const districtName = revRes.data.district_name;
 
       if (!districtId) {
-        setSelectedDetails({ error: 'Location outside Tamil Nadu operational domain.' });
+        setSelectedDetails({
+          placeName: placeLabel || `${lat.toFixed(4)}°N, ${lon.toFixed(4)}°E`,
+          error: "Location outside supported Tamil Nadu boundary."
+        });
         return;
       }
 
-      const [hazardRes, forecastRes] = await Promise.all([
-        axios.get(`${API_BASE}/risk/${districtId}/hazards?day=${dayIndex}`),
+      // 2. Fetch authoritative risk bundle and forecast
+      const [riskRes, forecastRes] = await Promise.all([
+        axios.get(`${API_BASE}/risk/district/${districtId}?day=${dayIndex}`),
         axios.get(`${API_BASE}/forecast/${districtId}`)
       ]);
 
       setSelectedDetails({
-        districtName: revRes.data.district_name,
+        placeName: placeLabel || districtName,
+        districtName: districtName,
         districtId: districtId,
-        hazards: hazardRes.data.hazards,
-        exposure: hazardRes.data.demographic_exposure,
-        forecast: forecastRes.data
+        riskAssessment: riskRes.data.assessment,
+        demographicExposure: riskRes.data.demographic_exposure,
+        forecast: forecastRes.data,
+        timestamp: new Date().toLocaleTimeString()
       });
     } catch (err) {
-      console.warn('Coordinates lookup failed:', err);
-      setSelectedDetails({ error: 'Selected point outside model domain.' });
+      console.warn('Point resolution failed:', err);
+      setSelectedDetails({
+        placeName: placeLabel || `${lat.toFixed(4)}°N, ${lon.toFixed(4)}°E`,
+        error: "Location outside supported Tamil Nadu boundary."
+      });
     } finally {
       setDetailsLoading(false);
     }
@@ -175,28 +198,41 @@ export default function RiskMap() {
     setShowSearchDropdown(false);
     setMapCenter([item.latitude, item.longitude]);
     setMapZoom(11);
-    handleMapClick(item.latitude, item.longitude);
+    handleMapClick(item.latitude, item.longitude, item.name);
   };
 
-  // Styling logic for GeoJSON polygons
+  // Authoritative GIS Styling logic
   const getFeatureStyle = (feature) => {
+    if (!showRiskOverlay) {
+      return {
+        fillColor: '#64748b',
+        weight: 1.5,
+        opacity: 0.8,
+        color: '#475569',
+        fillOpacity: 0.05
+      };
+    }
+
     const props = feature.properties || {};
-    const riskLevel = props.risk_level || 'LOW';
+    const riskLevel = props.risk_level;
 
-    let fillColor = '#10b981'; // LOW = emerald
-    let fillOpacity = 0.40;
+    let fillColor = '#10b981'; // LOW = green
+    let fillOpacity = 0.45;
 
-    if (riskLevel === 'SEVERE' || riskLevel === 'HIGH') {
-      fillColor = '#f43f5e'; // HIGH / SEVERE = rose
+    if (riskLevel === 'HIGH' || riskLevel === 'SEVERE') {
+      fillColor = '#ef4444'; // HIGH = red
       fillOpacity = 0.65;
     } else if (riskLevel === 'MEDIUM') {
-      fillColor = '#f59e0b'; // MEDIUM = amber
+      fillColor = '#f59e0b'; // MEDIUM = amber/yellow
       fillOpacity = 0.55;
+    } else if (riskLevel === 'UNAVAILABLE' || riskLevel === null) {
+      fillColor = '#94a3b8'; // UNAVAILABLE = neutral gray
+      fillOpacity = 0.30;
     }
 
     return {
       fillColor,
-      weight: 1.5,
+      weight: showBoundaries ? 1.5 : 0.5,
       opacity: 0.9,
       color: '#334155',
       dashArray: '',
@@ -207,25 +243,27 @@ export default function RiskMap() {
   const onEachFeature = (feature, layer) => {
     const props = feature.properties || {};
     const name = props.district_name || 'District';
-    const prob = (props.probability !== undefined) ? (props.probability * 100).toFixed(1) : '0.0';
     const level = props.risk_level || 'LOW';
+    const probStr = props.probability !== null && props.probability !== undefined
+      ? `${(props.probability * 100).toFixed(1)}%`
+      : 'Unavailable (No SPI)';
 
     layer.bindTooltip(`
-      <div style="font-family: sans-serif; padding: 4px;">
-        <strong style="color: #fff; font-size: 13px;">${name}</strong><br/>
-        <span style="font-size: 11px; color: #94a3b8;">${hazard.toUpperCase()} Risk:</span>
-        <strong style="color: ${level === 'HIGH' || level === 'SEVERE' ? '#f43f5e' : level === 'MEDIUM' ? '#f59e0b' : '#10b981'}; font-size: 12px;">
-          ${level} (${prob}%)
+      <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 4px;">
+        <strong style="color: #0f172a; font-size: 13px;">${name}</strong><br/>
+        <span style="font-size: 11px; color: #64748b;">${hazard.toUpperCase()} Risk:</span>
+        <strong style="color: ${level === 'HIGH' || level === 'SEVERE' ? '#ef4444' : level === 'MEDIUM' ? '#f59e0b' : level === 'UNAVAILABLE' ? '#64748b' : '#10b981'}; font-size: 12px;">
+          ${level} ${props.probability !== null ? `(${probStr})` : ''}
         </strong>
       </div>
-    `, { sticky: true, className: 'leaflet-tooltip-dark' });
+    `, { sticky: true, className: 'leaflet-tooltip-clean' });
 
     layer.on({
       mouseover: (e) => {
         const l = e.target;
         l.setStyle({
-          weight: 3,
-          color: '#38bdf8',
+          weight: 2.5,
+          color: '#0284c7',
           fillOpacity: 0.8
         });
         l.bringToFront();
@@ -238,52 +276,56 @@ export default function RiskMap() {
         const lat = props.latitude || e.latlng.lat;
         const lon = props.longitude || e.latlng.lng;
         setMapCenter([lat, lon]);
-        handleMapClick(lat, lon);
+        handleMapClick(lat, lon, name);
       }
     });
   };
 
+  const basemapTiles = {
+    road: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    light: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+  };
+
   return (
-    <div className="relative w-full h-[calc(100vh)] flex flex-col bg-slate-950 overflow-hidden select-none">
-      {/* Top Floating Control Bar */}
-      <div className="absolute top-4 left-4 right-4 z-20 flex flex-col md:flex-row items-center justify-between gap-3 pointer-events-none">
-        {/* Search Bar */}
-        <div className="relative w-full md:w-80 pointer-events-auto">
-          <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
-              <Search className="w-4 h-4" />
-            </div>
+    <div className="relative w-full h-[calc(100vh)] flex flex-col bg-slate-100 overflow-hidden font-sans">
+      {/* Top Floating Google-Maps Style Search & Control Bar */}
+      <div className="absolute top-4 left-4 z-[1000] flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+        {/* Search Box */}
+        <div className="relative w-80 sm:w-96 shadow-lg rounded-2xl bg-white border border-slate-200">
+          <div className="flex items-center px-3.5 py-2.5">
+            <Search className="w-5 h-5 text-slate-400 mr-2 flex-shrink-0" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search landmark (Marina Beach, Avadi...)"
-              className="w-full pl-9 pr-4 py-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-xl text-xs text-white placeholder-slate-400 focus:outline-none focus:border-cyan-500 shadow-xl"
+              placeholder="Search place in Tamil Nadu (e.g. Marina Beach, Avadi)"
+              className="w-full text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none bg-transparent"
             />
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery('')}
-                className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-white"
+                className="text-slate-400 hover:text-slate-600 p-1"
               >
-                <X className="w-3.5 h-3.5" />
+                <X className="w-4 h-4" />
               </button>
             )}
           </div>
 
-          {/* Autocomplete Dropdown */}
+          {/* Autocomplete Results */}
           {showSearchDropdown && searchResults.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-1.5 bg-slate-900/95 backdrop-blur-xl border border-slate-700 rounded-xl shadow-2xl overflow-hidden z-50 max-h-60 overflow-y-auto">
+            <div className="absolute top-full left-0 right-0 mt-1.5 bg-white border border-slate-200 rounded-2xl shadow-2xl overflow-hidden z-[1010] max-h-64 overflow-y-auto">
               {searchResults.map((item, i) => (
                 <div
                   key={i}
                   onClick={() => handleSelectSearchResult(item)}
-                  className="p-2.5 hover:bg-slate-800/80 cursor-pointer border-b border-slate-800/60 last:border-0 flex items-center justify-between text-xs"
+                  className="px-4 py-2.5 hover:bg-slate-50 cursor-pointer border-b border-slate-100 last:border-0 flex items-center justify-between text-xs"
                 >
                   <div>
-                    <p className="font-semibold text-white">{item.name}</p>
-                    <p className="text-[10px] text-slate-400">District: {item.district_name}</p>
+                    <p className="font-semibold text-slate-800">{item.name}</p>
+                    <p className="text-[11px] text-slate-500">District: {item.district_name}</p>
                   </div>
-                  <span className="text-[9px] bg-slate-800 text-cyan-400 px-1.5 py-0.5 rounded border border-slate-700">
+                  <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">
                     {item.category}
                   </span>
                 </div>
@@ -292,40 +334,37 @@ export default function RiskMap() {
           )}
         </div>
 
-        {/* Hazard Switcher & Day Timeline */}
-        <div className="flex flex-wrap items-center gap-2 pointer-events-auto bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800/80 shadow-xl">
-          {/* Hazard Buttons */}
-          <div className="flex items-center space-x-1 pr-2 border-r border-slate-800">
-            {[
-              { key: 'flood', label: 'Flood' },
-              { key: 'heatwave', label: 'Heatwave' },
-              { key: 'drought', label: 'Drought' },
-              { key: 'overall', label: 'Combined' }
-            ].map((item) => (
-              <button
-                key={item.key}
-                onClick={() => setHazard(item.key)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                  hazard === item.key
-                    ? 'bg-cyan-500 text-white shadow-md shadow-cyan-500/30'
-                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
-                }`}
-              >
-                {item.label}
-              </button>
-            ))}
-          </div>
+        {/* Hazard & Horizon Selector */}
+        <div className="flex items-center gap-1.5 p-1 bg-white border border-slate-200 shadow-lg rounded-2xl">
+          {[
+            { key: 'flood', label: 'Flood' },
+            { key: 'heatwave', label: 'Heatwave' },
+            { key: 'drought', label: 'Drought' },
+            { key: 'overall', label: 'Combined' }
+          ].map((item) => (
+            <button
+              key={item.key}
+              onClick={() => setHazard(item.key)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
+                hazard === item.key
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+              }`}
+            >
+              {item.label}
+            </button>
+          ))}
 
-          {/* Day Timeline */}
-          <div className="flex items-center space-x-1 pl-1">
+          {/* Forecast Days */}
+          <div className="flex items-center pl-2 border-l border-slate-200 space-x-1">
             {[0, 1, 2, 3, 4, 5, 6].map((day) => (
               <button
                 key={day}
                 onClick={() => setDayIndex(day)}
-                className={`w-7 h-7 rounded-lg text-xs font-bold transition flex items-center justify-center ${
+                className={`w-6 h-6 rounded-lg text-[11px] font-bold transition flex items-center justify-center ${
                   dayIndex === day
-                    ? 'bg-blue-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                    ? 'bg-slate-800 text-white'
+                    : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100'
                 }`}
                 title={`Day ${day === 0 ? 'Today' : day}`}
               >
@@ -336,7 +375,56 @@ export default function RiskMap() {
         </div>
       </div>
 
-      {/* Main Map Container */}
+      {/* Layer Control Card (Bottom Left) */}
+      <div className="absolute bottom-6 left-6 z-[1000] bg-white border border-slate-200 shadow-xl rounded-2xl p-3 text-xs space-y-2 max-w-[220px]">
+        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+          Map Layers & Scale
+        </span>
+
+        {/* Risk Level Colors */}
+        <div className="space-y-1 pb-2 border-b border-slate-100">
+          <div className="flex items-center space-x-2">
+            <span className="w-3 h-3 rounded bg-rose-500"></span>
+            <span className="text-slate-700 text-[11px]">High (≥ 70%)</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <span className="w-3 h-3 rounded bg-amber-500"></span>
+            <span className="text-slate-700 text-[11px]">Medium (40–69%)</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <span className="w-3 h-3 rounded bg-emerald-500"></span>
+            <span className="text-slate-700 text-[11px]">Low (&lt; 40%)</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <span className="w-3 h-3 rounded bg-slate-400"></span>
+            <span className="text-slate-700 text-[11px]">Unavailable</span>
+          </div>
+        </div>
+
+        {/* Toggles */}
+        <div className="space-y-1.5 pt-1">
+          <label className="flex items-center space-x-2 cursor-pointer text-slate-700">
+            <input
+              type="checkbox"
+              checked={showRiskOverlay}
+              onChange={(e) => setShowRiskOverlay(e.target.checked)}
+              className="rounded text-blue-600 focus:ring-0"
+            />
+            <span>Hazard Risk Overlay</span>
+          </label>
+          <label className="flex items-center space-x-2 cursor-pointer text-slate-700">
+            <input
+              type="checkbox"
+              checked={showBoundaries}
+              onChange={(e) => setShowBoundaries(e.target.checked)}
+              className="rounded text-blue-600 focus:ring-0"
+            />
+            <span>District Boundaries</span>
+          </label>
+        </div>
+      </div>
+
+      {/* Main Interactive Map */}
       <div className="flex-1 w-full h-full relative z-0">
         <MapContainer
           center={mapCenter}
@@ -344,35 +432,35 @@ export default function RiskMap() {
           className="w-full h-full"
           zoomControl={true}
           minZoom={6}
-          maxZoom={14}
+          maxZoom={15}
         >
           <MapController center={mapCenter} zoom={mapZoom} />
           <MapClickListener onMapClick={handleMapClick} />
 
-          {/* CartoDB Dark Matter Base */}
+          {/* Standard Road Map Tiles */}
           <TileLayer
-            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-            attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+            url={basemapTiles[activeBasemap]}
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
 
-          {/* Tamil Nadu 38 District Choropleth Polygons */}
+          {/* GeoJSON District Polygons */}
           {geoJsonData && (
             <GeoJSON
-              key={`${hazard}_${dayIndex}_${geoJsonData.features?.length}`}
+              key={`${hazard}_${dayIndex}_${showRiskOverlay}_${showBoundaries}`}
               data={geoJsonData}
               style={getFeatureStyle}
               onEachFeature={onEachFeature}
             />
           )}
 
-          {/* Selected Marker */}
+          {/* Location Pin */}
           {selectedPoint && (
-            <Marker position={[selectedPoint.lat, selectedPoint.lon]} icon={customPinIcon}>
-              <Popup className="leaflet-popup-dark">
-                <div className="p-1 text-xs">
-                  <p className="font-bold text-white">Selected Coordinate</p>
-                  <p className="text-cyan-400 text-[10px]">
-                    {selectedPoint.lat.toFixed(4)}, {selectedPoint.lon.toFixed(4)}
+            <Marker position={[selectedPoint.lat, selectedPoint.lon]} icon={customLocationPin}>
+              <Popup>
+                <div className="text-xs">
+                  <strong>{selectedDetails?.placeName || 'Selected Place'}</strong>
+                  <p className="text-slate-500 text-[10px]">
+                    {selectedPoint.lat.toFixed(4)}°N, {selectedPoint.lon.toFixed(4)}°E
                   </p>
                 </div>
               </Popup>
@@ -381,144 +469,258 @@ export default function RiskMap() {
         </MapContainer>
       </div>
 
-      {/* Legend Card */}
-      <div className="absolute bottom-6 left-6 z-20 pointer-events-auto bg-slate-900/90 backdrop-blur-md p-3.5 rounded-xl border border-slate-800 shadow-xl text-xs space-y-2 max-w-[200px]">
-        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
-          Hazard Risk Scale
-        </span>
-        <div className="space-y-1.5">
-          <div className="flex items-center space-x-2">
-            <span className="w-3.5 h-3.5 rounded bg-rose-500 opacity-80"></span>
-            <span className="text-slate-300 text-[11px]">High / Severe Risk (≥ 70%)</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <span className="w-3.5 h-3.5 rounded bg-amber-500 opacity-80"></span>
-            <span className="text-slate-300 text-[11px]">Medium Risk (40-69%)</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <span className="w-3.5 h-3.5 rounded bg-emerald-500 opacity-80"></span>
-            <span className="text-slate-300 text-[11px]">Low Risk (&lt; 40%)</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Multi-Hazard Spatial Analytics Drawer */}
+      {/* Right Floating Google-Maps Style Risk Information Panel */}
       {selectedPoint && (
-        <div className="absolute bottom-6 right-6 z-20 pointer-events-auto w-[400px] max-h-[85vh] overflow-y-auto glass-card p-5 border-slate-700/80 shadow-2xl space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-200">
-          <div className="flex items-center justify-between pb-3 border-b border-slate-800">
-            <div className="flex items-center space-x-2">
-              <MapPin className="w-4 h-4 text-cyan-400" />
-              <h3 className="text-sm font-bold text-white">Spatial Risk Assessment</h3>
-            </div>
-            <button
-              onClick={() => setSelectedPoint(null)}
-              className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          </div>
-
-          {detailsLoading ? (
-            <div className="py-12 flex flex-col items-center justify-center space-y-2 text-xs text-slate-400">
-              <div className="w-6 h-6 border-2 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
-              <span>Resolving containing polygon & multi-hazard portfolio...</span>
-            </div>
-          ) : selectedDetails?.error ? (
-            <div className="p-3 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-300">
-              {selectedDetails.error}
-            </div>
-          ) : (
-            <div className="space-y-4 text-xs">
-              {/* Containing District Match */}
-              <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800">
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400 text-[11px]">Containing District:</span>
-                  <span className="font-bold text-white text-sm">
-                    {selectedDetails?.districtName}
-                  </span>
+        <div className="absolute top-4 right-4 bottom-6 z-[1000] w-96 max-w-[calc(100vw-32px)] bg-white border border-slate-200 shadow-2xl rounded-3xl p-5 overflow-y-auto space-y-4 flex flex-col justify-between">
+          <div className="space-y-4">
+            {/* Panel Header */}
+            <div className="flex items-start justify-between pb-3 border-b border-slate-100">
+              <div className="flex items-center space-x-2">
+                <div className="p-2 rounded-xl bg-blue-50 text-blue-600">
+                  <MapPin className="w-5 h-5" />
                 </div>
-                <p className="text-[10px] text-cyan-400/90 mt-1">
-                  Coordinates: {selectedPoint.lat.toFixed(4)}°N, {selectedPoint.lon.toFixed(4)}°E
-                </p>
-              </div>
-
-              {/* Point Weather Snippet */}
-              {selectedDetails?.forecast?.current && (
-                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80">
-                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">
-                    Localized Coordinates Weather
-                  </span>
-                  <div className="flex items-center justify-between mt-2">
-                    <span className="text-2xl font-extrabold text-white">
-                      {selectedDetails.forecast.current.temperature_c}°C
-                    </span>
-                    <span className="text-slate-300 font-medium">
-                      {selectedDetails.forecast.current.condition}
-                    </span>
-                  </div>
-                  <p className="text-[11px] text-slate-400 mt-1">
-                    Humidity: {selectedDetails.forecast.current.humidity_pct}% • Wind: {selectedDetails.forecast.current.wind_speed_ms} m/s
+                <div>
+                  <h3 className="text-base font-bold text-slate-900 leading-tight">
+                    {selectedDetails?.placeName || 'Selected Location'}
+                  </h3>
+                  <p className="text-xs text-slate-500">
+                    District: {selectedDetails?.districtName || 'Resolving...'}
                   </p>
                 </div>
-              )}
+              </div>
+              <button
+                onClick={() => setSelectedPoint(null)}
+                className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
 
-              {/* Multi-Hazard Grid in Drawer */}
-              {selectedDetails?.hazards && (
-                <div className="space-y-2">
-                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider block">
-                    Registered Hazards Portfolio (Day {dayIndex})
-                  </span>
-
-                  <div className="grid grid-cols-2 gap-2">
-                    {Object.entries(selectedDetails.hazards).map(([hid, h]) => (
-                      <div key={hid} className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
-                        <div className="flex items-center justify-between">
-                          <span className="text-[10px] text-slate-400 font-medium truncate max-w-[100px]">{h.hazard_name}</span>
-                          <span className={`text-[8px] font-bold px-1.5 py-0.2 rounded border ${
-                            h.status === 'NOT_APPLICABLE' ? 'bg-slate-800 text-slate-400 border-slate-700' :
-                            h.risk_level === 'HIGH' || h.risk_level === 'SEVERE' ? 'bg-rose-500/20 text-rose-300 border-rose-500/40' :
-                            h.risk_level === 'MEDIUM' ? 'bg-amber-500/20 text-amber-300 border-amber-500/40' :
-                            'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-                          }`}>
-                            {h.status === 'UNAVAILABLE' ? 'UNAVAILABLE' : h.status === 'NOT_APPLICABLE' ? 'N/A' : h.risk_level}
-                          </span>
-                        </div>
-                        <span className="font-bold text-white text-xs block mt-1">
-                          {h.display_value}
+            {detailsLoading ? (
+              <div className="py-16 flex flex-col items-center justify-center space-y-3 text-xs text-slate-500">
+                <div className="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                <span>Executing Point-in-Polygon & ML Risk Inference...</span>
+              </div>
+            ) : selectedDetails?.error ? (
+              <div className="p-4 bg-rose-50 border border-rose-200 rounded-2xl text-xs text-rose-700 flex items-start space-x-2">
+                <AlertTriangle className="w-4 h-4 text-rose-500 flex-shrink-0 mt-0.5" />
+                <span>{selectedDetails.error}</span>
+              </div>
+            ) : (
+              <>
+                {/* 1. Current Weather Section */}
+                {selectedDetails?.forecast?.current && (
+                  <div className="p-4 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-2">
+                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                      Current Atmospheric State
+                    </span>
+                    <div className="flex items-baseline justify-between">
+                      <div>
+                        <span className="text-3xl font-extrabold text-slate-900">
+                          {selectedDetails.forecast.current.temperature_c}°C
+                        </span>
+                        <span className="text-xs text-slate-500 block">
+                          Feels like {selectedDetails.forecast.current.feels_like_c}°C
                         </span>
                       </div>
-                    ))}
+                      <span className="text-xs font-semibold text-blue-700 bg-blue-100/70 px-2.5 py-1 rounded-full">
+                        {selectedDetails.forecast.current.condition}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-200/60 text-xs text-slate-600">
+                      <div>Rainfall: <strong>{selectedDetails.forecast.current.precipitation_mm} mm</strong></div>
+                      <div>Humidity: <strong>{selectedDetails.forecast.current.humidity_pct}%</strong></div>
+                      <div>Wind: <strong>{selectedDetails.forecast.current.wind_speed_ms} m/s</strong></div>
+                      <div>High/Low: <strong>{selectedDetails.forecast.current.high_c}° / {selectedDetails.forecast.current.low_c}°</strong></div>
+                    </div>
+                  </div>
+                )}
+
+                {/* 2. Authoritative Multi-Hazard Risk Section */}
+                {selectedDetails?.riskAssessment && (
+                  <div className="space-y-2.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                        Authoritative ML Climate Risk (Day {dayIndex})
+                      </span>
+                      <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                        selectedDetails.riskAssessment.overall_hazard_level === 'HIGH' ? 'bg-rose-100 text-rose-700' :
+                        selectedDetails.riskAssessment.overall_hazard_level === 'MEDIUM' ? 'bg-amber-100 text-amber-700' :
+                        selectedDetails.riskAssessment.overall_hazard_level === 'LOW' ? 'bg-emerald-100 text-emerald-700' :
+                        'bg-slate-100 text-slate-600'
+                      }`}>
+                        {selectedDetails.riskAssessment.overall_hazard_level} OVERALL
+                      </span>
+                    </div>
+
+                    <div className="space-y-2">
+                      {/* Flood Card */}
+                      <div className="p-3 bg-white border border-slate-200 rounded-2xl flex items-center justify-between">
+                        <div className="flex items-center space-x-2.5">
+                          <CloudRain className="w-5 h-5 text-blue-500" />
+                          <div>
+                            <p className="text-xs font-bold text-slate-900">Flood</p>
+                            <p className="text-[10px] text-slate-500">XGBoost ML Classifier</p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          {selectedDetails.riskAssessment.flood?.probability !== null && selectedDetails.riskAssessment.flood?.probability !== undefined && selectedDetails.riskAssessment.flood?.status !== 'UNAVAILABLE' ? (
+                            <>
+                              <span className="text-xs font-bold text-slate-900">
+                                {(selectedDetails.riskAssessment.flood.probability * 100).toFixed(1)}%
+                              </span>
+                              <span className={`block text-[9px] font-bold px-1.5 py-0.2 rounded-full ${
+                                selectedDetails.riskAssessment.flood.risk_level === 'HIGH' ? 'bg-rose-100 text-rose-700' :
+                                selectedDetails.riskAssessment.flood.risk_level === 'MEDIUM' ? 'bg-amber-100 text-amber-700' :
+                                'bg-emerald-100 text-emerald-700'
+                              }`}>
+                                {selectedDetails.riskAssessment.flood.risk_level}
+                              </span>
+                            </>
+                          ) : (
+                            <>
+                              <span className="text-xs font-bold text-slate-500">—</span>
+                              <span className="block text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.2 rounded-full">
+                                Unavailable — insufficient data
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Heatwave Card */}
+                      <div className="p-3 bg-white border border-slate-200 rounded-2xl flex items-center justify-between">
+                        <div className="flex items-center space-x-2.5">
+                          <Flame className="w-5 h-5 text-rose-500" />
+                          <div>
+                            <p className="text-xs font-bold text-slate-900">Heatwave</p>
+                            <p className="text-[10px] text-slate-500">Anomaly Climatology Model</p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          {selectedDetails.riskAssessment.heatwave?.probability !== null && selectedDetails.riskAssessment.heatwave?.probability !== undefined && selectedDetails.riskAssessment.heatwave?.status !== 'UNAVAILABLE' ? (
+                            <>
+                              <span className="text-xs font-bold text-slate-900">
+                                {(selectedDetails.riskAssessment.heatwave.probability * 100).toFixed(1)}%
+                              </span>
+                              <span className={`block text-[9px] font-bold px-1.5 py-0.2 rounded-full ${
+                                selectedDetails.riskAssessment.heatwave.risk_level === 'HIGH' ? 'bg-rose-100 text-rose-700' :
+                                selectedDetails.riskAssessment.heatwave.risk_level === 'MEDIUM' ? 'bg-amber-100 text-amber-700' :
+                                'bg-emerald-100 text-emerald-700'
+                              }`}>
+                                {selectedDetails.riskAssessment.heatwave.risk_level}
+                              </span>
+                            </>
+                          ) : (
+                            <>
+                              <span className="text-xs font-bold text-slate-500">—</span>
+                              <span className="block text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.2 rounded-full">
+                                Unavailable — insufficient data
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Drought Card (Zero-Tolerance: Unavailable when SPI missing) */}
+                      <div className="p-3 bg-white border border-slate-200 rounded-2xl flex items-center justify-between">
+                        <div className="flex items-center space-x-2.5">
+                          <Droplets className="w-5 h-5 text-amber-500" />
+                          <div>
+                            <p className="text-xs font-bold text-slate-900">Drought</p>
+                            <p className="text-[10px] text-slate-500">SPI_3 / SPI_6 Model</p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          {selectedDetails.riskAssessment.drought?.status === 'UNAVAILABLE' || selectedDetails.riskAssessment.drought?.probability === null || selectedDetails.riskAssessment.drought?.probability === undefined ? (
+                            <>
+                              <span className="text-xs font-bold text-slate-500">—</span>
+                              <span className="block text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.2 rounded-full" title="Requires antecedent 90-day rainfall observations for SPI calculation">
+                                Unavailable — insufficient data
+                              </span>
+                            </>
+                          ) : (
+                            <>
+                              <span className="text-xs font-bold text-slate-900">
+                                {(selectedDetails.riskAssessment.drought.probability * 100).toFixed(1)}%
+                              </span>
+                              <span className={`block text-[9px] font-bold px-1.5 py-0.2 rounded-full ${
+                                selectedDetails.riskAssessment.drought.risk_level === 'HIGH' ? 'bg-rose-100 text-rose-700' :
+                                selectedDetails.riskAssessment.drought.risk_level === 'MEDIUM' ? 'bg-amber-100 text-amber-700' :
+                                'bg-emerald-100 text-emerald-700'
+                              }`}>
+                                {selectedDetails.riskAssessment.drought.risk_level}
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* 3. Vulnerability Context */}
+                {selectedDetails?.demographicExposure && (
+                  <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[11px] space-y-1 text-slate-600">
+                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                      Demographic & Spatial Exposure
+                    </span>
+                    <div className="flex justify-between">
+                      <span>Population:</span>
+                      <strong className="text-slate-800">{selectedDetails.demographicExposure.population?.toLocaleString()}</strong>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Zone Type:</span>
+                      <strong className="text-slate-800">{selectedDetails.demographicExposure.coastal ? 'Coastal Maritime' : 'Inland'}</strong>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Urbanization:</span>
+                      <strong className="text-slate-800">{selectedDetails.demographicExposure.urban_percentage}%</strong>
+                    </div>
+                  </div>
+                )}
+
+                {/* 4. Data Status & Model Lineage */}
+                <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-2xl text-[11px] space-y-1 text-slate-600">
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                    Data Status & Model Lineage
+                  </span>
+                  <div className="flex justify-between">
+                    <span>Model Status:</span>
+                    <strong className="text-slate-800">Verified XGBoost (53 features)</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Data Source:</span>
+                    <strong className="text-slate-800">Open-Meteo & NASA POWER</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Coordinates:</span>
+                    <strong className="text-slate-800 font-mono">{selectedPoint.lat.toFixed(4)}°N, {selectedPoint.lon.toFixed(4)}°E</strong>
                   </div>
                 </div>
-              )}
 
-              {/* Exposure Context */}
-              {selectedDetails?.exposure && (
-                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-[11px] space-y-1">
-                  <div className="flex justify-between">
-                    <span className="text-slate-400">Population:</span>
-                    <span className="text-white font-semibold">
-                      {selectedDetails.exposure.population?.toLocaleString()}
-                    </span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-400">Coastal Zone:</span>
-                    <span className="text-white font-semibold">
-                      {selectedDetails.exposure.coastal ? 'Yes (Maritime Hazard Applicable)' : 'No (Inland)'}
-                    </span>
-                  </div>
+                {/* 5. Adaptation Decision Support */}
+                <div className="p-3 bg-blue-50/60 border border-blue-100 rounded-2xl text-[11px] space-y-1">
+                  <span className="text-[10px] font-bold text-blue-500 uppercase tracking-wider block">
+                    ADAPTATION DECISION SUPPORT
+                  </span>
+                  <p className="text-slate-600 italic">
+                    Available after adaptation module is implemented.
+                  </p>
                 </div>
-              )}
+              </>
+            )}
+          </div>
 
-              {/* Scientific Resolution Disclaimer */}
-              <div className="pt-2 border-t border-slate-800 text-[10px] text-slate-400 flex items-start space-x-1.5">
-                <Info className="w-3.5 h-3.5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                <span>
-                  Multi-hazard decision support framework combining ML classifiers, IMD/WMO rules, and real-time sensor streams.
-                </span>
-              </div>
-            </div>
-          )}
+          {/* Panel Footer */}
+          <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400">
+            <span className="flex items-center space-x-1">
+              <Clock className="w-3 h-3" />
+              <span>Forecast: {selectedDetails?.timestamp || 'Live'}</span>
+            </span>
+            <span>NASA POWER / Open-Meteo</span>
+          </div>
         </div>
       )}
     </div>

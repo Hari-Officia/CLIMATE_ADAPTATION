@@ -1,0 +1,25 @@
+table_name,schema_name,purpose,row_count,authoritative_status,spatial_enabled,primary_key
+users,public,User authentication and RBAC,2,AUTHORITATIVE,FALSE,id
+districts,public,Canonical 38 district registry and coordinates,38,AUTHORITATIVE,TRUE,id
+district_profiles,public,Demographic & geographic characteristics,38,AUTHORITATIVE,FALSE,id
+locations,public,Landmarks and subdistrict reference points,50,AUTHORITATIVE,TRUE,id
+forecast_runs,public,Open-Meteo forecast execution audit log,10,AUTHORITATIVE,FALSE,id
+forecast_data,public,Daily continuous weather observations & 7-day forecast,266,AUTHORITATIVE,FALSE,id
+risk_results,public,Phase E XGBoost 53-feature hazard risk predictions,114,AUTHORITATIVE,FALSE,id
+model_registry,public,XGBoost trained model artifact registry,3,AUTHORITATIVE,FALSE,id
+system_logs,public,System audit & telemetry logs,150,AUTHORITATIVE,FALSE,id
+sources,provenance,Authoritative source metadata registry,7,AUTHORITATIVE,FALSE,source_id
+datasets,provenance,Dataset catalog and SHA-256 metadata,5,AUTHORITATIVE,FALSE,dataset_id
+dataset_versions,provenance,Deterministic dataset versioning,5,AUTHORITATIVE,FALSE,version_id
+lineage,provenance,Transformation & exposure lineage records,10,AUTHORITATIVE,FALSE,lineage_id
+data_quality_checks,quality,Data quality check results and flags,38,AUTHORITATIVE,FALSE,check_id
+data_quality_issues,quality,Data quality failure flags and missing data register,5,AUTHORITATIVE,FALSE,issue_id
+population_exposure,exposure,District population exposure overlay metrics,38,AUTHORITATIVE,FALSE,id
+infrastructure_exposure,exposure,Critical infrastructure exposure overlay metrics,150,AUTHORITATIVE,TRUE,id
+built_environment_exposure,exposure,Urban extent and built-up land cover exposure,38,AUTHORITATIVE,FALSE,id
+exposure_records,exposure,Generalized exposure master table,226,AUTHORITATIVE,TRUE,exposure_id
+spatial_layers,spatial,PostGIS spatial layer metadata registry,5,AUTHORITATIVE,FALSE,layer_id
+layer_versions,spatial,Spatial boundary versioning records,5,AUTHORITATIVE,FALSE,version_id
+assets,infrastructure,Normalized critical infrastructure point assets,150,AUTHORITATIVE,TRUE,asset_id
+data_conflicts,audit,Conflict register for multi-source discrepancies,0,AUTHORITATIVE,FALSE,conflict_id
+processing_runs,audit,Pipeline execution run registry,5,AUTHORITATIVE,FALSE,run_id

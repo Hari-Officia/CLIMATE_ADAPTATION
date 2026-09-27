@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChangeRequestSchema",
+  "type": "object",
+  "properties": {
+    "cr_id": { "type": "string" },
+    "classification": { 
+      "type": "string",
+      "enum": [
+        "CLASS 0: Documentation",
+        "CLASS 1: Non-functional maintenance",
+        "CLASS 2: Dependency/security patch",
+        "CLASS 3: Observability",
+        "CLASS 4: Infrastructure",
+        "CLASS 5: Data-source update",
+        "CLASS 6: Model/data pipeline change",
+        "CLASS 7: Scientific methodology change",
+        "CLASS 8: Optimization/QUBO/QAOA change",
+        "CLASS 9: Decision-policy/strategy/evidence change",
+        "CLASS 10: Architecture or certification-boundary change"
+      ]
+    },
+    "requester": { "type": "string" },
+    "reason": { "type": "string" },
+    "baseline": { "type": "string" },
+    "scientific_impact": { "type": "string" },
+    "status": { "type": "string" }
+  },
+  "required": ["cr_id", "classification", "requester", "reason", "baseline", "status"]
+}

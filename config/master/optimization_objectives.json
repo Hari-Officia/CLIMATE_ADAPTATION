@@ -1,0 +1,26 @@
+[
+  {
+    "objective_id": "OBJ-HAZARD-COVERAGE",
+    "name": "Maximize Hazard Risk Coverage",
+    "weight": 0.35,
+    "description": "Rewards strategy portfolios that provide direct and co-benefit hazard risk reduction across flood, drought, and heatwave hazards."
+  },
+  {
+    "objective_id": "OBJ-PRIORITY-ALIGNMENT",
+    "name": "Maximize Adaptation Priority Alignment",
+    "weight": 0.30,
+    "description": "Aligns strategy selection with Phase H priority horizons (IMMEDIATE, SHORT_TERM)."
+  },
+  {
+    "objective_id": "OBJ-EVIDENCE-STRENGTH",
+    "name": "Maximize Scientific Evidence Quality",
+    "weight": 0.20,
+    "description": "Favors strategies backed by Tier 1/2 state and national evidence sources."
+  },
+  {
+    "objective_id": "OBJ-COMPLEMENTARITY",
+    "name": "Maximize Inter-Strategy Complementarity",
+    "weight": 0.15,
+    "description": "Rewards complementary and synergistic strategy pairings (e.g. drain desilting + network expansion)."
+  }
+]

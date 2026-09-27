@@ -1,0 +1,24 @@
+{
+  "governance_policy_version": "1.0.0",
+  "baseline_hash": "e8870ba14ea474b90e509ef40992445_phase_r_baseline",
+  "effective_date": "2026-09-23T00:00:00Z",
+  "geography": "Tamil Nadu, India",
+  "district_count": 38,
+  "scope": "CLIMATE ADAPTATION ONLY",
+  "hazards": ["Flood", "Drought", "Heatwave"],
+  "registries": {
+    "model_registry": "config/models/model_registry.json",
+    "rag_registry": "config/rag/rag_registry.json",
+    "prompt_registry": "config/prompts/prompts_registry.json",
+    "qaoa_registry": "config/quantum/qaoa_registry.json",
+    "slo_registry": "config/governance/slo_registry.json",
+    "policy_registry": "config/governance/policies.json"
+  },
+  "guardrails": {
+    "quantum_advantage_status": "NOT ESTABLISHED",
+    "qaoa_objective_gap_benchmark": 0.4700,
+    "no_silent_zero": true,
+    "frontend_scientific_calculation": false,
+    "llm_scientific_authority": false
+  }
+}

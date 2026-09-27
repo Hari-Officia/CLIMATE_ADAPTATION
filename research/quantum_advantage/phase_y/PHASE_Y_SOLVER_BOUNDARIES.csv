@@ -1,0 +1,6 @@
+solver,max_feasible_N,boundary_reason
+Exact Enumeration,18,"Combinatorial 2^N space explosion (2^20 = 1,048,576 iterations)"
+True MILP (HiGHS),50,Branch-and-bound node limit at extreme scale
+Greedy Selector,100,Linear O(N log N) sorting bound
+Simulated Annealing,50,Metropolis transition sampling depth
+QAOA Simulator,20,Statevector memory allocation limit (2^N complex numbers)

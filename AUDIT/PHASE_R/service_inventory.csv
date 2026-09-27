@@ -1,0 +1,2 @@
+service_id,name,type,owner,criticality,status
+SVC-001,API Gateway,API,Platform Owner,CRITICAL,PRODUCTION

@@ -1,0 +1,2 @@
+slo_id,indicator,target,budget_percent
+SLO-001,http_request_success_rate,99.9,0.1

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RAGChunkMetadata",
+  "type": "object",
+  "properties": {
+    "chunk_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_tier": {
+      "type": "string",
+      "enum": [
+        "Tier 1",
+        "Tier 2",
+        "Tier 3",
+        "Tier 4",
+        "Tier 5",
+        "Tier 6"
+      ]
+    },
+    "page": {
+      "type": "integer"
+    },
+    "section": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "hazards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "chunk_id",
+    "source_id",
+    "source_tier",
+    "page",
+    "section",
+    "domain"
+  ]
+}

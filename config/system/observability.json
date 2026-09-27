@@ -1,0 +1,9 @@
+{
+  "opentelemetry_enabled": true,
+  "service_name": "climate-adaptation-decision-system",
+  "log_level": "INFO",
+  "log_format": "JSON",
+  "metrics_enabled": true,
+  "tracing_enabled": true,
+  "sanitize_sensitive_fields": true
+}

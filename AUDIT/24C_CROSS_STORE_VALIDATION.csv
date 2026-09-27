@@ -1,0 +1,5 @@
+entity_type,json_count,csv_count,postgres_count,chroma_metadata_count,mismatched_ids,orphan_records,sync_status
+Districts,38,38,38,38,NONE,0,100%_SYNCHRONIZED
+Strategies,12,12,12,12,NONE,0,100%_SYNCHRONIZED
+Sources,8,8,8,8,NONE,0,100%_SYNCHRONIZED
+Evidence Claims,3,3,3,3,NONE,0,100%_SYNCHRONIZED

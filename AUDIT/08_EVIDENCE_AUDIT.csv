@@ -1,0 +1,2 @@
+evidence_id,strategy_id,source_id,claim_type,support_level,audit_status
+EVD-0001,STR-WTR-001,TN-ADAPT-001,POLICY_REQUIREMENT,HIGH,DIRECTLY_SUPPORTED

@@ -1,0 +1,12 @@
+{
+  "protocol_id": "PHASE_X_STATISTICAL_PROTOCOL_V1",
+  "timestamp": "2026-09-23T15:49:00Z",
+  "primary_outcome": "un_clamped_objective_gap",
+  "formula": "(exact_optimum - qaoa_objective) / exact_optimum",
+  "experimental_unit": "RUN (district x depth x seed)",
+  "bootstrap_replicates": 10000,
+  "confidence_level": 0.95,
+  "seed": 42,
+  "outlier_policy": "RETAIN_AND_EXPLAIN_ZERO_ARTIFICIAL_CLIPPING",
+  "multiplicity_policy": "HOLM_BONFERRONI_CORRECTION"
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "instance_id": "INST-FAM-B-N4-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 4,
+    "K": 2,
+    "seed": 2000,
+    "instance_hash": "02a3610660a0"
+  },
+  {
+    "instance_id": "INST-FAM-B-N4-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 4,
+    "K": 2,
+    "seed": 2001,
+    "instance_hash": "add26a434597"
+  },
+  {
+    "instance_id": "INST-FAM-B-N4-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 4,
+    "K": 2,
+    "seed": 2002,
+    "instance_hash": "b10559d58d4f"
+  },
+  {
+    "instance_id": "INST-FAM-B-N4-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 4,
+    "K": 2,
+    "seed": 2003,
+    "instance_hash": "8e8f3e7446e9"
+  },
+  {
+    "instance_id": "INST-FAM-B-N4-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 4,
+    "K": 2,
+    "seed": 2004,
+    "instance_hash": "98cc462b4e17"
+  },
+  {
+    "instance_id": "INST-FAM-B-N6-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 6,
+    "K": 2,
+    "seed": 2000,
+    "instance_hash": "4854e16f701d"
+  },
+  {
+    "instance_id": "INST-FAM-B-N6-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 6,
+    "K": 2,
+    "seed": 2001,
+    "instance_hash": "c2ab8c635846"
+  },
+  {
+    "instance_id": "INST-FAM-B-N6-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 6,
+    "K": 2,
+    "seed": 2002,
+    "instance_hash": "39995d50898b"
+  },
+  {
+    "instance_id": "INST-FAM-B-N6-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 6,
+    "K": 2,
+    "seed": 2003,
+    "instance_hash": "eb06f01895ca"
+  },
+  {
+    "instance_id": "INST-FAM-B-N6-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 6,
+    "K": 2,
+    "seed": 2004,
+    "instance_hash": "d75fb1433832"
+  },
+  {
+    "instance_id": "INST-FAM-B-N8-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 8,
+    "K": 3,
+    "seed": 2000,
+    "instance_hash": "8ff22037b715"
+  },
+  {
+    "instance_id": "INST-FAM-B-N8-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 8,
+    "K": 3,
+    "seed": 2001,
+    "instance_hash": "2d253c78a963"
+  },
+  {
+    "instance_id": "INST-FAM-B-N8-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 8,
+    "K": 3,
+    "seed": 2002,
+    "instance_hash": "9d9ccd7cf746"
+  },
+  {
+    "instance_id": "INST-FAM-B-N8-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 8,
+    "K": 3,
+    "seed": 2003,
+    "instance_hash": "4a4d4c773a32"
+  },
+  {
+    "instance_id": "INST-FAM-B-N8-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 8,
+    "K": 3,
+    "seed": 2004,
+    "instance_hash": "bddc61348c21"
+  },
+  {
+    "instance_id": "INST-FAM-B-N10-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 10,
+    "K": 4,
+    "seed": 2000,
+    "instance_hash": "31b97ee43ea1"
+  },
+  {
+    "instance_id": "INST-FAM-B-N10-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 10,
+    "K": 4,
+    "seed": 2001,
+    "instance_hash": "da15e26146ce"
+  },
+  {
+    "instance_id": "INST-FAM-B-N10-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 10,
+    "K": 4,
+    "seed": 2002,
+    "instance_hash": "230b90ee1b4b"
+  },
+  {
+    "instance_id": "INST-FAM-B-N10-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 10,
+    "K": 4,
+    "seed": 2003,
+    "instance_hash": "6f8f7100087c"
+  },
+  {
+    "instance_id": "INST-FAM-B-N10-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 10,
+    "K": 4,
+    "seed": 2004,
+    "instance_hash": "953ef47daf19"
+  },
+  {
+    "instance_id": "INST-FAM-B-N12-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 12,
+    "K": 4,
+    "seed": 2000,
+    "instance_hash": "1d28d8d98b0b"
+  },
+  {
+    "instance_id": "INST-FAM-B-N12-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 12,
+    "K": 4,
+    "seed": 2001,
+    "instance_hash": "42f4eb919db3"
+  },
+  {
+    "instance_id": "INST-FAM-B-N12-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 12,
+    "K": 4,
+    "seed": 2002,
+    "instance_hash": "a5d4945323c9"
+  },
+  {
+    "instance_id": "INST-FAM-B-N12-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 12,
+    "K": 4,
+    "seed": 2003,
+    "instance_hash": "14e4c6c8a846"
+  },
+  {
+    "instance_id": "INST-FAM-B-N12-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 12,
+    "K": 4,
+    "seed": 2004,
+    "instance_hash": "9c87b9bcd38f"
+  },
+  {
+    "instance_id": "INST-FAM-B-N14-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 14,
+    "K": 5,
+    "seed": 2000,
+    "instance_hash": "5941ecaa44b6"
+  },
+  {
+    "instance_id": "INST-FAM-B-N14-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 14,
+    "K": 5,
+    "seed": 2001,
+    "instance_hash": "0e7f6a079eec"
+  },
+  {
+    "instance_id": "INST-FAM-B-N14-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 14,
+    "K": 5,
+    "seed": 2002,
+    "instance_hash": "b6eefc773be7"
+  },
+  {
+    "instance_id": "INST-FAM-B-N14-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 14,
+    "K": 5,
+    "seed": 2003,
+    "instance_hash": "a442ed1551c8"
+  },
+  {
+    "instance_id": "INST-FAM-B-N14-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 14,
+    "K": 5,
+    "seed": 2004,
+    "instance_hash": "2cf743dec363"
+  },
+  {
+    "instance_id": "INST-FAM-B-N16-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 16,
+    "K": 6,
+    "seed": 2000,
+    "instance_hash": "d3ef30bb7f7d"
+  },
+  {
+    "instance_id": "INST-FAM-B-N16-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 16,
+    "K": 6,
+    "seed": 2001,
+    "instance_hash": "fe167f860921"
+  },
+  {
+    "instance_id": "INST-FAM-B-N16-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 16,
+    "K": 6,
+    "seed": 2002,
+    "instance_hash": "4b96e7369e24"
+  },
+  {
+    "instance_id": "INST-FAM-B-N16-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 16,
+    "K": 6,
+    "seed": 2003,
+    "instance_hash": "3382324d279d"
+  },
+  {
+    "instance_id": "INST-FAM-B-N16-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 16,
+    "K": 6,
+    "seed": 2004,
+    "instance_hash": "7d1ca54e9707"
+  },
+  {
+    "instance_id": "INST-FAM-B-N18-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 18,
+    "K": 6,
+    "seed": 2000,
+    "instance_hash": "0ef8569f0920"
+  },
+  {
+    "instance_id": "INST-FAM-B-N18-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 18,
+    "K": 6,
+    "seed": 2001,
+    "instance_hash": "9ea6438928f2"
+  },
+  {
+    "instance_id": "INST-FAM-B-N18-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 18,
+    "K": 6,
+    "seed": 2002,
+    "instance_hash": "482370e65a59"
+  },
+  {
+    "instance_id": "INST-FAM-B-N18-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 18,
+    "K": 6,
+    "seed": 2003,
+    "instance_hash": "b56260db1f2c"
+  },
+  {
+    "instance_id": "INST-FAM-B-N18-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 18,
+    "K": 6,
+    "seed": 2004,
+    "instance_hash": "5f8ef0e75f68"
+  },
+  {
+    "instance_id": "INST-FAM-B-N20-S2000",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 20,
+    "K": 7,
+    "seed": 2000,
+    "instance_hash": "47bd0f541c41"
+  },
+  {
+    "instance_id": "INST-FAM-B-N20-S2001",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 20,
+    "K": 7,
+    "seed": 2001,
+    "instance_hash": "87f3dd41308f"
+  },
+  {
+    "instance_id": "INST-FAM-B-N20-S2002",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 20,
+    "K": 7,
+    "seed": 2002,
+    "instance_hash": "a7886356e41a"
+  },
+  {
+    "instance_id": "INST-FAM-B-N20-S2003",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 20,
+    "K": 7,
+    "seed": 2003,
+    "instance_hash": "5e71bfe84de1"
+  },
+  {
+    "instance_id": "INST-FAM-B-N20-S2004",
+    "instance_class": "CONTROLLED_SYNTHETIC",
+    "N": 20,
+    "K": 7,
+    "seed": 2004,
+    "instance_hash": "d6b63d33dbdf"
+  }
+]

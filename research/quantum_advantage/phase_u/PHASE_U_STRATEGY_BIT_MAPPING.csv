@@ -1,0 +1,15 @@
+strategy_id,canonical_status,category,hazard,applicability_status,ordering,bit_position
+STR-001,CANONICAL,Coastal Protection,Coastal Surge,ACTIVE,0,0
+STR-002,CANONICAL,Water Security,Drought,ACTIVE,1,1
+STR-003,CANONICAL,Urban Climate,Heatwave,ACTIVE,2,2
+STR-004,CANONICAL,Agriculture,Soil Erosion,ACTIVE,3,3
+STR-005,CANONICAL,Agriculture,Drought,ACTIVE,4,4
+STR-006,CANONICAL,Disaster Management,Flooding,ACTIVE,5,5
+STR-007,CANONICAL,Water Security,Water Scarcity,ACTIVE,6,6
+STR-008,CANONICAL,Energy Resilience,Grid Failure,ACTIVE,7,7
+STR-009,CANONICAL,Disaster Management,Cyclone,ACTIVE,8,8
+STR-010,CANONICAL,Water Security,Groundwater Depletion,ACTIVE,9,9
+STR-011,CANONICAL,Coastal Protection,Coastal Erosion,ACTIVE,10,10
+STR-012,CANONICAL,Early Warning,Drought,ACTIVE,11,11
+STR-013,CANONICAL,Urban Infrastructure,Urban Flooding,ACTIVE,12,12
+STR-014,CANONICAL,Energy Resilience,Energy Deficit,ACTIVE,13,13

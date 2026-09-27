@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QUBOCertificate",
+  "type": "object",
+  "properties": {
+    "certificate_id": { "type": "string" },
+    "classical_model_hash": { "type": "string" },
+    "qubo_hash": { "type": "string" },
+    "district_id": { "type": "string" },
+    "variable_count": { "type": "integer" },
+    "tested_state_count": { "type": "integer" },
+    "classical_optimum": { "type": "number" },
+    "qubo_optimum": { "type": "number" },
+    "decoded_objective": { "type": "number" },
+    "feasibility_match": { "type": "boolean" },
+    "optimality_match": { "type": "boolean" },
+    "status": { "type": "string" }
+  },
+  "required": [
+    "certificate_id",
+    "classical_model_hash",
+    "qubo_hash",
+    "district_id",
+    "feasibility_match",
+    "optimality_match",
+    "status"
+  ]
+}

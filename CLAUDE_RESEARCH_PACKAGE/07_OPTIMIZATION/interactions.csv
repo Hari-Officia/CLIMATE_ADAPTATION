@@ -1,0 +1,4 @@
+strategy_A,strategy_B,interaction_type,synergy_description,evidence_source
+STR-DRN-001,STR-NBS-001,COMPLEMENTARY,Desilting primary drains reduces main canal surge while bioswales absorb upstream neighborhood runoff.,RES-TN-001
+STR-WTR-001,STR-WTR-002,COMPLEMENTARY,Rooftop RWH enhances shallow unconfined water tables while cascade tank desilting retains surface storage.,TN-ADAPT-001
+STR-DRN-002,STR-GIS-001,COMPLEMENTARY,GIS terrain analysis optimizes spatial positioning of underground detention basins.,TN-DCAPT-002

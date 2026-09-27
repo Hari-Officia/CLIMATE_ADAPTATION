@@ -1,0 +1,13 @@
+{
+  "phase": "PHASE_Y",
+  "reproducibility_status": "PASS",
+  "real_class_a": "REAL_TAMIL_NADU (N=14)",
+  "synthetic_class_b": "CONTROLLED_SYNTHETIC (N=4..20)",
+  "instance_seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {"sector_id": "WATER", "name": "Water Resources & Supply"},
+  {"sector_id": "URBAN", "name": "Urban Planning & Built Environment"},
+  {"sector_id": "AGRICULTURE", "name": "Agriculture & Irrigation"},
+  {"sector_id": "HEALTH", "name": "Public Health & Thermal Safety"},
+  {"sector_id": "TRANSPORT", "name": "Transport Infrastructure"},
+  {"sector_id": "ENERGY", "name": "Energy Grid & Power Assets"},
+  {"sector_id": "ECOSYSTEMS", "name": "Ecosystems & Biodiversity"},
+  {"sector_id": "COASTAL", "name": "Coastal Zone Management"},
+  {"sector_id": "HOUSING", "name": "Housing & Residential Buildings"},
+  {"sector_id": "PUBLIC_INFRASTRUCTURE", "name": "Public Drains & Utilities"},
+  {"sector_id": "DISASTER_MANAGEMENT", "name": "Disaster Management & Early Warning"},
+  {"sector_id": "LAND_USE", "name": "Land Use & Spatial Zoning"},
+  {"sector_id": "CRITICAL_INFRASTRUCTURE", "name": "Critical Facilities (Hospitals, Substations)"}
+]

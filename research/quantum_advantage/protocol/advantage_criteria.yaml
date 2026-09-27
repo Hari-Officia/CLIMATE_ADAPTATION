@@ -1,0 +1,41 @@
+# Pre-Registered Quantum Advantage Evaluation Protocol & Criteria
+version: 1.0.0
+release: 3.1.0
+date: 2026-09-23
+
+status_categories:
+  - NOT_TESTED
+  - NOT_ESTABLISHED
+  - INCONCLUSIVE
+  - CONDITIONALLY_OBSERVED
+  - RESEARCH_EVIDENCE_SUPPORTS_ADVANTAGE
+
+default_status: NOT_ESTABLISHED
+
+evaluation_dimensions:
+  quality_advantage:
+    metric: objective_gap
+    threshold: 0.0000
+    description: QAOA achieves strictly lower objective value than classical MILP/exact baseline.
+  time_advantage:
+    metric: time_to_solution_seconds
+    threshold: 0.5
+    description: QAOA total end-to-end runtime is strictly faster than classical baseline at target accuracy.
+  scaling_advantage:
+    metric: scaling_exponent_alpha
+    threshold: 0.0
+    description: QAOA scaling exponent with N is strictly smaller than classical solver scaling.
+  resource_advantage:
+    metric: total_flops_or_energy
+    threshold: 0.0
+    description: QAOA requires fewer energy/compute resources for equivalent target solution quality.
+  noise_robustness:
+    metric: fidelity_survival
+    threshold: 0.8
+    description: Observed quality advantage survives realistic hardware noise models.
+
+pre_registered_rules:
+  rule_1: Classical HIGHS MILP / Exact solver remains primary authoritative benchmark.
+  rule_2: Quantum advantage MUST NOT be claimed if objective gap > 0.0000 or advantage is unproven.
+  rule_3: Repeated seeds (minimum 10 seeds per instance) are required for statistical confidence.
+  rule_4: Preprocessing and postprocessing time MUST be included in total time-to-solution accounting.

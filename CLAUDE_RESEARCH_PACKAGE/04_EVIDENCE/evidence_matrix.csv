@@ -1,0 +1,13 @@
+strategy_id,tn_evidence_strength,india_evidence_strength,international_evidence_strength,quantitative_evidence_available,gis_applicability_verified,applicability_confidence
+STR-DRN-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-DRN-002,MODERATE,HIGH,VERY_HIGH,False,True,HIGH
+STR-WTR-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-WTR-002,MODERATE,HIGH,VERY_HIGH,False,True,HIGH
+STR-LND-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-NBS-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-BLT-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-GIS-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-CRT-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-EWS-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-HTS-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH
+STR-CST-001,HIGH,HIGH,VERY_HIGH,False,True,HIGH

@@ -1,0 +1,11 @@
+domain_id,name,description
+DOM_01,Drainage & Stormwater,"Urban stormwater conveyance, desilting, detention storage, and outflow management."
+DOM_02,Water Management,"Rainwater harvesting, aquifer recharge, surface water restoration, and water efficiency."
+DOM_03,Urbanization & Land Use,"Floodplain zoning, development setbacks, permeable building regulations, and risk-sensitive land use."
+DOM_04,Green / Nature-Based Infrastructure,"Bioswales, rain gardens, urban forests, wetland restoration, and blue-green corridors."
+DOM_05,Built Infrastructure,"Flood-proofing buildings, raised utility infrastructure, heat-resilient cool roofs, and retrofits."
+DOM_06,Terrain / Geometry / GIS Planning,"Slope-guided runoff channels, low-elevation contour management, and terrain depression preservation."
+DOM_07,Critical Infrastructure,"Resilience and flood protection for hospitals, power substations, water treatment plants, and transport hubs."
+DOM_08,Early Warning & Preparedness,"IoT water level sensors, automated weather stations, early warning alerts, and community response plans."
+DOM_09,Heat Resilience,"Cool roofs, urban shade structures, heat health action plans, and urban heat island mitigation."
+DOM_10,Coastal / Marine Resilience,"Mangrove restoration, coastal bio-shields, dune stabilization, and salinity intrusion barriers."

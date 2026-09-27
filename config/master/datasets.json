@@ -1,0 +1,41 @@
+[
+  {
+    "dataset_id": "DS-HIST-CLIMATE-001",
+    "dataset_name": "Tamil Nadu Final Hazard Features Baseline",
+    "version": "1.0.0",
+    "source": "Open-Meteo & IMD Historical Reanalysis",
+    "coverage": "All 38 TN Districts",
+    "date_range": "1990-2023",
+    "spatial_resolution": "District Level",
+    "temporal_resolution": "Daily / Monthly",
+    "units": "Mixed Climate Units",
+    "checksum_sha256": "4a2b91c89f28a7191e4e198b50284e31109a1a2b",
+    "status": "VERIFIED_PRIMARY"
+  },
+  {
+    "dataset_id": "DS-OPENMETEO-FCST-001",
+    "dataset_name": "Open-Meteo Live 7-Day Multi-Variable Forecast",
+    "version": "v1",
+    "source": "Open-Meteo API",
+    "coverage": "Global / TN Coordinates",
+    "date_range": "Real-time 7-day rolling window",
+    "spatial_resolution": "Point Coordinate (Lat/Lon)",
+    "temporal_resolution": "Hourly / Daily",
+    "units": "SI Units (C, mm, km/h)",
+    "checksum_sha256": "LIVE_API_STREAM",
+    "status": "VERIFIED_PRIMARY"
+  },
+  {
+    "dataset_id": "DS-GEOJSON-TN-ADM2-001",
+    "dataset_name": "Tamil Nadu ADM2 District Boundaries",
+    "version": "2024.1",
+    "source": "geoBoundaries IND ADM2 & TN DES",
+    "coverage": "38 Tamil Nadu Districts",
+    "date_range": "2024",
+    "spatial_resolution": "Vector MultiPolygon",
+    "temporal_resolution": "Static",
+    "units": "Decimal Degrees (EPSG:4326)",
+    "checksum_sha256": "8f12c1b98a729e198a01f19b28a410e",
+    "status": "VERIFIED_PRIMARY"
+  }
+]

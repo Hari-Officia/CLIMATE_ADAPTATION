@@ -1,0 +1,4 @@
+aggregation_level,mean_gap,ci_95
+run_level,0.0845,"[0.0710, 0.0880]"
+district_level,0.0845,"[0.0695, 0.0895]"
+depth_level,0.0845,"[0.0705, 0.0885]"

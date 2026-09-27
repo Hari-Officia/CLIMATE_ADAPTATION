@@ -1,0 +1,3 @@
+sla,measured,status
+RPO,< 24h,COMPLIANT
+RTO,< 1h,COMPLIANT

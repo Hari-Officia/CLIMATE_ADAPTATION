@@ -1,0 +1,5 @@
+{
+  "overall_status": "POST_RELEASE_OBSERVATION_HEALTHY",
+  "production_certification": "CONDITIONALLY_CERTIFIED",
+  "recommendation": "CONTINUE_CANARY_MONITORING"
+}

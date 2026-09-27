@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import List, Optional, Dict, Any
 
 class HourlyForecastPoint(BaseModel):
@@ -20,6 +20,8 @@ class DailyForecastPoint(BaseModel):
     condition: Optional[str] = None
 
 class ForecastResponse(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
     latitude: Optional[float] = None
     longitude: Optional[float] = None
     district_id: Optional[str] = None
@@ -32,5 +34,3 @@ class ForecastResponse(BaseModel):
     data_quality: Optional[Dict[str, Any]] = None
     coordinates: Optional[Dict[str, float]] = None
 
-    class Config:
-        extra = "allow"

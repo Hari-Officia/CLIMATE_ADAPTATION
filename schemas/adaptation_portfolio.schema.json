@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdaptationPortfolioSchema",
+  "type": "object",
+  "required": [
+    "portfolio_id",
+    "optimization_run_id",
+    "district_id",
+    "selected_strategy_ids",
+    "objective_value",
+    "feasibility_status",
+    "created_at"
+  ],
+  "properties": {
+    "portfolio_id": { "type": "string" },
+    "optimization_run_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "selected_strategy_ids": { "type": "array", "items": { "type": "string" } },
+    "objective_value": { "type": "number" },
+    "feasibility_status": { "type": "string", "enum": ["FEASIBLE", "INFEASIBLE", "CONDITIONAL"] },
+    "hazard_coverage": { "type": "array", "items": { "type": "string" } },
+    "domain_coverage": { "type": "array", "items": { "type": "string" } },
+    "sector_coverage": { "type": "array", "items": { "type": "string" } },
+    "created_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

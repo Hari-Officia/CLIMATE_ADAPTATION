@@ -1,0 +1,14 @@
+{
+  "release_version": "3.0.0-certified",
+  "openapi_version": "3.0.2",
+  "endpoints": [
+    "/api/v1/decision/analyze", "/api/v1/decision/workflow/{workflow_id}",
+    "/api/v1/decision/health/live", "/api/v1/decision/health/ready",
+    "/api/v1/governance/status", "/api/v1/governance/models",
+    "/api/v1/governance/datasets", "/api/v1/governance/knowledge",
+    "/api/v1/governance/decisions", "/api/v1/governance/incidents",
+    "/api/v1/governance/changes", "/api/v1/governance/security",
+    "/api/v1/governance/backups", "/api/v1/governance/slo",
+    "/api/v1/qubo/model/{qubo_id}", "/api/v1/qaoa/experiment/{experiment_id}"
+  ]
+}

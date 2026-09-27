@@ -1,0 +1,3 @@
+stage,n_experiments,total_runtime_seconds,mean_runtime_per_exp
+STAGE_Z1_PILOT,750,1.25,0.0083
+STAGE_Z2_REAL,4750,4.5,0.0047

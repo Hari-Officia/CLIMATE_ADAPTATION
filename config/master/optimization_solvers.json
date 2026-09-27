@@ -1,0 +1,23 @@
+[
+  {
+    "solver_id": "EXACT",
+    "name": "Binary Enumeration Exact Solver",
+    "type": "EXACT",
+    "max_variables": 15,
+    "description": "Evaluates all 2^N binary portfolio combinations for N <= 15 candidate sets to establish exact ground-truth optimal solution."
+  },
+  {
+    "solver_id": "MILP_HIGHS",
+    "name": "SciPy HiGHS Mixed-Integer Linear Programming Solver",
+    "type": "MILP",
+    "max_variables": 100,
+    "description": "Exact/near-optimal MILP solver using scipy.optimize.milp with proven optimality gap tracking."
+  },
+  {
+    "solver_id": "GREEDY_HEURISTIC",
+    "name": "Greedy Marginal Gain Heuristic Baseline",
+    "type": "HEURISTIC",
+    "max_variables": 200,
+    "description": "Iterative greedy selection adding highest marginal gain feasible candidate."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "credential_security": "SECURE_ENVIRONMENT_ONLY",
+  "ibm_token_present": false,
+  "aws_token_present": false,
+  "authenticated": false,
+  "account_identifier_redacted": "REDACTED_UNAUTHENTICATED",
+  "token_exposed_in_logs": false
+}

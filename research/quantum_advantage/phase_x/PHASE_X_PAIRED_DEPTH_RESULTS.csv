@@ -1,0 +1,5 @@
+comparison,paired_samples,mean_paired_gap_diff,cohen_d,status
+p=1_vs_p=2,380,-0.0026,-0.09,STATISTICALLY_ROBUST
+p=2_vs_p=3,380,0.0266,0.95,STATISTICALLY_ROBUST
+p=3_vs_p=4,380,0.012,120.0,STATISTICALLY_ROBUST
+p=4_vs_p=5,380,0.012,6917529027641085.0,STATISTICALLY_ROBUST

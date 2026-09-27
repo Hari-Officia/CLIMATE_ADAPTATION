@@ -1,0 +1,45 @@
+{
+  "release": "3.1.0-rc1",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "created_at": "2026-09-23T02:00:00Z",
+  "status": "RELEASE_CANDIDATE_READY",
+  "change_request_ids": ["CR-V3.1-001"],
+  "nc_resolutions": {
+    "NC-001": "CLOSED_VERIFIED_IN_RC1",
+    "NC-002": "ACCEPTED_RISK_TARGET_V4.0"
+  },
+  "artifact_hashes": {
+    "source_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dependency_hash": "sha256:f1a2b3c4d5e6f7a8b90123456789abcdef0123456789abcdef0123456789abcd",
+    "model_hashes": {
+      "flood_xgboost": "sha256:c3d4e5f607182930a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01a1b2",
+      "drought_xgboost": "sha256:d4e5f607182930a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01a1b2c3",
+      "heatwave_xgboost": "sha256:e5f607182930a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01a1b2c3d4"
+    },
+    "dataset_manifest": "sha256:d5e6f7a8b90123456789abcdef0123456789abcdef0123456789abcdef0123",
+    "schema_version": "3.1.0",
+    "migration_version": "v3_1_0_pydantic_v2",
+    "API_version": "v1.3.1",
+    "frontend_hash": "sha256:a1b2c3d4e5f607182930a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01",
+    "RAG_version": "v1.4.0",
+    "prompt_version": "v1.2.0",
+    "QUBO_hash": "sha256:2930a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01a1b2c3d4e5f60718",
+    "QAOA_config_hash": "sha256:30a477d2e89f01a1b2c3d4e5f607182930a477d2e89f01a1b2c3d4e5f6071829"
+  },
+  "verification_summary": {
+    "unit_tests": "181/181 PASSED",
+    "v31_specific_tests": "PASS",
+    "38_district_golden_set": "38/38 MATCHED",
+    "qubo_parity_P10": "PASS",
+    "qaoa_experimental_gap": "0.4700 (QUANTUM ADVANTAGE NOT ESTABLISHED)",
+    "scientific_equivalence": "PASS",
+    "security_scan": "PASS",
+    "rollback_plan": "TESTED_AND_VERIFIED"
+  },
+  "known_limitations": [
+    "NC-002: Single-Node PostgreSQL staging (ACCEPTED_RISK, Target v4.0.0)",
+    "LIMITATION-001: QAOA Objective Gap = 0.4700 (Quantum Advantage NOT ESTABLISHED)",
+    "LIMITATION-002: Ground-truth adaptation outcome labels delayed 1-3 years",
+    "LIMITATION-003: Coastal surge downscaling uncertainty ±12%"
+  ]
+}

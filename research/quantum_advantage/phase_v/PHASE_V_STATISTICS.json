@@ -1,0 +1,13 @@
+{
+  "best_valid_gap": 0.0365,
+  "mean_valid_gap": 0.0634,
+  "median_valid_gap": 0.0605,
+  "worst_valid_gap": 0.1429,
+  "mean_feasibility": 1.0,
+  "best_feasibility": 1.0,
+  "mean_optimal_probability": 0.005977,
+  "best_optimal_probability": 0.006836,
+  "total_experiments_evaluated": 1900,
+  "negative_gaps": 0,
+  "quantum_advantage": "NOT_ESTABLISHED"
+}

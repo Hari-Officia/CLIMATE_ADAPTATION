@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "experiments": [
+    {
+      "experiment_id": "EXP-QAOA-P1-BENCHMARK",
+      "research_gap": "RG-001",
+      "hypothesis": "QAOA p=1 on aer_simulator yields feasible sample probability approx 0.689 and gap 0.4700",
+      "baseline": "MILP Classical Branch-and-Bound",
+      "shots": 1024,
+      "optimizer": "COBYLA",
+      "status": "VALIDATED",
+      "result": "Objective gap = 0.4700 (Quantum Advantage NOT ESTABLISHED)"
+    }
+  ]
+}

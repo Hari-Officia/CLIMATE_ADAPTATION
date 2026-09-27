@@ -1,0 +1,4 @@
+method,warm_start_source,mean_gap,median_gap,best_gap
+STANDARD,NONE,0.0,0.0,0.0
+PARAMETER_WARM_START,AA-MILP,0.0,0.0,0.0
+STATE_WARM_START,AA-MILP,0.0,0.0,0.0

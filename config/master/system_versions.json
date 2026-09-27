@@ -1,0 +1,26 @@
+{
+  "system_name": "Quantum Multi-Agent Decision Support System for Climate Adaptation",
+  "system_version": "1.0.0",
+  "climate_data_scope": "CLIMATE_ADAPTATION_ONLY",
+  "geographic_scope": "Tamil Nadu, India (38 Districts)",
+  "components": {
+    "feature_contract_version": "1.0.0",
+    "risk_model_version": "1.0.0",
+    "exposure_methodology_version": "1.0.0",
+    "vulnerability_methodology_version": "1.0.0",
+    "resilience_methodology_version": "1.0.0",
+    "priority_methodology_version": "1.0.0",
+    "strategy_registry_version": "1.0.0",
+    "applicability_engine_version": "1.0.0",
+    "classical_solver_version": "1.0.0",
+    "qubo_version": "1.0.0",
+    "qaoa_version": "1.0.0",
+    "knowledge_base_version": "v1.0.0_verified",
+    "embedding_model_version": "sentence-transformers/all-MiniLM-L6-v2",
+    "llm_model_version": "climate-adaptation-explainer-v1",
+    "prompt_version": "1.0.0",
+    "orchestrator_version": "1.0.0",
+    "api_version": "v1",
+    "decision_schema_version": "1.0.0"
+  }
+}

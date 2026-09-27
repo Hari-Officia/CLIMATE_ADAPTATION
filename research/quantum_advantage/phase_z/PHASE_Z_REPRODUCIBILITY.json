@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exact_optimum": 1.75,
+  "qubo_hash_match": true,
+  "seed_matching_passed": true,
+  "raw_count_conservation_passed": true,
+  "decoupled_verifier_passed": true
+}

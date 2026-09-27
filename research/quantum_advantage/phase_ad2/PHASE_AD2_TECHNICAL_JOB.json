@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED",
+  "technical_job_submitted": false,
+  "provider_job_id": "NONE_UNAUTHENTICATED",
+  "job_retrieved": false,
+  "raw_result_retrieved": false,
+  "raw_counts": {},
+  "circuit_info": {
+    "num_qubits": 2,
+    "circuit_type": "TECHNICAL_VALIDATION_COMPUTATIONAL_BASIS",
+    "state_prepared": "|01>",
+    "gates": [
+      "X(0)",
+      "Measure(0)",
+      "Measure(1)"
+    ],
+    "expected_ideal_bitstring": "01",
+    "circuit_hash": "32b137afbc41c155"
+  },
+  "level_3_real_hardware": false,
+  "scientific_experiment_executed": false
+}

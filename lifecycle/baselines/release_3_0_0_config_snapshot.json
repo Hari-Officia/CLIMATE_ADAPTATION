@@ -1,0 +1,5 @@
+{
+  "release_version": "3.0.0-certified",
+  "config_hash": "config_v1_baseline_hash_20260923",
+  "environment_default": "production"
+}

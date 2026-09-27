@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-09-23T01:15:00Z",
+  "slos": [
+    {
+      "slo_id": "SLO-API-001",
+      "service": "API Gateway",
+      "indicator": "http_request_success_rate",
+      "target": 0.999,
+      "measurement_period": "30d",
+      "error_budget_percent": 0.1,
+      "owner_role": "Operations Owner",
+      "alert_policy": "Fast Burn (2% budget in 1 hour) -> Critical Alert; Slow Burn (5% in 6 hours) -> Warning Alert",
+      "exception_policy": "No exception allowed for core decision API",
+      "status": "ESTABLISHED"
+    },
+    {
+      "slo_id": "SLO-API-002",
+      "service": "Decision Orchestrator",
+      "indicator": "decision_generation_latency_p95",
+      "target_ms": 3000,
+      "target": 0.95,
+      "measurement_period": "30d",
+      "error_budget_percent": 5.0,
+      "owner_role": "Platform Owner",
+      "alert_policy": "P95 > 5000ms over 15 mins -> Warning Alert",
+      "exception_policy": "Complex MILP/QAOA multi-hazard runs may extend up to 10s",
+      "status": "ESTABLISHED"
+    },
+    {
+      "slo_id": "SLO-DATA-001",
+      "service": "Ingestion Engine",
+      "indicator": "data_freshness_age_hours",
+      "target_max_hours": 24,
+      "target": 0.99,
+      "measurement_period": "7d",
+      "error_budget_percent": 1.0,
+      "owner_role": "Data Owner",
+      "alert_policy": "Data age > 36 hours -> Warning Alert",
+      "exception_policy": "External IMD/NASA POWER API downtime up to 48 hours documented in runbook",
+      "status": "ESTABLISHED"
+    },
+    {
+      "slo_id": "SLO-RAG-001",
+      "service": "RAG Engine",
+      "indicator": "citation_validation_rate",
+      "target": 1.0,
+      "measurement_period": "30d",
+      "error_budget_percent": 0.0,
+      "owner_role": "Knowledge Owner",
+      "alert_policy": "Any ungrounded citation -> Critical Alert",
+      "exception_policy": "Zero tolerance for ungrounded citations",
+      "status": "ESTABLISHED"
+    },
+    {
+      "slo_id": "SLO-ML-001",
+      "service": "Risk Engine",
+      "indicator": "district_prediction_coverage",
+      "target": 1.0,
+      "measurement_period": "30d",
+      "error_budget_percent": 0.0,
+      "owner_role": "ML Owner",
+      "alert_policy": "< 38 districts predicted -> Critical Alert",
+      "exception_policy": "Must cover all 38 Tamil Nadu districts without silent zero fallbacks",
+      "status": "ESTABLISHED"
+    },
+    {
+      "slo_id": "SLO-QUANTUM-001",
+      "service": "QAOA Engine",
+      "indicator": "qaoa_classical_benchmark_comparison_present",
+      "target": 1.0,
+      "measurement_period": "30d",
+      "error_budget_percent": 0.0,
+      "owner_role": "Research Owner",
+      "alert_policy": "Missing classical benchmark in QAOA result -> Critical Alert",
+      "exception_policy": "Quantum Advantage MUST be labeled NOT ESTABLISHED when gap > 0.0",
+      "status": "ESTABLISHED"
+    }
+  ]
+}

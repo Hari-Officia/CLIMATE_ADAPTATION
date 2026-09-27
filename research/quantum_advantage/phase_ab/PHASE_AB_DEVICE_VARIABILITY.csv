@@ -1,0 +1,11 @@
+backend,run_id,gap,optimal_probability
+aer_simulator_hardware_calibrated,RUN_1,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_2,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_3,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_4,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_5,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_6,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_7,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_8,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_9,0.0,0.005859375
+aer_simulator_hardware_calibrated,RUN_10,0.0,0.005859375

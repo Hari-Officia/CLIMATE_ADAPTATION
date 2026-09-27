@@ -1,0 +1,8 @@
+{
+  "credential_security": "SECURE_ENVIRONMENT_ONLY",
+  "provider_mode": "SIMULATOR_ONLY",
+  "active_backend": "aer_simulator_statevector",
+  "ibm_available": false,
+  "aws_available": false,
+  "token_exposed_in_logs": false
+}

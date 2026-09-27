@@ -1,0 +1,5 @@
+{
+  "authentication": "BLOCKED_UNAUTHENTICATED",
+  "provider_type": "UNAUTHENTICATED_LOCAL_DRIVER",
+  "blocking_issue": "IBM_API_KEY_ABSENT"
+}

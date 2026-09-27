@@ -1,0 +1,799 @@
+{
+  "ariyalur": {
+    "district_id": "ariyalur",
+    "district_name": "Ariyalur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "52fc08a17ff48ff0fc9006d2d4e404245f6e491f4839b0bc1da456d4aefe3f4a"
+  },
+  "chengalpattu": {
+    "district_id": "chengalpattu",
+    "district_name": "Chengalpattu",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "33a39fe444093387dcd717e03aaa34aa7d68a0ff077d5aa925aa7dc29f51ab5e"
+  },
+  "chennai": {
+    "district_id": "chennai",
+    "district_name": "Chennai",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "33e0216de8a526b914328915313b969e9454b78930ec47bc6f1b268cad7f25d0"
+  },
+  "coimbatore": {
+    "district_id": "coimbatore",
+    "district_name": "Coimbatore",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 4,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "99c4071c73c278b056243e5307bda48c439d2df1f9844901bd62cebb9b069637"
+  },
+  "cuddalore": {
+    "district_id": "cuddalore",
+    "district_name": "Cuddalore",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "964250221cfdbdd28297d92978408577bfd421b57a39dd33b948021990724571"
+  },
+  "dharmapuri": {
+    "district_id": "dharmapuri",
+    "district_name": "Dharmapuri",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "a220e98c2c12fe5d62b72c38bad371b222808da3abaf274f814bc7e3e086a322"
+  },
+  "dindigul": {
+    "district_id": "dindigul",
+    "district_name": "Dindigul",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "69bf570150f79eebf04da28eddc1cb2f1fba6cde0512509cbe3775db53313a2b"
+  },
+  "erode": {
+    "district_id": "erode",
+    "district_name": "Erode",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "c49b947d646efb36ca55a4fe77a421a6f02d501f9dee5c45686704af9a191c3e"
+  },
+  "kallakurichi": {
+    "district_id": "kallakurichi",
+    "district_name": "Kallakurichi",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "aec7b3308b5cef737a6a8be30069dc3cc49cf512330e2d91531b275e4bd1f7b6"
+  },
+  "kancheepuram": {
+    "district_id": "kancheepuram",
+    "district_name": "Kancheepuram",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "636205ea295a57a7e4b1ce4b67a1c73e591a866446aae441ef19eb40e9ebc31d"
+  },
+  "kanniyakumari": {
+    "district_id": "kanniyakumari",
+    "district_name": "Kanniyakumari",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "05dabbc3a4728d83d402f759d1076a49ae31dd5d938fb305426e33e1da3a279b"
+  },
+  "karur": {
+    "district_id": "karur",
+    "district_name": "Karur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "6618615df7389fa244917a8a14c73c90151b3ca7e227f5d7eea911cf40886e33"
+  },
+  "krishnagiri": {
+    "district_id": "krishnagiri",
+    "district_name": "Krishnagiri",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "770ed635e3e1b435ef8e4933d77ea43613cb4fe657f244782d4fe55f723cbfcc"
+  },
+  "madurai": {
+    "district_id": "madurai",
+    "district_name": "Madurai",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "845a3d9a198f16211af2e555e6d4363aeda3fe64d737a00d2468734c1eb6f991"
+  },
+  "mayiladuthurai": {
+    "district_id": "mayiladuthurai",
+    "district_name": "Mayiladuthurai",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "785e49b97e3ba3c3c74afb66a7610c787bea760d8f0193117c95574594ef323e"
+  },
+  "nagapattinam": {
+    "district_id": "nagapattinam",
+    "district_name": "Nagapattinam",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "3781ae21942fa8fcd7caaf92e33cda10b69a1fb5f0eadd6df6c33bf45b695df1"
+  },
+  "namakkal": {
+    "district_id": "namakkal",
+    "district_name": "Namakkal",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "60da47a988eaff2853b0ba454d09d132625d75d7a2a94a81cd4db09410f43057"
+  },
+  "nilgiris": {
+    "district_id": "nilgiris",
+    "district_name": "Nilgiris",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "8f0c43fd1bdf7e407683cba98eb8f3dea5b4e401cb9c18c1dbe2ab42ea932a1f"
+  },
+  "perambalur": {
+    "district_id": "perambalur",
+    "district_name": "Perambalur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "88ef5a787d84571dc29ce3e49f11dca86bad3154f414bbe8eb2f687adeb38d8f"
+  },
+  "pudukkottai": {
+    "district_id": "pudukkottai",
+    "district_name": "Pudukkottai",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "fced98ec77fc0a7c6bda9a669bfbe9a8b4aaa5372f958dcf42ae48f56fcaadb4"
+  },
+  "ramanathapuram": {
+    "district_id": "ramanathapuram",
+    "district_name": "Ramanathapuram",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "4e3dd7081cf04503b01c56a47fe3c6d5a40212bb1ccd7a1a564ed0f2c6afed31"
+  },
+  "ranipet": {
+    "district_id": "ranipet",
+    "district_name": "Ranipet",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "9a40f19a08185bd8f3870a9a0a518b576bbda736cc947a6410036691bde9d8ba"
+  },
+  "salem": {
+    "district_id": "salem",
+    "district_name": "Salem",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "d8e206131867591fb513d26a64577125a7d4333f357ce37d3c38c131d17638d2"
+  },
+  "sivaganga": {
+    "district_id": "sivaganga",
+    "district_name": "Sivaganga",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "d07aacdc2a6b38194505febd008750ca87352e6e6419b8c24c651b16cbd2bf2b"
+  },
+  "tenkasi": {
+    "district_id": "tenkasi",
+    "district_name": "Tenkasi",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "be1f517cf18d9ae9f1e61947def3dfc8eb081e31fbdef9859db2df574b71a894"
+  },
+  "thanjavur": {
+    "district_id": "thanjavur",
+    "district_name": "Thanjavur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "ed72d5a3a0085cf1aa82f5828ee6373871214dd49ad177906139eaaeb903b92b"
+  },
+  "theni": {
+    "district_id": "theni",
+    "district_name": "Theni",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "f1e171c9489ee60cad9817ab667219d9841913876b8904e8f300346505d7779d"
+  },
+  "thoothukudi": {
+    "district_id": "thoothukudi",
+    "district_name": "Thoothukudi",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "a57b4538591c9921e7f3b0fd5c4258e7cda16b36115d3f371415f87133b9efc7"
+  },
+  "tiruchirappalli": {
+    "district_id": "tiruchirappalli",
+    "district_name": "Tiruchirappalli",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "5bf4c6922be27e37b0c5964e4a3d8a2eb72344a4ca77cdf66629801da8dfe63a"
+  },
+  "tirunelveli": {
+    "district_id": "tirunelveli",
+    "district_name": "Tirunelveli",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "32e67fe7597b4d831f94aaf38965a0d0c4a0472b2d2a0a5888ca3c3e1bae9e46"
+  },
+  "tirupathur": {
+    "district_id": "tirupathur",
+    "district_name": "Tirupathur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "e142bbe302373c2c87d73c3b5db797b57cd871d714d84efc53207444a8c6f551"
+  },
+  "tiruppur": {
+    "district_id": "tiruppur",
+    "district_name": "Tiruppur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "56be92bd9862afd3e8ab911383566a0bfc8c079821ebb7d6f9dfa01796c076f4"
+  },
+  "tiruvallur": {
+    "district_id": "tiruvallur",
+    "district_name": "Tiruvallur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "c77e741793fcf387d0cb8723050bbb28e1b5adb7ac3328ecd11d54e4e239d6f6"
+  },
+  "tiruvannamalai": {
+    "district_id": "tiruvannamalai",
+    "district_name": "Tiruvannamalai",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "f81e543de5f68292fa217cbf0195b3f3067b151173905f292fa3c1fd16638918"
+  },
+  "tiruvarur": {
+    "district_id": "tiruvarur",
+    "district_name": "Tiruvarur",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "c49385ec495eed61f9e1740e3be6b2ec60faa9f958cfe49277fb39d86c2033b6"
+  },
+  "vellore": {
+    "district_id": "vellore",
+    "district_name": "Vellore",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "9463abbaa1d1ef7cc2fcbab06c54708728c0245f5d0e4bdbcb66e6875c7f1123"
+  },
+  "viluppuram": {
+    "district_id": "viluppuram",
+    "district_name": "Viluppuram",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "90ebe4e30f10c5942f3a7b51f4c7fc0cab41f9509032bbc2803c0c04c1059c09"
+  },
+  "virudhunagar": {
+    "district_id": "virudhunagar",
+    "district_name": "Virudhunagar",
+    "baseline_risk": 0.75,
+    "baseline_priority": 0.8,
+    "candidate_strategies_count": 5,
+    "MILP_portfolio": [
+      "STR-WTR-001",
+      "STR-BLD-002",
+      "STR-CIN-001",
+      "STR-EWS-001",
+      "STR-HTR-001"
+    ],
+    "QUBO_objective": 0.0,
+    "QAOA_metadata": {
+      "qaoa_depth": 2,
+      "objective_gap": 0.47,
+      "quantum_advantage": "NOT_ESTABLISHED"
+    },
+    "decision_hash": "06f8170cf8fa69184ce65e26904908a0a729babebd74b485ae5f15901e9ec385"
+  }
+}

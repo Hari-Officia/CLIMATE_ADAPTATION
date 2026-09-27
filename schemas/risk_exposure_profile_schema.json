@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RiskExposureProfileSchema",
+  "type": "object",
+  "required": [
+    "district_id",
+    "district_name",
+    "hazard_id",
+    "risk_context",
+    "exposure_context",
+    "spatial_context",
+    "temporal_alignment",
+    "data_governance",
+    "generated_at"
+  ],
+  "properties": {
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "hazard_id": { "type": "string" },
+    "risk_context": {
+      "type": "object",
+      "required": ["hazard_risk_status", "model_id", "feature_contract_id"],
+      "properties": {
+        "hazard_risk_status": { "type": "string" },
+        "hazard_probability": { "type": ["number", "null"] },
+        "model_id": { "type": "string" },
+        "feature_contract_id": { "type": "string" }
+      }
+    },
+    "exposure_context": { "type": "object" },
+    "spatial_context": {
+      "type": "object",
+      "properties": {
+        "crs": { "type": "string" },
+        "metric_crs": { "type": "string" },
+        "bounding_version": { "type": "string" }
+      }
+    },
+    "temporal_alignment": {
+      "type": "object",
+      "properties": {
+        "risk_calculation_year": { "type": "integer" },
+        "exposure_dataset_year": { "type": "integer" },
+        "temporal_gap_years": { "type": "integer" },
+        "temporal_mismatch_flag": { "type": "boolean" },
+        "warning": { "type": ["string", "null"] }
+      }
+    },
+    "data_governance": {
+      "type": "object",
+      "properties": {
+        "authoritative_runtime_store": { "type": "string" },
+        "semantic_store": { "type": "string" },
+        "lineage_id": { "type": "string" },
+        "zero_imputation": { "type": "boolean" },
+        "rev_001_metric_status": { "type": "string" },
+        "lidar_elevation_gap": { "type": "string" }
+      }
+    },
+    "generated_at": { "type": "string" }
+  }
+}

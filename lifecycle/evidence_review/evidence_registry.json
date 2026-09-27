@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "evidence_sources": [
+    {
+      "source_id": "SRC-TN-SAPCC-2023",
+      "title": "Tamil Nadu State Action Plan on Climate Change 2.0 (2021-2030)",
+      "organization": "Department of Environment & Climate Change, Government of Tamil Nadu",
+      "publication_date": "2023-01-15",
+      "version": "2.0",
+      "source_tier": "Tier 1",
+      "jurisdiction": "Tamil Nadu",
+      "status": "ACTIVE"
+    },
+    {
+      "source_id": "SRC-NDMA-FLOOD-2022",
+      "title": "National Disaster Management Guidelines: Management of Floods",
+      "organization": "National Disaster Management Authority, Government of India",
+      "publication_date": "2022-06-10",
+      "version": "1.2",
+      "source_tier": "Tier 2",
+      "jurisdiction": "India",
+      "status": "ACTIVE"
+    },
+    {
+      "source_id": "SRC-IPCC-AR6-WG2-2022",
+      "title": "IPCC Sixth Assessment Report: Impacts, Adaptation and Vulnerability",
+      "organization": "Intergovernmental Panel on Climate Change (IPCC)",
+      "publication_date": "2022-02-28",
+      "version": "AR6",
+      "source_tier": "Tier 3",
+      "jurisdiction": "International",
+      "status": "ACTIVE"
+    }
+  ],
+  "evidence_conflicts": []
+}

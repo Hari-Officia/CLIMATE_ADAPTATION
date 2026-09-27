@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EvidenceClaimSchema",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "source_id",
+    "document_id",
+    "claim_text",
+    "evidence_type",
+    "evidence_strength"
+  ],
+  "properties": {
+    "claim_id": { "type": "string" },
+    "source_id": { "type": "string" },
+    "document_id": { "type": "string" },
+    "chunk_id": { "type": ["string", "null"] },
+    "claim_text": { "type": "string" },
+    "evidence_type": { "type": "string" },
+    "strategy_id": { "type": ["string", "null"] },
+    "hazard_id": { "type": ["string", "null"] },
+    "district_scope": { "type": ["string", "null"] },
+    "quantitative_value": { "type": ["number", "null"] },
+    "unit": { "type": ["string", "null"] },
+    "qualifier": { "type": ["string", "null"] },
+    "evidence_strength": { "type": "string" },
+    "page": { "type": ["integer", "null"] },
+    "section": { "type": ["string", "null"] }
+  }
+}

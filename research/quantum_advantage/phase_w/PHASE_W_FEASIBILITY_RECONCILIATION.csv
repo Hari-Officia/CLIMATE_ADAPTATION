@@ -1,0 +1,2 @@
+best_solution_feasible_rate,all_shots_feasibility_probability,definition_note,reconciliation_status
+1.0,0.785,"A = Best sampled vector feasibility rate (100%), B = Fraction of total 1024 shots satisfying sum(x)==5 (78.5%)",PASS

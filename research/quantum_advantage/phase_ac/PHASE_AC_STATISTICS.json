@@ -1,0 +1,9 @@
+{
+  "n_physical_hardware_jobs": 12,
+  "mean_physical_hardware_gap": 0.0,
+  "median_physical_hardware_gap": 0.0,
+  "mean_physical_hardware_opt_prob": 0.00634765625,
+  "best_sample_feasibility_rate": 1.0,
+  "negative_gaps": 0,
+  "status": "PASS"
+}

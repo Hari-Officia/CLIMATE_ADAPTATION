@@ -1,0 +1,26 @@
+[
+  {
+    "constraint_id": "CSTR-PORTFOLIO-SIZE",
+    "name": "Maximum Portfolio Size K",
+    "type": "HARD",
+    "description": "Limits maximum number of selected strategies in portfolio (default K = 5)."
+  },
+  {
+    "constraint_id": "CSTR-HARD-CONFLICT",
+    "name": "Incompatible Strategy Exclusion",
+    "type": "HARD",
+    "description": "Enforces x_i + x_j <= 1 for mutually exclusive or conflicting strategy pairs."
+  },
+  {
+    "constraint_id": "CSTR-DEPENDENCY",
+    "name": "Prerequisite Dependency Requirement",
+    "type": "HARD",
+    "description": "Enforces x_A <= x_B where strategy A requires prerequisite strategy B."
+  },
+  {
+    "constraint_id": "CSTR-APPLICABILITY",
+    "name": "District Eligibility Enforcement",
+    "type": "HARD",
+    "description": "Restricts binary decision variables strictly to ELIGIBLE or CONDITIONALLY_ELIGIBLE candidates."
+  }
+]

@@ -1,0 +1,6 @@
+method,cpu_cores,memory,evaluations,qubits
+Exact,1,0.5MB,16384,N/A
+MILP,1,1.2MB,42,N/A
+Greedy,1,0.1MB,14,N/A
+Simulated Annealing,1,0.3MB,300,N/A
+QAOA_p2,1,12.0MB,60,15

@@ -1,0 +1,13 @@
+strategy_id,sector
+STR-DRN-001,Urban Infrastructure
+STR-DRN-002,Urban Infrastructure
+STR-WTR-001,Water Resources
+STR-WTR-002,Water & Agriculture
+STR-LND-001,Urban Planning
+STR-NBS-001,Environment & Municipal
+STR-BLT-001,Energy & Power
+STR-GIS-001,GIS & Disaster Management
+STR-CRT-001,Healthcare & Civil Protection
+STR-EWS-001,Emergency Services
+STR-HTS-001,Housing & Health
+STR-CST-001,Coastal & Forest

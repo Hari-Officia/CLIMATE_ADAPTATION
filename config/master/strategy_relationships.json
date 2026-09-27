@@ -1,0 +1,34 @@
+[
+  {
+    "strategy_a": "STR-DRN-001",
+    "strategy_b": "STR-DRN-002",
+    "relationship_type": "COMPLEMENTARY",
+    "reason": "Drain desilting maximizes flow efficiency within newly expanded stormwater conduits.",
+    "severity": "INFO",
+    "hard_or_soft": "SOFT"
+  },
+  {
+    "strategy_a": "STR-WTR-001",
+    "strategy_b": "STR-WTR-002",
+    "relationship_type": "SYNERGISTIC",
+    "reason": "Rooftop rainwater harvesting reduces urban runoff velocity, preventing siltation of downstream lakes and tanks.",
+    "severity": "INFO",
+    "hard_or_soft": "SOFT"
+  },
+  {
+    "strategy_a": "STR-NBS-001",
+    "strategy_b": "STR-URB-001",
+    "relationship_type": "DEPENDENT",
+    "reason": "Wetland restoration requires floodplain zoning setbacks to prevent urban encroachers from filling restored zones.",
+    "severity": "HIGH",
+    "hard_or_soft": "HARD"
+  },
+  {
+    "strategy_a": "STR-CST-001",
+    "strategy_b": "STR-URB-001",
+    "relationship_type": "COMPLEMENTARY",
+    "reason": "Mangrove restoration is augmented by coastal setback regulations.",
+    "severity": "INFO",
+    "hard_or_soft": "SOFT"
+  }
+]

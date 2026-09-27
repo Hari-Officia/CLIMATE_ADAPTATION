@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExposureSchema",
+  "type": "object",
+  "required": [
+    "district_id",
+    "district_name",
+    "population_exposure",
+    "built_environment_exposure",
+    "infrastructure_exposure",
+    "data_quality",
+    "provenance"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["COMPLETE", "PARTIAL", "LIMITED", "UNAVAILABLE"]
+    },
+    "district_id": {
+      "type": "string"
+    },
+    "district_name": {
+      "type": "string"
+    },
+    "population_exposure": {
+      "type": "object",
+      "required": ["total_population", "dataset_id"],
+      "properties": {
+        "status": { "type": "string" },
+        "total_population": { "type": ["integer", "null"] },
+        "urban_population": { "type": ["integer", "null"] },
+        "rural_population": { "type": ["integer", "null"] },
+        "vulnerable_age_group": { "type": ["integer", "null"] },
+        "dataset_id": { "type": "string" },
+        "dataset_year": { "type": "integer" }
+      }
+    },
+    "built_environment_exposure": {
+      "type": "object",
+      "required": ["total_area_km2", "dataset_id"],
+      "properties": {
+        "status": { "type": "string" },
+        "total_area_km2": { "type": ["number", "null"] },
+        "built_up_area_km2": { "type": ["number", "null"] },
+        "impervious_surface_fraction": { "type": ["number", "null"] },
+        "urban_density_category": { "type": ["string", "null"] },
+        "dataset_id": { "type": "string" }
+      }
+    },
+    "infrastructure_exposure": {
+      "type": "object",
+      "required": ["asset_count", "dataset_id"],
+      "properties": {
+        "status": { "type": "string" },
+        "asset_count": { "type": "integer" },
+        "critical_assets": { "type": "array" },
+        "dataset_id": { "type": "string" }
+      }
+    },
+    "data_quality": {
+      "type": "object",
+      "properties": {
+        "completeness": { "type": "string" },
+        "missing_data_imputed": { "type": "boolean" },
+        "zero_imputation_applied": { "type": "boolean" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "population_source": { "type": "string" },
+        "infrastructure_source": { "type": "string" },
+        "boundary_source": { "type": "string" }
+      }
+    }
+  }
+}

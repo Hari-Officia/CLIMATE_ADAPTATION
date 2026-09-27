@@ -1,0 +1,9 @@
+source_id,filename,timestamp,http_status,content_type,integrity_check
+TN-ADAPT-001,tn_district_climate_adaptation_framework_2024.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+TN-DCAPT-002,tn_dcapt_guidelines_2025.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+TN-CAP-003,chennai_climate_action_plan_2050.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+TN-SDMP-004,tn_state_disaster_management_plan.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+NAT-NDMA-001,ndma_urban_flooding_guidelines_2022.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+NAT-CGWB-002,cgwb_artificial_recharge_master_plan_2021.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+IPCC-AR6-001,ipcc_ar6_wg2_chapter06.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED
+RES-TN-001,iitm_bgi_flood_mitigation_tn_2024.pdf,2026-09-21 10:30:00,200,application/pdf,PASSED

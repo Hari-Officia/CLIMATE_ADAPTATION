@@ -1,0 +1,6 @@
+layer_id,layer_name,dataset_id,format,crs,geometry_type,feature_count,geographic_scope,resolution,status
+LAY-TN-ADM2-001,Tamil Nadu 38 District Boundaries Master,DS-GEOJSON-TN-ADM2-001,geojson,EPSG:4326,MultiPolygon,38,TAMIL_NADU,DISTRICT,ACTIVE
+LAY-TN-POP-001,Tamil Nadu District Population Layer,DS-POP-TN-001,structured_postgis,EPSG:4326,Polygon,38,TAMIL_NADU,DISTRICT,ACTIVE
+LAY-TN-INFRA-001,Tamil Nadu Critical Infrastructure Assets Layer,DS-INFRA-TN-001,structured_postgis,EPSG:4326,Point,150,TAMIL_NADU,POINT,ACTIVE
+LAY-TN-LAND-001,Tamil Nadu Land Cover & Built-Up Context,DS-LAND-TN-001,structured_postgis,EPSG:4326,Polygon,38,TAMIL_NADU,DISTRICT,ACTIVE
+LAY-TN-COAST-001,Tamil Nadu Coastal Buffer & Distance Context,DS-COAST-TN-001,structured_postgis,EPSG:4326,LineString,14,TAMIL_NADU_COASTAL,DISTRICT,ACTIVE

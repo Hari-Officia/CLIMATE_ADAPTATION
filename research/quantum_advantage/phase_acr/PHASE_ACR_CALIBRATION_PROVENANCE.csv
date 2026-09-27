@@ -1,0 +1,2 @@
+backend_name,source,readout_error_mean,cx_error_mean,calibration_timestamp,provenance_verified
+ibm_sherbrooke_physical_simulated_driver,SYNTHETIC_PROXY_CONFIG,0.012,0.0075,2026-09-23T14:00:00Z,FALSE_LOCAL_MODEL

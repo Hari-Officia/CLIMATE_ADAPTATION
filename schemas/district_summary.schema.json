@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DistrictSummarySchema",
+  "type": "object",
+  "required": ["district_id", "district_name", "risk_class", "priority_horizon", "eligible_strategies_count"],
+  "properties": {
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "risk_class": { "type": "string" },
+    "priority_horizon": { "type": "string" },
+    "eligible_strategies_count": { "type": "integer" }
+  }
+}

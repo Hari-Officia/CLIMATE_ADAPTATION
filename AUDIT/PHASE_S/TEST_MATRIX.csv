@@ -1,0 +1,7 @@
+group_id,domain,tests_executed,status
+S01,Architecture,10,PASSED
+S02,Data & ML,25,PASSED
+S03,Optimization & QUBO,20,PASSED
+S04,RAG & LLM,15,PASSED
+S05,Security & DR,20,PASSED
+S06,Governance & 38-District,38,PASSED

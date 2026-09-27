@@ -1,0 +1,3 @@
+query_id,test_query,top_retrieved_source,retrieved_tier,relevance_score,citation_accuracy,page_accuracy,status
+Q1,What adaptation measures are recommended for urban flooding in Tamil Nadu?,TN-CAP-003,Tier 1,0.96,CORRECT,CORRECT,PASS
+Q2,Which adaptation strategies are relevant to coastal districts?,TN-ADAPT-001,Tier 1,0.98,CORRECT,CORRECT,PASS

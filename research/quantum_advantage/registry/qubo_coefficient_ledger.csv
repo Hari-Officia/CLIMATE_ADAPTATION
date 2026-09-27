@@ -1,0 +1,16 @@
+variable,coefficient,source,formula,normalization,penalty,interaction_type,evidence,version,hash
+x_0,-0.35,RiskEngine,risk_coverage*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x0
+x_1,-0.35,PriorityEngine,priority_alignment*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x1
+x_2,-0.30,RAGEvidence,evidence_tier_weight*0.30,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x2
+x_3,-0.35,RiskEngine,risk_coverage*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x3
+x_4,-0.35,PriorityEngine,priority_alignment*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x4
+x_5,-0.30,RAGEvidence,evidence_tier_weight*0.30,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x5
+x_6,-0.35,RiskEngine,risk_coverage*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x6
+x_7,-0.35,PriorityEngine,priority_alignment*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x7
+x_8,-0.30,RAGEvidence,evidence_tier_weight*0.30,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x8
+x_9,-0.35,RiskEngine,risk_coverage*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x9
+x_10,-0.35,PriorityEngine,priority_alignment*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x10
+x_11,-0.30,RAGEvidence,evidence_tier_weight*0.30,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x11
+x_12,-0.35,RiskEngine,risk_coverage*0.35,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x12
+x_13,-0.30,RAGEvidence,evidence_tier_weight*0.30,0_to_1,0.0,linear,TN-SAPCC-2.0,1.0.0,hash_x13
+penalty_P,10.0,ConstraintEngine,P*(sum(x)-K)^2,unbounded,10.0,quadratic_penalty,Certified_QUBO_Spec,1.0.0,hash_P10

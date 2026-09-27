@@ -1,0 +1,12 @@
+domain,status,level
+Architecture,PASS,CERTIFIED
+Scientific ML,PASS,CERTIFIED
+Spatial GIS,PASS,CERTIFIED
+Strategy Optimization,PASS,CERTIFIED
+QUBO Formulation,PASS,CERTIFIED
+QAOA Solver,PASS,EXPERIMENTAL
+RAG Evidence,PASS,CERTIFIED
+LLM Explanations,PASS,CERTIFIED
+Security,PASS,CERTIFIED
+Disaster Recovery,PASS,CERTIFIED
+38 Districts,PASS,CERTIFIED

@@ -1,0 +1,22 @@
+[
+  {
+    "strength": "VERY_STRONG",
+    "description": "Multi-site field studies, official state policy documents (Tier 1/2), and empirical evaluation."
+  },
+  {
+    "strength": "STRONG",
+    "description": "Peer-reviewed studies or national government technical guidelines (NDMA, CGWB)."
+  },
+  {
+    "strength": "MODERATE",
+    "description": "Single-site pilot studies or regional adaptation case reports."
+  },
+  {
+    "strength": "LIMITED",
+    "description": "Qualitative advisory guidelines lacking quantitative field metrics."
+  },
+  {
+    "strength": "UNVERIFIED",
+    "description": "Unsubstantiated claims requiring scientific peer review before deployment."
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "feature_contract_id": "FCT-53-001",
+  "name": "53-Feature Climate Risk Model Contract",
+  "version": "1.0.0",
+  "total_features": 53,
+  "continuous_features_count": 15,
+  "district_onehot_features_count": 38,
+  "continuous_features": [
+    {
+      "name": "temp_max",
+      "type": "float",
+      "unit": "Celsius"
+    },
+    {
+      "name": "temp_min",
+      "type": "float",
+      "unit": "Celsius"
+    },
+    {
+      "name": "temp_mean",
+      "type": "float",
+      "unit": "Celsius"
+    },
+    {
+      "name": "temp_range",
+      "type": "float",
+      "unit": "Celsius"
+    },
+    {
+      "name": "humidity",
+      "type": "float",
+      "unit": "Percentage"
+    },
+    {
+      "name": "wind_speed",
+      "type": "float",
+      "unit": "km/h"
+    },
+    {
+      "name": "rainfall",
+      "type": "float",
+      "unit": "mm"
+    },
+    {
+      "name": "soil_wetness",
+      "type": "float",
+      "unit": "Index (0-1)"
+    },
+    {
+      "name": "rainfall_3d",
+      "type": "float",
+      "unit": "mm"
+    },
+    {
+      "name": "rainfall_7d",
+      "type": "float",
+      "unit": "mm"
+    },
+    {
+      "name": "rainfall_30d",
+      "type": "float",
+      "unit": "mm"
+    },
+    {
+      "name": "temp_anomaly",
+      "type": "float",
+      "unit": "Celsius Anomaly"
+    },
+    {
+      "name": "rainfall_anomaly",
+      "type": "float",
+      "unit": "mm Anomaly"
+    },
+    {
+      "name": "SPI_3",
+      "type": "float",
+      "unit": "Standardized Index"
+    },
+    {
+      "name": "SPI_6",
+      "type": "float",
+      "unit": "Standardized Index"
+    }
+  ],
+  "district_onehot_features": [
+    "district_ariyalur",
+    "district_chengalpattu",
+    "district_chennai",
+    "district_coimbatore",
+    "district_cuddalore",
+    "district_dharmapuri",
+    "district_dindigul",
+    "district_erode",
+    "district_kallakurichi",
+    "district_kancheepuram",
+    "district_kanniyakumari",
+    "district_karur",
+    "district_krishnagiri",
+    "district_madurai",
+    "district_mayiladuthurai",
+    "district_nagapattinam",
+    "district_namakkal",
+    "district_nilgiris",
+    "district_perambalur",
+    "district_pudukkottai",
+    "district_ramanathapuram",
+    "district_ranipet",
+    "district_salem",
+    "district_sivaganga",
+    "district_tenkasi",
+    "district_thanjavur",
+    "district_theni",
+    "district_thoothukudi",
+    "district_tiruchirappalli",
+    "district_tirunelveli",
+    "district_tirupathur",
+    "district_tiruppur",
+    "district_tiruvallur",
+    "district_tiruvannamalai",
+    "district_tiruvarur",
+    "district_vellore",
+    "district_viluppuram",
+    "district_virudhunagar"
+  ],
+  "missing_value_policy": "EXPLICIT_VALIDATION_ERROR (Zero-tolerance against silent zero imputation)",
+  "status": "ACTIVE_VERIFIED"
+}

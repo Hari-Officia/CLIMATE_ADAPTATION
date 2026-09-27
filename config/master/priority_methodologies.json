@@ -1,0 +1,13 @@
+[
+  {
+    "methodology_id": "MTH-PRIORITY-TN-001",
+    "name": "Tamil Nadu Multi-Criteria Climate Adaptation Priority Framework",
+    "version": "1.0.0",
+    "framework": "Multi-Criteria Climate Decision Analysis (MCDA)",
+    "description": "Decomposes adaptation priority into 4 pillars: Hazard Risk (Phase E), Exposure (Phase F), Vulnerability/Sensitivity (Phase G), and Resilience Gap (Phase G). Evaluates priority status, horizon, and deterministic drivers without unverified composite formula weights.",
+    "status": "ACTIVE",
+    "authoritative": true,
+    "geographic_scope": "TAMIL_NADU",
+    "districts_count": 38
+  }
+]

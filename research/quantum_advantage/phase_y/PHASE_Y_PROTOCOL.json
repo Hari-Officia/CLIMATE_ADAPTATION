@@ -1,0 +1,14 @@
+{
+  "protocol_id": "PHASE_Y_SCALING_PROTOCOL_V1",
+  "timestamp": "2026-09-23T16:52:00Z",
+  "class_a": "REAL_TAMIL_NADU (N=14, 38 districts)",
+  "class_b": "CONTROLLED_SYNTHETIC (N=4..20, variables SYN_VAR_xxx)",
+  "families": [
+    "Family Y-A (N scaling)",
+    "Family Y-B (Density)",
+    "Family Y-C (Constraints)",
+    "Family Y-D (K/N ratio)",
+    "Family Y-E (Depth x Scale)"
+  ],
+  "exact_solver_limit": "N <= 18 (2^18 = 262,144 combinations)"
+}

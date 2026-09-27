@@ -1,0 +1,11 @@
+{
+  "p_depths_tested": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "objective_gap": 0.47,
+  "quantum_advantage": "NOT_ESTABLISHED",
+  "status": "EXPERIMENTAL_QAOA_VERIFIED"
+}

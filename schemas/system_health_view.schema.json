@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SystemHealthViewSchema",
+  "type": "object",
+  "required": ["overall_status", "services"],
+  "properties": {
+    "overall_status": { "type": "string", "enum": ["HEALTHY", "DEGRADED", "FAILED"] },
+    "services": {
+      "type": "object",
+      "properties": {
+        "api": { "type": "string" },
+        "gis": { "type": "string" },
+        "risk_engine": { "type": "string" },
+        "optimizer": { "type": "string" },
+        "qaoa_simulator": { "type": "string" },
+        "rag_index": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "condition_id": "CND-CST-001",
+    "strategy_id": "STR-CST-001",
+    "condition_type": "COASTAL",
+    "feature_name": "coastal",
+    "operator": "EQUALS",
+    "required_value": "true",
+    "hard_or_soft": "HARD",
+    "notes": "Mangrove restoration requires coastal estuarine or shoreline geography."
+  },
+  {
+    "condition_id": "CND-FLD-001",
+    "strategy_id": "STR-DRN-001",
+    "condition_type": "HAZARD",
+    "feature_name": "hazard_id",
+    "operator": "EQUALS",
+    "required_value": "HAZ-FLD",
+    "hard_or_soft": "SOFT",
+    "notes": "Drain desilting is applicable in flood-prone districts."
+  },
+  {
+    "condition_id": "CND-HTW-001",
+    "strategy_id": "STR-BLD-001",
+    "condition_type": "HAZARD",
+    "feature_name": "hazard_id",
+    "operator": "EQUALS",
+    "required_value": "HAZ-HTW",
+    "hard_or_soft": "SOFT",
+    "notes": "Cool roofs are primarily applicable in thermal stress/heatwave context."
+  },
+  {
+    "condition_id": "CND-WTR-001",
+    "strategy_id": "STR-WTR-001",
+    "condition_type": "EXPOSURE",
+    "feature_name": "population",
+    "operator": "GREATER_THAN",
+    "threshold": 100000.0,
+    "hard_or_soft": "SOFT",
+    "notes": "Rooftop rainwater harvesting applies effectively across settled urban/peri-urban populations."
+  }
+]

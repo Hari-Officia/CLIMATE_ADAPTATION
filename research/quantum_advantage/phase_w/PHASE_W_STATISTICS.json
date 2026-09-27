@@ -1,0 +1,24 @@
+{
+  "mean_gap_by_method": {
+    "Exact": 0.0,
+    "MILP": 0.0,
+    "Greedy": 0.0,
+    "Simulated Annealing": 0.0,
+    "QAOA_p2": 0.0743
+  },
+  "exact_hit_rate_by_method": {
+    "Exact": 1.0,
+    "MILP": 1.0,
+    "Greedy": 1.0,
+    "Simulated Annealing": 1.0,
+    "QAOA_p2": 0.1429
+  },
+  "mean_runtime_by_method": {
+    "Exact": "0.0032s",
+    "MILP": "0.0053s",
+    "Greedy": "0.0012s",
+    "Simulated Annealing": "0.0153s",
+    "QAOA_p2": "0.1600s"
+  },
+  "quantum_advantage": "NOT_ESTABLISHED"
+}

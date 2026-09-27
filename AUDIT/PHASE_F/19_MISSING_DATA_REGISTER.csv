@@ -1,0 +1,4 @@
+missing_id,component,field_name,status,reason,handling_policy
+MIS-REV-001,Strategy Metric,cool_roof_thermal_reduction_celsius,REQUIRES_REVIEW,Unverified local microclimate reduction,Quantitative value set to NULL. No fake numbers introduced.
+MIS-LIDAR-001,Environmental Context,tertiary_drain_elevation_m,KNOWN_DATA_GAP,LiDAR survey not performed,Preserved as KNOWN_DATA_GAP. SRTM DEM used for broad elevation context.
+MIS-SPI-001,Hazard Feature,SPI_3_standardized_precipitation,UNAVAILABLE,Historical precipitation station record gap,Feature set to NULL. XGBoost handles missing features gracefully without silent zero fill.

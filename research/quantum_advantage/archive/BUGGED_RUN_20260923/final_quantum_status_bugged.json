@@ -1,0 +1,7 @@
+{
+  "archived_status": "BENCHMARK_REPORTING_ISSUE",
+  "invalidated_gap": 0.0,
+  "invalidated_optimal_probability": 0.0,
+  "reason": "Faulty key lookup, fallback substitution (4.20), gap clamping, and hardcoded optimal probability",
+  "archived_timestamp": "2026-09-23T12:30:00Z"
+}

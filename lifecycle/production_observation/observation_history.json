@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-09-23T02:15:00Z",
+    "event": "PROMOTED_TO_CANARY_3.1.0",
+    "status": "HEALTHY"
+  },
+  {
+    "timestamp": "2026-09-23T02:20:00Z",
+    "event": "POST_RELEASE_OBSERVATION_STARTED",
+    "status": "HEALTHY"
+  }
+]

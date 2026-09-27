@@ -1,0 +1,2 @@
+model_id,hazard,roc_auc,status
+MOD-FLD-XGB-v1.2,FLOOD,0.892,PRODUCTION

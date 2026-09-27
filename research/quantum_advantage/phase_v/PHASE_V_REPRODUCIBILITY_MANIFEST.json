@@ -1,0 +1,18 @@
+{
+  "reproducibility_status": "PASS",
+  "seeds_verified": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "deterministic_solvers": "VERIFIED",
+  "backend": "AER_SIMULATOR",
+  "shots": 1024
+}

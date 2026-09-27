@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DocumentRecordSchema",
+  "type": "object",
+  "required": [
+    "document_id",
+    "source_id",
+    "title",
+    "organization",
+    "source_tier",
+    "file_hash"
+  ],
+  "properties": {
+    "document_id": { "type": "string" },
+    "source_id": { "type": "string" },
+    "title": { "type": "string" },
+    "organization": { "type": "string" },
+    "source_tier": { "type": "string" },
+    "publication_year": { "type": ["integer", "null"] },
+    "version": { "type": "string" },
+    "geographic_scope": { "type": "string" },
+    "file_hash": { "type": "string" },
+    "ingested_at": { "type": "string" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "protocol_name": "PHASE_V_CONTROLLED_QAOA_BENCHMARK",
+  "stage_v1_pilot_experiments": 250,
+  "stage_v2_full_experiments": 1900,
+  "max_k": 5,
+  "penalty_p": 10.0,
+  "optimizer": "COBYLA",
+  "max_iterations": 100
+}

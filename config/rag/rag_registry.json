@@ -1,0 +1,27 @@
+{
+  "knowledge_base_version": "2.0.0",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dimension": 384,
+  "vector_store": "ChromaDB",
+  "chroma_dir": "knowledge_base/chroma",
+  "sources": [
+    {
+      "source_id": "SRC-TN-SAPCC-2023",
+      "title": "Tamil Nadu State Action Plan on Climate Change (TN-SAPCC 2.0)",
+      "tier": "Tier 1",
+      "status": "PUBLISHED"
+    },
+    {
+      "source_id": "SRC-IPCC-AR6-2022",
+      "title": "IPCC WGII Sixth Assessment Report",
+      "tier": "Tier 1",
+      "status": "PUBLISHED"
+    },
+    {
+      "source_id": "SRC-IMD-CLIM-2024",
+      "title": "IMD Climatological Normals & Extreme Records",
+      "tier": "Tier 1",
+      "status": "PUBLISHED"
+    }
+  ]
+}

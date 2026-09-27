@@ -1,0 +1,2 @@
+strategy_id,rule_evaluated,passing_districts_count,failing_districts_count,audit_status,notes
+STR-CST-001,coastal == True,14,24,SPATIALLY_VALIDATED,Mangrove restoration correctly filtered out for inland districts.

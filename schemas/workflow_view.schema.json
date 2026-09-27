@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WorkflowViewSchema",
+  "type": "object",
+  "required": ["workflow_id", "current_stage", "completed_stages", "status"],
+  "properties": {
+    "workflow_id": { "type": "string" },
+    "current_stage": { "type": "string" },
+    "completed_stages": { "type": "array", "items": { "type": "string" } },
+    "status": { "type": "string", "enum": ["RUNNING", "COMPLETED", "FAILED", "DEGRADED"] }
+  }
+}

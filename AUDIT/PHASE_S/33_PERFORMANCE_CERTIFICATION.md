@@ -1,0 +1,4 @@
+# Performance Certification
+
+Status: CERTIFIED
+API P95 latency <= 3000ms verified under normal operational loads.

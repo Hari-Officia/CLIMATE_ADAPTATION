@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QUBOModel",
+  "type": "object",
+  "properties": {
+    "qubo_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "candidate_set_id": { "type": "string" },
+    "methodology_id": { "type": "string" },
+    "classical_model_hash": { "type": "string" },
+    "qubo_hash": { "type": "string" },
+    "candidate_variable_count": { "type": "integer" },
+    "slack_variable_count": { "type": "integer" },
+    "total_variable_count": { "type": "integer" },
+    "linear_terms": { "type": "object" },
+    "quadratic_terms": { "type": "object" },
+    "constant_offset": { "type": "number" },
+    "status": { "type": "string" }
+  },
+  "required": [
+    "qubo_id",
+    "district_id",
+    "candidate_set_id",
+    "qubo_hash",
+    "total_variable_count",
+    "constant_offset",
+    "status"
+  ]
+}

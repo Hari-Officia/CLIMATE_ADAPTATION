@@ -1,0 +1,8 @@
+source_id,source_name,organization,source_type,official_url,license,authority_level,geographic_scope,temporal_scope,verification_status
+SRC-OPEN-METEO-001,Open-Meteo Historical & Forecast API,Open-Meteo GmbH,reanalysis,https://open-meteo.com,CC-BY-4.0,HIGH,GLOBAL,1940-2026,VERIFIED
+SRC-IMD-001,India Meteorological Department Daily Climate Reports,IMD Ministry of Earth Sciences,government,https://mausam.imd.gov.in,GOVT_OPEN,AUTHORITATIVE,INDIA,1901-2026,VERIFIED
+SRC-TNDMA-001,Tamil Nadu State Disaster Management Plan 2023,TNDMA Govt of Tamil Nadu,government,https://tndma.tn.gov.in,GOVT_OPEN,AUTHORITATIVE,TAMIL_NADU,2023,VERIFIED
+SRC-CENSUS-2011,Census of India 2011 District Profiles,Office of the Registrar General & Census Commissioner India,government,https://censusindia.gov.in,GOVT_OPEN,AUTHORITATIVE,INDIA,2011,VERIFIED
+SRC-WORLDPOP-2020,WorldPop Unconstrained Population Count,WorldPop University of Southampton,research,https://www.worldpop.org,CC-BY-4.0,HIGH,GLOBAL,2020,VERIFIED
+SRC-OSM-2024,OpenStreetMap Infrastructure Points for Tamil Nadu,OpenStreetMap Foundation,open_data,https://www.openstreetmap.org,ODbL,MEDIUM,TAMIL_NADU,2024,VERIFIED
+SRC-ISRO-BHUVAN,Bhuvan LULC Land Use Land Cover Tamil Nadu,ISRO National Remote Sensing Centre,national_agency,https://bhuvan.nrsc.gov.in,GOVT_OPEN,AUTHORITATIVE,TAMIL_NADU,2020-2021,VERIFIED

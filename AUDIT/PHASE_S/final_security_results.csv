@@ -1,0 +1,3 @@
+scan,findings,status
+hardcoded_secrets,0,CLEAN
+rbac,ENFORCED,PASS

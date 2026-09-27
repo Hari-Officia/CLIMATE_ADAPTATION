@@ -1,0 +1,32 @@
+{
+  "rag_version": "1.0.0",
+  "knowledge_base_version": "v1.0.0_verified",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "chroma_collection_name": "climate_adaptation_evidence_v1",
+  "chroma_db_path": "knowledge_base/chroma",
+  "retrieval": {
+    "top_k_initial": 20,
+    "top_k_reranked": 10,
+    "top_k_final": 5,
+    "hybrid_weights": {
+      "vector_weight": 0.7,
+      "bm25_weight": 0.3
+    },
+    "similarity_threshold": 0.45,
+    "tier_boost_factors": {
+      "Tier 1": 1.25,
+      "Tier 2": 1.15,
+      "Tier 3": 1.05,
+      "Tier 4": 1.0,
+      "Tier 5": 0.9,
+      "Tier 6": 0.8
+    }
+  },
+  "chunking": {
+    "max_tokens_per_chunk": 512,
+    "chunk_overlap": 64,
+    "preserve_sections": true,
+    "preserve_tables": true
+  }
+}

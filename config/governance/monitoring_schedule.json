@@ -1,0 +1,12 @@
+{
+  "schedule_policy_version": "1.0.0",
+  "frequencies": {
+    "REALTIME": ["API health", "application errors", "authentication failures", "resource usage"],
+    "HOURLY": ["service health", "database connectivity", "ingestion pipeline status"],
+    "DAILY": ["data freshness", "data-quality checks", "38-district health drill", "backup verification"],
+    "WEEKLY": ["drift analysis", "dependency review", "security scan", "reproducibility sample"],
+    "MONTHLY": ["complete 38-district regression", "model registry review", "RAG evidence review"],
+    "QUARTERLY": ["scientific review", "mathematical review", "QUBO/QAOA review", "DR drill"],
+    "ANNUALLY": ["full platform re-certification", "architecture review", "security re-certification"]
+  }
+}

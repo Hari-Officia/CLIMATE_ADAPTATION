@@ -1,0 +1,13 @@
+[
+  {
+    "methodology_id": "MTH-QUBO-TN-001",
+    "name": "Canonical Classical-to-QUBO Penalty Transformation Methodology",
+    "version": "v1.0",
+    "objective_sign_convention": "MINIMIZE_NEGATED_OBJECTIVE",
+    "matrix_convention": "UPPER_TRIANGULAR_AND_FULL_SYMMETRIC",
+    "slack_encoding": "BINARY_EXPONENTIAL_SLACK",
+    "penalty_derivation_policy": "DYNAMIC_OBJECTIVE_UPPER_BOUND",
+    "status": "ACTIVE",
+    "description": "Transforms Phase J/K classical binary linear/quadratic adaptation portfolio optimization problems into exact QUBO formulation with dynamic penalty bounds."
+  }
+]

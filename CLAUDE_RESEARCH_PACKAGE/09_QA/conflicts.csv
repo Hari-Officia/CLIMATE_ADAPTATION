@@ -1,0 +1,2 @@
+conflict_id,strategy_id,source_A,source_B,conflict_type,description,resolution
+CFL-001,STR-DRN-001,TN-CAP-003,RES-TN-001,IMPLEMENTATION_PRIORITY,"TN-CAP-003 prioritizes grey concrete drain widening, whereas RES-TN-001 demonstrates superior long-term cost-effectiveness for natural blue-green bioswales.",Flagged for hybrid implementation pairing grey outfalls with green upstream bioswales.

@@ -1,0 +1,7 @@
+{
+  "logical_qubits": 2,
+  "physical_qubits": 2,
+  "logical_depth": 2,
+  "physical_depth": 2,
+  "swaps": 0
+}

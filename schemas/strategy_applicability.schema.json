@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StrategyApplicabilitySchema",
+  "type": "object",
+  "required": [
+    "strategy_id",
+    "district_id",
+    "hazard_id",
+    "applicable",
+    "eligibility_status",
+    "evaluated_at"
+  ],
+  "properties": {
+    "strategy_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "hazard_id": { "type": "string" },
+    "applicable": { "type": "boolean" },
+    "eligibility_status": { 
+      "type": "string",
+      "enum": ["ELIGIBLE", "INELIGIBLE", "CONDITIONALLY_ELIGIBLE", "INSUFFICIENT_DATA", "REQUIRES_REVIEW", "NOT_APPLICABLE"]
+    },
+    "satisfied_conditions": { "type": "array", "items": { "type": "string" } },
+    "failed_conditions": { "type": "array", "items": { "type": "string" } },
+    "missing_data": { "type": "array", "items": { "type": "string" } },
+    "reasons": { "type": "array", "items": { "type": "string" } },
+    "evaluated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

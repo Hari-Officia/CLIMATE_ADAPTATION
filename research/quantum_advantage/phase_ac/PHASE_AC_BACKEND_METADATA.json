@@ -1,0 +1,19 @@
+{
+  "backend_name": "ibm_sherbrooke_physical_simulated_driver",
+  "provider": "Physical Backend Driver (Calibrated Proxy)",
+  "is_simulator": true,
+  "hardware_quantum_processor": false,
+  "status": "STANDBY_UNAUTHENTICATED",
+  "physical_qubits": 127,
+  "logical_qubits": 14,
+  "basis_gates": [
+    "ecr",
+    "id",
+    "rz",
+    "sx",
+    "x"
+  ],
+  "readout_error_mean": 0.012,
+  "cx_error_mean": 0.0075,
+  "calibration_timestamp": "2026-09-23T14:00:00Z"
+}

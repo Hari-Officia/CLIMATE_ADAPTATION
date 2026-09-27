@@ -1,0 +1,2 @@
+alert_id,severity,trigger,status
+ALT-001,CRITICAL,Fast Error Budget Burn,OPEN

@@ -1,0 +1,4 @@
+method,warm_start_source,best_sample_feasibility_rate
+STANDARD,NONE,1.0
+PARAMETER_WARM_START,AA-MILP,1.0
+STATE_WARM_START,AA-MILP,1.0

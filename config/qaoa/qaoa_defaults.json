@@ -1,0 +1,12 @@
+{
+  "qaoa_depth_p": 2,
+  "default_shots": 1000,
+  "optimizer": "COBYLA",
+  "max_iterations": 100,
+  "tolerance": 1e-4,
+  "backend": "aer_simulator_statevector",
+  "initialization_method": "ZERO_AND_RANDOM_HYBRID",
+  "seed": 42,
+  "noise_model": "NONE",
+  "status": "ACTIVE"
+}

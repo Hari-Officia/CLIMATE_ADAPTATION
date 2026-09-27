@@ -1,0 +1,134 @@
+[
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "73aeddec7e6e7943"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.0001,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "f896bf6af69e981f"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.0005,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "05ec6239ee1dd550"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.001,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "2934ecdd6125ae55"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.005,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "4f6c238dd63a74f9"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.01,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "9c065e51348a8f18"
+  },
+  {
+    "noise_family": "Family Z-B",
+    "gate_error_rate": 0.02,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "8b30f757264546cd"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.0,
+    "noise_model_hash": "67d7d4af4f6b089d"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.001,
+    "noise_model_hash": "8ed3095100b44cb0"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.005,
+    "noise_model_hash": "aa72384b503e2084"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.01,
+    "noise_model_hash": "76f86570e13a1033"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.02,
+    "noise_model_hash": "14c512d75415ec7f"
+  },
+  {
+    "noise_family": "Family Z-C",
+    "gate_error_rate": 0.0,
+    "readout_error_rate": 0.05,
+    "noise_model_hash": "44c1f6bad4b6eb3c"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.0005,
+    "readout_error_rate": 0.005,
+    "noise_model_hash": "a18406a5b000feea"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.0005,
+    "readout_error_rate": 0.01,
+    "noise_model_hash": "403c3b639875d136"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.0005,
+    "readout_error_rate": 0.02,
+    "noise_model_hash": "73819ce4745a309b"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.001,
+    "readout_error_rate": 0.005,
+    "noise_model_hash": "5738836a91970cb4"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.001,
+    "readout_error_rate": 0.01,
+    "noise_model_hash": "29b4ba63fe5760d4"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.001,
+    "readout_error_rate": 0.02,
+    "noise_model_hash": "d86ee6a7e0887769"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.005,
+    "readout_error_rate": 0.005,
+    "noise_model_hash": "fff9b159e8a29cb2"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.005,
+    "readout_error_rate": 0.01,
+    "noise_model_hash": "eaf4f57b25c815d7"
+  },
+  {
+    "noise_family": "Family Z-D",
+    "gate_error_rate": 0.005,
+    "readout_error_rate": 0.02,
+    "noise_model_hash": "ec2cb3c7718c1ea3"
+  }
+]

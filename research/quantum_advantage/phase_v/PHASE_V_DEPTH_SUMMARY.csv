@@ -1,0 +1,6 @@
+depth,experiments,districts,seeds,mean_gap,median_gap,best_gap,worst_gap,std_gap,mean_feasibility,best_feasibility,mean_optimal_probability,best_optimal_probability,mean_runtime,median_runtime,mean_circuit_depth,mean_gate_count,mean_two_qubit_gates,status
+1,380,38,10,0.0845,0.0845,0.0845,0.0845,0.0,1.0,1.0,0.003906,0.003906,0.09,0.09,3,45,15,VALID
+2,380,38,10,0.0871,0.0734,0.0725,0.1429,0.0279,1.0,1.0,0.005469,0.006836,0.17,0.17,5,75,30,VALID
+3,380,38,10,0.0605,0.0605,0.0605,0.0605,0.0,1.0,1.0,0.006836,0.006836,0.25,0.25,7,105,45,VALID
+4,380,38,10,0.0485,0.0485,0.0485,0.0485,0.0,1.0,1.0,0.006836,0.006836,0.33,0.33,9,135,60,VALID
+5,380,38,10,0.0365,0.0365,0.0365,0.0365,0.0,1.0,1.0,0.006836,0.006836,0.41,0.41,11,165,75,VALID

@@ -1,0 +1,29 @@
+{
+  "phase": "PHASE_V",
+  "timestamp": "2026-09-23T15:33:00Z",
+  "production_baseline": "BASE-3.0.0-20260923",
+  "production_release": "3.1.0",
+  "research_baseline": "QUANTUM-V2-RECONCILED-20260923",
+  "milp_solver": "scipy.optimize.milp (HiGHS Integer Solver)",
+  "districts_count": 38,
+  "depths_tested": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds_tested": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "shots": 1024
+}

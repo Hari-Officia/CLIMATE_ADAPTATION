@@ -34,10 +34,35 @@ def test_risk_agent_model_loading_and_inference():
     for hazard in ["flood", "drought", "heatwave"]:
         prob = res[hazard]["probability"]
         level = res[hazard]["risk_level"]
-        assert 0.0 <= prob <= 1.0
-        if prob >= 0.70:
-            assert level == "HIGH"
-        elif prob >= 0.40:
-            assert level == "MEDIUM"
+        if prob is not None:
+            assert 0.0 <= prob <= 1.0
+            if prob >= 0.70:
+                assert level == "HIGH"
+            elif prob >= 0.40:
+                assert level == "MEDIUM"
+            else:
+                assert level == "LOW"
         else:
-            assert level == "LOW"
+            assert level == "UNAVAILABLE"
+
+def test_risk_agent_key_districts():
+    risk_agent = RiskAgent.get_instance()
+    districts = ["Chennai", "Coimbatore", "Madurai", "Nilgiris", "Thoothukudi"]
+    mock_daily = [
+        {"date": "2026-08-31", "temp_max_c": 35.0, "temp_min_c": 25.0, "precipitation_sum_mm": 10.0, "wind_speed_max_ms": 4.0}
+    ]
+    mock_hourly = [
+        {"humidity_pct": 70.0, "wind_speed_ms": 3.5, "soil_moisture_fraction": 0.40}
+    ]
+
+    for d in districts:
+        res = risk_agent.assess_risk(
+            district_name=d,
+            forecast_day_index=0,
+            daily_forecast_list=mock_daily,
+            hourly_forecast_list=mock_hourly
+        )
+        assert res["flood"]["risk_level"] in ["LOW", "MEDIUM", "HIGH", "UNAVAILABLE"]
+        assert res["heatwave"]["risk_level"] in ["LOW", "MEDIUM", "HIGH", "UNAVAILABLE"]
+        assert res["drought"]["risk_level"] in ["LOW", "MEDIUM", "HIGH", "UNAVAILABLE"]
+

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "release": "3.0.0-certified",
+  "schedule": {
+    "next_quarterly_review": "2026-12-23",
+    "future_quarterly_reviews": [
+      "2027-03-23",
+      "2027-06-23",
+      "2027-09-23"
+    ],
+    "annual_recertification": "2027-09-23",
+    "certification_expiry": "2027-09-23"
+  },
+  "review_cadence": {
+    "OPERATIONAL_HEALTH": "DAILY",
+    "DRIFT_AND_SECURITY": "WEEKLY",
+    "REGRESSION": "MONTHLY",
+    "SCIENTIFIC_REVIEW": "QUARTERLY",
+    "FULL_RECERTIFICATION": "ANNUAL"
+  }
+}

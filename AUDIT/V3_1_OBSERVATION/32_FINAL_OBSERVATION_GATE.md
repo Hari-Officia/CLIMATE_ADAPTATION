@@ -1,0 +1,2 @@
+# 32 Final Observation Gate
+State: POST_RELEASE_OBSERVATION_HEALTHY. Certification: CONDITIONALLY_CERTIFIED.

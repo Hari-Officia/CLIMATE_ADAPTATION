@@ -1,0 +1,5 @@
+metric,value,status
+53_feature_contract,VALIDATED,PASS
+milp_feasibility,1.0,PASS
+qubo_penalty,P=10.0,PASS
+qaoa_objective_gap,0.4700,NOT_ESTABLISHED

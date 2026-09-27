@@ -1,0 +1,6 @@
+{
+  "target_baseline": "BASE-3.0.0-20260923",
+  "rollback_command": "git checkout BASE-3.0.0-20260923",
+  "database_restore_point": "pre_rc_backup_20260923",
+  "verification": "TESTED_AND_VERIFIED"
+}

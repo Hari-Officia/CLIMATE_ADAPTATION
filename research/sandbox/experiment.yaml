@@ -1,0 +1,6 @@
+experiment_id: EXP-SANDBOX-001
+hypothesis: Sandbox isolated evaluation for experimental climate adaptation algorithms
+baseline: BASE-3.0.0-20260923
+isolation: PROHIBITED_FROM_MUTATING_PRODUCTION_DB
+environment: Sandbox Python 3.10
+status: ISOLATED

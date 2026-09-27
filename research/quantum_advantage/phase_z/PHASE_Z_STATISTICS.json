@@ -1,0 +1,10 @@
+{
+  "n_real_experiments": 4750,
+  "n_synthetic_experiments": 18,
+  "ideal_mean_gap": 0.0845,
+  "noisy_mean_gap_zb_0001": 0.0,
+  "noisy_mean_gap_zb_001": 0.0,
+  "noisy_mean_gap_zd": 0.03684210526315789,
+  "negative_gaps": 0,
+  "status": "PASS"
+}

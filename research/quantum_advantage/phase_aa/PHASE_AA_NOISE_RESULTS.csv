@@ -1,0 +1,5 @@
+noise_family,method,gap,optimal_probability
+Family Z-B,STANDARD,0.0,0.0068359375
+Family Z-B,PARAMETER_WARM_START,0.0,0.015625
+Family Z-B,STANDARD,0.0,0.0068359375
+Family Z-B,PARAMETER_WARM_START,0.0,0.015625

@@ -1,0 +1,2 @@
+rule_id,feature,operator,value,source,page,status
+TRH-001,coastal,EQUALS,True,TN-ADAPT-001,42,AUTHORITATIVE_SUPPORTED

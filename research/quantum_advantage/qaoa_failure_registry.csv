@@ -1,0 +1,2 @@
+failure_id,instance_id,category,description,resolution
+FAIL-001,INST-FAM-A-CHENNAI,FINITE_SHOT_STOCHASTICITY,Sampled bitstring achieved objective gap 0.1300 under 1024 shots,Increase shots to 8192 or use p=4

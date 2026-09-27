@@ -1,0 +1,9 @@
+{
+  "ENABLE_QAOA": true,
+  "ENABLE_CLASSICAL_FALLBACK": true,
+  "ENABLE_LLM": true,
+  "ENABLE_RAG": true,
+  "ENABLE_PARALLEL_DOMAINS": true,
+  "ENABLE_HUMAN_REVIEW": true,
+  "ENABLE_EXPERIMENTAL_FEATURES": false
+}

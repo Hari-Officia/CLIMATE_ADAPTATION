@@ -1,0 +1,13 @@
+{
+  "environment": "production",
+  "default_district": "chennai",
+  "default_hazards": ["coastal_flooding", "urban_heat", "drought"],
+  "default_optimization_mode": "CLASSICAL",
+  "default_qaoa_p_depth": 2,
+  "default_qaoa_shots": 1000,
+  "default_rag_top_k": 5,
+  "max_districts_per_request": 38,
+  "max_hazards_per_request": 5,
+  "idempotency_enabled": true,
+  "staleness_check_enabled": true
+}

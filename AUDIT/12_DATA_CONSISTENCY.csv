@@ -1,0 +1,3 @@
+dataset_name,json_source_count,csv_source_count,postgres_record_count,sqlite_record_count,consistency_status
+District Profiles,38,38,38,38,PERFECT_SYNC
+Adaptation Strategies,12,12,12,12,PERFECT_SYNC

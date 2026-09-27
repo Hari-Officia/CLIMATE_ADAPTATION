@@ -1,0 +1,27 @@
+[
+  {
+    "scenario_id": "BASELINE",
+    "name": "Balanced Baseline Portfolio (K = 5)",
+    "max_portfolio_size": 5,
+    "description": "Standard optimization scenario selecting up to 5 balanced adaptation strategies."
+  },
+  {
+    "scenario_id": "CONSERVATIVE",
+    "name": "Targeted High-Impact Portfolio (K = 3)",
+    "max_portfolio_size": 3,
+    "description": "Resource-constrained scenario selecting up to 3 highest priority strategies."
+  },
+  {
+    "scenario_id": "STRICT_EVIDENCE",
+    "name": "Tier 1/2 Evidence Mandatory Portfolio (K = 5)",
+    "max_portfolio_size": 5,
+    "evidence_filter": ["VERY_STRONG", "STRONG"],
+    "description": "Restricts portfolio selection strictly to strategies with strong evidence status."
+  },
+  {
+    "scenario_id": "MAX_COVERAGE",
+    "name": "Comprehensive Multi-Hazard Coverage Portfolio (K = 8)",
+    "max_portfolio_size": 8,
+    "description": "Extended scenario selecting up to 8 strategies to maximize multi-hazard coverage."
+  }
+]

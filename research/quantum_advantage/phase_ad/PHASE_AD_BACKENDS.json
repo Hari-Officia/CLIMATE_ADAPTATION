@@ -1,0 +1,41 @@
+{
+  "authentication_status": "UNAUTHENTICATED",
+  "total_backends": 3,
+  "physical_qpus": [],
+  "simulators": [
+    {
+      "backend_name": "aer_simulator",
+      "backend_class": "AerSimulator",
+      "backend_type": "LOCAL_SIMULATOR",
+      "is_simulator": true,
+      "operational": true,
+      "qubit_count": 32,
+      "status": "AVAILABLE_LOCAL"
+    }
+  ],
+  "fake_backends": [
+    {
+      "backend_name": "fake_sherbrooke",
+      "backend_class": "FakeSherbrooke",
+      "backend_type": "FAKE_BACKEND",
+      "is_simulator": true,
+      "operational": true,
+      "qubit_count": 127,
+      "status": "FAKE_DRIVER"
+    }
+  ],
+  "retired_backends": [
+    {
+      "backend_name": "ibm_sherbrooke",
+      "backend_class": "IBMBackend",
+      "backend_type": "RETIRED_QPU",
+      "is_simulator": false,
+      "operational": false,
+      "qubit_count": 127,
+      "status": "RETIRED_EXCLUDED",
+      "reason": "Exclusion rule Section 9: Retired / Offline IBM QPU"
+    }
+  ],
+  "selected_backend": null,
+  "selection_reason": "No physical QPU authenticated; physical access is BLOCKED."
+}

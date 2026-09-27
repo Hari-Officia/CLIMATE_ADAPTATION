@@ -1,0 +1,22 @@
+{
+  "backends": [
+    {
+      "backend_id": "aer_simulator_statevector",
+      "name": "Qiskit Aer Statevector Simulator",
+      "type": "EXACT_STATEVECTOR",
+      "max_qubits": 25
+    },
+    {
+      "backend_id": "aer_simulator_shots",
+      "name": "Qiskit Aer Shot Sampling Simulator",
+      "type": "SHOT_SAMPLER",
+      "max_qubits": 25
+    },
+    {
+      "backend_id": "aer_simulator_noisy",
+      "name": "Qiskit Aer Thermal & Depolarizing Noisy Simulator",
+      "type": "NOISY_SIMULATOR",
+      "max_qubits": 20
+    }
+  ]
+}

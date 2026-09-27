@@ -1,0 +1,13 @@
+{
+  "release_version": "3.0.0-certified",
+  "database": "PostgreSQL 15 / PostGIS 3.3",
+  "tables": [
+    "districts", "locations", "climate_climatology", "hazard_assessments",
+    "exposure_assessments", "vulnerability_assessments", "adaptation_priorities",
+    "adaptation_strategies", "optimization_results", "qubo_models",
+    "qaoa_experiments", "decision_workflows", "decision_results",
+    "audit_events", "governance_policies", "slo_definitions"
+  ],
+  "schema_version": "2.0.0",
+  "hash": "schema_v2_certified_hash_20260923"
+}

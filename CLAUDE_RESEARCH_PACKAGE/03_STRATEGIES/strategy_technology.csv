@@ -1,0 +1,4 @@
+strategy_id,technology_name,tech_type,vendor_dependence
+STR-EWS-001,IoT Water Level Telemetry,HARDWARE_SENSOR,OPEN_STANDARD
+STR-GIS-001,LiDAR DEM Terrain Modeling,GIS_SOFTWARE,PROPRIETARY_OR_QGIS
+STR-HTS-001,Thermographic Satellite Monitoring,REMOTE_SENSING,OPEN_DATA

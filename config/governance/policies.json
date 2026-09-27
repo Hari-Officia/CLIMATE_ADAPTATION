@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "policy_suite": "Enterprise Climate Adaptation Governance Policy",
+  "policies": [
+    {
+      "policy_id": "POL-PROD-001",
+      "name": "Production Debug Policy",
+      "scope": "configuration",
+      "rule": "DEBUG == False in production environment",
+      "severity": "CRITICAL",
+      "enforcement": "BLOCK_DEPLOYMENT",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-MODEL-001",
+      "name": "Production Model Authorization",
+      "scope": "ml_models",
+      "rule": "Production model status must be APPROVED in Model Registry",
+      "severity": "CRITICAL",
+      "enforcement": "BLOCK_INFERENCE",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-DATA-001",
+      "name": "Data Quality Contract",
+      "scope": "data",
+      "rule": "No silent zero default allowed for missing spatial data; 38/38 districts required",
+      "severity": "HIGH",
+      "enforcement": "REJECT_INGESTION",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-KB-001",
+      "name": "Knowledge Base Integrity",
+      "scope": "rag",
+      "rule": "Published KB document chunks must match SHA-256 checksum in RAG Registry",
+      "severity": "HIGH",
+      "enforcement": "BLOCK_RETRIEVAL",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-PROV-001",
+      "name": "Decision Lineage Integrity",
+      "scope": "provenance",
+      "rule": "Every decision must contain complete 19-node version graph context hash",
+      "severity": "CRITICAL",
+      "enforcement": "INVALIDATE_DECISION",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-QUANTUM-001",
+      "name": "Quantum Advantage Scientific Guardrail",
+      "scope": "quantum",
+      "rule": "QAOA result must contain classical MILP benchmark and label Quantum Advantage: NOT ESTABLISHED when gap = 0.4700",
+      "severity": "CRITICAL",
+      "enforcement": "BLOCK_EXPLANATION",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-SEC-001",
+      "name": "Zero Secret Leakage",
+      "scope": "security",
+      "rule": "Zero hardcoded high-entropy secrets or private API keys in codebase",
+      "severity": "CRITICAL",
+      "enforcement": "BLOCK_COMMIT",
+      "status": "ENFORCED"
+    },
+    {
+      "policy_id": "POL-BACKUP-001",
+      "name": "Database Backup Compliance",
+      "scope": "disaster_recovery",
+      "rule": "Database backup age must not exceed 24 hours (RPO SLA)",
+      "severity": "HIGH",
+      "enforcement": "TRIGGER_ALERT",
+      "status": "ENFORCED"
+    }
+  ]
+}

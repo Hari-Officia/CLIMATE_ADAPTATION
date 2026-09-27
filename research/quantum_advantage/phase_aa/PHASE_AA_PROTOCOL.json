@@ -1,0 +1,18 @@
+{
+  "protocol_id": "PHASE_AA_WARM_START_PROTOCOL_V1",
+  "timestamp": "2026-09-23T17:20:00Z",
+  "scope": "CLIMATE_ADAPTATION_ONLY",
+  "methods": [
+    "STANDARD",
+    "PARAMETER_WARM_START",
+    "STATE_WARM_START"
+  ],
+  "classical_sources": [
+    "AA-MILP",
+    "AA-GREEDY",
+    "AA-SA",
+    "AA-EXACT-ORACLE"
+  ],
+  "end_to_end_cost_formula": "t_total = t_pre + t_prep + t_qaoa + t_eval",
+  "instance_identity_policy": "standard.instance_hash == warm_start.instance_hash"
+}

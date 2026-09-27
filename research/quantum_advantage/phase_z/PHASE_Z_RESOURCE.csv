@@ -1,0 +1,6 @@
+depth,n_qubits,circuit_depth,two_qubit_gate_count,memory_mb
+1,14,6,10,0.25
+2,14,10,20,0.25
+3,14,14,30,0.25
+4,14,18,40,0.25
+5,14,22,50,0.25

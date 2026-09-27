@@ -1,0 +1,11 @@
+{
+  "release_version": "3.0.0-certified",
+  "prompts": [
+    {
+      "prompt_id": "PRM-EXPLANATION-DEFAULT-v1.0",
+      "status": "PRODUCTION",
+      "version": "1.0.0",
+      "read_only": true
+    }
+  ]
+}

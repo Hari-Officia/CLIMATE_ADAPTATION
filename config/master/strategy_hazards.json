@@ -1,0 +1,17 @@
+[
+  {
+    "hazard_id": "HAZ-FLD",
+    "name": "Flood & Inundation Risk",
+    "description": "Urban pluvial flooding, riverine inundation, coastal storm surge, and extreme rainfall events."
+  },
+  {
+    "hazard_id": "HAZ-DRG",
+    "name": "Drought & Water Scarcity",
+    "description": "Agricultural drought, hydrological drought, groundwater depletion, and monsoon rainfall deficits."
+  },
+  {
+    "hazard_id": "HAZ-HTW",
+    "name": "Heatwave & Thermal Stress",
+    "description": "Extreme maximum temperature anomalies, wet-bulb heat stress, and urban heat island effects."
+  }
+]

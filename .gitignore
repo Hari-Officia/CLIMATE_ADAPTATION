@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .venv/
+.venv-ibm-hardware/
 env/
 venv/
 *.env
@@ -13,6 +14,8 @@ ClimateData/
 climatedata/
 geoBoundaries*/
 geoboundaries/
+knowledge_base/
+
 
 # Machine Learning Models (Large Binary Files)
 Models/*.pkl

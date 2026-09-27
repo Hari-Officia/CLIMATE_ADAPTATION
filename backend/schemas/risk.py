@@ -2,9 +2,11 @@ from pydantic import BaseModel
 from typing import Dict, Any, Optional, List
 
 class HazardScore(BaseModel):
-    probability: float
-    risk_level: str  # 'LOW', 'MEDIUM', 'HIGH'
-    threshold_applied: float
+    probability: Optional[float] = None
+    risk_level: str  # 'LOW', 'MEDIUM', 'HIGH', 'UNAVAILABLE'
+    threshold_applied: Optional[float] = 0.0
+    status: Optional[str] = "AVAILABLE"
+    reason: Optional[str] = None
     confidence_note: Optional[str] = None
 
 class DailyRiskAssessment(BaseModel):

@@ -1,0 +1,7 @@
+{
+  "backends_discovered": 3,
+  "physical_backends_discovered": 0,
+  "simulators_discovered": 1,
+  "retired_backends_excluded": 1,
+  "fake_backends_excluded": 1
+}

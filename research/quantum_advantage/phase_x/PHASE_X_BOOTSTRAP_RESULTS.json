@@ -1,0 +1,20 @@
+{
+  "naive_run_level_95_ci": [
+    0.0623,
+    0.0645
+  ],
+  "district_clustered_95_ci": [
+    0.0634,
+    0.0634
+  ],
+  "seed_grouped_95_ci": [
+    0.0705,
+    0.0885
+  ],
+  "historical_phase_w_ci": [
+    0.071,
+    0.088
+  ],
+  "reconciliation_status": "RECONCILED_PASS",
+  "recommended_methodology": "district_clustered_bootstrap"
+}

@@ -1,0 +1,7 @@
+optimization_level,transpilation_hash,logical_qubits,physical_qubits,logical_depth,physical_depth,logical_gate_count,physical_gate_count,logical_two_qubit_gates,physical_two_qubit_gates,added_swap_count
+1,277305b859235d8c,4,4,10,10,18,18,8,8,0
+1,e3c8e0f2b6d2f7ac,6,6,10,10,26,26,12,12,0
+1,90484b4abac5c1df,8,8,10,10,34,34,16,16,0
+1,256becd06f28e41d,10,10,10,10,42,42,20,20,0
+1,017bd7bf5a1e5a08,12,12,10,10,50,50,24,24,0
+1,7a66be6941b54f46,14,14,10,10,58,58,28,28,0

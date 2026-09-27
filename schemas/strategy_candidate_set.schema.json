@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StrategyCandidateSetSchema",
+  "type": "object",
+  "required": [
+    "candidate_set_id",
+    "district_id",
+    "priority_id",
+    "strategy_ids",
+    "version",
+    "generated_at"
+  ],
+  "properties": {
+    "candidate_set_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "priority_id": { "type": "string" },
+    "hazard_ids": { "type": "array", "items": { "type": "string" } },
+    "strategy_ids": { "type": "array", "items": { "type": "string" } },
+    "excluded_strategy_ids": { "type": "array", "items": { "type": "string" } },
+    "review_required_strategy_ids": { "type": "array", "items": { "type": "string" } },
+    "insufficient_data_strategy_ids": { "type": "array", "items": { "type": "string" } },
+    "evidence_summary": { "type": "string" },
+    "version": { "type": "string" },
+    "generated_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

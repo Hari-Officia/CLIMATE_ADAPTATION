@@ -4,6 +4,7 @@ import logging
 import numpy as np
 from typing import Dict, Any, List, Optional
 from backend.services.feature_engineering import FeatureEngineeringService, FEATURE_COLUMNS_53
+from backend.risk.thresholds import classify_ml_probability, RISK_THRESHOLDS
 
 logger = logging.getLogger("risk_agent")
 
@@ -67,11 +68,14 @@ class RiskAgent:
         district_name: str,
         forecast_day_index: int,
         daily_forecast_list: List[Dict[str, Any]],
-        hourly_forecast_list: List[Dict[str, Any]]
+        hourly_forecast_list: List[Dict[str, Any]],
+        extra_data: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """
         Assesses multi-hazard risk for a specific forecast day for a given district.
         """
+        extra = extra_data or {}
+
         # Derive 53-feature vector
         feat_res = self.feature_service.build_feature_vector(
             district_name=district_name,
@@ -82,6 +86,13 @@ class RiskAgent:
 
         vector = feat_res["features_vector"]
         feat_dict = feat_res["features_dict"]
+
+        # Merge antecedent SPI if provided in extra_data
+        if "SPI_3" in extra and extra["SPI_3"] is not None:
+            feat_dict["SPI_3"] = extra["SPI_3"]
+        if "SPI_6" in extra and extra["SPI_6"] is not None:
+            feat_dict["SPI_6"] = extra["SPI_6"]
+
         if isinstance(daily_forecast_list, dict):
             time_list = daily_forecast_list.get("time", [])
             date_str = time_list[min(forecast_day_index, len(time_list) - 1)] if time_list else "2026-08-31"
@@ -92,6 +103,7 @@ class RiskAgent:
 
         # Verify exact 53 features
         if len(vector) != 53:
+            logger.error(f"[VALIDATION] District: {district_name} | Feature vector length mismatch: expected 53, got {len(vector)}")
             raise ValueError(f"Feature vector length mismatch: expected 53, got {len(vector)}")
 
         # Convert to numpy array for XGBoost inference
@@ -99,23 +111,38 @@ class RiskAgent:
 
         hazard_scores = {}
         for hazard in ["flood", "drought", "heatwave"]:
+            # Check drought SPI requirement
+            if hazard == "drought":
+                has_spi = (extra.get("SPI_3") is not None and extra.get("SPI_6") is not None)
+                allow_extrapolation = extra.get("allow_spi_extrapolation", False)
+                if not has_spi and not allow_extrapolation:
+                    logger.warning(f"[VALIDATION] District: {district_name} | Hazard: drought | Missing feature: SPI_3/SPI_6 | Status: UNAVAILABLE")
+                    hazard_scores["drought"] = {
+                        "probability": None,
+                        "risk_level": "UNAVAILABLE",
+                        "status": "UNAVAILABLE",
+                        "threshold_applied": 0.0,
+                        "confidence_note": "Antecedent 90-day / 180-day observed rainfall history is required to calculate SPI_3 and SPI_6.",
+                        "reason": "Unavailable — insufficient data"
+                    }
+                    continue
+
             model = self._models.get(hazard)
             if model is not None:
                 try:
                     proba = float(model.predict_proba(X)[0][1])
+                    risk_level = classify_ml_probability(proba)
+                    status = "AVAILABLE"
                 except Exception as e:
-                    logger.error(f"Inference error for {hazard}: {e}")
-                    proba = 0.05
+                    logger.error(f"[RISK] Inference error for {hazard} ({district_name}): {e}")
+                    proba = None
+                    risk_level = "UNAVAILABLE"
+                    status = "UNAVAILABLE"
             else:
-                proba = 0.05
-
-            # Calibrated thresholds: High >= 0.70, Medium >= 0.40, Low < 0.40
-            if proba >= 0.70:
-                risk_level = "HIGH"
-            elif proba >= 0.40:
-                risk_level = "MEDIUM"
-            else:
-                risk_level = "LOW"
+                logger.warning(f"[VALIDATION] District: {district_name} | Hazard: {hazard} | Model file missing | Status: UNAVAILABLE")
+                proba = None
+                risk_level = "UNAVAILABLE"
+                status = "UNAVAILABLE"
 
             # Confidence & limitation notes
             if hazard == "flood":
@@ -125,21 +152,28 @@ class RiskAgent:
             else:
                 conf_note = "Reflects daytime temperature departure from historical baseline."
 
+            prob_val = round(proba, 4) if proba is not None else None
             hazard_scores[hazard] = {
-                "probability": round(proba, 4),
+                "probability": prob_val,
                 "risk_level": risk_level,
-                "threshold_applied": 0.70 if risk_level == "HIGH" else 0.40 if risk_level == "MEDIUM" else 0.0,
+                "status": status,
+                "threshold_applied": RISK_THRESHOLDS["HIGH"] if risk_level == "HIGH" else RISK_THRESHOLDS["MEDIUM"] if risk_level == "MEDIUM" else 0.0,
                 "confidence_note": conf_note
             }
 
+            if status == "AVAILABLE":
+                logger.info(f"[RISK] District: {district_name} | Hazard: {hazard} | Model: {hazard}_xgboost | Probability: {prob_val} | Level: {risk_level}")
+
         # Determine overall hazard level
-        levels = [h["risk_level"] for h in hazard_scores.values()]
+        levels = [h["risk_level"] for h in hazard_scores.values() if h.get("risk_level") != "UNAVAILABLE"]
         if "HIGH" in levels:
             overall = "HIGH"
         elif "MEDIUM" in levels:
             overall = "MEDIUM"
-        else:
+        elif "LOW" in levels:
             overall = "LOW"
+        else:
+            overall = "UNAVAILABLE"
 
         # Continuous feature summary for UI transparency
         summary_keys = [

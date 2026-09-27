@@ -1,0 +1,74 @@
+[
+  {
+    "document_id": "DOC-TN-ADAPT-001",
+    "source_id": "TN-ADAPT-001",
+    "title": "Tamil Nadu District Climate Change Risk Reduction & Adaptation Framework",
+    "organization": "Department of Environment and Climate Change, Govt of Tamil Nadu",
+    "year": 2024,
+    "tier": "Tier 1",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-TN-DCAPT-002",
+    "source_id": "TN-DCAPT-002",
+    "title": "District Climate Action Prioritisation Tool (DCAPT) User Guide",
+    "organization": "Tamil Nadu Climate Change Mission (TNCCM)",
+    "year": 2025,
+    "tier": "Tier 1",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-TN-CAP-003",
+    "source_id": "TN-CAP-003",
+    "title": "Chennai Climate Action Plan (CCAP) 2050",
+    "organization": "Greater Chennai Corporation & C40 Cities",
+    "year": 2023,
+    "tier": "Tier 1",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-TN-SDMP-004",
+    "source_id": "TN-SDMP-004",
+    "title": "Tamil Nadu State Disaster Management Plan 2023-2030",
+    "organization": "Tamil Nadu State Disaster Management Authority (TNSDMA)",
+    "year": 2023,
+    "tier": "Tier 1",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-NAT-NDMA-001",
+    "source_id": "NAT-NDMA-001",
+    "title": "NDMA National Guidelines for Management of Urban Flooding",
+    "organization": "National Disaster Management Authority (NDMA), Govt of India",
+    "year": 2022,
+    "tier": "Tier 2",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-NAT-CGWB-002",
+    "source_id": "NAT-CGWB-002",
+    "title": "Master Plan for Artificial Recharge to Groundwater in India",
+    "organization": "Central Ground Water Board (CGWB), Ministry of Jal Shakti",
+    "year": 2021,
+    "tier": "Tier 2",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-IPCC-AR6-001",
+    "source_id": "IPCC-AR6-001",
+    "title": "IPCC AR6 Working Group II Chapter 6: Cities, Settlements and Key Infrastructure",
+    "organization": "Intergovernmental Panel on Climate Change (IPCC)",
+    "year": 2022,
+    "tier": "Tier 3",
+    "total_chunks": 12
+  },
+  {
+    "document_id": "DOC-RES-TN-001",
+    "source_id": "RES-TN-001",
+    "title": "Evaluating Blue-Green Infrastructure for Flood Mitigation in Coastal Cities of Tamil Nadu",
+    "organization": "Indian Institute of Technology Madras (IITM) & Anna University",
+    "year": 2024,
+    "tier": "Tier 4",
+    "total_chunks": 12
+  }
+]

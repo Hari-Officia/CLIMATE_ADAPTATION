@@ -1,0 +1,8 @@
+{
+  "exact_solver_limit_N": 18,
+  "qaoa_statevector_simulator_limit_N": 20,
+  "milp_scaling_behavior": "POLY_LOG_BOUNDED",
+  "qubo_memory_growth": "O(N^2)",
+  "qaoa_qubit_growth": "N + 1",
+  "quantum_advantage": "NOT_ESTABLISHED"
+}

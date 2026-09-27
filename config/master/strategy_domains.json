@@ -1,0 +1,52 @@
+[
+  {
+    "domain_id": "DOM-DRN",
+    "name": "Drainage & Stormwater",
+    "description": "Urban drainage, desilting, culvert maintenance, stormwater network expansion, and retention basins."
+  },
+  {
+    "domain_id": "DOM-WTR",
+    "name": "Water Management",
+    "description": "Rainwater harvesting, aquifer recharge, tank restoration, lake rehabilitation, and water-demand management."
+  },
+  {
+    "domain_id": "DOM-URB",
+    "name": "Urbanization & Land Use",
+    "description": "Floodplain zoning, setback controls, urban density management, and climate-sensitive land use planning."
+  },
+  {
+    "domain_id": "DOM-NBS",
+    "name": "Green / Nature-Based Infrastructure",
+    "description": "Urban forests, rain gardens, bioswales, green roofs, wetland restoration, and mangrove buffers."
+  },
+  {
+    "domain_id": "DOM-BLD",
+    "name": "Built Infrastructure",
+    "description": "Flood-proofing buildings, raised electrical equipment, heat-resilient buildings, cool roofs, and passive cooling."
+  },
+  {
+    "domain_id": "DOM-GIS",
+    "name": "Terrain / Geometry / GIS Planning",
+    "description": "Elevation-sensitive development, slope-sensitive planning, terrain depression preservation, and flow path zoning."
+  },
+  {
+    "domain_id": "DOM-CIN",
+    "name": "Critical Infrastructure",
+    "description": "Flood protection for hospitals, power substations, water treatment plants, transport terminals, and backup utilities."
+  },
+  {
+    "domain_id": "DOM-EWS",
+    "name": "Early Warning & Preparedness",
+    "description": "IoT water-level sensors, weather monitoring, early warning alerts, emergency shelters, and evacuation planning."
+  },
+  {
+    "domain_id": "DOM-HTR",
+    "name": "Heat Resilience",
+    "description": "Cool roofs, urban shade structures, heat shelters, cooling centers, heat action plans, and thermal protection."
+  },
+  {
+    "domain_id": "DOM-CST",
+    "name": "Coastal / Marine Resilience",
+    "description": "Mangrove restoration, coastal buffer zones, dune restoration, shoreline management, and storm surge protection."
+  }
+]

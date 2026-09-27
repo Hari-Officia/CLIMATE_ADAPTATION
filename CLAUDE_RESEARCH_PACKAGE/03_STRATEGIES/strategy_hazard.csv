@@ -1,0 +1,16 @@
+strategy_id,hazard,specific_hazard
+STR-DRN-001,Flood,Urban Flooding
+STR-DRN-001,Extreme Rainfall,Cloudburst Runoff
+STR-DRN-002,Flood,Flash Flood Inundation
+STR-WTR-001,Drought,Groundwater Depletion
+STR-WTR-001,Flood,Roof Runoff Accumulation
+STR-WTR-002,Drought,Water Scarcity
+STR-LND-001,Flood,Riverine Inundation
+STR-NBS-001,Flood,Surface Water Accumulation
+STR-BLT-001,Flood,Substation Inundation
+STR-GIS-001,Flood,Overland Flow Accumulation
+STR-CRT-001,Flood,Hospital Inundation
+STR-EWS-001,Flood,Sudden River Rise
+STR-HTS-001,Heatwave,Urban Heat Island
+STR-CST-001,Coastal Flooding,Storm Surge Inundation
+STR-CST-001,Erosion,Coastal Shoreline Loss

@@ -1,0 +1,17 @@
+{
+  "instance_seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
+  "qaoa_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "status": "SEPARATED_AND_VERIFIED"
+}

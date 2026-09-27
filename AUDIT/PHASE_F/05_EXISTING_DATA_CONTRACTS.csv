@@ -1,0 +1,10 @@
+contract_id,contract_name,schema_file,doc_file,version,status
+CTR-DIST-001,District Schema Contract,schemas/district_schema.json,docs/contracts/district_contract.md,v1.0.0,ACTIVE
+CTR-HAZ-001,Hazard Schema Contract,schemas/hazard_schema.json,docs/contracts/hazard_contract.md,v1.0.0,ACTIVE
+CTR-DOM-001,Domain Schema Contract,schemas/domain_schema.json,docs/contracts/domain_contract.md,v1.0.0,ACTIVE
+CTR-DS-001,Dataset Schema Contract,schemas/dataset_schema.json,docs/contracts/dataset_contract.md,v1.0.0,ACTIVE
+CTR-MDL-001,Model Schema Contract,schemas/model_schema.json,docs/contracts/model_contract.md,v1.0.0,ACTIVE
+CTR-FCT53-001,Feature Contract 53-001,schemas/feature_contract_53_schema.json,docs/contracts/feature_contract_53.md,v1.0.0,ACTIVE
+CTR-RISK-001,Risk Output Contract,schemas/risk_output_schema.json,docs/contracts/risk_output_contract.md,v1.0.0,ACTIVE
+CTR-EXP-001,Exposure Output Contract,schemas/exposure_schema.json,docs/contracts/exposure_output_contract.md,v1.0.0,ACTIVE
+CTR-RKEXP-001,Risk-Exposure Profile Contract,schemas/risk_exposure_profile_schema.json,docs/contracts/exposure_output_contract.md,v1.0.0,ACTIVE

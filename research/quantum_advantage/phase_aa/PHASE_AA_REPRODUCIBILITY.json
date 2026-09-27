@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "instance_hash_match": true,
+  "qubo_hash_match": true,
+  "seed_pairing_passed": true,
+  "independent_evaluator_passed": true
+}

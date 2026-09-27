@@ -1,0 +1,13 @@
+test_name,status
+test_district_registry,PASS
+test_strategy_bit_mapping,PASS
+test_slack_variable_handling,PASS
+test_canonical_instance_hashing,PASS
+test_exact_enumeration,PASS
+test_independent_milp,PASS
+test_qubo_equivalence,PASS
+test_qaoa_decoding,PASS
+test_shot_count_audit,PASS
+test_negative_gaps,PASS
+test_statistical_crosscheck,PASS
+test_production_isolation,PASS

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CitationSchema",
+  "type": "object",
+  "required": [
+    "citation_id",
+    "source_id",
+    "document_id",
+    "title",
+    "organization",
+    "source_tier"
+  ],
+  "properties": {
+    "citation_id": { "type": "string" },
+    "source_id": { "type": "string" },
+    "document_id": { "type": "string" },
+    "chunk_id": { "type": ["string", "null"] },
+    "claim_id": { "type": ["string", "null"] },
+    "title": { "type": "string" },
+    "organization": { "type": "string" },
+    "year": { "type": ["integer", "null"] },
+    "page": { "type": ["integer", "null"] },
+    "section": { "type": ["string", "null"] },
+    "url": { "type": ["string", "null"] },
+    "source_tier": { "type": "string" }
+  }
+}

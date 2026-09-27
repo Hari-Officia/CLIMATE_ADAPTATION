@@ -1,0 +1,2 @@
+conflict_id,dataset_a_id,dataset_b_id,field_name,value_a,value_b,resolution_status,notes
+CFL-001,DS-CENSUS-2011,DS-WORLDPOP-2020,total_population,4646732 (Census 2011),7088403 (WorldPop 2020),RESOLVED,WorldPop 2020 selected as current operational population baseline; temporal gap documented.

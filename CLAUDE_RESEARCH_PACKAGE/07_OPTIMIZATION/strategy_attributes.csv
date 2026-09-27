@@ -1,0 +1,13 @@
+strategy_id,name,risk_reduction_label,expected_risk_reduction_numeric,feasibility_label,feasibility_numeric_methodology,resource_requirement_label,resource_numeric_methodology,evidence_score
+STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-DRN-002,Underground Stormwater Detention Basins,MEDIUM,,MEDIUM,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",HIGH,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.85
+STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",LOW,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-WTR-002,Traditional Temple Tank & Cascade Lake De-silting and Restoration,MEDIUM,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,HIGH,,MEDIUM,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",LOW,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-NBS-001,Urban Bioswales & Permeable Pavement Network,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.85
+STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",LOW,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.85
+STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",LOW,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95
+STR-CST-001,Mangrove Restoration & Coastal Bio-Shield Buffers,HIGH,,HIGH,"Documented conversion: HIGH=1.0, MEDIUM=0.6, LOW=0.3",MEDIUM,"Documented conversion: LOW=0.3, MEDIUM=0.6, HIGH=1.0",0.95

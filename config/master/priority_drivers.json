@@ -1,0 +1,8 @@
+[
+  { "driver_type": "HIGH_HAZARD_RISK", "description": "Phase E XGBoost hazard risk prediction exceeds threshold.", "pillar": "RISK" },
+  { "driver_type": "HIGH_POPULATION_EXPOSURE", "description": "Resident population in district exceeds 2,000,000.", "pillar": "EXPOSURE" },
+  { "driver_type": "HIGH_CRITICAL_ASSET_EXPOSURE", "description": "Critical infrastructure assets present within district hazard area.", "pillar": "EXPOSURE" },
+  { "driver_type": "HIGH_SENSITIVITY", "description": "High urban density and impervious surface fraction.", "pillar": "VULNERABILITY" },
+  { "driver_type": "LOW_ADAPTIVE_CAPACITY", "description": "Limited historical infrastructure or emergency response capacity.", "pillar": "VULNERABILITY" },
+  { "driver_type": "RESILIENCE_GAP", "description": "Documented gap in sector-specific climate resilience.", "pillar": "RESILIENCE_GAP" }
+]

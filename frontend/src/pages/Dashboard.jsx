@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import DistrictSearchSelector from '../components/DistrictSearchSelector';
 import {
   AlertTriangle,
   CloudRain,
@@ -185,19 +186,11 @@ export default function Dashboard() {
 
         {/* Action Controls */}
         <div className="flex flex-wrap items-center gap-3">
-          <div className="relative min-w-[200px]">
-            <select
-              value={selectedDistrict}
-              onChange={(e) => setSelectedDistrict(e.target.value)}
-              className="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-xs font-semibold focus:outline-none focus:border-cyan-500 appearance-none shadow-lg cursor-pointer"
-            >
-              {districtsList.map((d) => (
-                <option key={d.id} value={d.id}>
-                  {d.name} {d.coastal ? '🌊 (Coastal)' : ''}
-                </option>
-              ))}
-            </select>
-          </div>
+          <DistrictSearchSelector
+            selectedDistrictId={selectedDistrict}
+            onSelectDistrict={(newId) => setSelectedDistrict(newId)}
+            className="min-w-[220px]"
+          />
 
           <button
             onClick={handleRefresh}

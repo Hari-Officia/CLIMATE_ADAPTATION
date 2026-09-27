@@ -1,0 +1,4 @@
+noise_family,gate_error_rate,best_sample_feasibility_rate,all_shots_feasibility_prob
+Family Z-A,0.0,1.0,0.785
+Family Z-B,0.001,1.0,0.762
+Family Z-B,0.005,1.0,0.695

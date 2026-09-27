@@ -1,0 +1,24 @@
+{
+  "policy_id": "PNL-POLICY-001",
+  "policy_name": "Dynamic Penalty Bound Dominance Policy",
+  "version": "v1.0",
+  "default_safety_margin": 2.0,
+  "min_penalty": 10.0,
+  "penalty_types": {
+    "CONFLICT": {
+      "expression": "P_conflict * x_i * x_j",
+      "derivation": "P > max_single_variable_objective_improvement",
+      "base_multiplier": 10.0
+    },
+    "DEPENDENCY": {
+      "expression": "P_dep * (x_A - x_A * x_B)",
+      "derivation": "P > max_dependent_strategy_objective_gain",
+      "base_multiplier": 10.0
+    },
+    "PORTFOLIO_SIZE": {
+      "expression": "P_size * (sum(x_i) + sum(2^b * s_b) - K)^2",
+      "derivation": "P > total_portfolio_objective_upper_bound",
+      "base_multiplier": 10.0
+    }
+  }
+}

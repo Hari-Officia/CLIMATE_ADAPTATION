@@ -1,0 +1,12 @@
+{
+  "bootstrap_samples": 1000,
+  "qaoa_mean_gap_ci_95": [
+    0.071,
+    0.088
+  ],
+  "sa_mean_gap_ci_95": [
+    0.0,
+    0.0
+  ],
+  "resampling_unit": "INDEPENDENT_RUN"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "PHASE_W",
+  "reproducibility_status": "PASS",
+  "terminology": "FIXED_SEED_REPRODUCIBLE",
+  "deterministic_solvers": [
+    "Exact",
+    "MILP",
+    "Greedy"
+  ],
+  "stochastic_solvers": [
+    "Simulated Annealing",
+    "QAOA"
+  ]
+}

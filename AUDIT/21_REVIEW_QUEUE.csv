@@ -1,0 +1,3 @@
+item_id,type,strategy_id,source_id,issue,severity,question,recommended_action,status
+REV-001,NUMERIC_METRIC_REVIEW,STR-HTS-001,IPCC-AR6-001,Cool roof indoor thermal reduction metric (2-4 C) sourced from global meta-analysis.,MEDIUM,Should this value be applied directly to humid tropical coastal settlements in Tamil Nadu?,Retain NULL for numeric reduction attribute until local microclimate trial data is recorded.,PENDING_HUMAN_REVIEW
+

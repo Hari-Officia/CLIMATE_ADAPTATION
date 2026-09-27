@@ -1,0 +1,3 @@
+dataset_id,dataset_name,purpose,required_for,candidate_source,official_url,access_method,license,priority,status,blocking,notes
+DS-CENSUS-2024-PENDING,Census of India 2024 District Breakdown,Updated demographic exposure,Population Exposure (F4),Registrar General of India,https://censusindia.gov.in,DOWNLOAD_PORTAL,GOVT_OPEN,HIGH,PENDING_ACQUISITION,False,Awaiting official release of 2024 census figures.
+DS-LIDAR-TN-DRAIN,LiDAR Tertiary Drainage Elevation Models,Tertiary drain elevation modeling,Environmental Context (F8),Tamil Nadu PWD Water Resources,https://wrd.tn.gov.in,OFFICIAL_REQUEST,GOVT_OPEN,MEDIUM,PENDING_ACQUISITION,False,LiDAR micro-contour data currently unavailable.

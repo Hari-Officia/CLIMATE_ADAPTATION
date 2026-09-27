@@ -1,0 +1,6 @@
+strategy_id,condition_type,feature,operator,value,unit,source_id,page
+STR-CST-001,COASTAL,coastal,EQUALS,True,,TN-ADAPT-001,42
+STR-DRN-001,URBANIZATION,urban_percentage,GREATER_THAN,40.0,%,TN-CAP-003,88
+STR-GIS-001,TERRAIN,elevation_m,LESS_THAN,50.0,m,TN-DCAPT-002,15
+STR-HTS-001,CLIMATE,heatwave_exposure,EQUALS,HIGH,,TN-ADAPT-001,64
+STR-WTR-001,HYDROLOGICAL,groundwater_status,EQUALS,OVER_EXPLOITED,,NAT-CGWB-002,112

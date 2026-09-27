@@ -1,0 +1,7 @@
+{
+  "engine": "PostgreSQL 15 + PostGIS 3.3",
+  "staging_node": "SINGLE_NODE",
+  "ha_status": "NOT_HA (NC-002 ACCEPTED_RISK)",
+  "migrations": "v3_1_0_pydantic_v2 (NON_DESTRUCTIVE)",
+  "backup_verification": "PASS"
+}

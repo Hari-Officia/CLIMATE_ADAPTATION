@@ -1,0 +1,7 @@
+{
+  "release_version": "3.0.0-certified",
+  "geography": "Tamil Nadu, India",
+  "district_count": 38,
+  "srid": 4326,
+  "geojson_file": "geoBoundaries-IND-ADM2-all/IND_ADM2_TamilNadu.geojson"
+}

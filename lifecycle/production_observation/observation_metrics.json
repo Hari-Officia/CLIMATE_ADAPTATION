@@ -1,0 +1,10 @@
+{
+  "districts_monitored": 38,
+  "districts_verified": 38,
+  "api_availability_pct": 100.0,
+  "p50_latency_ms": 42.5,
+  "p95_latency_ms": 118.2,
+  "p99_latency_ms": 285.0,
+  "error_rate_pct": 0.0,
+  "decision_stability_pct": 100.0
+}

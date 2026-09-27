@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdaptationStrategySchema",
+  "type": "object",
+  "required": [
+    "strategy_id",
+    "canonical_name",
+    "display_name",
+    "domain_id",
+    "measure_type",
+    "primary_hazard_id",
+    "planning_horizon",
+    "evidence_status",
+    "status"
+  ],
+  "properties": {
+    "strategy_id": { "type": "string" },
+    "canonical_name": { "type": "string" },
+    "display_name": { "type": "string" },
+    "short_description": { "type": "string" },
+    "domain_id": { "type": "string" },
+    "measure_type": { "type": "string" },
+    "primary_hazard_id": { "type": "string" },
+    "sector_ids": { "type": "array", "items": { "type": "string" } },
+    "planning_horizon": { "type": "string" },
+    "evidence_status": { "type": "string" },
+    "evidence_strength": { "type": "string" },
+    "uncertainty_level": { "type": "string" },
+    "status": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

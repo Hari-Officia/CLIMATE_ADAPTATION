@@ -2,15 +2,18 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
-  CloudSun,
   Map as MapIcon,
   Activity,
-  Sparkles,
   Settings,
   LogOut,
-  ShieldCheck,
-  User as UserIcon,
-  Globe
+  Globe,
+  Layers,
+  Cpu,
+  FileText,
+  AlertTriangle,
+  BookOpen,
+  Building,
+  Sparkles
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -23,15 +26,48 @@ export default function Sidebar() {
     navigate('/login');
   };
 
-  const navItems = [
-    { to: '/', label: 'Dashboard', icon: LayoutDashboard },
-    { to: '/weather', label: 'Weather', icon: CloudSun },
-    { to: '/risk-map', label: 'Risk Map (GIS)', icon: MapIcon },
-    { to: '/system-status', label: 'System Status', icon: Activity },
+  const sections = [
+    {
+      title: 'OVERVIEW',
+      items: [
+        { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+        { to: '/risk-map', label: 'Risk Map (GIS)', icon: MapIcon }
+      ]
+    },
+    {
+      title: 'DISTRICT DECISION SUPPORT',
+      items: [
+        { to: '/district/chennai', label: 'District Intelligence', icon: Building }
+      ]
+    },
+    {
+      title: 'KNOWLEDGE',
+      items: [
+        { to: '/strategies', label: 'Strategy Registry (14)', icon: Layers },
+        { to: '/evidence', label: 'Evidence & RAG', icon: FileText },
+        { to: '/sources', label: 'Source Hierarchy', icon: BookOpen }
+      ]
+    },
+    {
+      title: 'RESEARCH TRACK',
+      items: [
+        { to: '/research/quantum', label: 'Quantum Advantage Track', icon: Sparkles },
+        { to: '/optimization', label: 'Classical MILP', icon: Cpu },
+        { to: '/qaoa', label: 'QAOA Research', icon: Cpu },
+        { to: '/research', label: 'Research Gaps', icon: AlertTriangle },
+        { to: '/methodology', label: 'Methodology', icon: BookOpen }
+      ]
+    },
+    {
+      title: 'SYSTEM',
+      items: [
+        { to: '/system-status', label: 'System Status & Cert.', icon: Activity }
+      ]
+    }
   ];
 
   return (
-    <aside className="w-64 bg-slate-950/80 border-r border-slate-800/80 flex flex-col h-screen sticky top-0 backdrop-blur-xl z-30 select-none">
+    <aside className="w-64 bg-slate-950/90 border-r border-slate-800/80 flex flex-col h-screen sticky top-0 backdrop-blur-xl z-30 select-none">
       {/* Brand Header */}
       <div className="p-5 border-b border-slate-800/60">
         <div className="flex items-center space-x-3">
@@ -42,100 +78,78 @@ export default function Sidebar() {
             <h1 className="text-sm font-bold tracking-tight text-white leading-tight">
               Climate Risk
             </h1>
-            <p className="text-xs text-cyan-400 font-medium">Intelligence System</p>
+            <p className="text-xs text-cyan-400 font-medium">Quantum Decision Engine</p>
           </div>
         </div>
 
         {/* Operational Status Pill */}
-        <div className="mt-4 flex items-center space-x-2 px-2.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span className="text-[11px] font-medium text-emerald-400">Review II Active (38 Districts)</span>
+        <div className="mt-3 flex items-center justify-between px-2.5 py-1 rounded-lg bg-emerald-500/10 border border-emerald-500/20">
+          <span className="flex items-center space-x-1.5">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span className="text-[10px] font-bold text-emerald-400">v3.1.0 Certified</span>
+          </span>
+          <span className="text-[9px] font-mono text-slate-400">38 TN Districts</span>
         </div>
       </div>
 
       {/* Navigation Links */}
-      <nav className="flex-1 px-3 py-4 space-y-1.5 overflow-y-auto">
-        <div className="px-3 pb-2 text-[10px] font-semibold text-slate-400 uppercase tracking-wider">
-          Core Operations
-        </div>
-
-        {navItems.map((item) => {
-          const Icon = item.icon;
-          return (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              end={item.to === '/'}
-              className={({ isActive }) =>
-                `flex items-center space-x-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all ${
-                  isActive
-                    ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 shadow-sm shadow-cyan-500/10'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/60'
-                }`
-              }
-            >
-              <Icon className="w-4 h-4" />
-              <span>{item.label}</span>
-            </NavLink>
-          );
-        })}
-
-        {/* Disabled Future Review Phase Link */}
-        <div className="pt-3">
-          <div className="px-3 pb-2 text-[10px] font-semibold text-slate-500 uppercase tracking-wider">
-            Future Modules
-          </div>
-          <div
-            className="flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-medium text-slate-500 bg-slate-900/30 border border-slate-800/40 cursor-not-allowed opacity-60"
-            title="Scheduled for Review III"
-          >
-            <div className="flex items-center space-x-3">
-              <Sparkles className="w-4 h-4 text-purple-400/60" />
-              <span>Adaptation Insights</span>
+      <nav className="flex-1 px-3 py-3 space-y-4 overflow-y-auto">
+        {sections.map((sec) => (
+          <div key={sec.title} className="space-y-1">
+            <div className="px-3 text-[9px] font-extrabold text-slate-400 uppercase tracking-wider">
+              {sec.title}
             </div>
-            <span className="text-[9px] font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30 px-1.5 py-0.5 rounded">
-              Review III
-            </span>
+            {sec.items.map((item) => {
+              const Icon = item.icon;
+              return (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  className={({ isActive }) =>
+                    `flex items-center space-x-2.5 px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
+                      isActive
+                        ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 shadow-sm shadow-cyan-500/10'
+                        : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/60'
+                    }`
+                  }
+                >
+                  <Icon className="w-4 h-4 shrink-0" />
+                  <span className="truncate">{item.label}</span>
+                </NavLink>
+              );
+            })}
           </div>
-        </div>
+        ))}
       </nav>
 
       {/* User Footer Profile */}
       <div className="p-3 border-t border-slate-800/60 bg-slate-950/40">
         <div className="flex items-center justify-between p-2 rounded-xl bg-slate-900/70 border border-slate-800/80">
-          <div className="flex items-center space-x-3 min-w-0">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-xs text-white">
+          <div className="flex items-center space-x-2.5 min-w-0">
+            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-xs text-white">
               {user?.full_name ? user.full_name.charAt(0) : 'U'}
             </div>
             <div className="min-w-0">
-              <p className="text-xs font-semibold text-white truncate leading-snug">
+              <p className="text-xs font-semibold text-white truncate leading-tight">
                 {user?.full_name || user?.username || 'Guest'}
               </p>
-              <div className="flex items-center space-x-1.5">
-                <span
-                  className={`text-[9px] font-bold px-1.5 py-0.2 rounded border ${
-                    user?.role === 'ADMIN'
-                      ? 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                      : 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40'
-                  }`}
-                >
-                  {user?.role || 'USER'}
-                </span>
-              </div>
+              <span className="text-[9px] text-cyan-400 font-mono block">
+                {user?.role || 'USER'}
+              </span>
             </div>
           </div>
 
           <div className="flex items-center space-x-1">
             <button
               onClick={() => navigate('/settings')}
-              className="p-1.5 text-slate-400 hover:text-slate-200 hover:bg-slate-800 rounded-lg transition"
+              className="p-1 text-slate-400 hover:text-slate-200 hover:bg-slate-800 rounded-lg transition"
               title="Settings"
             >
               <Settings className="w-3.5 h-3.5" />
             </button>
             <button
               onClick={handleLogout}
-              className="p-1.5 text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 rounded-lg transition"
+              className="p-1 text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 rounded-lg transition"
               title="Log Out"
             >
               <LogOut className="w-3.5 h-3.5" />

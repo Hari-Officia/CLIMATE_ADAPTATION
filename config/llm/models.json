@@ -1,0 +1,20 @@
+{
+  "active_provider": "local_grounded_engine",
+  "active_model": "climate-adaptation-explainer-v1",
+  "model_version": "1.0.0",
+  "temperature": 0.0,
+  "top_p": 0.95,
+  "max_tokens": 2048,
+  "timeout_seconds": 30,
+  "supported_providers": [
+    "local_grounded_engine",
+    "openai",
+    "anthropic",
+    "google_vertex"
+  ],
+  "cost_governance": {
+    "max_context_tokens": 4096,
+    "max_output_tokens": 2048,
+    "max_requests_per_minute": 60
+  }
+}

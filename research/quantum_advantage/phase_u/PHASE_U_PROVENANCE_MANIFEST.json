@@ -1,0 +1,9 @@
+{
+  "phase": "PHASE_U",
+  "provenance_status": "VERIFIED_PASS",
+  "evaluator": "IndependentEvaluator",
+  "exact_solver": "2^14 Full Enumeration",
+  "milp_solver": "scipy.optimize.linprog (HiGHS)",
+  "qubo_builder": "backend.services.optimization.qubo_builder.QUBOBuilder",
+  "raw_counts": "EXP-QAOA-190-SHOT-AUDIT"
+}

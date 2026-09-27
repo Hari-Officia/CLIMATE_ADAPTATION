@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DecisionExplanationSchema",
+  "type": "object",
+  "required": [
+    "explanation_id",
+    "district_id",
+    "district_name",
+    "decision_summary",
+    "selected_strategies",
+    "optimization_explanation",
+    "evidence",
+    "uncertainties",
+    "limitations",
+    "conflicts",
+    "citation_ids",
+    "validation_status"
+  ],
+  "properties": {
+    "explanation_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "decision_summary": { "type": "string" },
+    "risk_context_summary": { "type": "string" },
+    "priority_context_summary": { "type": "string" },
+    "selected_strategies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["strategy_id", "name", "selection_reason", "evidence_status"],
+        "properties": {
+          "strategy_id": { "type": "string" },
+          "name": { "type": "string" },
+          "domain": { "type": "string" },
+          "selection_reason": { "type": "string" },
+          "evidence_status": { "type": "string" },
+          "citation_ids": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "optimization_explanation": {
+      "type": "object",
+      "required": ["solver_type", "objective_description"],
+      "properties": {
+        "solver_type": { "type": "string" },
+        "objective_description": { "type": "string" },
+        "qaoa_experiment_id": { "type": ["string", "null"] },
+        "qaoa_p_depth": { "type": ["integer", "null"] },
+        "qaoa_feasibility_probability": { "type": ["number", "null"] },
+        "objective_gap": { "type": ["number", "null"] },
+        "quantum_advantage_claimed": { "type": "boolean" }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "text", "citation_id"],
+        "properties": {
+          "claim_id": { "type": "string" },
+          "text": { "type": "string" },
+          "citation_id": { "type": "string" }
+        }
+      }
+    },
+    "uncertainties": { "type": "array", "items": { "type": "string" } },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "conflicts": { "type": "array", "items": { "type": "string" } },
+    "citation_ids": { "type": "array", "items": { "type": "string" } },
+    "validation_status": { "type": "string" }
+  }
+}

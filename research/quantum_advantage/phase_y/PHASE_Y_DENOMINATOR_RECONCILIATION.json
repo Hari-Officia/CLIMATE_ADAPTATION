@@ -1,0 +1,10 @@
+{
+  "declared_p2_runs": 380,
+  "actual_p2_unique_runs": 380,
+  "valid_p2_runs": 350,
+  "exact_hit_runs": 50,
+  "excluded_runs": 30,
+  "exclusion_reasons": "30 runs belonged to secondary validation batch evaluated during preliminary shot sampling audit",
+  "exact_hit_rate": "14.2857% (50/350)",
+  "status": "RECONCILED_PASS"
+}

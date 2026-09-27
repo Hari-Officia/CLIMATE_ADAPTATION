@@ -1,0 +1,26 @@
+{
+  "status": "BLOCKED",
+  "blocking_reason": "PHYSICAL_QUANTUM_HARDWARE_NOT_AUTHENTICATED",
+  "circuit": {
+    "num_qubits": 2,
+    "circuit_type": "TECHNICAL_VALIDATION_COMPUTATIONAL_BASIS",
+    "state_prepared": "|01>",
+    "gates": [
+      "X(0)",
+      "Measure(0)",
+      "Measure(1)"
+    ],
+    "expected_ideal_bitstring": "01",
+    "circuit_hash": "4635f0facc10637f"
+  },
+  "provider": "NONE_UNAUTHENTICATED",
+  "selected_backend": "NONE",
+  "is_simulator": true,
+  "physical_qpu_verified": false,
+  "provider_job_id": "NONE_UNAUTHENTICATED",
+  "job_retrieved": false,
+  "raw_result_retrieved": false,
+  "raw_counts": {},
+  "level_3_real_hardware": false,
+  "scientific_experiment_executed": false
+}

@@ -1,0 +1,41 @@
+{
+  "authentication_status": "BLOCKED_UNAUTHENTICATED",
+  "total_discovered": 3,
+  "physical_qpus": [],
+  "simulators": [
+    {
+      "backend_name": "aer_simulator",
+      "backend_class": "AerSimulator",
+      "backend_type": "LOCAL_SIMULATOR",
+      "is_simulator": true,
+      "operational": true,
+      "qubit_count": 32,
+      "status": "REJECTED_LOCAL_SIMULATOR"
+    }
+  ],
+  "fake_backends": [
+    {
+      "backend_name": "fake_sherbrooke",
+      "backend_class": "FakeSherbrooke",
+      "backend_type": "FAKE_BACKEND",
+      "is_simulator": true,
+      "operational": true,
+      "qubit_count": 127,
+      "status": "REJECTED_FAKE_BACKEND"
+    }
+  ],
+  "retired_backends": [
+    {
+      "backend_name": "ibm_sherbrooke",
+      "backend_class": "IBMBackend",
+      "backend_type": "RETIRED_QPU",
+      "is_simulator": false,
+      "operational": false,
+      "qubit_count": 127,
+      "status": "RETIRED_EXCLUDED",
+      "rejection_reason": "Section 8 Rule: ibm_sherbrooke retired / unavailable"
+    }
+  ],
+  "selected_backend": null,
+  "selection_criterion": "PHYSICAL_ACCESS_BLOCKED_UNAUTHENTICATED"
+}

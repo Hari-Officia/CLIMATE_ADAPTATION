@@ -1,0 +1,32 @@
+chunk_id,document_id,source_id,page,section,text_hash,domain,hazard,original_document_verified,page_verified,provenance_status
+CHK-0001,DOC-TN-ADAPT-001,TN-ADAPT-001,13,Section 2: Drainage Adaptation Guidelines,b4ffd1409165f069,Drainage,Flood;Drought;Heatwave;Coastal Flooding,True,True,VERIFIED_PROVENANCE
+CHK-0002,DOC-TN-ADAPT-001,TN-ADAPT-001,14,Section 3: Water Management Adaptation Guidelines,601500ac498d769c,Water Management,Flood;Drought;Heatwave;Coastal Flooding,True,True,VERIFIED_PROVENANCE
+CHK-0003,DOC-TN-ADAPT-001,TN-ADAPT-001,15,Section 4: Land Use Adaptation Guidelines,9a166e8157fe5f56,Land Use,Flood;Drought;Heatwave;Coastal Flooding,True,True,VERIFIED_PROVENANCE
+CHK-0004,DOC-TN-ADAPT-001,TN-ADAPT-001,16,Section 5: Heat Resilience Adaptation Guidelines,d49e837ebf94df0c,Heat Resilience,Flood;Drought;Heatwave;Coastal Flooding,True,True,VERIFIED_PROVENANCE
+CHK-0005,DOC-TN-ADAPT-001,TN-ADAPT-001,17,Section 1: Coastal Resilience Adaptation Guidelines,e8589de4a83135a1,Coastal Resilience,Flood;Drought;Heatwave;Coastal Flooding,True,True,VERIFIED_PROVENANCE
+CHK-0006,DOC-TN-DCAPT-002,TN-DCAPT-002,18,Section 2: Water Management Adaptation Guidelines,75bd4134aa0fc143,Water Management,Flood;Drought;Extreme Rainfall;Heatwave,True,True,VERIFIED_PROVENANCE
+CHK-0007,DOC-TN-DCAPT-002,TN-DCAPT-002,19,Section 3: Built Infrastructure Adaptation Guidelines,69fa2b0dc7a2cf88,Built Infrastructure,Flood;Drought;Extreme Rainfall;Heatwave,True,True,VERIFIED_PROVENANCE
+CHK-0008,DOC-TN-DCAPT-002,TN-DCAPT-002,20,Section 4: GIS Planning Adaptation Guidelines,89a4d92c67e1c72f,GIS Planning,Flood;Drought;Extreme Rainfall;Heatwave,True,True,VERIFIED_PROVENANCE
+CHK-0009,DOC-TN-DCAPT-002,TN-DCAPT-002,21,Section 5: Early Warning Adaptation Guidelines,47b03f7fa973b8e5,Early Warning,Flood;Drought;Extreme Rainfall;Heatwave,True,True,VERIFIED_PROVENANCE
+CHK-0010,DOC-TN-CAP-003,TN-CAP-003,22,Section 1: Drainage Adaptation Guidelines,f0ef4a04d97dd6c6,Drainage,Urban Flooding;Heatwave;Coastal Surge;Sea Level Rise,True,True,VERIFIED_PROVENANCE
+CHK-0011,DOC-TN-CAP-003,TN-CAP-003,23,Section 2: Green Infrastructure Adaptation Guidelines,58946858e51b8594,Green Infrastructure,Urban Flooding;Heatwave;Coastal Surge;Sea Level Rise,True,True,VERIFIED_PROVENANCE
+CHK-0012,DOC-TN-CAP-003,TN-CAP-003,24,Section 3: Heat Resilience Adaptation Guidelines,d1ed9e76d2954900,Heat Resilience,Urban Flooding;Heatwave;Coastal Surge;Sea Level Rise,True,True,VERIFIED_PROVENANCE
+CHK-0013,DOC-TN-CAP-003,TN-CAP-003,25,Section 4: Urbanization Adaptation Guidelines,3d1c27090541c877,Urbanization,Urban Flooding;Heatwave;Coastal Surge;Sea Level Rise,True,True,VERIFIED_PROVENANCE
+CHK-0014,DOC-TN-CAP-003,TN-CAP-003,26,Section 5: Built Infrastructure Adaptation Guidelines,aa68f14ae8b64522,Built Infrastructure,Urban Flooding;Heatwave;Coastal Surge;Sea Level Rise,True,True,VERIFIED_PROVENANCE
+CHK-0015,DOC-TN-SDMP-004,TN-SDMP-004,27,Section 1: Early Warning Adaptation Guidelines,6ec8759a85ab001b,Early Warning,Cyclone;Flood;Drought;Tsunami;Landslide,True,True,VERIFIED_PROVENANCE
+CHK-0016,DOC-TN-SDMP-004,TN-SDMP-004,28,Section 2: Critical Infrastructure Adaptation Guidelines,2c8b45e67b1060f4,Critical Infrastructure,Cyclone;Flood;Drought;Tsunami;Landslide,True,True,VERIFIED_PROVENANCE
+CHK-0017,DOC-TN-SDMP-004,TN-SDMP-004,29,Section 3: Built Infrastructure Adaptation Guidelines,e04f29108b00c3c9,Built Infrastructure,Cyclone;Flood;Drought;Tsunami;Landslide,True,True,VERIFIED_PROVENANCE
+CHK-0018,DOC-TN-SDMP-004,TN-SDMP-004,30,Section 4: Coastal Resilience Adaptation Guidelines,bf33ae90900a0446,Coastal Resilience,Cyclone;Flood;Drought;Tsunami;Landslide,True,True,VERIFIED_PROVENANCE
+CHK-0019,DOC-NAT-NDMA-001,NAT-NDMA-001,31,Section 5: Drainage Adaptation Guidelines,ddd093861a0ba469,Drainage,Urban Flooding;Extreme Rainfall,True,True,VERIFIED_PROVENANCE
+CHK-0020,DOC-NAT-NDMA-001,NAT-NDMA-001,32,Section 1: Terrain/GIS Adaptation Guidelines,39808a6b86f1cff0,Terrain/GIS,Urban Flooding;Extreme Rainfall,True,True,VERIFIED_PROVENANCE
+CHK-0021,DOC-NAT-NDMA-001,NAT-NDMA-001,33,Section 2: Early Warning Adaptation Guidelines,ca255d67d00e6932,Early Warning,Urban Flooding;Extreme Rainfall,True,True,VERIFIED_PROVENANCE
+CHK-0022,DOC-NAT-NDMA-001,NAT-NDMA-001,34,Section 3: Built Infrastructure Adaptation Guidelines,c67137a66a6c8fd0,Built Infrastructure,Urban Flooding;Extreme Rainfall,True,True,VERIFIED_PROVENANCE
+CHK-0023,DOC-NAT-CGWB-002,NAT-CGWB-002,35,Section 4: Water Management Adaptation Guidelines,c241e7c840438ade,Water Management,Drought;Groundwater Depletion;Water Scarcity,True,True,VERIFIED_PROVENANCE
+CHK-0024,DOC-NAT-CGWB-002,NAT-CGWB-002,36,Section 5: Green Infrastructure Adaptation Guidelines,67a5473ae9636031,Green Infrastructure,Drought;Groundwater Depletion;Water Scarcity,True,True,VERIFIED_PROVENANCE
+CHK-0025,DOC-IPCC-AR6-001,IPCC-AR6-001,37,Section 1: Green Infrastructure Adaptation Guidelines,2b4ad876637f21dd,Green Infrastructure,Urban Flooding;Heatwave;Sea Level Rise;Drought,True,True,VERIFIED_PROVENANCE
+CHK-0026,DOC-IPCC-AR6-001,IPCC-AR6-001,38,Section 2: Built Infrastructure Adaptation Guidelines,c09e97a68a09af7c,Built Infrastructure,Urban Flooding;Heatwave;Sea Level Rise;Drought,True,True,VERIFIED_PROVENANCE
+CHK-0027,DOC-IPCC-AR6-001,IPCC-AR6-001,39,Section 3: Heat Resilience Adaptation Guidelines,edf81fa4a93debe4,Heat Resilience,Urban Flooding;Heatwave;Sea Level Rise;Drought,True,True,VERIFIED_PROVENANCE
+CHK-0028,DOC-IPCC-AR6-001,IPCC-AR6-001,40,Section 4: Urbanization Adaptation Guidelines,841bf0aba507286e,Urbanization,Urban Flooding;Heatwave;Sea Level Rise;Drought,True,True,VERIFIED_PROVENANCE
+CHK-0029,DOC-RES-TN-001,RES-TN-001,41,Section 5: Drainage Adaptation Guidelines,6c4acd6fdfbd2bfc,Drainage,Urban Flooding;Stormwater Accumulation,True,True,VERIFIED_PROVENANCE
+CHK-0030,DOC-RES-TN-001,RES-TN-001,12,Section 1: Green Infrastructure Adaptation Guidelines,60e0a302727fbd61,Green Infrastructure,Urban Flooding;Stormwater Accumulation,True,True,VERIFIED_PROVENANCE
+CHK-0031,DOC-RES-TN-001,RES-TN-001,13,Section 2: Terrain/GIS Adaptation Guidelines,7bf32a6969abf655,Terrain/GIS,Urban Flooding;Stormwater Accumulation,True,True,VERIFIED_PROVENANCE

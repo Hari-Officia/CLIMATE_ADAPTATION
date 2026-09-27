@@ -1,0 +1,16 @@
+{
+  "encodings": [
+    {
+      "encoding_id": "ENC-BINARY-SLACK",
+      "name": "Binary Exponential Slack Variable Encoding",
+      "formula": "s = sum_{b=0}^{B-1} 2^b * s_b",
+      "binary_domain": true
+    },
+    {
+      "encoding_id": "ENC-UNARY-SLACK",
+      "name": "Unary Slack Variable Encoding",
+      "formula": "s = sum_{b=0}^{S-1} u_b",
+      "binary_domain": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+source_term,canonical_name,action,parent_strategy_id,rationale
+Rainwater harvesting,Rooftop Rainwater Harvesting,MERGED_ALIASES,STR-WTR-001,Source terms represent identical structural rooftop collection measure.
+Eri restoration,Cascade Tank Restoration,NORMALIZED_LOCAL_TERMINOLOGY,STR-WTR-002,Eri is the traditional Tamil term for cascade surface water tanks.

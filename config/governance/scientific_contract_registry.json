@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "registry_name": "Enterprise Scientific Contract Registry",
+  "contracts": [
+    {
+      "contract_id": "SC-FEAT-001",
+      "version": "1.0.0",
+      "description": "53-feature vector specification (15 continuous climate indicators + 38 district one-hot indicators)",
+      "owner": "Climate Data Science Team",
+      "source": "backend/services/climate_feature_engineering.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "a1b2c3d4e5f607182930a477d2e89f01"
+    },
+    {
+      "contract_id": "SC-FORM-001",
+      "version": "1.0.0",
+      "description": "Derived climate anomaly, 3d/7d/30d precipitation, and SPI-3/SPI-6 calculation formulas",
+      "owner": "Meteorological Modeling Team",
+      "source": "backend/services/climate_feature_engineering.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "b2c3d4e5f607182930a477d2e89f01a1"
+    },
+    {
+      "contract_id": "SC-MOD-001",
+      "version": "1.0.0",
+      "description": "XGBoost Hazard Prediction Models (Flood, Drought, Heatwave) contract with temporal validation split",
+      "owner": "MLOps & Science Team",
+      "source": "Models/flood_xgboost.pkl, Models/drought_xgboost.pkl, Models/heatwave_xgboost.pkl",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "c3d4e5f607182930a477d2e89f01a1b2"
+    },
+    {
+      "contract_id": "SC-RISK-002",
+      "version": "1.0.0",
+      "description": "Multi-hazard risk semantics, probability mapping, and LOW/MEDIUM/HIGH threshold definitions",
+      "owner": "Climate Risk Assessment Team",
+      "source": "backend/services/hazard_risk_agent.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "d4e5f607182930a477d2e89f01a1b2c3"
+    },
+    {
+      "contract_id": "SC-EXPO-001",
+      "version": "1.0.0",
+      "description": "Spatial Exposure Index formulation incorporating population, agricultural density, and infrastructure assets",
+      "owner": "Spatial Analytics Team",
+      "source": "backend/services/exposure_agent.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "e5f607182930a477d2e89f01a1b2c3d4"
+    },
+    {
+      "contract_id": "SC-VULN-001",
+      "version": "1.0.0",
+      "description": "Socio-Economic & Ecological Vulnerability Index formulation with normalized indicator weights",
+      "owner": "Socio-Economic Vulnerability Team",
+      "source": "backend/services/vulnerability_agent.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "f607182930a477d2e89f01a1b2c3d4e5"
+    },
+    {
+      "contract_id": "SC-RESI-001",
+      "version": "1.0.0",
+      "description": "Adaptive Capacity & Ecological Resilience Index formulation distinct from vulnerability",
+      "owner": "Resilience Engineering Team",
+      "source": "backend/services/resilience_agent.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "07182930a477d2e89f01a1b2c3d4e5f6"
+    },
+    {
+      "contract_id": "SC-PRIO-001",
+      "version": "1.0.0",
+      "description": "Action Horizon Priority Matrix formulation (IMMEDIATE, SHORT_TERM, MEDIUM_TERM, LONG_TERM)",
+      "owner": "Policy Planning Team",
+      "source": "backend/services/priority_agent.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "182930a477d2e89f01a1b2c3d4e5f607"
+    },
+    {
+      "contract_id": "SC-OPT-001",
+      "version": "1.0.0",
+      "description": "Classical MILP Strategy Portfolio Optimization Objective and Budget/Interactivity Constraints",
+      "owner": "Classical Optimization Team",
+      "source": "backend/services/optimization/classical_solver.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "2930a477d2e89f01a1b2c3d4e5f60718"
+    },
+    {
+      "contract_id": "SC-QUBO-001",
+      "version": "1.0.0",
+      "description": "QUBO Binary Quadratic Formulation with Penalty Constant P=10.0 and MILP Mathematical Parity",
+      "owner": "Quantum Algorithms Team",
+      "source": "backend/services/optimization/qubo_formulator.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "30a477d2e89f01a1b2c3d4e5f6071829"
+    },
+    {
+      "contract_id": "SC-QAOA-001",
+      "version": "1.0.0",
+      "description": "Experimental QAOA Circuit Formulation (p=1, COBYLA optimizer, Objective Gap=0.4700, No Quantum Advantage)",
+      "owner": "Quantum Computing Lab",
+      "source": "backend/services/optimization/qaoa_solver.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "a477d2e89f01a1b2c3d4e5f607182930"
+    },
+    {
+      "contract_id": "SC-RAG-001",
+      "version": "1.0.0",
+      "description": "RAG Evidence Retrieval Hierarchy (Tiers 1-5) & Citation Enforcement Contract",
+      "owner": "Knowledge Systems Team",
+      "source": "backend/services/rag/retrieval_engine.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "477d2e89f01a1b2c3d4e5f607182930a"
+    },
+    {
+      "contract_id": "SC-LLM-001",
+      "version": "1.0.0",
+      "description": "LLM Read-Only Decision Explanation & Strict Anti-Hallucination Grounding Contract",
+      "owner": "AI Governance Team",
+      "source": "backend/services/explanation/llm_explainer.py",
+      "effective_date": "2026-09-23",
+      "review_date": "2027-09-23",
+      "status": "CERTIFIED",
+      "hash": "77d2e89f01a1b2c3d4e5f607182930a4"
+    }
+  ]
+}

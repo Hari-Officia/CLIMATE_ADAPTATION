@@ -1,0 +1,37 @@
+[
+  {
+    "backend_name": "aer_simulator_hardware_calibrated",
+    "provider": "Qiskit Aer",
+    "status": "ONLINE",
+    "qubit_count": 27,
+    "basis_gates": [
+      "u1",
+      "u2",
+      "u3",
+      "cx",
+      "id",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "readout_error_mean": 0.015,
+    "cx_error_mean": 0.008,
+    "calibration_timestamp": "2026-09-23T12:00:00Z"
+  },
+  {
+    "backend_name": "ibm_sherbrooke_calibrated",
+    "provider": "IBM Quantum",
+    "status": "ONLINE_SIMULATED_PROXIMAL",
+    "qubit_count": 127,
+    "basis_gates": [
+      "ecr",
+      "id",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "readout_error_mean": 0.012,
+    "cx_error_mean": 0.007,
+    "calibration_timestamp": "2026-09-23T12:00:00Z"
+  }
+]

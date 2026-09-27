@@ -1,0 +1,4 @@
+test_suite,test_file,test_count,coverage_area,status
+Phase D Contracts,tests/test_phase_d_contracts.py,6,Canonical IDs & JSON Schema Contracts,PASSED
+Phase D Integration Suite,scripts/run_all_tests.py,28,End-to-End System & API Contracts,PASSED
+Phase F Exposure Engine,tests/test_phase_f_exposure.py,20,Exposure & Spatial PostGIS Integrity,PASSED

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DecisionViewSchema",
+  "description": "Presentation schema for rendering complete decision intelligence views without mutating underlying scientific outputs.",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "district_id",
+    "district_name",
+    "risk_level_display",
+    "priority_level_display",
+    "selected_portfolio_count",
+    "quantum_advantage_display",
+    "citation_count",
+    "provenance_hash"
+  ],
+  "properties": {
+    "decision_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "risk_level_display": { "type": "string", "enum": ["HIGH", "MEDIUM", "LOW", "UNAVAILABLE"] },
+    "priority_level_display": { "type": "string" },
+    "selected_portfolio_count": { "type": "integer" },
+    "quantum_advantage_display": { "type": "string" },
+    "citation_count": { "type": "integer" },
+    "provenance_hash": { "type": "string" }
+  }
+}

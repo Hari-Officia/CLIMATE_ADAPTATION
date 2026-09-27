@@ -1,0 +1,2 @@
+solver,feasibility_rate,status
+PuLP MILP,1.0,OPTIMAL

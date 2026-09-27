@@ -1,0 +1,17 @@
+{
+  "n_paired_runs": 950,
+  "mean_delta_gap_parameter_ws": 0.0,
+  "median_delta_gap_parameter_ws": 0.0,
+  "ci_delta_gap_95": [
+    0.0,
+    0.0
+  ],
+  "mean_delta_opt_prob": 0.008984375,
+  "ci_delta_opt_prob_95": [
+    0.008809596011513158,
+    0.009166324013157895
+  ],
+  "mean_delta_iterations": -10.0,
+  "mean_delta_e2e_time_seconds": 0.0009167527346136538,
+  "status": "PASS"
+}

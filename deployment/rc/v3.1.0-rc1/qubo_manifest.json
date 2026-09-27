@@ -1,0 +1,5 @@
+{
+  "penalty_parameter": 10.0,
+  "matrix_formulation": "EXACT_PARITY_P10",
+  "parity_status": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "prompt_registry_version": "1.0.0",
+  "prompts": [
+    {
+      "prompt_id": "climate-adaptation-explainer-v1.0.0",
+      "description": "Grounded decision explanation generator with strict disclaimer & citation formatting.",
+      "disclaimer": "Generated explanation based on the validated decision context and retrieved evidence. It does not alter the underlying model or optimization results.",
+      "temperature": 0.2,
+      "max_tokens": 512,
+      "status": "APPROVED"
+    }
+  ]
+}

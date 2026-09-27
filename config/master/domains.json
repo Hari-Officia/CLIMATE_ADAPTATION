@@ -1,0 +1,52 @@
+[
+  {
+    "domain_id": "DOM-D01",
+    "name": "Drainage & Stormwater",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D02",
+    "name": "Water Management",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D03",
+    "name": "Urbanization & Land Use",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D04",
+    "name": "Green / Nature-Based Infrastructure",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D05",
+    "name": "Built Infrastructure",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D06",
+    "name": "Terrain / Geometry / GIS Planning",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D07",
+    "name": "Critical Infrastructure",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D08",
+    "name": "Early Warning & Preparedness",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D09",
+    "name": "Heat Resilience",
+    "status": "ACTIVE"
+  },
+  {
+    "domain_id": "DOM-D10",
+    "name": "Coastal / Marine Resilience",
+    "status": "ACTIVE"
+  }
+]

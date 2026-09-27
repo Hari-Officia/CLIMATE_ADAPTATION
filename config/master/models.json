@@ -1,0 +1,38 @@
+[
+  {
+    "model_id": "MDL-XGB-FLD-001",
+    "model_name": "Flood Risk XGBoost Classifier",
+    "hazard_id": "HAZ-FLD",
+    "framework": "XGBoost 1.7+",
+    "model_path": "Models/flood_xgboost.pkl",
+    "feature_contract_id": "FCT-53-001",
+    "training_dataset_id": "DS-HIST-CLIMATE-001",
+    "roc_auc": 0.906,
+    "pr_auc": 0.074,
+    "status": "ACTIVE"
+  },
+  {
+    "model_id": "MDL-XGB-DRG-001",
+    "model_name": "Drought Risk XGBoost Classifier",
+    "hazard_id": "HAZ-DRG",
+    "framework": "XGBoost 1.7+",
+    "model_path": "Models/drought_xgboost.pkl",
+    "feature_contract_id": "FCT-53-001",
+    "training_dataset_id": "DS-HIST-CLIMATE-001",
+    "roc_auc": 0.9998,
+    "pr_auc": 0.9993,
+    "status": "ACTIVE"
+  },
+  {
+    "model_id": "MDL-XGB-HTW-001",
+    "model_name": "Heatwave Risk XGBoost Classifier",
+    "hazard_id": "HAZ-HTW",
+    "framework": "XGBoost 1.7+",
+    "model_path": "Models/heatwave_xgboost.pkl",
+    "feature_contract_id": "FCT-53-001",
+    "training_dataset_id": "DS-HIST-CLIMATE-001",
+    "roc_auc": 1.0,
+    "pr_auc": 0.9964,
+    "status": "ACTIVE"
+  }
+]

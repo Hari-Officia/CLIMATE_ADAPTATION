@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AdaptationPriorityProfileSchema",
+  "type": "object",
+  "required": [
+    "priority_id",
+    "district_id",
+    "hazard_id",
+    "methodology_id",
+    "priority_status",
+    "priority_horizon",
+    "component_decomposition",
+    "priority_drivers",
+    "priority_barriers",
+    "data_governance",
+    "deterministic_explanation",
+    "generated_at"
+  ],
+  "properties": {
+    "priority_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "district_name": { "type": "string" },
+    "hazard_id": { "type": "string" },
+    "methodology_id": { "type": "string" },
+    "methodology_version": { "type": "string" },
+    "priority_status": {
+      "type": "string",
+      "enum": ["REQUIRES_PRIORITY_ATTENTION", "MODERATE_PRIORITY", "MONITORING_ONLY", "UNCERTAIN"]
+    },
+    "priority_horizon": {
+      "type": "string",
+      "enum": ["IMMEDIATE", "SHORT_TERM", "MEDIUM_TERM", "LONG_TERM"]
+    },
+    "priority_score": { "type": ["number", "null"] },
+    "score_semantics": { "type": "string" },
+    "component_decomposition": { "type": "object" },
+    "priority_drivers": { "type": "array" },
+    "priority_barriers": { "type": "array" },
+    "data_governance": { "type": "object" },
+    "deterministic_explanation": { "type": "object" },
+    "generated_at": { "type": "string" }
+  }
+}

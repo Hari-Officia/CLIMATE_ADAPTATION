@@ -1,0 +1,9 @@
+{
+  "n_hardware_jobs": 152,
+  "mean_hardware_gap": 0.0,
+  "median_hardware_gap": 0.0,
+  "mean_hardware_opt_prob": 0.005859375,
+  "best_sample_feasibility_rate": 1.0,
+  "negative_gaps": 0,
+  "status": "PASS"
+}

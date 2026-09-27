@@ -1,0 +1,31 @@
+{
+  "protocol_id": "PHASE_Z_NOISE_SIMULATION_PROTOCOL_V1",
+  "timestamp": "2026-09-23T17:05:00Z",
+  "scope": "CLIMATE_ADAPTATION_ONLY",
+  "noise_families": [
+    "Family Z-A: Ideal Control",
+    "Family Z-B: Depolarizing Gate Noise",
+    "Family Z-C: Readout Noise",
+    "Family Z-D: Combined Gate + Readout Noise",
+    "Family Z-E: Hardware-Derived Noise Model (Status: NOT_AVAILABLE)"
+  ],
+  "depolarizing_grid": [
+    0.0,
+    0.0001,
+    0.0005,
+    0.001,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "readout_grid": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "raw_count_conservation": "sum(raw_counts) == shots",
+  "gap_convention": "(exact_optimum - candidate_objective) / abs(exact_optimum)"
+}

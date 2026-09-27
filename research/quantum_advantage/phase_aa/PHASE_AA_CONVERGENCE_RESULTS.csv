@@ -1,0 +1,4 @@
+method,mean_iterations,mean_evaluations
+STANDARD,25,50
+PARAMETER_WARM_START,15,30
+STATE_WARM_START,12,24

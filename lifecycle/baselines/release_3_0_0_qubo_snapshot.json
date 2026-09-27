@@ -1,0 +1,6 @@
+{
+  "release_version": "3.0.0-certified",
+  "penalty_parameter_P": 10.0,
+  "binary_variable_count": 14,
+  "qubo_models_verified": 38
+}

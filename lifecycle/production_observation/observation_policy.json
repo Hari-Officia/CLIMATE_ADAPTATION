@@ -1,0 +1,13 @@
+{
+  "release": "3.1.0",
+  "baseline": "BASE-3.0.0-20260923",
+  "observation_period_days": 90,
+  "policy_status": "ACTIVE",
+  "auto_rollback_on_sev1": true,
+  "max_allowed_error_rate_pct": 0.01,
+  "latency_thresholds_ms": {
+    "p50": 120,
+    "p95": 350,
+    "p99": 750
+  }
+}

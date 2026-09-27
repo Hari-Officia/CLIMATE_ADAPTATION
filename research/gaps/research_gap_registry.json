@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "research_gaps": [
+    {
+      "gap_id": "RG-001",
+      "title": "QAOA Circuit Depth & Error Mitigation Scaling",
+      "description": "Investigate QAOA convergence and objective gap reduction across depths p in {1, 2, 3, 4} under NISQ noise models.",
+      "importance": "HIGH",
+      "missing_evidence": "Empirical noise-model simulation data for p > 2",
+      "owner": "Quantum Computing Lab",
+      "status": "EXPERIMENTAL",
+      "production_relevance": "High for future quantum advantage claims"
+    },
+    {
+      "gap_id": "RG-002",
+      "title": "Longitudinal Empirical Adaptation Outcome Tracking",
+      "description": "Track 1–3 year delayed physical climate adaptation outcomes (groundwater recharge, flood attenuation, crop yield resilience).",
+      "importance": "CRITICAL",
+      "missing_evidence": "Multi-year post-implementation satellite & ground sensor evaluation",
+      "owner": "Climate Impact & Evaluation Team",
+      "status": "OPEN",
+      "production_relevance": "Required for long-term model outcome label retraining"
+    },
+    {
+      "gap_id": "RG-003",
+      "title": "High-Resolution Coastal Surge Hydrodynamic Modeling",
+      "description": "Downscale coastal storm surge hydrodynamic models to resolve spatial downscaling uncertainty below ±12%.",
+      "importance": "HIGH",
+      "missing_evidence": "10m bathymetry grid & high-density tide gauge data",
+      "owner": "Coastal Modeling Group",
+      "status": "OPEN",
+      "production_relevance": "Improves coastal district risk precision"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "method": "STANDARD",
+    "source": "NONE",
+    "description": "Standard QAOA uniform initialization"
+  },
+  {
+    "method": "PARAMETER_WARM_START",
+    "source": "AA-MILP",
+    "description": "SciPy True MILP parameter warm-start"
+  },
+  {
+    "method": "PARAMETER_WARM_START",
+    "source": "AA-GREEDY",
+    "description": "Greedy portfolio parameter warm-start"
+  },
+  {
+    "method": "PARAMETER_WARM_START",
+    "source": "AA-SA",
+    "description": "Simulated Annealing parameter warm-start"
+  },
+  {
+    "method": "STATE_WARM_START",
+    "source": "AA-MILP",
+    "description": "Biased product state warm-start (MILP)"
+  },
+  {
+    "method": "PARAMETER_WARM_START",
+    "source": "AA-EXACT-ORACLE",
+    "description": "Exact Oracle upper-bound parameter warm-start"
+  }
+]

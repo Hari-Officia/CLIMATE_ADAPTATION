@@ -1,0 +1,7 @@
+{
+  "max_qaoa_p": 5,
+  "max_shots": 10000,
+  "max_iterations": 500,
+  "max_qubits": 25,
+  "max_experiment_runtime_seconds": 300
+}

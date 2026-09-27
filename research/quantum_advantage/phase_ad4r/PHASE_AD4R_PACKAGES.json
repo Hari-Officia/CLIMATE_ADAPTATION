@@ -1,0 +1,7 @@
+{
+  "runtime_import": "FAIL",
+  "qiskit_ibm_runtime_installed": false,
+  "installation_error": "No module named 'qiskit_ibm_runtime'",
+  "qiskit_ibm_runtime_version": "NOT_INSTALLED",
+  "service_class_available": false
+}

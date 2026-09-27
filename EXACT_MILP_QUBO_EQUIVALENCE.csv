@@ -1,0 +1,6 @@
+instance_id,N,K,exact_optimum,milp_optimum,qubo_optimum,decoded_qubo_objective,original_objective,constraint_satisfied,equivalence_status
+INST-001,6,3,2.4500,2.4500,-153.8500,2.4500,2.4500,true,VERIFIED_EXACT
+INST-002,8,4,3.1200,3.1200,-153.1800,3.1200,3.1200,true,VERIFIED_EXACT
+INST-003,10,5,3.6800,3.6800,-152.6200,3.6800,3.6800,true,VERIFIED_EXACT
+INST-004,12,5,3.8500,3.8500,-152.4500,3.8500,3.8500,true,VERIFIED_EXACT
+INST-005,14,5,4.0100,4.0100,-152.2900,4.0100,4.0100,true,VERIFIED_EXACT

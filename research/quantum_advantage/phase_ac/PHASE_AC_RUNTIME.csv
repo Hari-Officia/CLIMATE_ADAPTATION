@@ -1,0 +1,2 @@
+track,mean_queue_time_seconds,mean_device_time_seconds,mean_e2e_wall_seconds
+PHYSICAL_HARDWARE,0.12,0.004037349989327292,0.12431099166356341

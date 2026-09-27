@@ -1,0 +1,3 @@
+constraint_id,name,type,scope,description
+CST-001,District Capital Budget Limit,CAPITAL_BUDGET,District Level,Total resource requirements of selected strategies must not exceed district annual allocation.
+CST-002,Coastal Zone Applicability Requirement,SPATIAL_GEOGRAPHIC,Strategy STR-CST-001,Coastal strategies can only be selected for districts where coastal == True.

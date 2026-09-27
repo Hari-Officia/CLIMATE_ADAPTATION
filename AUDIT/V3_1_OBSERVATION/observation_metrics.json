@@ -1,0 +1,9 @@
+{
+  "uptime_pct": 100.0,
+  "requests_total": 1250,
+  "error_count": 0,
+  "error_rate_pct": 0.0,
+  "p50_latency_ms": 42.5,
+  "p95_latency_ms": 118.2,
+  "p99_latency_ms": 285.0
+}

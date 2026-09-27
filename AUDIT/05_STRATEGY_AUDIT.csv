@@ -1,0 +1,13 @@
+strategy_id,name,canonical_name,domain,measure_type,is_adaptation,is_mitigation_contamination,evidence_strength,audit_status
+STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,Urban Drain Maintenance & Desilting,Drainage & Stormwater,ENGINEERING,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-DRN-002,Underground Stormwater Detention Basins,Underground Detention Tank,Drainage & Stormwater,ENGINEERING,True,False,HIGH,VERIFIED_ADAPTATION
+STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,Rooftop Rainwater Harvesting,Water Management,STRUCTURAL,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-WTR-002,Traditional Temple Tank & Cascade Lake De-silting and Restoration,Cascade Tank Restoration,Water Management,NATURE_BASED,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,Floodplain Development Restrictions,Urbanization & Land Use,POLICY_POLICY,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-NBS-001,Urban Bioswales & Permeable Pavement Network,Urban Bioswales & Permeable Surface,Green / Nature-Based Infrastructure,NATURE_BASED,True,False,HIGH,VERIFIED_ADAPTATION
+STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,Elevated Substation & Utility Flood-Proofing,Built Infrastructure,ENGINEERING,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,GIS Slope & Depression Storage Planning,Terrain / Geometry / GIS Planning,PLANNING,True,False,HIGH,VERIFIED_ADAPTATION
+STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,Critical Health Facility Resilience,Critical Infrastructure,ENGINEERING,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,IoT Urban Flood Early Warning,Early Warning & Preparedness,TECHNOLOGY,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,Cool Roofs & Urban Heat Mitigation,Heat Resilience,BUILDING_NBS,True,False,VERY_HIGH,VERIFIED_ADAPTATION
+STR-CST-001,Mangrove Restoration & Coastal Bio-Shield Buffers,Coastal Mangrove Bio-Shield,Coastal / Marine Resilience,NATURE_BASED,True,False,VERY_HIGH,VERIFIED_ADAPTATION

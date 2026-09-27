@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OptimizationRunSchema",
+  "type": "object",
+  "required": [
+    "optimization_run_id",
+    "district_id",
+    "candidate_set_id",
+    "methodology_id",
+    "solver_id",
+    "status",
+    "runtime_ms",
+    "created_at"
+  ],
+  "properties": {
+    "optimization_run_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "candidate_set_id": { "type": "string" },
+    "methodology_id": { "type": "string" },
+    "solver_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["DRAFT", "VALIDATING", "READY", "RUNNING", "OPTIMAL", "FEASIBLE", "INFEASIBLE", "TIME_LIMIT", "ERROR"]
+    },
+    "runtime_ms": { "type": "number" },
+    "best_objective": { "type": ["number", "null"] },
+    "optimality_gap": { "type": ["number", "null"] },
+    "created_at": { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,6 @@
+depth,qubits,circuit_depth,total_gates,one_qubit_gates,two_qubit_gates
+1,15,3,45,30,15
+2,15,5,75,45,30
+3,15,7,105,60,45
+4,15,9,135,75,60
+5,15,11,165,90,75

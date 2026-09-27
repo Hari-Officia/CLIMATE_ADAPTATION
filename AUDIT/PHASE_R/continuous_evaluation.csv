@@ -1,0 +1,2 @@
+job_id,type,schedule,status
+JOB-001,Drift Monitoring,0 * * * *,ACTIVE

@@ -1,0 +1,2 @@
+endpoint,p95_latency_ms,status
+/api/v1/decision/analyze,1420,COMPLIANT

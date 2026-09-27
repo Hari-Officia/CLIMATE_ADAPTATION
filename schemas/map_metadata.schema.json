@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MapMetadataSchema",
+  "type": "object",
+  "required": ["crs", "bounds", "district_count", "source_authority"],
+  "properties": {
+    "crs": { "type": "string" },
+    "bounds": { "type": "array" },
+    "district_count": { "type": "integer" },
+    "source_authority": { "type": "string" }
+  }
+}

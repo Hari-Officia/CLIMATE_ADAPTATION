@@ -1,0 +1,29 @@
+{
+  "release_version": "3.0.0-certified",
+  "models": [
+    {
+      "model_id": "MOD-FLD-XGB-v1.2",
+      "hazard": "FLOOD",
+      "artifact_path": "Models/flood_xgboost.pkl",
+      "status": "PRODUCTION",
+      "roc_auc": 0.892,
+      "pr_auc": 0.845
+    },
+    {
+      "model_id": "MOD-DRO-SPI-v1.0",
+      "hazard": "DROUGHT",
+      "artifact_path": "Models/drought_xgboost.pkl",
+      "status": "PRODUCTION",
+      "roc_auc": 0.865,
+      "pr_auc": 0.812
+    },
+    {
+      "model_id": "MOD-HTW-ANO-v1.1",
+      "hazard": "HEATWAVE",
+      "artifact_path": "Models/heatwave_xgboost.pkl",
+      "status": "PRODUCTION",
+      "roc_auc": 0.910,
+      "pr_auc": 0.878
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "statuses": [
+    "DRAFT",
+    "BUILDING",
+    "VALIDATING",
+    "EQUIVALENCE_TESTING",
+    "VERIFIED",
+    "FAILED",
+    "CONDITIONAL",
+    "BLOCKED"
+  ]
+}

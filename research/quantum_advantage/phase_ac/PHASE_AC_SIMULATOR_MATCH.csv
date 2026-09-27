@@ -1,0 +1,13 @@
+hardware_experiment_id,district_id,depth,seed,ideal_sim_gap,calibrated_sim_gap,physical_hardware_gap,delta_hw_vs_ideal,delta_hw_vs_calibrated
+EXP-AC-STA-chennai-P1-S1000,chennai,1,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-chennai-P1-S1001,chennai,1,1001,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-chennai-P2-S1000,chennai,2,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-chennai-P2-S1001,chennai,2,1001,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-coimbatore-P1-S1000,coimbatore,1,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-coimbatore-P1-S1001,coimbatore,1,1001,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-coimbatore-P2-S1000,coimbatore,2,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-coimbatore-P2-S1001,coimbatore,2,1001,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-madurai-P1-S1000,madurai,1,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-madurai-P1-S1001,madurai,1,1001,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-madurai-P2-S1000,madurai,2,1000,0.0845,0.095,0.0,-0.0845,-0.095
+EXP-AC-STA-madurai-P2-S1001,madurai,2,1001,0.0845,0.095,0.0,-0.0845,-0.095

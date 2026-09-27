@@ -1,0 +1,17 @@
+{
+  "release_version": "3.0.0-certified",
+  "baseline_id": "BASE-3.0.0-20260923",
+  "current_state": "CERTIFIED",
+  "allowed_states": [
+    "CERTIFIED", "MONITORED", "WARNING", "DEGRADED",
+    "INCIDENT", "RECOVERY", "REVALIDATION", "RECERTIFICATION", "SUSPENDED"
+  ],
+  "health_status": "HEALTHY",
+  "scope": "CLIMATE ADAPTATION ONLY",
+  "geography": "Tamil Nadu, India",
+  "district_count": 38,
+  "districts_healthy": 38,
+  "quantum_advantage_status": "NOT ESTABLISHED",
+  "qaoa_objective_gap_benchmark": 0.4700,
+  "last_updated": "2026-09-23T01:35:00Z"
+}

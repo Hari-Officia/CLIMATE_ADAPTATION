@@ -1,0 +1,14 @@
+endpoint_path,http_method,purpose,status,contract_version,authoritative_source
+/api/v1/districts,GET,List all 38 canonical Tamil Nadu districts,ACTIVE,v1.0,PostgreSQL
+/api/v1/districts/{district_id},GET,Get canonical district profile & coordinates,ACTIVE,v1.0,PostgreSQL
+/api/v1/districts/{district_id}/forecast,GET,Get 7-day weather forecast & continuous features,ACTIVE,v1.0,PostgreSQL + Open-Meteo
+/api/v1/districts/{district_id}/risk,GET,Get Phase E 53-feature hazard risk prediction,ACTIVE,v1.0,PostgreSQL + XGBoost
+/api/v1/districts/{district_id}/exposure,GET,Get exposure aggregation profile (population/infra/built),ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/districts/{district_id}/risk-exposure,GET,Get combined RiskExposureProfile,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/hazards/{hazard_id}/exposure,GET,Get hazard-specific exposure across all districts,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/infrastructure,GET,List critical infrastructure assets by type/district,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/infrastructure/{asset_id},GET,Get asset detail and hazard exposure status,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/map/layers,GET,Get list of registered GIS spatial layers & status,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/map/district-risk,GET,Get district risk features GeoJSON payload,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/map/exposure,GET,Get exposure map layer payload,ACTIVE,v1.0,PostgreSQL/PostGIS
+/api/v1/geocode,POST,Point-in-polygon lookup for lat/lon coordinates,ACTIVE,v1.0,PostgreSQL/PostGIS

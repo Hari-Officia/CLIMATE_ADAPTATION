@@ -1,0 +1,19 @@
+{
+  "optimizers": [
+    {
+      "name": "COBYLA",
+      "type": "DERIVATIVE_FREE",
+      "default_max_iter": 100
+    },
+    {
+      "name": "SPSA",
+      "type": "STOCHASTIC_APPROXIMATION",
+      "default_max_iter": 100
+    },
+    {
+      "name": "Nelder-Mead",
+      "type": "SIMPLEX",
+      "default_max_iter": 100
+    }
+  ]
+}

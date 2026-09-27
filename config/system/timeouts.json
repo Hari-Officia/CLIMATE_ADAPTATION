@@ -1,0 +1,15 @@
+{
+  "district_resolution_timeout_ms": 2000,
+  "risk_stage_timeout_ms": 5000,
+  "exposure_stage_timeout_ms": 5000,
+  "vulnerability_stage_timeout_ms": 5000,
+  "resilience_stage_timeout_ms": 5000,
+  "priority_stage_timeout_ms": 5000,
+  "applicability_stage_timeout_ms": 5000,
+  "classical_optimization_timeout_ms": 10000,
+  "qubo_stage_timeout_ms": 5000,
+  "qaoa_stage_timeout_ms": 30000,
+  "rag_retrieval_timeout_ms": 5000,
+  "llm_explanation_timeout_ms": 30000,
+  "full_workflow_timeout_ms": 120000
+}

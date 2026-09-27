@@ -1,0 +1,7 @@
+{
+  "credential_security": "SECURE_ENVIRONMENT_ONLY",
+  "provider_mode": "SIMULATOR_ONLY",
+  "ibm_quantum_available": false,
+  "aws_braket_available": false,
+  "token_exposed_in_logs": false
+}

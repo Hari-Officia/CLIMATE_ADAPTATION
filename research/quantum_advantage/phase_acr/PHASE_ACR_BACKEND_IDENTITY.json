@@ -1,0 +1,17 @@
+{
+  "backend_name": "ibm_sherbrooke_physical_simulated_driver",
+  "backend_version": "1.0.0-simulated-driver",
+  "provider_name": "Physical Backend Driver (Calibrated Proxy)",
+  "num_qubits": 127,
+  "is_simulator": true,
+  "backend_class": "<class 'dict'>",
+  "status": "ONLINE_PROXY",
+  "basis_gates": [
+    "ecr",
+    "id",
+    "rz",
+    "sx",
+    "x"
+  ],
+  "physical_qpu_authenticated": false
+}
