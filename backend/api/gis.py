@@ -164,3 +164,107 @@ async def get_risk_overlay(
     _overlay_cache[cache_key] = {"timestamp": now, "data": geojson}
     logger.info(f"[GIS] Computed & cached risk overlay for hazard='{hazard}', day={day}")
     return geojson
+
+PHASE7_GEOJSON_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "geojson", "phase7_tamil_nadu_adaptation_overlay.geojson")
+
+@router.get("/adaptation-overlay")
+async def get_adaptation_overlay():
+    """
+    Phase 7 — Returns enriched Spatial GeoJSON FeatureCollection containing 
+    climate risk, MILP portfolios, QAOA portfolios, and comparative metrics 
+    for all 38 Tamil Nadu districts.
+    """
+    path = PHASE7_GEOJSON_PATH if os.path.exists(PHASE7_GEOJSON_PATH) else GEOJSON_PATH
+    if not os.path.exists(path):
+        raise HTTPException(status_code=500, detail="Phase 7 Adaptation Overlay GeoJSON not found")
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+@router.get("/districts/{district_id}")
+async def get_district_gis_detail(district_id: str):
+    """
+    Phase 7 — Returns individual district spatial decision intelligence, 
+    including hazard risk, MILP portfolio, QAOA portfolio, and comparison.
+    """
+    d_clean = district_id.lower().strip()
+    path = PHASE7_GEOJSON_PATH if os.path.exists(PHASE7_GEOJSON_PATH) else GEOJSON_PATH
+    if not os.path.exists(path):
+        raise HTTPException(status_code=500, detail="GIS GeoJSON asset not found")
+    with open(path, "r", encoding="utf-8") as f:
+        geojson = json.load(f)
+    
+    for feat in geojson.get("features", []):
+        props = feat.get("properties", {})
+        if props.get("district_id", "").lower() == d_clean:
+            return {
+                "district_id": props.get("district_id"),
+                "district_name": props.get("district_name"),
+                "geometry": feat.get("geometry"),
+                "properties": props
+            }
+    raise HTTPException(status_code=404, detail=f"District '{district_id}' not found in spatial decision model")
+
+@router.get("/portfolio/{district_id}")
+async def get_district_portfolio(district_id: str):
+    """
+    Phase 7 — Returns MILP ground truth and QAOA quantum candidate strategy portfolios for a specific district.
+    """
+    detail = await get_district_gis_detail(district_id)
+    props = detail["properties"]
+    milp_ids = props.get("milp_strategy_ids", props.get("milp_strategies", []))
+    qaoa_ids = props.get("qaoa_strategy_ids", props.get("qaoa_strategies", []))
+    return {
+        "district_id": props.get("district_id"),
+        "district_name": props.get("district_name"),
+        "milp": {
+            "selected_strategy_ids": milp_ids,
+            "selected_strategy_names": props.get("milp_strategy_names", []),
+            "selected_count": props.get("milp_selected_count", len(milp_ids)),
+            "objective_value": props.get("milp_objective"),
+            "domains": props.get("milp_domains", [])
+        },
+        "qaoa": {
+            "selected_strategy_ids": qaoa_ids,
+            "selected_strategy_names": props.get("qaoa_strategy_names", []),
+            "selected_count": props.get("qaoa_selected_count", len(qaoa_ids)),
+            "objective_value": props.get("qaoa_objective"),
+            "approximation_ratio": props.get("qaoa_approximation_ratio"),
+            "status": props.get("qaoa_status"),
+            "domains": props.get("qaoa_domains", [])
+        }
+    }
+
+@router.get("/comparison/{district_id}")
+async def get_district_comparison(district_id: str):
+    """
+    Phase 7 — Returns comparative metrics between classical MILP ground truth and QAOA quantum approximate solution.
+    """
+    detail = await get_district_gis_detail(district_id)
+    props = detail["properties"]
+    milp_sids = props.get("milp_strategy_ids", props.get("milp_strategies", []))
+    qaoa_sids = props.get("qaoa_strategy_ids", props.get("qaoa_strategies", []))
+    milp_strats = set(milp_sids)
+    qaoa_strats = set(qaoa_sids)
+    
+    common = list(milp_strats.intersection(qaoa_strats))
+    milp_only = list(milp_strats - qaoa_strats)
+    qaoa_only = list(qaoa_strats - milp_strats)
+    
+    return {
+        "district_id": props.get("district_id"),
+        "district_name": props.get("district_name"),
+        "metrics": {
+            "milp_selected_count": len(milp_strats),
+            "qaoa_selected_count": len(qaoa_strats),
+            "common_strategies_count": len(common),
+            "common_strategies": common,
+            "milp_only_strategies": milp_only,
+            "qaoa_only_strategies": qaoa_only,
+            "portfolio_match_ratio": props.get("portfolio_match_ratio"),
+            "milp_objective": props.get("milp_objective"),
+            "qaoa_objective": props.get("qaoa_objective"),
+            "qaoa_approximation_ratio": props.get("qaoa_approximation_ratio"),
+            "qaoa_status": props.get("qaoa_status")
+        }
+    }
+

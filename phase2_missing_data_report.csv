@@ -1,0 +1,4 @@
+parameter_name,required_by_strategy,status,fallback_action,impact_on_phase2
+realtime_drain_blockage_index,STR-DRN-001,NOT_AVAILABLE,Default to MEDIUM based on urban density,No block on eligibility
+subsurface_utility_map,STR-DRN-002,NOT_AVAILABLE,Flagged for Phase 3 engineering review,Strategy set to REQUIRES_REVIEW if high density
+soil_percolation_rate,STR-NBS-001,PARTIAL,Inferred from CGWB hydrogeology baseline,Used as soft evaluation factor

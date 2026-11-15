@@ -1,0 +1,127 @@
+[
+  {
+    "index": 0,
+    "variable_name": "x_0",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-DRN-001",
+    "meaning": "Binary selection of strategy STR-DRN-001"
+  },
+  {
+    "index": 1,
+    "variable_name": "x_1",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-DRN-002",
+    "meaning": "Binary selection of strategy STR-DRN-002"
+  },
+  {
+    "index": 2,
+    "variable_name": "x_2",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-WTR-001",
+    "meaning": "Binary selection of strategy STR-WTR-001"
+  },
+  {
+    "index": 3,
+    "variable_name": "x_3",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-WTR-002",
+    "meaning": "Binary selection of strategy STR-WTR-002"
+  },
+  {
+    "index": 4,
+    "variable_name": "x_4",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-LND-001",
+    "meaning": "Binary selection of strategy STR-LND-001"
+  },
+  {
+    "index": 5,
+    "variable_name": "x_5",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-LND-002",
+    "meaning": "Binary selection of strategy STR-LND-002"
+  },
+  {
+    "index": 6,
+    "variable_name": "x_6",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-NBS-001",
+    "meaning": "Binary selection of strategy STR-NBS-001"
+  },
+  {
+    "index": 7,
+    "variable_name": "x_7",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-NBS-002",
+    "meaning": "Binary selection of strategy STR-NBS-002"
+  },
+  {
+    "index": 8,
+    "variable_name": "x_8",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-BLT-001",
+    "meaning": "Binary selection of strategy STR-BLT-001"
+  },
+  {
+    "index": 9,
+    "variable_name": "x_9",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-BLT-002",
+    "meaning": "Binary selection of strategy STR-BLT-002"
+  },
+  {
+    "index": 10,
+    "variable_name": "x_10",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-GIS-001",
+    "meaning": "Binary selection of strategy STR-GIS-001"
+  },
+  {
+    "index": 11,
+    "variable_name": "x_11",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-CRT-001",
+    "meaning": "Binary selection of strategy STR-CRT-001"
+  },
+  {
+    "index": 12,
+    "variable_name": "x_12",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-EWS-001",
+    "meaning": "Binary selection of strategy STR-EWS-001"
+  },
+  {
+    "index": 13,
+    "variable_name": "x_13",
+    "variable_type": "STRATEGY",
+    "strategy_id": "STR-HTS-001",
+    "meaning": "Binary selection of strategy STR-HTS-001"
+  },
+  {
+    "index": 14,
+    "variable_name": "s_0",
+    "variable_type": "SLACK",
+    "slack_constraint_id": "CNST-SIZE-001",
+    "slack_bit": 0,
+    "weight": 1,
+    "meaning": "Binary slack variable bit 0 (weight 1)"
+  },
+  {
+    "index": 15,
+    "variable_name": "s_1",
+    "variable_type": "SLACK",
+    "slack_constraint_id": "CNST-SIZE-001",
+    "slack_bit": 1,
+    "weight": 2,
+    "meaning": "Binary slack variable bit 1 (weight 2)"
+  },
+  {
+    "index": 16,
+    "variable_name": "s_2",
+    "variable_type": "SLACK",
+    "slack_constraint_id": "CNST-SIZE-001",
+    "slack_bit": 2,
+    "weight": 4,
+    "meaning": "Binary slack variable bit 2 (weight 4)"
+  }
+]

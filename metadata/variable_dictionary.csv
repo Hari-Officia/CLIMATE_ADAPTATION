@@ -1,0 +1,24 @@
+variable_name,original_variable_name,category,data_type,unit,spatial_resolution,temporal_resolution,source_id,description,quality_checks
+temp_max,T2M_MAX,CLIMATE,FLOAT,deg C,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Maximum temperature at 2m above ground,"Range [-10, 60], No NaNs"
+temp_min,T2M_MIN,CLIMATE,FLOAT,deg C,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Minimum temperature at 2m above ground,"Range [-10, 50], No NaNs"
+temp_mean,T2M_MEAN,CLIMATE,FLOAT,deg C,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Daily mean temperature (Tmax + Tmin) / 2,"Range [-10, 55], No NaNs"
+temp_range,T2M_RANGE,CLIMATE,FLOAT,deg C,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Daily diurnal temperature range (Tmax - Tmin),"Range [0, 30], Non-negative"
+humidity,RH2M,CLIMATE,FLOAT,%,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Relative humidity at 2m,"Range [0, 100]"
+wind_speed,WS2M,CLIMATE,FLOAT,m/s,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Wind speed at 10m above ground,"Range [0, 75], Non-negative"
+surface_pressure,PS,CLIMATE,FLOAT,kPa,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Surface atmospheric pressure,"Range [80, 110]"
+solar_radiation,ALLSKY_SFC_SW_DWN,CLIMATE,FLOAT,MJ/m2/day,0.5 x 0.625 deg,Daily,INT-NASA-POWER,All sky surface shortwave downward irradiance,"Range [0, 40], Non-negative"
+soil_wetness,GWETROOT,CLIMATE,FLOAT,fraction,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Root zone soil wetness fraction,"Range [0.0, 1.0]"
+rainfall,PRECTOTCORR,CLIMATE,FLOAT,mm/day,0.5 x 0.625 deg,Daily,INT-NASA-POWER,Corrected daily precipitation sum,"Range [0, 1000], Non-negative"
+rainfall_3d,N/A,CLIMATE_DERIVED,FLOAT,mm,District Level,3-Day Rolling,INT-NASA-POWER,3-day cumulative precipitation sum,Non-negative
+rainfall_7d,N/A,CLIMATE_DERIVED,FLOAT,mm,District Level,7-Day Rolling,INT-NASA-POWER,7-day cumulative precipitation sum,Non-negative
+rainfall_30d,N/A,CLIMATE_DERIVED,FLOAT,mm,District Level,30-Day Rolling,INT-NASA-POWER,30-day cumulative precipitation sum,Non-negative
+temp_anomaly,N/A,CLIMATE_DERIVED,FLOAT,deg C,District Level,Daily Anomaly,INT-NASA-POWER,Temperature departure from 30-yr district baseline,"Range [-15, +15]"
+rainfall_anomaly,N/A,CLIMATE_DERIVED,FLOAT,mm/day,District Level,Daily Anomaly,INT-NASA-POWER,Precipitation departure from 30-yr district baseline,"Range [-300, +300]"
+spi_3,N/A,CLIMATE_DERIVED,FLOAT,index,District Level,90-Day Index,INT-NASA-POWER,90-day Standardized Precipitation Index estimate,"Range [-4.0, +4.0]"
+spi_6,N/A,CLIMATE_DERIVED,FLOAT,index,District Level,180-Day Index,INT-NASA-POWER,180-day Standardized Precipitation Index estimate,"Range [-4.0, +4.0]"
+population,TOT_P,POPULATION,INTEGER,count,District Level,Decennial,NAT-CENSUS-2011,Total district census population,Positive Integer
+population_density,DENSITY,POPULATION,FLOAT,persons/km2,District Level,Decennial,NAT-CENSUS-2011,District population density,Positive Float
+coastal,N/A,SPATIAL,BOOLEAN,boolean,District Level,Static,TN-ADAPT-001,Coastal shoreline exposure indicator,TRUE / FALSE
+area_km2,AREA,SPATIAL,FLOAT,sq km,District Level,Static,INT-GEOBOUNDARIES,Geographic area of administrative boundary,Positive Float
+built_up_percentage,BUILT_UP,LAND,FLOAT,%,100m Raster / District,Annual,INT-CLMS-001,Percentage of built-up impervious area,"Range [0, 100]"
+groundwater_status,GW_STATUS,WATER,VARCHAR,category,District Level,Annual,NAT-CGWB-001,"Groundwater exploitation category (Safe, Semi-Critical, Critical, Over-Exploited)",Valid Enum

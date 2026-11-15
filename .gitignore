@@ -17,12 +17,15 @@ geoboundaries/
 knowledge_base/
 
 
-# Machine Learning Models (Large Binary Files)
-Models/*.pkl
+# Machine Learning Models (Trained artifacts <5MB tracked for direct inference)
 Models/*.h5
 Models/*.onnx
 Models/*.pt
 Models/*.bin
+
+# Logs
+*.log
+npm-debug.log*
 
 # Node / React Frontend
 node_modules/

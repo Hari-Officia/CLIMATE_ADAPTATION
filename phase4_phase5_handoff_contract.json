@@ -1,0 +1,2538 @@
+{
+  "ariyalur": {
+    "district_id": "ariyalur",
+    "candidate_set_id": "CNDSET-ARIYALUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.645,
+      0.665,
+      0.645,
+      0.665,
+      0.625,
+      0.605,
+      0.565,
+      0.625,
+      0.665,
+      0.545,
+      0.605,
+      0.685,
+      0.645,
+      0.645
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.325,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "chengalpattu": {
+    "district_id": "chengalpattu",
+    "candidate_set_id": "CNDSET-CHENGALPATTU-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.7825,
+      0.8025,
+      0.7825,
+      0.8025,
+      0.7625,
+      0.7425,
+      0.7025,
+      0.7625,
+      0.8025,
+      0.6825,
+      0.7425,
+      0.8225,
+      0.7825,
+      0.7825,
+      0.7825
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 4.0125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "chennai": {
+    "district_id": "chennai",
+    "candidate_set_id": "CNDSET-CHENNAI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.8,
+      0.82,
+      0.8,
+      0.82,
+      0.78,
+      0.76,
+      0.72,
+      0.78,
+      0.82,
+      0.7,
+      0.76,
+      0.84,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 4.1,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "coimbatore": {
+    "district_id": "coimbatore",
+    "candidate_set_id": "CNDSET-COIMBATORE-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6875,
+      0.7075,
+      0.6875,
+      0.7075,
+      0.6675,
+      0.6475,
+      0.6075,
+      0.6675,
+      0.7075,
+      0.5875,
+      0.6475,
+      0.7275,
+      0.6875,
+      0.6875
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.5375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "cuddalore": {
+    "district_id": "cuddalore",
+    "candidate_set_id": "CNDSET-CUDDALORE-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.74,
+      0.76,
+      0.74,
+      0.76,
+      0.72,
+      0.7,
+      0.66,
+      0.72,
+      0.76,
+      0.64,
+      0.7,
+      0.78,
+      0.74,
+      0.74,
+      0.74
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.8,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "dharmapuri": {
+    "district_id": "dharmapuri",
+    "candidate_set_id": "CNDSET-DHARMAPURI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6125,
+      0.6325,
+      0.6125,
+      0.6325,
+      0.5925,
+      0.5725,
+      0.5325,
+      0.5925,
+      0.6325,
+      0.5125,
+      0.5725,
+      0.6525,
+      0.6125,
+      0.6125
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.1625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "dindigul": {
+    "district_id": "dindigul",
+    "candidate_set_id": "CNDSET-DINDIGUL-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6525,
+      0.6725,
+      0.6525,
+      0.6725,
+      0.6325,
+      0.6125,
+      0.5725,
+      0.6325,
+      0.6725,
+      0.5525,
+      0.6125,
+      0.6925,
+      0.6525,
+      0.6525
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.3625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "erode": {
+    "district_id": "erode",
+    "candidate_set_id": "CNDSET-ERODE-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.67,
+      0.69,
+      0.67,
+      0.69,
+      0.65,
+      0.63,
+      0.59,
+      0.65,
+      0.69,
+      0.57,
+      0.63,
+      0.71,
+      0.67,
+      0.67
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.45,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "kallakurichi": {
+    "district_id": "kallakurichi",
+    "candidate_set_id": "CNDSET-KALLAKURICHI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.62,
+      0.64,
+      0.62,
+      0.64,
+      0.6,
+      0.58,
+      0.54,
+      0.6,
+      0.64,
+      0.52,
+      0.58,
+      0.66,
+      0.62,
+      0.62
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.2,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "kancheepuram": {
+    "district_id": "kancheepuram",
+    "candidate_set_id": "CNDSET-KANCHEEPURAM-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.785,
+      0.805,
+      0.785,
+      0.805,
+      0.765,
+      0.745,
+      0.705,
+      0.765,
+      0.805,
+      0.685,
+      0.745,
+      0.825,
+      0.785,
+      0.785
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 4.025,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "kanniyakumari": {
+    "district_id": "kanniyakumari",
+    "candidate_set_id": "CNDSET-KANNIYAKUMARI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.8075,
+      0.8275,
+      0.8075,
+      0.8275,
+      0.7875,
+      0.7675,
+      0.7275,
+      0.7875,
+      0.8275,
+      0.7075,
+      0.7675,
+      0.8475,
+      0.8075,
+      0.8075,
+      0.8075
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 4.1375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "karur": {
+    "district_id": "karur",
+    "candidate_set_id": "CNDSET-KARUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.66,
+      0.68,
+      0.66,
+      0.68,
+      0.64,
+      0.62,
+      0.58,
+      0.64,
+      0.68,
+      0.56,
+      0.62,
+      0.7,
+      0.66,
+      0.66
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.4,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "krishnagiri": {
+    "district_id": "krishnagiri",
+    "candidate_set_id": "CNDSET-KRISHNAGIRI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.63,
+      0.65,
+      0.63,
+      0.65,
+      0.61,
+      0.59,
+      0.55,
+      0.61,
+      0.65,
+      0.53,
+      0.59,
+      0.67,
+      0.63,
+      0.63
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.25,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "madurai": {
+    "district_id": "madurai",
+    "candidate_set_id": "CNDSET-MADURAI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6675,
+      0.6875,
+      0.6675,
+      0.6875,
+      0.6475,
+      0.6275,
+      0.5875,
+      0.6475,
+      0.6875,
+      0.5675,
+      0.6275,
+      0.7075,
+      0.6675,
+      0.6675
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.4375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "mayiladuthurai": {
+    "district_id": "mayiladuthurai",
+    "candidate_set_id": "CNDSET-MAYILADUTHURAI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.7325,
+      0.7525,
+      0.7325,
+      0.7525,
+      0.7125,
+      0.6925,
+      0.6525,
+      0.7125,
+      0.7525,
+      0.6325,
+      0.6925,
+      0.7725,
+      0.7325,
+      0.7325,
+      0.7325
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.7625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "nagapattinam": {
+    "district_id": "nagapattinam",
+    "candidate_set_id": "CNDSET-NAGAPATTINAM-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.7225,
+      0.7425,
+      0.7225,
+      0.7425,
+      0.7025,
+      0.6825,
+      0.6425,
+      0.7025,
+      0.7425,
+      0.6225,
+      0.6825,
+      0.7625,
+      0.7225,
+      0.7225,
+      0.7225
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.7125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "namakkal": {
+    "district_id": "namakkal",
+    "candidate_set_id": "CNDSET-NAMAKKAL-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6725,
+      0.6925,
+      0.6725,
+      0.6925,
+      0.6525,
+      0.6325,
+      0.5925,
+      0.6525,
+      0.6925,
+      0.5725,
+      0.6325,
+      0.7125,
+      0.6725,
+      0.6725
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.4625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "nilgiris": {
+    "district_id": "nilgiris",
+    "candidate_set_id": "CNDSET-NILGIRIS-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.69,
+      0.71,
+      0.69,
+      0.71,
+      0.67,
+      0.65,
+      0.61,
+      0.67,
+      0.71,
+      0.59,
+      0.65,
+      0.73,
+      0.69,
+      0.69
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.55,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "perambalur": {
+    "district_id": "perambalur",
+    "candidate_set_id": "CNDSET-PERAMBALUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6325,
+      0.6525,
+      0.6325,
+      0.6525,
+      0.6125,
+      0.5925,
+      0.5525,
+      0.6125,
+      0.6525,
+      0.5325,
+      0.5925,
+      0.6725,
+      0.6325,
+      0.6325
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.2625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "pudukkottai": {
+    "district_id": "pudukkottai",
+    "candidate_set_id": "CNDSET-PUDUKKOTTAI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.6375,
+      0.6575,
+      0.6375,
+      0.6575,
+      0.6175,
+      0.5975,
+      0.5575,
+      0.6175,
+      0.6575,
+      0.5375,
+      0.5975,
+      0.6775,
+      0.6375,
+      0.6375,
+      0.6375
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.2875,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "ramanathapuram": {
+    "district_id": "ramanathapuram",
+    "candidate_set_id": "CNDSET-RAMANATHAPURAM-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.715,
+      0.735,
+      0.715,
+      0.735,
+      0.695,
+      0.675,
+      0.635,
+      0.695,
+      0.735,
+      0.615,
+      0.675,
+      0.755,
+      0.715,
+      0.715,
+      0.715
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.675,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "ranipet": {
+    "district_id": "ranipet",
+    "candidate_set_id": "CNDSET-RANIPET-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6625,
+      0.6825,
+      0.6625,
+      0.6825,
+      0.6425,
+      0.6225,
+      0.5825,
+      0.6425,
+      0.6825,
+      0.5625,
+      0.6225,
+      0.7025,
+      0.6625,
+      0.6625
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.4125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "salem": {
+    "district_id": "salem",
+    "candidate_set_id": "CNDSET-SALEM-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.675,
+      0.695,
+      0.675,
+      0.695,
+      0.655,
+      0.635,
+      0.595,
+      0.655,
+      0.695,
+      0.575,
+      0.635,
+      0.715,
+      0.675,
+      0.675
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.475,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "sivaganga": {
+    "district_id": "sivaganga",
+    "candidate_set_id": "CNDSET-SIVAGANGA-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6425,
+      0.6625,
+      0.6425,
+      0.6625,
+      0.6225,
+      0.6025,
+      0.5625,
+      0.6225,
+      0.6625,
+      0.5425,
+      0.6025,
+      0.6825,
+      0.6425,
+      0.6425
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.3125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tenkasi": {
+    "district_id": "tenkasi",
+    "candidate_set_id": "CNDSET-TENKASI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.655,
+      0.675,
+      0.655,
+      0.675,
+      0.635,
+      0.615,
+      0.575,
+      0.635,
+      0.675,
+      0.555,
+      0.615,
+      0.695,
+      0.655,
+      0.655
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "thanjavur": {
+    "district_id": "thanjavur",
+    "candidate_set_id": "CNDSET-THANJAVUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.755,
+      0.775,
+      0.755,
+      0.775,
+      0.735,
+      0.715,
+      0.675,
+      0.735,
+      0.775,
+      0.655,
+      0.715,
+      0.795,
+      0.755,
+      0.755,
+      0.755
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.875,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "theni": {
+    "district_id": "theni",
+    "candidate_set_id": "CNDSET-THENI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.665,
+      0.685,
+      0.665,
+      0.685,
+      0.645,
+      0.625,
+      0.585,
+      0.645,
+      0.685,
+      0.565,
+      0.625,
+      0.705,
+      0.665,
+      0.665
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.425,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "thoothukudi": {
+    "district_id": "thoothukudi",
+    "candidate_set_id": "CNDSET-THOOTHUKUDI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.7525,
+      0.7725,
+      0.7525,
+      0.7725,
+      0.7325,
+      0.7125,
+      0.6725,
+      0.7325,
+      0.7725,
+      0.6525,
+      0.7125,
+      0.7925,
+      0.7525,
+      0.7525,
+      0.7525
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.8625,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tiruchirappalli": {
+    "district_id": "tiruchirappalli",
+    "candidate_set_id": "CNDSET-TIRUCHIRAPPALLI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.675,
+      0.695,
+      0.675,
+      0.695,
+      0.655,
+      0.635,
+      0.595,
+      0.655,
+      0.695,
+      0.575,
+      0.635,
+      0.715,
+      0.675,
+      0.675
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.475,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tirunelveli": {
+    "district_id": "tirunelveli",
+    "candidate_set_id": "CNDSET-TIRUNELVELI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.7625,
+      0.7825,
+      0.7625,
+      0.7825,
+      0.7425,
+      0.7225,
+      0.6825,
+      0.7425,
+      0.7825,
+      0.6625,
+      0.7225,
+      0.8025,
+      0.7625,
+      0.7625,
+      0.7625
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.9125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tirupathur": {
+    "district_id": "tirupathur",
+    "candidate_set_id": "CNDSET-TIRUPATHUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6475,
+      0.6675,
+      0.6475,
+      0.6675,
+      0.6275,
+      0.6075,
+      0.5675,
+      0.6275,
+      0.6675,
+      0.5475,
+      0.6075,
+      0.6875,
+      0.6475,
+      0.6475
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.3375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tiruppur": {
+    "district_id": "tiruppur",
+    "candidate_set_id": "CNDSET-TIRUPPUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6825,
+      0.7025,
+      0.6825,
+      0.7025,
+      0.6625,
+      0.6425,
+      0.6025,
+      0.6625,
+      0.7025,
+      0.5825,
+      0.6425,
+      0.7225,
+      0.6825,
+      0.6825
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.5125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tiruvallur": {
+    "district_id": "tiruvallur",
+    "candidate_set_id": "CNDSET-TIRUVALLUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.79,
+      0.81,
+      0.79,
+      0.81,
+      0.77,
+      0.75,
+      0.71,
+      0.77,
+      0.81,
+      0.69,
+      0.75,
+      0.83,
+      0.79,
+      0.79,
+      0.79
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 4.05,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tiruvannamalai": {
+    "district_id": "tiruvannamalai",
+    "candidate_set_id": "CNDSET-TIRUVANNAMALAI-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6225,
+      0.6425,
+      0.6225,
+      0.6425,
+      0.6025,
+      0.5825,
+      0.5425,
+      0.6025,
+      0.6425,
+      0.5225,
+      0.5825,
+      0.6625,
+      0.6225,
+      0.6225
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.2125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "tiruvarur": {
+    "district_id": "tiruvarur",
+    "candidate_set_id": "CNDSET-TIRUVARUR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.74,
+      0.76,
+      0.74,
+      0.76,
+      0.72,
+      0.7,
+      0.66,
+      0.72,
+      0.76,
+      0.64,
+      0.7,
+      0.78,
+      0.74,
+      0.74,
+      0.74
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.8,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "vellore": {
+    "district_id": "vellore",
+    "candidate_set_id": "CNDSET-VELLORE-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.6625,
+      0.6825,
+      0.6625,
+      0.6825,
+      0.6425,
+      0.6225,
+      0.5825,
+      0.6425,
+      0.6825,
+      0.5625,
+      0.6225,
+      0.7025,
+      0.6625,
+      0.6625
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.4125,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "viluppuram": {
+    "district_id": "viluppuram",
+    "candidate_set_id": "CNDSET-VILUPPURAM-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001",
+      "STR-CST-001"
+    ],
+    "linear_coefficients": [
+      0.72,
+      0.74,
+      0.72,
+      0.74,
+      0.7,
+      0.68,
+      0.64,
+      0.7,
+      0.74,
+      0.62,
+      0.68,
+      0.76,
+      0.72,
+      0.72,
+      0.72
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.7,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  },
+  "virudhunagar": {
+    "district_id": "virudhunagar",
+    "candidate_set_id": "CNDSET-VIRUDHUNAGAR-V3",
+    "decision_variables": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-001",
+      "STR-WTR-002",
+      "STR-LND-001",
+      "STR-LND-002",
+      "STR-NBS-001",
+      "STR-NBS-002",
+      "STR-BLT-001",
+      "STR-BLT-002",
+      "STR-GIS-001",
+      "STR-CRT-001",
+      "STR-EWS-001",
+      "STR-HTS-001"
+    ],
+    "linear_coefficients": [
+      0.655,
+      0.675,
+      0.655,
+      0.675,
+      0.635,
+      0.615,
+      0.575,
+      0.635,
+      0.675,
+      0.555,
+      0.615,
+      0.695,
+      0.655,
+      0.655
+    ],
+    "max_portfolio_size_k": 5,
+    "dependency_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        11,
+        8
+      ]
+    ],
+    "conflict_pairs": [
+      [
+        1,
+        6
+      ]
+    ],
+    "milp_ground_truth_objective": 3.375,
+    "milp_selected_ids": [
+      "STR-DRN-001",
+      "STR-DRN-002",
+      "STR-WTR-002",
+      "STR-BLT-001",
+      "STR-CRT-001"
+    ],
+    "milp_status": "OPTIMAL"
+  }
+}

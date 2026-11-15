@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hazard Taxonomy Configuration",
+  "version": "1.0.0",
+  "geographic_scope": "Tamil Nadu, India (38 Districts)",
+  "canonical_hazards": [
+    {
+      "hazard_id": "FLOOD",
+      "name": "Inland / Riverine / Cloudburst Flooding",
+      "description": "Excess overland surface water accumulation due to heavy monsoon cloudbursts or river overflow."
+    },
+    {
+      "hazard_id": "DROUGHT",
+      "name": "Meteorological & Hydrological Drought",
+      "description": "Prolonged rainfall deficit causing soil moisture loss and agricultural water stress."
+    },
+    {
+      "hazard_id": "HEATWAVE",
+      "name": "Extreme High Temperature Events",
+      "description": "Periods of abnormally high ambient temperatures exceeding seasonal thresholds."
+    },
+    {
+      "hazard_id": "COASTAL_FLOOD",
+      "name": "Storm Surge & Tidal Inundation",
+      "description": "Coastal land submergence caused by storm surge waves, high tides, or sea-level rise."
+    },
+    {
+      "hazard_id": "COASTAL_EROSION",
+      "name": "Shoreline Soil & Beach Loss",
+      "description": "Loss of coastal beach and intertidal land area due to wave action and littoral drift."
+    },
+    {
+      "hazard_id": "WATER_SCARCITY",
+      "name": "Groundwater Depletion & Supply Deficit",
+      "description": "Severe deficit in surface and groundwater availability for domestic and agricultural consumption."
+    },
+    {
+      "hazard_id": "URBAN_HEAT",
+      "name": "Urban Heat Island Effect",
+      "description": "Micro-climate thermal elevation in dense urban built environments."
+    }
+  ]
+}

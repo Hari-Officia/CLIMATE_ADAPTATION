@@ -1,0 +1,17 @@
+strategy_a,strategy_b,relationship,reason,evidence_id
+STR-DRN-001,STR-EWS-001,COMPLEMENTARY,IoT sensors optimize desilting schedules by identifying early flow bottlenecks,EVD-0001
+STR-DRN-001,STR-BLT-002,COMPLEMENTARY,Permeable road sections reduce surface silt inflow into primary storm drains,EVD-0007
+STR-DRN-002,STR-DRN-001,DEPENDENT,Underground detention vaults require functional desilted outflow drains for discharge,EVD-0002
+STR-DRN-002,STR-LND-001,COMPLEMENTARY,Floodplain zoning protects underground detention discharge zones from encroachment,EVD-0005
+STR-WTR-001,STR-WTR-002,COMPLEMENTARY,Rooftop harvesting and lake restoration synergistically boost aquifer recharge rates,EVD-0003
+STR-WTR-001,STR-NBS-001,COMPLEMENTARY,Bioswales capture ground surface runoff while rooftop RWH captures clean roof runoff,EVD-0007
+STR-WTR-002,STR-GIS-001,COMPLEMENTARY,DEM contour modeling identifies optimal location for lake inlet feeder channels,EVD-0011
+STR-LND-001,STR-LND-002,DEPENDENT,Blue-green spatial corridors rely on statutory floodplain zoning enforcement,EVD-0005
+STR-NBS-001,STR-BLT-002,COMPLEMENTARY,Permeable paving feeds roadside bioswales and reduces surface runoff,EVD-0007
+STR-NBS-002,STR-HTS-001,COMPLEMENTARY,Wetland eco-restoration and urban cooling tree canopy synergistically lower urban heat,EVD-0008
+STR-BLT-001,STR-CRT-001,DEPENDENT,Hospital power retrofits require grid substation plinth elevation to prevent upstream collapse,EVD-0009
+STR-CRT-001,STR-EWS-001,COMPLEMENTARY,IoT warning system provides early lead time for hospital barrier deployment,EVD-0012
+STR-CST-001,STR-CST-002,COMPLEMENTARY,Offshore submerged reefs reduce wave energy allowing mangrove saplings to establish,EVD-0015
+STR-DRN-002,STR-NBS-001,CONFLICTING,High sub-surface space requirements for detention vaults compete with deep root bioswales,EVD-0002
+STR-BLT-002,STR-DRN-001,NEUTRAL,Road pavement retrofits operate independently of deep canal desilting,EVD-0010
+STR-HTS-001,STR-CST-002,NEUTRAL,Cool roof coatings in urban housing operate independently of offshore breakwaters,EVD-0014

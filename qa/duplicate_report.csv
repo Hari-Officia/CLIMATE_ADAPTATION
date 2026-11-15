@@ -1,0 +1,4 @@
+dataset,unique_keys,duplicate_count,status
+normalized/district/districts.csv,district_id (38),0,CLEAN_ZERO_DUPLICATES
+raw/nasa_power (all files),district_id + date (228950),0,CLEAN_ZERO_DUPLICATES
+knowledge_base/03_STRATEGIES,strategy_id (15),0,CLEAN_ZERO_DUPLICATES

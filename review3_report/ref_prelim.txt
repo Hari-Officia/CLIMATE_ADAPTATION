@@ -1,0 +1,596 @@
+=== Page 1 ===
+ 
+MULTI PARAMETER HEALTH LOGGING AND 
+MEDICATION ADHERENCE SYSTEM FOR THE 
+ELDERLY 
+ 
+IT23722 PROJECT PHASE I REPORT 
+ 
+Submitted by 
+DHARSHINI H (231001035) 
+DILSHATH SHAFANA M (231001038) 
+ 
+in partial fulfilment for the award of the degree of 
+ 
+BACHELOR OF TECHNOLOGY 
+in 
+INFORMATION TECHNOLOGY 
+ 
+ 
+ 
+DEPARTMENT OF INFORMATION TECHNOLOGY 
+RAJALAKSHMI ENGINEERING COLLEGE 
+(AUTONOMOUS), 
+CHENNAI-602 105 
+ 
+SEPTEMBER 2026 
+
+--- PAGE ---
+=== Page 2 ===
+ ii 
+RAJALAKSHMI ENGINEERING COLLEGE 
+(An Autonomous Institution Affiliated to Anna University Chennai) 
+ 
+BONAFIDE CERTIFICATE 
+ 
+Certified that this Project Phase – I titled “MULTI PARAMETER 
+HEALTH LOGGING AND MEDICATION ADHERENCE SYSTEM 
+FOR THE ELDERLY ” is the Bonafide work of DHARSHINI H 
+(231001035), DILSHATH SHAFANA M (231001038) who carried out the 
+work under my supervision. Certified further that to the best of my knowledge 
+the work reported herein does not form part of any other thesis or dissertation 
+on the basis of which a degree or award was conferred on an earlier occasion 
+on this or any other candidate. 
+“This project addresses the following Sustainable Development Goals: 
+SDG 3, SDG 4, SDG 8, SDG 9, SDG 10 & SDG 11”. 
+ 
+ 
+Dr. P. Valarmathie M.E., Ph.D.,      
+Professor & Head 
+Department of Information Technology 
+Rajalakshmi Engineering College 
+Chennai- 602105 
+Mrs.K.Indumathi 
+Supervisor & Assistant Professor(SG) 
+Department of Information Technology 
+Rajalakshmi Engineering College 
+Chennai- 602105 
+ 
+Submitted to Project Viva-Voce Examination held on…………………. 
+ 
+ 
+         Internal Examiner                   External Examiner  
+ 
+--- PAGE ---
+=== Page 3 ===
+ iii 
+ACKNOWLEDGEMENT 
+ 
+First, we thank the almighty God for the successful completion of the project. 
+Our heartfelt sincere thanks to our beloved chairman Mr.S.Meganathan 
+B.E., F.I.E.,  for his sincere endeavour in educating us in his premier 
+institution. We would like to express our deep gratitude to our beloved 
+Chairperson Dr. Thangam Meganathan Ph.D.,  for her enthusiastic 
+motivation which inspired us a lot in completing this project and Vice-
+Chairman Mr. Abhay Shankar Meganathan B.E., M.S.,  for providing us 
+with the requisite infrastructure.  
+                      
+We also express our sincere gratitude to our college principal, 
+Dr.S.N.Murugesan M.E., Ph.D.,  for his kind support and facilities to 
+complete our work on time. We extend heartfelt gratitude to 
+Dr.P.Valarmathie M.E., Ph.D.,  Professor and Head of the Department of 
+Information Technology for her guidance and encouragement throughout the 
+work. We are very glad to thank our project coordinator Dr.M.Babu M.E., 
+Ph.D., Professor for his encouragement and support towards the successful 
+completion of this project. Further We express our deepest gratitude to our 
+supervisor Mrs.K.Indumathi, M.E, Assistant Professor (SG),  for her 
+valuable guidance throughout the work. We extend our thanks to our parents, 
+friends, all faculty members, and supporting staff for their direct and indirect 
+involvement in the successful completion of the project for their 
+encouragement and support. 
+  
+ 
+ 
+Dharshini H 
+Dilshath Shafana M  
+--- PAGE ---
+=== Page 4 ===
+ iv 
+ABSTRACT 
+ 
+Medication management can be challenging for elderly individuals and long-
+term medication users who need to manage multiple medication schedules, 
+dose adherence, treatment duration, medicine stock, and health records. 
+When these activities are handled separately, maintaining a consistent 
+medication routine can become difficult. MediBuddy is an Android-based 
+medication adherence and personal health management system designed to 
+integrate these activities into a single, elderly-oriented workflow. The 
+proposed system consists of six modules covering prescription onboarding, 
+medication adherence, health monitoring, medication knowledge and safety, 
+stock management, and personal health records. A key feature of MediBuddy 
+is the integration of dose-level adherence with medicine-stock management. 
+Each scheduled dose is tracked individually, and stock is reduced only when 
+the corresponding dose is confirmed as Taken, allowing stock information to 
+reflect recorded consumption rather than scheduled usage. The system also 
+supports medication-course management, refill awareness, multi-parameter 
+health logging, local health history, and shareable health reports. Core 
+functions operate locally on the device, reducing dependence on continuous 
+Internet connectivity. Future extensions include verified prescription 
+digitization, Indian medication knowledge and safety support, and personal 
+health-record management. MediBuddy provides an integrated framework 
+for medication adherence, stock management, and personal health monitoring 
+without providing medical diagnosis or treatment recommendations 
+ 
+  
+--- PAGE ---
+=== Page 5 ===
+ v 
+                TABLE OF CONTENTS 
+CHAPTER NO TITLE PAGE NO 
+                                ABSTRACT  iv 
+                                LIST OF FIGURES vii 
+                                LIST OF TABLES viii 
+                                LIST OF ABBREVIATIONS ix 
+1 INTRODUCTION  
+ 1.1 MOTIVATION 1 
+ 1.2 EXISTING SYSTEM 2 
+ 1.3 PROBLEM STATEMENT 4 
+ 1.4 OBJECTIVES OF THE PROJECT 4 
+ 1.5 PROPOSED SYSTEM 5 
+ 1.6 BENEFITS OF THE PROJECT 6 
+2 LITERATURE SURVEY  
+ 2.1 INTRODUCTION 10 
+ 2.2 RELATED WORK 10 
+ 2.3 INFERENCE FROM RELATED WORK 13 
+3 SYSTEM DESIGN  
+ 3.1 INTRODUCTION 14 
+ 3.2 SYSTEM ARCHITECTURE 18 
+ 3.3 SYSTEM REQUIREMENTS 21 
+ 3.4 DATA FLOW 24 
+4 PROJECT DESCRIPTION  
+ 4.1 METHODOLOGIES 27 
+ 4.2 MODULE DESCRIPTION 28 
+5 RESULT AND DISCUSSION   
+--- PAGE ---
+=== Page 6 ===
+ vi 
+6 CONCLUSION AND FUTURE 
+WORK 
+ 
+ REFERENCES 39 
+ APPENDICES 42 
+                                     I. PROJECT PLAGIARISM REPORT 42 
+                             II.   PAPER PLAGIARISM           ==--------  
+=== REPORT 
+43 
+ III.  JOURNAL/CONFERENCE 
+===COMMUNICATED PAPER 
+44 
+ IV.  PROOF OF 
+===JOURNAL/CONFERENCE 
+===COMMUNICATED 
+54 
+  V.  CO-PO-PSO MAPPING 55 
+ VI.  CO-SDG MAPPING 56 
+ 
+  
+--- PAGE ---
+=== Page 7 ===
+ vii 
+ 
+LIST OF FIGURES 
+Figure Number Figure Caption Page Number 
+3.1 System Architecture Diagram 16 
+3.2 Data Flow Diagram 19 
+3.3 Use Case Diagram 20 
+4.1 Methodology 22 
+5.1 Medication Entry and Schedule 
+Management 
+27 
+5.2 Parameter Logging 28 
+5.3 Health Report 28 
+5.4 Stock Management 29 
+5.5 Medication Alarm Permission 
+Settings 
+30 
+   
+  
+--- PAGE ---
+=== Page 8 ===
+ viii 
+ 
+LIST OF TABLES 
+Table Number Table Caption Page Number 
+1.1   Existing Vs Proposed System 2 
+3.1   Software Tools 16 
+3.2   Functional Requirements 17 
+3.3   Hardware Requirements 18 
+  
+--- PAGE ---
+=== Page 9 ===
+ ix 
+ 
+LIST OF ABBREVIATIONS 
+S.No Abbreviation Word Expansion 
+1 AHA American Heart Association 
+2 AI Artificial Intelligence 
+3 API Application Programming Interface 
+4 BP Blood Pressure 
+5 DAO Data Access Object 
+6 DB Database 
+7 DFD Data Flow Diagram 
+8 LLM Large Language Model 
+9 mHealth Mobile Health 
+10 OCR Optical Character Recognition 
+11 PDF Portable Document Format 
+12 PHR Personal Health Record 
+13 RAG Retrieval Augmented Generation 
+14 SDG Sustainable Development Goal 
+15 SDK Software Development Kit 
+16 SpO2 Peripheral Capillary Oxygen 
+Saturation 
+17 UI User Interface 
+  
+--- PAGE ---
+=== Page 10 ===
+ x 
+DEPARTMENT VISION 
+To promote highly Ethical and Innovative Information Technology 
+Professionals through excellence in teaching, training and research. 
+ 
+DEPARTMENT MISSION 
+●To produce globally competent professionals, motivated to learn the 
+emerging technologies and to be innovative in solving real world problems.  
+● To promote research activities amongst the students and the members of 
+faculty that could benefit the society.  
+● To impart moral and ethical values in their profession.  
+ 
+PROGRAMME EDUCATIONAL OBJECTIVES 
+PEO I 
+To provide essential background in science, basic Electronics, applied 
+Mathematics and Information Sciences.  
+PEO II 
+To prepare students with fundamental knowledge in programming languages 
+and to design and develop information systems and applications.  
+PEO III 
+To engage the students in life-long learning, to remain current in their 
+profession and obtain additional qualifications to enhance their career 
+positions in IT field.  
+PEO IV 
+To enable students to implement computing solutions for real world problems 
+and carry out basic and applied research leading to new innovations in 
+Information Technology (IT) and related interdisciplinary areas.  
+ 
+ 
+ 
+--- PAGE ---
+=== Page 11 ===
+ xi 
+PEO V 
+To familiarize students with ethical issues in engineering profession, issues 
+related to the worldwide economy, nurturing of current job related skills and 
+emerging technologies with a concern for society. 
+ 
+PROGRAM OUTCOMES (POs) 
+PO 1: Engineering knowledge: Apply the knowledge of Mathematics, 
+Science, Engineering fundamentals, and an engineering specialization to the 
+solution of complex engineering problems.  
+PO 2: Problem analysis: Identify, formulate, review research literature, and 
+analyze complex engineering problems reaching substantiated conclusions 
+using first principles of mathematics, natural sciences, and engineering 
+sciences.  
+PO 3: Design/development of solutions: Design solutions for complex 
+engineering problems and design system components or processes that meet 
+the specified needs with appropriate consideration for the public health and 
+safety, and the cultural, societal, and environmental considerations.   
+PO 4: Conduct investigations of complex problems: Use research-based 
+knowledge and research methods including design of experiments, analysis 
+and interpretation of data, and synthesis of the information to provide valid 
+conclusions.  
+PO 5: Modern tool usage: Create, select, and apply appropriate techniques, 
+resources, and modern engineering and IT tools including prediction and 
+modeling to complex engineering activities with an understanding of the 
+limitations.  
+PO 6: The engineer and society: Apply reasoning informed by the 
+contextual knowledge to assess societal, health, safety, legal and cultural 
+issues and the consequent responsibilities relevant to the professional 
+engineering practice.  
+--- PAGE ---
+=== Page 12 ===
+ xii 
+PO 7: Environment and sustainability: Understand the impact of the 
+professional engineering solutions in societal and environmental contexts, 
+and demonstrate the knowledge of, and need for sustainable development. 
+PO 8: Ethics: Apply ethical principles and commit to professional ethics and 
+responsibilities and norms of the engineering practice.  
+PO 9: Individual and team work: Function effectively as an individual, and 
+as a member or leader in diverse teams, and in multidisciplinary settings.   
+PO 10: Communication: Communicate effectively on complex engineering 
+activities with the engineering community and with society at large, such as, 
+being able to comprehend and write effective reports and design 
+documentation, make effective presentations, and give and receive clear 
+instructions.  
+PO11: Project management and finance: Demonstrate knowledge and 
+understanding of the engineering and management principles and apply these 
+to one‘s own work, as a member and leader in a team, to manage projects and 
+in multidisciplinary environments.  
+PO12: Life-long learning: Recognize the need for, and have the preparation 
+and ability to engage in independent and life-long learning in the broadest 
+context of technological change. 
+ 
+PROGRAM SPECIFIC OUTCOMES (PSOs) 
+A graduate of the Information Technology Program will demonstrate  
+PSO 1:  To identify and assess current technologies and review their 
+applicability to meet user requirements and organizational needs.  
+PSO 2: To engage in the computing profession by working effectively and 
+utilizing professional skills to make a positive contribution to society.  
+PSO 3: To take up research and entrepreneurship and embark on business in 
+the IT field 
+ 
+--- PAGE ---
+=== Page 13 ===
+ xiii 
+COURSE OBJECTIVE 
+   • To enable the students to do the implementation of the industry-relevant 
+and real-time projects on various core domains of information technology. 
+ 
+COURSE OUTCOMES 
+ 
+CO1  Analyze complex Engineering problems related Information 
+Technology to reach substantiated conclusions by applying knowledge of 
+Mathematics, Engineering fundamentals and Engineering specialization.  
+ 
+CO2 Create research based solutions for complex computer Engineering 
+or multidisciplinary problems, and design system components or processes 
+by applying appropriate techniques, resources, and modern IT tools.  
+ 
+CO3 Apply contextual computer science engineering solutions in the 
+sustainable development towards environmental, societal, health, safety, 
+legal, cultural issues and needs  
+ 
+CO4 Apply ethical principles and commit to professional ethics and 
+responsibilities and norms of the engineering practice.  
+ 
+CO5 Perform effectively as an individual, and as a member or leader in 
+diverse teams, Communicate effectively and write effective reports and 
+design documentation, ability to engage themselves in life-long learning  
+ 
+ 
+ 
+--- PAGE ---
+=== Page 14 ===
+ 1 
+CHAPTER 1 
+INTRODUCTION 
+1.1 MOTIVATION 
+Medication routines become increasingly difficult to manage when a 
+person takes several medicines, follows multiple daily timings, combines 
+short prescribed courses with long-term medicines, or needs to remember 
+whether a particular scheduled dose was actually confirmed. These tasks are 
+especially relevant for elderly users, for whom a simple and consistent 
+interaction flow can reduce the routine effort involved in organizing 
+medication information. 
+Conventional paper notes, alarm clocks and calendar reminders can 
+provide useful prompts, but a reminder alone does not maintain a structured 
+relationship between a medication, a specific scheduled dose occurrence, the 
+user’s confirmation, the resulting adherence record, the actual medicine 
+consumed, the remaining stock and the applicable course duration. Health 
+measurements and reports are also frequently maintained separately. 
+MediBuddy is motivated by the need to connect these activities within one 
+Android application rather than treating them as isolated tasks. 
+The engineering focus of MediBuddy is therefore not the novelty of an 
+alarm, stock counter or health log individually. Its contribution lies in an 
+integrated workflow in which structured medication data leads to schedules 
+and local reminders; user confirmation creates persistent occurrence-level 
+adherence information; confirmed Taken events drive physical stock 
+reduction; course information affects future scheduling and refill assessment; 
+and health readings can be recorded, reviewed and exported as reports. The 
+--- PAGE ---
+=== Page 15 ===
+ 2 
+interface is intended to remain clear and elderly-oriented, with core 
+implemented functions relying on deterministic local processing rather than 
+unnecessary AI computation. 
+1.2 EXISTING SYSTEM 
+Existing medication-management practices span manual paper records, 
+ordinary smartphone alarms and calendars, dedicated medication reminder 
+applications, pharmacy and health-ecosystem applications, and separate 
+health-record or monitoring applications. These approaches are useful in 
+different contexts. Calendar and alarm applications can notify users at chosen 
+times, while commercial health applications may offer combinations of 
+reminders, refill support, medicine information, ordering or health records. 
+Therefore, it would be inaccurate to state that such functions do not exist 
+elsewhere. 
+The practical limitation addressed by this project is fragmentation. A 
+generic alarm may indicate that it is time for a medicine but does not 
+inherently create a medication-specific occurrence record or connect that 
+confirmation to actual stock consumption. Likewise, a separate stock note 
+may not know whether a scheduled dose was Taken, Skipped or left 
+unconfirmed. Health measurements and reports can also exist outside the 
+medication workflow. MediBuddy proposes a consolidated, elderly-oriented 
+workflow in which these data relationships are explicit. 
+The current implementation remains intentionally local for core 
+medication, adherence, stock and health-record functions. Optional online 
+medicine search and future network-dependent functions are treated 
+separately. The project does not claim that every individual feature is 
+unprecedented; the design emphasis is the integration and consistency of the 
+complete workflow. 
+--- PAGE ---
+=== Page 16 ===
+ 3 
+ 
+Parameter Existing Approaches Proposed System 
+Medication-specific 
+structured records 
+Application-
+dependent 
+Supported and 
+integrated 
+Dose-occurrence 
+confirmation 
+Application-
+dependent 
+Taken / Skipped / 
+Unconfirmed 
+occurrence state 
+Adherence history Varies by application Persistent occurrence-
+level history 
+Stock update linked 
+to confirmed 
+consumption 
+Often separate or 
+application-dependent 
+Confirmed Taken 
+event drives stock 
+deduction 
+Unknown stock 
+handling Varies Explicitly supported as 
+“Stock not set” 
+Fixed-course 
+awareness 
+Application-
+dependent 
+Supported with 
+inclusive start/end 
+boundaries 
+Health parameter 
+logging 
+Often separate 
+functionality 
+Integrated manual 
+logging for supported 
+parameters 
+Local PDF health 
+report 
+Application-
+dependent Implemented 
+Prescription 
+digitization 
+Available in some 
+systems Planned / Phase 2 
+Indian medication 
+knowledge / safety 
+Available to varying 
+degrees Planned / Phase 2 
+--- PAGE ---
+=== Page 17 ===
+ 4 
+Parameter Existing Approaches Proposed System 
+Internet dependence Varies 
+Core implemented 
+functions local; 
+selected optional / 
+future functions online 
+Elderly-oriented 
+interaction Varies Design objective of 
+MediBuddy 
+Table 1.1: Existing Vs Proposed System 
+1.3 PROBLEM STATEMENT 
+Elderly individuals and long-term medication users may need to 
+manage medication schedules, dose confirmation, remaining medicine stock 
+and health measurements simultaneously. Conventional reminder 
+mechanisms can notify users at specified times but generally do not, by 
+themselves, form a complete medication-management workflow in which 
+each scheduled dose is linked to adherence status, actual stock consumption, 
+prescribed-course information and health records. Fragmented handling of 
+these activities can make medication and health-record management difficult. 
+Therefore, there is a need for an integrated, elderly-oriented system that 
+combines structured medication scheduling, dose-level adherence recording, 
+consumption-based stock management, multi-parameter health logging and 
+report management while providing an extensible foundation for verified 
+prescription digitization, medication knowledge and personal health records. 
+1.4 OBJECTIVES OF THE PROJECT 
+• To develop an elderly-oriented Android application for structured 
+medication management. 
+--- PAGE ---
+=== Page 18 ===
+ 5 
+• To maintain medication details and one or more schedules for active 
+medicines. 
+• To generate scheduled local medication alerts using Android alarm 
+and notification services. 
+• To record occurrence-level adherence states while preserving 
+historical records. 
+• To link confirmed Taken doses with actual medicine-stock 
+consumption and prevent duplicate deduction. 
+• To support both ongoing medicines and fixed-duration prescribed 
+courses. 
+• To provide stock, supply and refill awareness without assuming an 
+unknown package quantity. 
+• To record blood pressure, blood glucose, pulse, SpO2 and weight 
+manually and maintain local health history. 
+• To generate and share local health PDF reports. 
+• To design future verified prescription digitization using direct text 
+extraction / OCR as appropriate. 
+• To design future Indian medication knowledge / safety and personal 
+health-record modules. 
+• To minimize unnecessary cloud or AI dependence in core 
+implemented functions. 
+1.5 PROPOSED SYSTEM 
+MediBuddy is proposed as a six-module Android medication 
+adherence, medication management and personal health monitoring system. 
+The complete design includes prescription onboarding, medication dose and 
+adherence management, multi-parameter health monitoring and reporting, 
+Indian medication knowledge and safety, stock and refill management, and 
+personal health-record / document management. At the current review stage, 
+--- PAGE ---
+=== Page 19 ===
+ 6 
+Modules 2, 3 and 5 are implemented; Modules 1, 4 and 6 remain planned 
+Phase-2 work. 
+The implemented architecture follows Jetpack Compose UI → 
+ViewModel → Repository → Room Database, with Android platform 
+services used for exact alarms, notifications, broadcast handling, boot-related 
+rescheduling, PDF generation and sharing. A medication can contain multiple 
+daily times and can be ongoing or fixed-duration. Each scheduled occurrence 
+can progress from Due to Taken or Skipped; if no Taken/Skipped 
+confirmation is received within the configured 60-minute grace period, the 
+application records it as Missed. This state means that no confirmation was 
+received and does not medically prove that the medicine was not consumed. 
+Stock is represented independently from adherence but is updated 
+through adherence events: only a confirmed Taken occurrence can reduce 
+physical stock. Unknown stock is allowed and displayed as “Stock not set.” 
+The health module stores manually entered measurements locally and applies 
+informational reference processing where applicable. Reports are generated 
+locally and shared through standard Android mechanisms. Future 
+prescription processing will distinguish digital text extraction from OCR and 
+will require user verification before extracted medication information can 
+affect schedules. 
+1.6 BENEFITS OF THE PROJECT 
+• Integrated Medication and Health Management 
+ MediBuddy brings medication scheduling, dose adherence tracking, 
+medicine stock management, course information, health-parameter 
+logging, and report generation into a single Android application. 
+Instead of maintaining these activities separately through alarms, 
+paper notes, or different applications, the system provides a 
+--- PAGE ---
+=== Page 20 ===
+ 7 
+structured workflow in which medication and health information 
+can be managed together. This is particularly useful for elderly users 
+and people following long-term or multiple-medication routines. 
+• Improved Medication Routine Management 
+   The application provides scheduled local medication reminders and 
+maintains records for individual dose occurrences. Users can 
+confirm a scheduled dose as Taken or Skipped, while an occurrence 
+for which no confirmation is received within the configured grace 
+period is recorded as Missed for application tracking. This reduces 
+dependence on memory alone and provides a persistent history of 
+medication-related actions without claiming that the application can 
+medically verify whether a medicine was consumed. 
+• Consumption-Based Medication Stock Tracking 
+ A major benefit of the system is the connection between dose 
+confirmation and physical medicine stock. Stock is reduced only 
+after a dose is confirmed as Taken, while Skipped, Missed, or 
+unconfirmed doses do not cause stock deduction. This provides a 
+more meaningful representation of actual medicine consumption 
+than simply reducing stock according to the prescribed schedule. 
+The system also supports unknown stock through the “Stock not set” 
+state rather than assuming that the user begins with a complete strip 
+or package. 
+• Course-Aware Stock and Refill Management 
+ MediBuddy supports both ongoing medicines and fixed-duration 
+prescribed courses. For ongoing medication, available schedule and 
+dose information can be used to estimate remaining supply and 
+provide low-stock awareness. For fixed-duration courses, the 
+remaining medicine requirement can be compared with the available 

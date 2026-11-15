@@ -101,11 +101,12 @@ class QAOASolver:
         opt_start_time = time.time()
         opt_method = "COBYLA" if optimizer.upper() == "COBYLA" else ("Nelder-Mead" if optimizer.upper() == "NELDER-MEAD" else "COBYLA")
         
+        max_iter = maxiter if 'maxiter' in locals() and maxiter else 25
         opt_res = scipy_opt.minimize(
             evaluate_expectation,
             x0=np.array(init_params),
             method=opt_method,
-            options={"maxiter": 100, "tol": 1e-4}
+            options={"maxiter": max_iter, "tol": 1e-4}
         )
         opt_time = round(time.time() - opt_start_time, 4)
 

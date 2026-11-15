@@ -1,0 +1,11 @@
+hazard,metric,recomputed_value,previous_value,difference,source_of_previous_value,status
+Flood (Test Set),Accuracy,0.98720,0.98670,0.00050,ProjectCollab/ClimateRisk.ipynb Cell 59 / Previous Audit,MATCH (CLOSE REPRODUCIBILITY)
+Flood (Test Set),Precision,0.26205,0.10060,0.16145,ProjectCollab/ClimateRisk.ipynb Cell 59 (Alternative target rule),MISMATCH (RECOMPUTED PRECISE VALUE TAKES PRECEDENCE)
+Flood (Test Set),Recall,0.40850,0.33770,0.07080,ProjectCollab/ClimateRisk.ipynb Cell 59,MISMATCH (RECOMPUTED PRECISE VALUE TAKES PRECEDENCE)
+Flood (Test Set),F1,0.31928,0.15500,0.16428,ProjectCollab/ClimateRisk.ipynb Cell 59,MISMATCH (RECOMPUTED PRECISE VALUE TAKES PRECEDENCE)
+Flood (Test Set),ROC-AUC,0.92449,0.90620,0.01829,config/master/models.json / Notebook,MATCH (CLOSE REPRODUCIBILITY)
+Flood (Test Set),PR-AUC,0.21294,0.07450,0.13844,config/master/models.json / Notebook,MISMATCH (RECOMPUTED PRECISE VALUE TAKES PRECEDENCE)
+Drought (Test Set),ROC-AUC,0.99992,0.99980,0.00012,config/master/models.json / Notebook,MATCH
+Drought (Test Set),PR-AUC,0.99941,0.99930,0.00011,config/master/models.json / Notebook,MATCH
+Heatwave (Test Set),ROC-AUC,0.99284,1.00000,0.00716,config/master/models.json / Notebook,MATCH (CLOSE REPRODUCIBILITY)
+Heatwave (Test Set),PR-AUC,0.79802,0.99640,0.19838,config/master/models.json / Notebook,MISMATCH (RECOMPUTED PRECISE VALUE TAKES PRECEDENCE)

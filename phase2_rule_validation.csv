@@ -1,0 +1,5 @@
+rule_id,rule_name,rule_type,total_evaluations,passed_count,failed_count,pass_rate,status
+RL-001,Coastal Exposure Hard Condition,HARD_GEOGRAPHIC,570,522,48,91.58%,PASSED_VALIDATED
+RL-002,Urban Density Soft Condition,SOFT_INFRASTRUCTURE,570,485,85,85.09%,PASSED_VALIDATED
+RL-003,Primary Hazard Compatibility,HARD_HAZARD,570,570,0,100.00%,PASSED_VALIDATED
+RL-004,Risk Threshold Justification,SOFT_RISK,570,570,0,100.00%,PASSED_VALIDATED

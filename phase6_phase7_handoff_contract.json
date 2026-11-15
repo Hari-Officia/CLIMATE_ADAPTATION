@@ -1,0 +1,1484 @@
+{
+  "ariyalur": {
+    "district_id": "ariyalur",
+    "district_name": "Ariyalur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.325,
+      "qubo_min_energy": -3.325,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.285,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.988,
+      "feasible_probability": 0.079,
+      "optimum_probability": 0.0,
+      "top_bitstring": "11011001111110110"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "chengalpattu": {
+    "district_id": "chengalpattu",
+    "district_name": "Chengalpattu",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 4.0125,
+      "qubo_min_energy": -4.0125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.9925,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.995,
+      "feasible_probability": 0.081,
+      "optimum_probability": 0.0,
+      "top_bitstring": "010010000101000010"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "chennai": {
+    "district_id": "chennai",
+    "district_name": "Chennai",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 4.1,
+      "qubo_min_energy": -4.1,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-002",
+        "STR-LND-001",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 4.06,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9902,
+      "feasible_probability": 0.06,
+      "optimum_probability": 0.0,
+      "top_bitstring": "011100011110111100"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "coimbatore": {
+    "district_id": "coimbatore",
+    "district_name": "Coimbatore",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.5375,
+      "qubo_min_energy": -3.5375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-002",
+        "STR-NBS-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.4975,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9887,
+      "feasible_probability": 0.078,
+      "optimum_probability": 0.0,
+      "top_bitstring": "10011010111010000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "cuddalore": {
+    "district_id": "cuddalore",
+    "district_name": "Cuddalore",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.8,
+      "qubo_min_energy": -3.8,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.78,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9947,
+      "feasible_probability": 0.138,
+      "optimum_probability": 0.0,
+      "top_bitstring": "011001100101111011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "dharmapuri": {
+    "district_id": "dharmapuri",
+    "district_name": "Dharmapuri",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.1625,
+      "qubo_min_energy": -3.1625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-NBS-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.1225,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9874,
+      "feasible_probability": 0.143,
+      "optimum_probability": 0.0,
+      "top_bitstring": "01000100100000011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "dindigul": {
+    "district_id": "dindigul",
+    "district_name": "Dindigul",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.3625,
+      "qubo_min_energy": -3.3625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.3625,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.233,
+      "optimum_probability": 0.001,
+      "top_bitstring": "01000100000000100"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  },
+  "erode": {
+    "district_id": "erode",
+    "district_name": "Erode",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.45,
+      "qubo_min_energy": -3.45,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.45,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.143,
+      "optimum_probability": 0.001,
+      "top_bitstring": "10110100100100111"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  },
+  "kallakurichi": {
+    "district_id": "kallakurichi",
+    "district_name": "Kallakurichi",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.2,
+      "qubo_min_energy": -3.2,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.18,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9938,
+      "feasible_probability": 0.117,
+      "optimum_probability": 0.0,
+      "top_bitstring": "10000100101000010"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "kancheepuram": {
+    "district_id": "kancheepuram",
+    "district_name": "Kancheepuram",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 4.025,
+      "qubo_min_energy": -4.025,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.985,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9901,
+      "feasible_probability": 0.083,
+      "optimum_probability": 0.0,
+      "top_bitstring": "01000110000110000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "kanniyakumari": {
+    "district_id": "kanniyakumari",
+    "district_name": "Kanniyakumari",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 4.1375,
+      "qubo_min_energy": -4.1375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 4.0975,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9903,
+      "feasible_probability": 0.077,
+      "optimum_probability": 0.0,
+      "top_bitstring": "000110001000000111"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "karur": {
+    "district_id": "karur",
+    "district_name": "Karur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.4,
+      "qubo_min_energy": -3.4,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-LND-001",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.36,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9882,
+      "feasible_probability": 0.166,
+      "optimum_probability": 0.0,
+      "top_bitstring": "11010000010000111"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "krishnagiri": {
+    "district_id": "krishnagiri",
+    "district_name": "Krishnagiri",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.25,
+      "qubo_min_energy": -3.25,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.23,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9938,
+      "feasible_probability": 0.177,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00000001000101001"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "madurai": {
+    "district_id": "madurai",
+    "district_name": "Madurai",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.4375,
+      "qubo_min_energy": -3.4375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.4175,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9942,
+      "feasible_probability": 0.111,
+      "optimum_probability": 0.0,
+      "top_bitstring": "01000000000000000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "mayiladuthurai": {
+    "district_id": "mayiladuthurai",
+    "district_name": "Mayiladuthurai",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.7625,
+      "qubo_min_energy": -3.7625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-GIS-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.7025,
+      "objective_gap": 0.06,
+      "approximation_ratio": 0.9841,
+      "feasible_probability": 0.126,
+      "optimum_probability": 0.0,
+      "top_bitstring": "110010100001000001"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "nagapattinam": {
+    "district_id": "nagapattinam",
+    "district_name": "Nagapattinam",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.7125,
+      "qubo_min_energy": -3.7125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-EWS-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.6525,
+      "objective_gap": 0.06,
+      "approximation_ratio": 0.9838,
+      "feasible_probability": 0.371,
+      "optimum_probability": 0.0,
+      "top_bitstring": "000000000000000000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "namakkal": {
+    "district_id": "namakkal",
+    "district_name": "Namakkal",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.4625,
+      "qubo_min_energy": -3.4625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.4225,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9884,
+      "feasible_probability": 0.096,
+      "optimum_probability": 0.0,
+      "top_bitstring": "01100110011101100"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "nilgiris": {
+    "district_id": "nilgiris",
+    "district_name": "Nilgiris",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.55,
+      "qubo_min_energy": -3.55,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.53,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9944,
+      "feasible_probability": 0.177,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00111001011011100"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "perambalur": {
+    "district_id": "perambalur",
+    "district_name": "Perambalur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.2625,
+      "qubo_min_energy": -3.2625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001"
+      ],
+      "best_feasible_objective": 3.2225,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9877,
+      "feasible_probability": 0.144,
+      "optimum_probability": 0.0,
+      "top_bitstring": "11000000100001011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "pudukkottai": {
+    "district_id": "pudukkottai",
+    "district_name": "Pudukkottai",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.2875,
+      "qubo_min_energy": -3.2875,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.2675,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9939,
+      "feasible_probability": 0.072,
+      "optimum_probability": 0.0,
+      "top_bitstring": "110101100001000111"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "ramanathapuram": {
+    "district_id": "ramanathapuram",
+    "district_name": "Ramanathapuram",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.675,
+      "qubo_min_energy": -3.675,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-001",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.655,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9946,
+      "feasible_probability": 0.097,
+      "optimum_probability": 0.0,
+      "top_bitstring": "011000101000000111"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "ranipet": {
+    "district_id": "ranipet",
+    "district_name": "Ranipet",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.4125,
+      "qubo_min_energy": -3.4125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.4125,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.232,
+      "optimum_probability": 0.001,
+      "top_bitstring": "11111111110111111"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  },
+  "salem": {
+    "district_id": "salem",
+    "district_name": "Salem",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.475,
+      "qubo_min_energy": -3.475,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.455,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9942,
+      "feasible_probability": 0.135,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00101010010100011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "sivaganga": {
+    "district_id": "sivaganga",
+    "district_name": "Sivaganga",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.3125,
+      "qubo_min_energy": -3.3125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-NBS-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.2525,
+      "objective_gap": 0.06,
+      "approximation_ratio": 0.9819,
+      "feasible_probability": 0.307,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00000000000000011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tenkasi": {
+    "district_id": "tenkasi",
+    "district_name": "Tenkasi",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.375,
+      "qubo_min_energy": -3.375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.375,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.125,
+      "optimum_probability": 0.001,
+      "top_bitstring": "10001100000100001"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  },
+  "thanjavur": {
+    "district_id": "thanjavur",
+    "district_name": "Thanjavur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.875,
+      "qubo_min_energy": -3.875,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-CST-001"
+      ],
+      "best_feasible_objective": 3.855,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9948,
+      "feasible_probability": 0.159,
+      "optimum_probability": 0.0,
+      "top_bitstring": "101111111110111101"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "theni": {
+    "district_id": "theni",
+    "district_name": "Theni",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.425,
+      "qubo_min_energy": -3.425,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.405,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9942,
+      "feasible_probability": 0.205,
+      "optimum_probability": 0.0,
+      "top_bitstring": "11010110000100011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "thoothukudi": {
+    "district_id": "thoothukudi",
+    "district_name": "Thoothukudi",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.8625,
+      "qubo_min_energy": -3.8625,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-LND-001",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.8225,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9896,
+      "feasible_probability": 0.122,
+      "optimum_probability": 0.0,
+      "top_bitstring": "101110111110111000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tiruchirappalli": {
+    "district_id": "tiruchirappalli",
+    "district_name": "Tiruchirappalli",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.475,
+      "qubo_min_energy": -3.475,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.455,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9942,
+      "feasible_probability": 0.135,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00101010010100011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tirunelveli": {
+    "district_id": "tirunelveli",
+    "district_name": "Tirunelveli",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.9125,
+      "qubo_min_energy": -3.9125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.8925,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9949,
+      "feasible_probability": 0.115,
+      "optimum_probability": 0.0,
+      "top_bitstring": "000000010011100011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tirupathur": {
+    "district_id": "tirupathur",
+    "district_name": "Tirupathur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.3375,
+      "qubo_min_energy": -3.3375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.3175,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.994,
+      "feasible_probability": 0.143,
+      "optimum_probability": 0.0,
+      "top_bitstring": "11100010011110001"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tiruppur": {
+    "district_id": "tiruppur",
+    "district_name": "Tiruppur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.5125,
+      "qubo_min_energy": -3.5125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-NBS-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.4725,
+      "objective_gap": 0.04,
+      "approximation_ratio": 0.9886,
+      "feasible_probability": 0.478,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00100011000000110"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tiruvallur": {
+    "district_id": "tiruvallur",
+    "district_name": "Tiruvallur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 4.05,
+      "qubo_min_energy": -4.05,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 4.03,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9951,
+      "feasible_probability": 0.083,
+      "optimum_probability": 0.0,
+      "top_bitstring": "000000100011000001"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tiruvannamalai": {
+    "district_id": "tiruvannamalai",
+    "district_name": "Tiruvannamalai",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.2125,
+      "qubo_min_energy": -3.2125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-EWS-001",
+        "STR-HTS-001"
+      ],
+      "best_feasible_objective": 3.1525,
+      "objective_gap": 0.06,
+      "approximation_ratio": 0.9813,
+      "feasible_probability": 0.62,
+      "optimum_probability": 0.0,
+      "top_bitstring": "00000010000000001"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "tiruvarur": {
+    "district_id": "tiruvarur",
+    "district_name": "Tiruvarur",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.8,
+      "qubo_min_energy": -3.8,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-WTR-001",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001",
+        "STR-EWS-001"
+      ],
+      "best_feasible_objective": 3.78,
+      "objective_gap": 0.02,
+      "approximation_ratio": 0.9947,
+      "feasible_probability": 0.138,
+      "optimum_probability": 0.0,
+      "top_bitstring": "011001100101111011"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "vellore": {
+    "district_id": "vellore",
+    "district_name": "Vellore",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.4125,
+      "qubo_min_energy": -3.4125,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.4125,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.232,
+      "optimum_probability": 0.001,
+      "top_bitstring": "11111111110111111"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  },
+  "viluppuram": {
+    "district_id": "viluppuram",
+    "district_name": "Viluppuram",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.7,
+      "qubo_min_energy": -3.7,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-NBS-002",
+        "STR-BLT-001",
+        "STR-GIS-001",
+        "STR-CRT-001",
+        "STR-CST-001"
+      ],
+      "best_feasible_objective": 3.6,
+      "objective_gap": 0.1,
+      "approximation_ratio": 0.973,
+      "feasible_probability": 0.055,
+      "optimum_probability": 0.0,
+      "top_bitstring": "101011111111111000"
+    },
+    "status": "QAOA_NEAR_OPTIMAL",
+    "phase7_ready": true
+  },
+  "virudhunagar": {
+    "district_id": "virudhunagar",
+    "district_name": "Virudhunagar",
+    "qaoa_config": {
+      "backend": "AerSimulator",
+      "depth": 2,
+      "shots": 1000,
+      "optimizer": "COBYLA",
+      "seed": 42
+    },
+    "exact_reference": {
+      "milp_objective": 3.375,
+      "qubo_min_energy": -3.375,
+      "optimal_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ]
+    },
+    "qaoa_results": {
+      "best_feasible_portfolio": [
+        "STR-DRN-001",
+        "STR-DRN-002",
+        "STR-WTR-002",
+        "STR-BLT-001",
+        "STR-CRT-001"
+      ],
+      "best_feasible_objective": 3.375,
+      "objective_gap": 0.0,
+      "approximation_ratio": 1.0,
+      "feasible_probability": 0.125,
+      "optimum_probability": 0.001,
+      "top_bitstring": "10001100000100001"
+    },
+    "status": "QAOA_EXACT_HIT",
+    "phase7_ready": true
+  }
+}

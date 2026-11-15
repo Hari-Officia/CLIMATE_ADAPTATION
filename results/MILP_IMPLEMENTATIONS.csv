@@ -1,0 +1,4 @@
+implementation,source_file,instance_type,objective_type,strategy_count,district_count,solver,status
+Priority-Weighted Research Gate MILP Benchmark,research/quantum_advantage/classical/true_milp_solver.py,"CanonicalModelInstance (14 strategies, K=5)",Priority-Weighted Maximization (c^T x),14,38,scipy.optimize.milp (HiGHS Integer Solver),PROVEN OPTIMAL
+Unweighted Live Backend OptimizationService MILP,backend/services/optimization/solvers/milp_solver.py,"CandidateSet (14 strategies, K=5)",Unweighted Strategy Score Maximization (-c^T x + Synergies),14,38,scipy.optimize.milp (HiGHS Integer Solver),PROVEN OPTIMAL
+Legacy Continuous LP Solver (Superseded),scripts/run_phase_v_benchmark.py (Historical),Continuous LP Relaxation,Continuous LP Maximization,14,38,scipy.optimize.linprog (Continuous LP),SUPERSEDED_BY_TRUE_MILP

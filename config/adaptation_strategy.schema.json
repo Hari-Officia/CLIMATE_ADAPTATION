@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Climate Adaptation Strategy Schema",
+  "type": "object",
+  "required": [
+    "strategy_id",
+    "strategy_name",
+    "strategy_domain",
+    "strategy_type",
+    "description",
+    "primary_hazards",
+    "adaptation_objective",
+    "target_exposure",
+    "target_vulnerability",
+    "target_resilience_dimension",
+    "urban_rural",
+    "coastal_inland",
+    "geographic_scope",
+    "required_conditions",
+    "applicability_rules",
+    "implementation_scale",
+    "implementation_horizon",
+    "implementation_complexity",
+    "land_requirement",
+    "water_requirement",
+    "energy_requirement",
+    "maintenance_requirement",
+    "technical_requirements",
+    "institutional_requirements",
+    "cost_level",
+    "cost_basis",
+    "effectiveness",
+    "effectiveness_basis",
+    "monitoring_indicators",
+    "success_metrics",
+    "optimization_eligible",
+    "evidence_strength"
+  ],
+  "properties": {
+    "strategy_id": {
+      "type": "string",
+      "pattern": "^STR-[A-Z]{3}-[0-9]{3}$"
+    },
+    "strategy_name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "strategy_domain": {
+      "type": "string",
+      "enum": [
+        "Drainage & Stormwater",
+        "Water Management",
+        "Urbanization & Land Use",
+        "Green / Nature-Based Solutions",
+        "Built Infrastructure",
+        "Terrain / GIS / Geometry",
+        "Critical Infrastructure",
+        "Early Warning & Preparedness",
+        "Heat Resilience",
+        "Coastal / Marine Adaptation"
+      ]
+    },
+    "strategy_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primary_hazards": {
+      "type": "string"
+    },
+    "secondary_hazards": {
+      "type": "string"
+    },
+    "adaptation_objective": {
+      "type": "string"
+    },
+    "target_exposure": {
+      "type": "string"
+    },
+    "target_vulnerability": {
+      "type": "string"
+    },
+    "target_resilience_dimension": {
+      "type": "string"
+    },
+    "urban_rural": {
+      "type": "string",
+      "enum": ["URBAN", "RURAL", "BOTH"]
+    },
+    "coastal_inland": {
+      "type": "string",
+      "enum": ["COASTAL", "INLAND", "BOTH"]
+    },
+    "geographic_scope": {
+      "type": "string"
+    },
+    "required_conditions": {
+      "type": "string"
+    },
+    "applicability_rules": {
+      "type": "string"
+    },
+    "implementation_scale": {
+      "type": "string"
+    },
+    "implementation_horizon": {
+      "type": "string",
+      "enum": ["SHORT_TERM", "MEDIUM_TERM", "LONG_TERM"]
+    },
+    "implementation_complexity": {
+      "type": "string",
+      "enum": ["LOW", "MEDIUM", "HIGH"]
+    },
+    "land_requirement": {
+      "type": "string",
+      "enum": ["NONE", "LOW", "MEDIUM", "HIGH"]
+    },
+    "water_requirement": {
+      "type": "string",
+      "enum": ["NONE", "LOW", "MEDIUM", "HIGH"]
+    },
+    "energy_requirement": {
+      "type": "string",
+      "enum": ["NONE", "LOW", "MEDIUM", "HIGH"]
+    },
+    "maintenance_requirement": {
+      "type": "string",
+      "enum": ["LOW", "MEDIUM", "HIGH"]
+    },
+    "technical_requirements": {
+      "type": "string"
+    },
+    "institutional_requirements": {
+      "type": "string"
+    },
+    "cost_level": {
+      "type": "string",
+      "enum": ["LOW", "MEDIUM", "HIGH"]
+    },
+    "cost_basis": {
+      "type": "string",
+      "enum": ["QUALITATIVE_ONLY", "NOT_AVAILABLE"]
+    },
+    "effectiveness": {
+      "type": "string",
+      "enum": ["QUALITATIVE_ONLY", "NOT_AVAILABLE"]
+    },
+    "effectiveness_basis": {
+      "type": "string"
+    },
+    "co_benefits": {
+      "type": "string"
+    },
+    "tradeoffs": {
+      "type": "string"
+    },
+    "negative_impacts": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "string"
+    },
+    "conflicts": {
+      "type": "string"
+    },
+    "complementary_strategies": {
+      "type": "string"
+    },
+    "failure_conditions": {
+      "type": "string"
+    },
+    "implementation_constraints": {
+      "type": "string"
+    },
+    "monitoring_indicators": {
+      "type": "string"
+    },
+    "success_metrics": {
+      "type": "string"
+    },
+    "optimization_eligible": {
+      "type": "boolean"
+    },
+    "evidence_strength": {
+      "type": "string",
+      "enum": ["VERY_HIGH", "HIGH", "MEDIUM", "LOW"]
+    }
+  },
+  "additionalProperties": false
+}

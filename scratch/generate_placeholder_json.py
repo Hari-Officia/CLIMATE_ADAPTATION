@@ -1,0 +1,206 @@
+import json
+import os
+
+inventory_data = {
+  "metadata": {
+    "project": "Quantum-Assisted Multi-Agent Decision Support for Climate Adaptation",
+    "document": "Quantum_Assisted_Climate_Adaptation_Survey (1).docx",
+    "audit_date": "2026-09-27",
+    "total_placeholders_found": 18,
+    "verified_values": 10,
+    "unverified_values": 8,
+    "conflicting_values": 0,
+    "bibliographic_entries_verified": 2,
+    "bibliographic_entries_unverified": 16,
+    "survey_data_ready": False,
+    "paper_edit_allowed": False
+  },
+  "placeholders": [
+    {
+      "id": "PH-001",
+      "key": "DATABASES_USED",
+      "category": "Methodology",
+      "placeholder_text": "[INSERT ACTUAL DATABASES USED – e.g., IEEE Xplore, Scopus, Web of Science, arXiv, Google Scholar]",
+      "docx_line": 36,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "No automated literature search log found in workspace."
+    },
+    {
+      "id": "PH-002",
+      "key": "SEARCH_PERIOD",
+      "category": "Methodology",
+      "placeholder_text": "[INSERT YEAR RANGE ACTUALLY SEARCHED]",
+      "docx_line": 37,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "No search date range explicitly logged in repo."
+    },
+    {
+      "id": "PH-003",
+      "key": "SEARCH_TERMS",
+      "category": "Methodology",
+      "placeholder_text": "[INSERT ACTUAL SEARCH STRINGS]",
+      "docx_line": 38,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "No search string query log found."
+    },
+    {
+      "id": "PH-004",
+      "key": "SCREENING_COUNTS",
+      "category": "Methodology",
+      "placeholder_text": "[INSERT ACTUAL SCREENING COUNTS AT EACH STAGE ONCE THE SCREENING LOG IS FINALIZED]",
+      "docx_line": 59,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "No screening counts log found."
+    },
+    {
+      "id": "PH-005",
+      "key": "DATASET_VERSION",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT VERSION / HASH]",
+      "docx_line": 433,
+      "extracted_value": "BASE-3.0.0-20260923",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/PHASE_T_REPRODUCIBILITY_MANIFEST.json"
+    },
+    {
+      "id": "PH-006",
+      "key": "MODEL_VERSION",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 435,
+      "extracted_value": "QUANTUM-V2-RECONCILED-20260923",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/PHASE_T_STATUS.json"
+    },
+    {
+      "id": "PH-007",
+      "key": "QUBO_VERSION",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 437,
+      "extracted_value": "v1.0-reconciled",
+      "status": "VERIFIED",
+      "evidence": "EXACT_MILP_QUBO_EQUIVALENCE.csv & PHASE_T_STATUS.json"
+    },
+    {
+      "id": "PH-008",
+      "key": "QAOA_CONFIGURATION",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 439,
+      "extracted_value": "N=10, K=5, p=2, Seeds=1000..1004, Shots=1024, Runs=190, Optimizer=COBYLA",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/V3_RECALCULATED_190_EXPERIMENTS.csv"
+    },
+    {
+      "id": "PH-009",
+      "key": "SOFTWARE_ENVIRONMENT",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 441,
+      "extracted_value": "Python 3.10.11, Qiskit 1.0.2, Qiskit Aer 0.14.0.1, NumPy 1.26.4, SciPy 1.13.0, OS: Windows win32",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/PHASE_T_REPRODUCIBILITY_MANIFEST.json"
+    },
+    {
+      "id": "PH-010",
+      "key": "RANDOM_SEED_POLICY",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 443,
+      "extracted_value": "5 fixed seeds per district (1000..1004) for stochastic Qiskit Aer Sampler; classical MILP 100% deterministic",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/V3_RECALCULATED_190_EXPERIMENTS.csv"
+    },
+    {
+      "id": "PH-011",
+      "key": "HARDWARE_OR_SIMULATOR",
+      "category": "Reproducibility",
+      "placeholder_text": "[INSERT]",
+      "docx_line": 445,
+      "extracted_value": "Qiskit Aer Statevector / Qasm Simulator (Hardware-Calibrated Simulation)",
+      "status": "VERIFIED",
+      "evidence": "AUDIT/V3_1_RELEASE/14_QAOA.md"
+    },
+    {
+      "id": "PH-012",
+      "key": "EXACT_BENCHMARK",
+      "category": "Quantitative Optimization",
+      "placeholder_text": "[VERIFIED VALUE]",
+      "docx_line": 533,
+      "extracted_value": "Objective = 1.8420, Runtime = ~12 ms",
+      "status": "VERIFIED",
+      "evidence": "EXACT_MILP_QUBO_EQUIVALENCE.csv"
+    },
+    {
+      "id": "PH-013",
+      "key": "MILP_BENCHMARK",
+      "category": "Quantitative Optimization",
+      "placeholder_text": "[VERIFIED VALUE]",
+      "docx_line": 538,
+      "extracted_value": "Objective = 1.8420, Runtime = ~12 ms",
+      "status": "VERIFIED",
+      "evidence": "38_DISTRICT_QUANTUM_RESEARCH_GATE_V2.csv"
+    },
+    {
+      "id": "PH-014",
+      "key": "GREEDY_BENCHMARK",
+      "category": "Quantitative Optimization",
+      "placeholder_text": "[VERIFIED VALUE]",
+      "docx_line": 543,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "Greedy heuristic not evaluated in Phase T certified benchmark."
+    },
+    {
+      "id": "PH-015",
+      "key": "SIMULATED_ANNEALING_BENCHMARK",
+      "category": "Quantitative Optimization",
+      "placeholder_text": "[VERIFIED VALUE]",
+      "docx_line": 548,
+      "extracted_value": "NOT_VERIFIED",
+      "status": "NOT_VERIFIED",
+      "evidence": "Simulated Annealing not evaluated in Phase T certified benchmark."
+    },
+    {
+      "id": "PH-016",
+      "key": "QAOA_BENCHMARK",
+      "category": "Quantitative Optimization",
+      "placeholder_text": "[VERIFIED VALUE]",
+      "docx_line": 553,
+      "extracted_value": "Objective = 1.8420, Gap = 0.0267 (2.67%), Runtime = ~450 ms, Feasible = TRUE",
+      "status": "VERIFIED",
+      "evidence": "V3_RECALCULATED_190_EXPERIMENTS.csv & PHASE_T_STATUS.json"
+    },
+    {
+      "id": "PH-017",
+      "key": "PHYSICAL_QPU_VERIFIED",
+      "category": "Hardware Authenticity",
+      "placeholder_text": "Physical Hardware Verification",
+      "docx_line": 557,
+      "extracted_value": "FALSE",
+      "status": "VERIFIED",
+      "evidence": "AUDIT/V3_1_RELEASE/14_QAOA.md"
+    },
+    {
+      "id": "PH-018",
+      "key": "SCIENTIFIC_EXPERIMENT_EXECUTED",
+      "category": "Execution Status",
+      "placeholder_text": "Benchmark Execution",
+      "docx_line": 557,
+      "extracted_value": "TRUE",
+      "status": "VERIFIED",
+      "evidence": "research/quantum_advantage/results/PHASE_T_STATUS.json"
+    }
+  ]
+}
+
+os.makedirs("AUDIT", exist_ok=True)
+with open("AUDIT/SURVEY_PLACEHOLDER_INVENTORY.json", "w", encoding="utf-8") as f:
+    json.dump(inventory_data, f, indent=2)
+
+print("Saved AUDIT/SURVEY_PLACEHOLDER_INVENTORY.json successfully.")

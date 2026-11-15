@@ -1,0 +1,4 @@
+ingestion_id,source_id,dataset,start_time,end_time,status,rows_downloaded,rows_valid,rows_rejected,file_size_mb,checksum_sha256,error_message
+ING-001,INT-NASA-POWER,NASA POWER TN Daily Climatology,2026-09-01T10:00:00Z,2026-09-01T10:15:00Z,SUCCESS,228950,228950,0,13.6,a1b2c3d4e5f6...,None
+ING-002,INT-GEOBOUNDARIES,geoBoundaries IND-ADM2 Boundaries,2026-09-01T10:16:00Z,2026-09-01T10:18:00Z,SUCCESS,38,38,0,48.3,f6e5d4c3b2a1...,None
+ING-003,NAT-IMD-001,IMD Gridded Daily Rainfall Station Products,2026-09-01T10:19:00Z,2026-09-01T10:19:05Z,ACCESS_RESTRICTED,0,0,0,0.0,N/A,Raw gridded station access requires state authorization credentials

@@ -1,0 +1,290 @@
+TOTAL PLACEHOLDER LINES: 72
+
+--- ITEM 1 (Line 16) ---
+TEXT: P016: Twenty literature records, published between 2022 and 2026, were reviewed. Records 12 and 13 duplicate Records 5 and 7, leaving 18 unique studies; reference numbers [1]–[18] denote these unique studies, and Table 1 maps them to the 20 records. Records were considered if they addressed climate adaptation or climate-risk assessment together with at least one of machine-learning prediction, GIS, multi-agent systems, XAI, or classical or quantum optimization. Databases: [INSERT VERIFIED DATABASES]; search period: [INSERT VERIFIED SEARCH PERIOD]; search terms: [INSERT VERIFIED SEARCH TERMS]. Screening counts beyond duplicate removal are not reported because they have not been verified against a screening log.
+PLACEHOLDERS: ['INSERT VERIFIED DATABASES', 'INSERT VERIFIED SEARCH PERIOD', 'INSERT VERIFIED SEARCH TERMS']
+
+--- ITEM 2 (Line 42) ---
+TEXT: P042: The review in [4] surveys quantum computing for climate modelling, optimization, uncertainty quantification, and environmental decision support, and concludes that hardware scalability and quantum noise remain major challenges. A mitigation-planning study [16] lists quantum computing as a future direction. No record in the corpus evaluates QAOA or another quantum optimizer on a constrained adaptation-portfolio problem, and the corpus contains no primary QAOA or QUBO methodology paper ([INSERT VERIFIED QAOA/QUBO METHOD REFERENCE]). Consequently, quantum methods should be tested against well-defined classical baselines rather than assumed to be advantageous. The present study belongs to this third sub-stream, and Sections 4.7 and 5.3 evaluate it accordingly.
+PLACEHOLDERS: ['INSERT VERIFIED QAOA/QUBO METHOD REFERENCE']
+
+--- ITEM 3 (Line 214) ---
+TEXT: | Explainable-AI studies [12] | SHAP, LIME, counterfactual explanation of ML predictions [12] | Explanation of climate-variable contributions to predicted risk (Section 4.4) | Implemented method(s): [INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)]. Any method not listed there: identified in literature but not experimentally implemented in the current study. |
+PLACEHOLDERS: ['INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)']
+
+--- ITEM 4 (Line 234) ---
+TEXT: P196: Implemented method(s): [INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)]. Any method not listed there: identified in literature but not experimentally implemented in the current study.
+PLACEHOLDERS: ['INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)']
+
+--- ITEM 5 (Line 255) ---
+TEXT: P217: The dataset (Tamil_Nadu_Final_Hazard_Features.csv) contains 228,950 records for 38 districts between 1 January 2010 and 30 June 2026. This equals 38 districts × 6,025 calendar days, which is consistent with one record per district per day. Three hazards are modelled: flood, drought, and heatwave. The source of the underlying climate observations is [INSERT VERIFIED DATA SOURCE], their spatial and temporal resolution is [INSERT VERIFIED RESOLUTION], and the definition of each hazard label is [INSERT VERIFIED LABEL DEFINITIONS].
+PLACEHOLDERS: ['INSERT VERIFIED DATA SOURCE', 'INSERT VERIFIED RESOLUTION', 'INSERT VERIFIED LABEL DEFINITIONS']
+
+--- ITEM 6 (Line 257) ---
+TEXT: P219: Climate observations and derived indicators are transformed into a standardized feature representation before inference. The model input contract comprises 53 features; their composition by feature group is [INSERT VERIFIED FEATURE-GROUP COMPOSITION]. The same 53-feature representation is used for all three hazards.
+PLACEHOLDERS: ['INSERT VERIFIED FEATURE-GROUP COMPOSITION']
+
+--- ITEM 7 (Line 259) ---
+TEXT: P221: Spatial context is organized at the level of the 38 districts. Exposure, vulnerability, and resilience information is aligned to each district so that hazard probability can be interpreted in its local setting. The spatial data sources are [INSERT VERIFIED DATA SOURCE] and their resolution is [INSERT VERIFIED RESOLUTION].
+PLACEHOLDERS: ['INSERT VERIFIED DATA SOURCE', 'INSERT VERIFIED RESOLUTION']
+
+--- ITEM 8 (Line 268) ---
+TEXT: P230: All experiments use Tamil_Nadu_Final_Hazard_Features.csv (Section 3): 228,950 records, 38 districts, 1 January 2010 to 30 June 2026, 53 model features, and three hazard targets. The optimization experiments use the 38 districts, 14 canonical strategies, and a required portfolio size K = 5. The train/validation/test protocol for the prediction experiment is [INSERT VERIFIED SPLIT PROTOCOL].
+PLACEHOLDERS: ['INSERT VERIFIED SPLIT PROTOCOL']
+
+--- ITEM 9 (Line 271) ---
+TEXT: P233: Only XGBoost was run. The transformer [9], LSTM, and Random Forest [12] models were identified in the literature but not experimentally implemented in the current study, and no comparison against them is made. Calibration, temporal-validation, and leakage diagnostics are treated as caveats in Section 5.1; whether formal tests of each were run is [INSERT VERIFIED DIAGNOSTIC STATUS].
+PLACEHOLDERS: ['INSERT VERIFIED DIAGNOSTIC STATUS']
+
+--- ITEM 10 (Line 273) ---
+TEXT: P235: Geospatial studies reviewed in Section 2.2 demonstrate the importance of spatial representation for climate-risk assessment, through satellite- and terrain-based flood mapping [14] and GIS–ML integration [13]. The present study therefore evaluates district-level spatial risk representation across Tamil Nadu. Risk is represented for the 38 districts at [INSERT VERIFIED BOUNDARY RESOLUTION] district-boundary resolution; locations are mapped to their districts; hazard-specific risk is visualized per district; and hazard risk is kept separate from adaptation priority, so that a district with high hazard probability is not automatically treated as the highest adaptation priority. The satellite- and terrain-based mapping of [14] was identified in the literature but not experimentally implemented in the current study.
+PLACEHOLDERS: ['INSERT VERIFIED BOUNDARY RESOLUTION']
+
+--- ITEM 11 (Line 275) ---
+TEXT: P237: Explainable-AI studies motivate the inclusion of model interpretability within the risk-assessment workflow; [12] pairs tree-ensemble and LSTM predictors with SHAP, LIME, and counterfactual explanations. In this study, explanation methods are used to identify the contribution of relevant climate variables to predicted hazard risk. The distinction between the two sets of methods is explicit: the literature methods are SHAP, LIME, and counterfactual explanation [12]; the currently implemented method(s) are [INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)]. Any literature method not listed as implemented was identified in the literature but not experimentally implemented in the current study. Explanations interpret predictions and decision factors; they do not determine or override the selected strategy.
+PLACEHOLDERS: ['INSERT VERIFIED IMPLEMENTED EXPLANATION METHOD(S)']
+
+--- ITEM 12 (Line 279) ---
+TEXT: P241: where x_i = 1 indicates that strategy i is selected. The canonical benchmark has N = 14 strategies and a required portfolio size K = 5, giving C(14, 5) = 2,002 size-K subsets before conflict and dependency constraints are applied. The formulation also incorporates conflict, dependency, and interaction constraints between strategies. The objective assigns each strategy a contribution c_i, defined as [INSERT VERIFIED OBJECTIVE DEFINITION].
+PLACEHOLDERS: ['INSERT VERIFIED OBJECTIVE DEFINITION']
+
+--- ITEM 13 (Line 335) ---
+TEXT: | Dataset version | Tamil_Nadu_Final_Hazard_Features.csv; release identifier [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 14 (Line 336) ---
+TEXT: | Dataset hash | [INSERT VERIFIED DATASET HASH] |
+PLACEHOLDERS: ['INSERT VERIFIED DATASET HASH']
+
+--- ITEM 15 (Line 337) ---
+TEXT: | Risk model | XGBoost; version and hyperparameters [INSERT VERIFIED MODEL VERSION] |
+PLACEHOLDERS: ['INSERT VERIFIED MODEL VERSION']
+
+--- ITEM 16 (Line 338) ---
+TEXT: | MILP solver | [INSERT VERIFIED MILP SOLVER] |
+PLACEHOLDERS: ['INSERT VERIFIED MILP SOLVER']
+
+--- ITEM 17 (Line 339) ---
+TEXT: | QUBO version | [INSERT VERIFIED QUBO VERSION] |
+PLACEHOLDERS: ['INSERT VERIFIED QUBO VERSION']
+
+--- ITEM 18 (Line 340) ---
+TEXT: | QAOA configuration | 1,900 runs; 1,024 shots/run; circuit depth, classical optimizer, and initialization [INSERT VERIFIED QAOA CONFIGURATION] |
+PLACEHOLDERS: ['INSERT VERIFIED QAOA CONFIGURATION']
+
+--- ITEM 19 (Line 341) ---
+TEXT: | Software environment | Python, Qiskit, Qiskit Aer, Qiskit Optimization, XGBoost, NumPy, SciPy; versions [INSERT VERIFIED SOFTWARE VERSIONS] |
+PLACEHOLDERS: ['INSERT VERIFIED SOFTWARE VERSIONS']
+
+--- ITEM 20 (Line 342) ---
+TEXT: | Random-seed policy | [INSERT VERIFIED RANDOM-SEED POLICY] |
+PLACEHOLDERS: ['INSERT VERIFIED RANDOM-SEED POLICY']
+
+--- ITEM 21 (Line 343) ---
+TEXT: | Hardware / simulator | Simulator and hardware-calibrated simulation; backend [INSERT VERIFIED BACKEND]. No physical QPU execution verified. |
+PLACEHOLDERS: ['INSERT VERIFIED BACKEND']
+
+--- ITEM 22 (Line 347) ---
+TEXT: P293: Tamil_Nadu_Final_Hazard_Features.csv; release identifier [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 23 (Line 349) ---
+TEXT: P295: [INSERT VERIFIED DATASET HASH]
+PLACEHOLDERS: ['INSERT VERIFIED DATASET HASH']
+
+--- ITEM 24 (Line 351) ---
+TEXT: P297: XGBoost; version and hyperparameters [INSERT VERIFIED MODEL VERSION]
+PLACEHOLDERS: ['INSERT VERIFIED MODEL VERSION']
+
+--- ITEM 25 (Line 353) ---
+TEXT: P299: [INSERT VERIFIED MILP SOLVER]
+PLACEHOLDERS: ['INSERT VERIFIED MILP SOLVER']
+
+--- ITEM 26 (Line 355) ---
+TEXT: P301: [INSERT VERIFIED QUBO VERSION]
+PLACEHOLDERS: ['INSERT VERIFIED QUBO VERSION']
+
+--- ITEM 27 (Line 357) ---
+TEXT: P303: 1,900 runs; 1,024 shots/run; circuit depth, classical optimizer, and initialization [INSERT VERIFIED QAOA CONFIGURATION]
+PLACEHOLDERS: ['INSERT VERIFIED QAOA CONFIGURATION']
+
+--- ITEM 28 (Line 359) ---
+TEXT: P305: Python, Qiskit, Qiskit Aer, Qiskit Optimization, XGBoost, NumPy, SciPy; versions [INSERT VERIFIED SOFTWARE VERSIONS]
+PLACEHOLDERS: ['INSERT VERIFIED SOFTWARE VERSIONS']
+
+--- ITEM 29 (Line 361) ---
+TEXT: P307: [INSERT VERIFIED RANDOM-SEED POLICY]
+PLACEHOLDERS: ['INSERT VERIFIED RANDOM-SEED POLICY']
+
+--- ITEM 30 (Line 363) ---
+TEXT: P309: Simulator and hardware-calibrated simulation; backend [INSERT VERIFIED BACKEND]. No physical QPU execution verified.
+PLACEHOLDERS: ['INSERT VERIFIED BACKEND']
+
+--- ITEM 31 (Line 387) ---
+TEXT: P329: The flood model shows a large gap between ROC-AUC (≈ 0.906) and PR-AUC (≈ 0.0475), which reflects severe class imbalance: flood events are rare, so precision at useful recall is low even though ranking quality is reasonable. Because the PR-AUC of a random classifier approximates the positive-class prevalence, the flood PR-AUC should be read against that low baseline (flood prevalence: [INSERT VERIFIED FLOOD PREVALENCE]) rather than against ROC-AUC.
+PLACEHOLDERS: ['INSERT VERIFIED FLOOD PREVALENCE']
+
+--- ITEM 32 (Line 390) ---
+TEXT: P332: The spatial and explainability analyses are literature-derived components of the workflow (Sections 4.3 and 4.4). Their quantitative outputs, namely district-level hazard-risk representations for the 38 districts and feature-attribution results for the hazard models, are [INSERT VERIFIED SPATIAL AND EXPLANATION RESULTS]. They are not summarized here because they have not been verified against project artifacts, and no performance claim is made for either component.
+PLACEHOLDERS: ['INSERT VERIFIED SPATIAL AND EXPLANATION RESULTS']
+
+--- ITEM 33 (Line 426) ---
+TEXT: P358: Across the benchmark, QAOA operated on the validated QUBO and produced a best observed gap of 0.0267, with mean and median gaps of 0.0845 and 0.0743. The worst gap of 0.1429 shows that solution quality varies considerably between runs, so a single favourable run is not representative of typical behaviour. Gap is measured relative to the exact reference solution; the precise definition is [INSERT VERIFIED GAP DEFINITION]. Because the reviewed corpus contains no QAOA evaluation on an adaptation-portfolio problem (Section 2.7.3), these results can be related to the literature only at the level of feasibility of the formulation and workflow, not of performance. They come from simulation and hardware-calibrated simulation at N = 14, and quantum advantage is not established in the current experiments.
+PLACEHOLDERS: ['INSERT VERIFIED GAP DEFINITION']
+
+--- ITEM 34 (Line 430) ---
+TEXT: | Exact | [INSERT VERIFIED BENCHMARK VALUE] | 0 (reference) | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 35 (Line 431) ---
+TEXT: | MILP | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 36 (Line 432) ---
+TEXT: | Greedy | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 37 (Line 433) ---
+TEXT: | Simulated Annealing | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 38 (Line 434) ---
+TEXT: | QAOA | [INSERT VERIFIED BENCHMARK VALUE] | 0.0267 (best); 0.0845 (mean) | [INSERT VERIFIED BENCHMARK VALUE] | [INSERT VERIFIED BENCHMARK VALUE] |
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE', 'INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 39 (Line 441) ---
+TEXT: P367: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 40 (Line 443) ---
+TEXT: P369: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 41 (Line 444) ---
+TEXT: P370: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 42 (Line 446) ---
+TEXT: P372: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 43 (Line 447) ---
+TEXT: P373: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 44 (Line 448) ---
+TEXT: P374: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 45 (Line 449) ---
+TEXT: P375: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 46 (Line 451) ---
+TEXT: P377: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 47 (Line 452) ---
+TEXT: P378: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 48 (Line 453) ---
+TEXT: P379: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 49 (Line 454) ---
+TEXT: P380: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 50 (Line 456) ---
+TEXT: P382: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 51 (Line 457) ---
+TEXT: P383: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 52 (Line 458) ---
+TEXT: P384: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 53 (Line 459) ---
+TEXT: P385: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 54 (Line 461) ---
+TEXT: P387: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 55 (Line 463) ---
+TEXT: P389: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 56 (Line 464) ---
+TEXT: P390: [INSERT VERIFIED BENCHMARK VALUE]
+PLACEHOLDERS: ['INSERT VERIFIED BENCHMARK VALUE']
+
+--- ITEM 57 (Line 539) ---
+TEXT: P454: [3] M. Schwabe et al., “Quantum machine learning for climate modelling,” in Proc. IEEE Int. Conf. Quantum Artificial Intelligence (QAI), 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 58 (Line 540) ---
+TEXT: P455: [4] M. Schwabe et al., “Opportunities and challenges of quantum computing for climate modelling,” arXiv preprint, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 59 (Line 541) ---
+TEXT: P456: [5] Ö. Gürcan et al., “A role-based multi-agent model for climate adaptation deliberation across living labs,” in AIAA SciTech Forum, 2026. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 60 (Line 542) ---
+TEXT: P457: [6] [VERIFY BIBLIOGRAPHIC DETAILS], “A multi-agent decision-making framework for evaluating water and environmental resources management scenarios under climate change,” Science of the Total Environment, 2022.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 61 (Line 543) ---
+TEXT: P458: [7] [VERIFY BIBLIOGRAPHIC DETAILS], “A RAG-based multi-agent LLM system for natural hazard resilience and adaptation (WildfireGPT),” arXiv preprint, 2025.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 62 (Line 544) ---
+TEXT: P459: [8] [VERIFY BIBLIOGRAPHIC DETAILS], “Multi-agent deep reinforcement learning based decision support model for resilient community post-hazard recovery,” Engineering Applications of Artificial Intelligence, 2025.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 63 (Line 545) ---
+TEXT: P460: [9] A. Bihlo et al., “Sub-seasonal precipitation forecasting using transformer networks,” ETH Zurich Research Collection, 2024. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 64 (Line 546) ---
+TEXT: P461: [10] [VERIFY BIBLIOGRAPHIC DETAILS], “Exploring equity of climate policies using multi-agent multi-objective reinforcement learning,” arXiv preprint, 2025.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 65 (Line 547) ---
+TEXT: P462: [11] [VERIFY BIBLIOGRAPHIC DETAILS], “Multi-agent reinforcement learning for resources allocation optimization: A survey,” Artificial Intelligence Review (Springer), 2025.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 66 (Line 548) ---
+TEXT: P463: [12] M. Nandan and S. K. Gupta, “Interpretable machine learning models for early climate risk forecasting and disaster mitigation,” SGS – Engineering & Sciences, vol. 1, no. 3, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 67 (Line 549) ---
+TEXT: P464: [13] W. Lu, S. Qi, B. Zheng et al., “Optimisation study of carbon dioxide geological storage sites based on GIS and machine learning algorithms,” Geomechanics and Geophysics for Geo-Energy and Geo-Resources, vol. 11, Art. 19, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 68 (Line 550) ---
+TEXT: P465: [14] Y. Li et al., “Geospatial machine learning for high-resolution flood mapping,” Int. J. Applied Earth Observation and Geoinformation, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 69 (Line 551) ---
+TEXT: P466: [15] H. Jensen and C. Nielsen, “Dynamic policy simulation and adaptive climate mitigation frameworks using deep reinforcement learning,” Environmental Modeling & Assessment, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 70 (Line 552) ---
+TEXT: P467: [16] [VERIFY BIBLIOGRAPHIC DETAILS], “Long-term climate mitigation and policy evaluation frameworks through the integration of deep machine learning with integrated assessment models,” Nature Climate Change, 2025.
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 71 (Line 553) ---
+TEXT: P468: [17] Y. Wang et al., “Evacuation dynamics using agent-based modeling for urban disaster management,” Springer Urban Computing Journal, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+
+--- ITEM 72 (Line 554) ---
+TEXT: P469: [18] S. Ikendi, A. Lyons, and T. B. Pathak, “Advancing decision support for climate adaptation in agriculture and natural resources,” Frontiers in Environmental Science, vol. 13, 2025. [VERIFY BIBLIOGRAPHIC DETAILS]
+PLACEHOLDERS: ['VERIFY BIBLIOGRAPHIC DETAILS']
+

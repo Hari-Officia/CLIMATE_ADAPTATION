@@ -1,0 +1,55 @@
+feature,classification,rationale
+temp_max,SAFE,Observed daily maximum air temperature.
+temp_min,SAFE,Observed daily minimum air temperature.
+temp_mean,SAFE,Derived arithmetic mean (temp_max + temp_min)/2.
+temp_range,SAFE,Derived diurnal temperature range (temp_max - temp_min).
+humidity,SAFE,Observed daily relative humidity percentage.
+wind_speed,SAFE,Observed daily mean wind speed.
+rainfall,SAFE,Observed daily total precipitation.
+soil_wetness,SAFE,Observed root-zone soil wetness fraction.
+rainfall_3d,SAFE,Antecedent 3-day accumulated rainfall.
+rainfall_7d,SAFE,Antecedent 7-day accumulated rainfall.
+rainfall_30d,SAFE,Antecedent 30-day accumulated rainfall.
+temp_anomaly,SAFE,Deviation of temp_max from historical monthly climatology.
+rainfall_anomaly,SAFE,Deviation of rainfall from historical monthly climatology.
+SPI_3,DIRECT LEAKAGE,Explicitly used in mathematical rule defining target drought = 1 if SPI_3 <= -1.0 or SPI_6 <= -1.0.
+SPI_6,DIRECT LEAKAGE,Explicitly used in mathematical rule defining target drought = 1 if SPI_3 <= -1.0 or SPI_6 <= -1.0.
+district_name,SAFE,Spatial one-hot district indicator.
+district_Ariyalur,SAFE,Spatial one-hot district indicator.
+district_Chengalpattu,SAFE,Spatial one-hot district indicator.
+district_Chennai,SAFE,Spatial one-hot district indicator.
+district_Coimbatore,SAFE,Spatial one-hot district indicator.
+district_Cuddalore,SAFE,Spatial one-hot district indicator.
+district_Dharmapuri,SAFE,Spatial one-hot district indicator.
+district_Dindigul,SAFE,Spatial one-hot district indicator.
+district_Erode,SAFE,Spatial one-hot district indicator.
+district_Kallakurichi,SAFE,Spatial one-hot district indicator.
+district_Kancheepuram,SAFE,Spatial one-hot district indicator.
+district_Kanniyakumari,SAFE,Spatial one-hot district indicator.
+district_Karur,SAFE,Spatial one-hot district indicator.
+district_Krishnagiri,SAFE,Spatial one-hot district indicator.
+district_Madurai,SAFE,Spatial one-hot district indicator.
+district_Mayiladuthurai,SAFE,Spatial one-hot district indicator.
+district_Nagapattinam,SAFE,Spatial one-hot district indicator.
+district_Namakkal,SAFE,Spatial one-hot district indicator.
+district_Nilgiris,SAFE,Spatial one-hot district indicator.
+district_Perambalur,SAFE,Spatial one-hot district indicator.
+district_Pudukkottai,SAFE,Spatial one-hot district indicator.
+district_Ramanathapuram,SAFE,Spatial one-hot district indicator.
+district_Ranipet,SAFE,Spatial one-hot district indicator.
+district_Salem,SAFE,Spatial one-hot district indicator.
+district_Sivaganga,SAFE,Spatial one-hot district indicator.
+district_Tenkasi,SAFE,Spatial one-hot district indicator.
+district_Thanjavur,SAFE,Spatial one-hot district indicator.
+district_Theni,SAFE,Spatial one-hot district indicator.
+district_Thoothukudi,SAFE,Spatial one-hot district indicator.
+district_Tiruchirappalli,SAFE,Spatial one-hot district indicator.
+district_Tirunelveli,SAFE,Spatial one-hot district indicator.
+district_Tirupathur,SAFE,Spatial one-hot district indicator.
+district_Tiruppur,SAFE,Spatial one-hot district indicator.
+district_Tiruvallur,SAFE,Spatial one-hot district indicator.
+district_Tiruvannamalai,SAFE,Spatial one-hot district indicator.
+district_Tiruvarur,SAFE,Spatial one-hot district indicator.
+district_Vellore,SAFE,Spatial one-hot district indicator.
+district_Viluppuram,SAFE,Spatial one-hot district indicator.
+district_Virudhunagar,SAFE,Spatial one-hot district indicator.

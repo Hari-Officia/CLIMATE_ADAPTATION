@@ -1,0 +1,7 @@
+Hazard,Model,Version,Accuracy,Precision,Recall,F1,PR_AUC,ROC_AUC,Brier,Threshold,Calibration,Leakage_Status,Validation_Method
+Flood (Baseline t=0.50),Models/flood_xgboost.pkl,v1.0 (Baseline),0.98720,0.26205,0.40850,0.31928,0.21294,0.92449,0.01027,0.5,UNCALIBRATED,LEAKAGE-SAFE,Chronological Split (2020-2022 Test)
+Flood (Revised t=0.15 Calibrated),Models/revised/flood_xgboost_calibrated.pkl,v2.0 (Threshold Optimized & Calibrated),0.98804,0.26923,0.36601,0.31025,0.17963,0.91899,0.00654,0.15,ISOTONIC_CALIBRATED,LEAKAGE-SAFE,Chronological Split (2020-2022 Test)
+Drought (Baseline t=0.50 Leakage-Affected),Models/drought_xgboost.pkl,v1.0 (Baseline Target Proxy Leakage),0.99683,0.99189,0.98206,0.98695,0.99941,0.99992,0.00274,0.5,UNCALIBRATED,LEAKAGE-AFFECTED (SPI_3 & SPI_6 included),Chronological Split (2024-2026 Test)
+Drought (Revised Leakage-Safe t=0.35 Calibrated),Models/revised/drought_xgboost_leakage_safe_calibrated.pkl,v2.0 (Leakage-Safe & Calibrated),0.93684,0.91154,0.53517,0.67440,0.80220,0.94962,0.04896,0.35,ISOTONIC_CALIBRATED,LEAKAGE-SAFE,Chronological Split (2024-2026 Test)
+Heatwave (Baseline t=0.50 Conservative),Models/heatwave_xgboost.pkl,v1.0 (Baseline Conservative),0.97516,1.00000,0.15339,0.26598,0.79802,0.99284,0.02473,0.5,UNCALIBRATED,LEAKAGE-SAFE,Chronological Split (2024-2026 Test)
+Heatwave (Revised t=0.15 Calibrated),Models/revised/heatwave_xgboost_calibrated.pkl,v2.0 (Threshold Optimized & Calibrated),0.97847,0.58308,0.93510,0.71828,0.78136,0.99274,0.01150,0.15,ISOTONIC_CALIBRATED,LEAKAGE-SAFE,Chronological Split (2024-2026 Test)

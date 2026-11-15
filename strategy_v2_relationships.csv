@@ -1,0 +1,83 @@
+relationship_id,strategy_a,strategy_b,relationship_type,justification
+REL-0001,STR-DRN-001,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-001 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0002,STR-DRN-001,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-001 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0003,STR-DRN-002,STR-DRN-001,PREREQUISITE_DEPENDENCY,STR-DRN-002 requires foundational infrastructure or regulatory framework of STR-DRN-001.
+REL-0004,STR-DRN-002,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-002 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0005,STR-DRN-002,STR-GIS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-002 and STR-GIS-001 yields compounding climate resilience benefits.
+REL-0006,STR-WTR-001,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-WTR-001 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0007,STR-WTR-001,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-WTR-001 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0008,STR-WTR-002,STR-WTR-001,MUTUAL_SYNERGY,Joint implementation of STR-WTR-002 and STR-WTR-001 yields compounding climate resilience benefits.
+REL-0009,STR-WTR-002,STR-GIS-001,MUTUAL_SYNERGY,Joint implementation of STR-WTR-002 and STR-GIS-001 yields compounding climate resilience benefits.
+REL-0010,STR-WTR-002,STR-NBS-002,MUTUAL_SYNERGY,Joint implementation of STR-WTR-002 and STR-NBS-002 yields compounding climate resilience benefits.
+REL-0011,STR-LND-001,STR-LND-002,MUTUAL_SYNERGY,Joint implementation of STR-LND-001 and STR-LND-002 yields compounding climate resilience benefits.
+REL-0012,STR-LND-001,STR-DRN-001,MUTUAL_SYNERGY,Joint implementation of STR-LND-001 and STR-DRN-001 yields compounding climate resilience benefits.
+REL-0013,STR-LND-002,STR-LND-001,PREREQUISITE_DEPENDENCY,STR-LND-002 requires foundational infrastructure or regulatory framework of STR-LND-001.
+REL-0014,STR-LND-002,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-LND-002 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0015,STR-LND-002,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-LND-002 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0016,STR-NBS-001,STR-BLT-002,MUTUAL_SYNERGY,Joint implementation of STR-NBS-001 and STR-BLT-002 yields compounding climate resilience benefits.
+REL-0017,STR-NBS-001,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-NBS-001 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0018,STR-NBS-002,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-NBS-002 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0019,STR-NBS-002,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-NBS-002 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0020,STR-BLT-001,STR-CRT-001,MUTUAL_SYNERGY,Joint implementation of STR-BLT-001 and STR-CRT-001 yields compounding climate resilience benefits.
+REL-0021,STR-BLT-001,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-BLT-001 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0022,STR-BLT-002,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-BLT-002 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0023,STR-BLT-002,STR-DRN-001,MUTUAL_SYNERGY,Joint implementation of STR-BLT-002 and STR-DRN-001 yields compounding climate resilience benefits.
+REL-0024,STR-GIS-001,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-GIS-001 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0025,STR-GIS-001,STR-DRN-002,MUTUAL_SYNERGY,Joint implementation of STR-GIS-001 and STR-DRN-002 yields compounding climate resilience benefits.
+REL-0026,STR-CRT-001,STR-BLT-001,PREREQUISITE_DEPENDENCY,STR-CRT-001 requires foundational infrastructure or regulatory framework of STR-BLT-001.
+REL-0027,STR-CRT-001,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-CRT-001 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0028,STR-CRT-001,STR-BLT-001,MUTUAL_SYNERGY,Joint implementation of STR-CRT-001 and STR-BLT-001 yields compounding climate resilience benefits.
+REL-0029,STR-EWS-001,STR-CRT-001,MUTUAL_SYNERGY,Joint implementation of STR-EWS-001 and STR-CRT-001 yields compounding climate resilience benefits.
+REL-0030,STR-EWS-001,STR-DRN-001,MUTUAL_SYNERGY,Joint implementation of STR-EWS-001 and STR-DRN-001 yields compounding climate resilience benefits.
+REL-0031,STR-HTS-001,STR-LND-002,MUTUAL_SYNERGY,Joint implementation of STR-HTS-001 and STR-LND-002 yields compounding climate resilience benefits.
+REL-0032,STR-HTS-001,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTS-001 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0033,STR-CST-001,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-CST-001 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0034,STR-DRN-003,STR-DRN-001,PREREQUISITE_DEPENDENCY,STR-DRN-003 requires foundational infrastructure or regulatory framework of STR-DRN-001.
+REL-0035,STR-DRN-003,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-003 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0036,STR-DRN-003,STR-BLT-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-003 and STR-BLT-001 yields compounding climate resilience benefits.
+REL-0037,STR-DRN-004,STR-DRN-001,PREREQUISITE_DEPENDENCY,STR-DRN-004 requires foundational infrastructure or regulatory framework of STR-DRN-001.
+REL-0038,STR-DRN-004,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-DRN-004 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0039,STR-DRN-004,STR-GIS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-004 and STR-GIS-001 yields compounding climate resilience benefits.
+REL-0040,STR-DRN-005,STR-DRN-001,PREREQUISITE_DEPENDENCY,STR-DRN-005 requires foundational infrastructure or regulatory framework of STR-DRN-001.
+REL-0041,STR-DRN-005,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-DRN-005 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0042,STR-HTR-002,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-002 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0043,STR-HTR-002,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-002 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0044,STR-HTR-003,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-003 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0045,STR-HTR-003,STR-BLT-002,MUTUAL_SYNERGY,Joint implementation of STR-HTR-003 and STR-BLT-002 yields compounding climate resilience benefits.
+REL-0046,STR-HTR-004,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-004 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0047,STR-HTR-005,STR-CRT-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-005 and STR-CRT-001 yields compounding climate resilience benefits.
+REL-0048,STR-HTR-006,STR-HTS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-006 and STR-HTS-001 yields compounding climate resilience benefits.
+REL-0049,STR-HTR-006,STR-NBS-001,MUTUAL_SYNERGY,Joint implementation of STR-HTR-006 and STR-NBS-001 yields compounding climate resilience benefits.
+REL-0050,STR-AGR-001,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-AGR-001 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0051,STR-AGR-001,STR-AGR-004,MUTUAL_SYNERGY,Joint implementation of STR-AGR-001 and STR-AGR-004 yields compounding climate resilience benefits.
+REL-0052,STR-AGR-002,STR-AGR-001,MUTUAL_SYNERGY,Joint implementation of STR-AGR-002 and STR-AGR-001 yields compounding climate resilience benefits.
+REL-0053,STR-AGR-003,STR-AGR-002,MUTUAL_SYNERGY,Joint implementation of STR-AGR-003 and STR-AGR-002 yields compounding climate resilience benefits.
+REL-0054,STR-AGR-004,STR-AGR-001,MUTUAL_SYNERGY,Joint implementation of STR-AGR-004 and STR-AGR-001 yields compounding climate resilience benefits.
+REL-0055,STR-AGR-004,STR-WTR-006,MUTUAL_SYNERGY,Joint implementation of STR-AGR-004 and STR-WTR-006 yields compounding climate resilience benefits.
+REL-0056,STR-AGR-005,STR-AGR-003,MUTUAL_SYNERGY,Joint implementation of STR-AGR-005 and STR-AGR-003 yields compounding climate resilience benefits.
+REL-0057,STR-AGR-005,STR-HTR-002,MUTUAL_SYNERGY,Joint implementation of STR-AGR-005 and STR-HTR-002 yields compounding climate resilience benefits.
+REL-0058,STR-WTR-003,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-WTR-003 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0059,STR-WTR-003,STR-WTR-006,MUTUAL_SYNERGY,Joint implementation of STR-WTR-003 and STR-WTR-006 yields compounding climate resilience benefits.
+REL-0060,STR-WTR-004,STR-DRN-002,MUTUAL_SYNERGY,Joint implementation of STR-WTR-004 and STR-DRN-002 yields compounding climate resilience benefits.
+REL-0061,STR-WTR-005,STR-CRT-001,MUTUAL_SYNERGY,Joint implementation of STR-WTR-005 and STR-CRT-001 yields compounding climate resilience benefits.
+REL-0062,STR-WTR-006,STR-WTR-003,MUTUAL_SYNERGY,Joint implementation of STR-WTR-006 and STR-WTR-003 yields compounding climate resilience benefits.
+REL-0063,STR-WTR-006,STR-AGR-004,MUTUAL_SYNERGY,Joint implementation of STR-WTR-006 and STR-AGR-004 yields compounding climate resilience benefits.
+REL-0064,STR-CST-002,STR-CST-001,PREREQUISITE_DEPENDENCY,STR-CST-002 requires foundational infrastructure or regulatory framework of STR-CST-001.
+REL-0065,STR-CST-002,STR-CST-003,MUTUAL_SYNERGY,Joint implementation of STR-CST-002 and STR-CST-003 yields compounding climate resilience benefits.
+REL-0066,STR-CST-002,STR-EWS-002,MUTUAL_SYNERGY,Joint implementation of STR-CST-002 and STR-EWS-002 yields compounding climate resilience benefits.
+REL-0067,STR-CST-003,STR-CST-001,MUTUAL_SYNERGY,Joint implementation of STR-CST-003 and STR-CST-001 yields compounding climate resilience benefits.
+REL-0068,STR-CST-004,STR-EWS-002,MUTUAL_SYNERGY,Joint implementation of STR-CST-004 and STR-EWS-002 yields compounding climate resilience benefits.
+REL-0069,STR-CST-005,STR-WTR-003,MUTUAL_SYNERGY,Joint implementation of STR-CST-005 and STR-WTR-003 yields compounding climate resilience benefits.
+REL-0070,STR-NBS-003,STR-NBS-002,MUTUAL_SYNERGY,Joint implementation of STR-NBS-003 and STR-NBS-002 yields compounding climate resilience benefits.
+REL-0071,STR-NBS-003,STR-LND-001,MUTUAL_SYNERGY,Joint implementation of STR-NBS-003 and STR-LND-001 yields compounding climate resilience benefits.
+REL-0072,STR-NBS-004,STR-NBS-002,MUTUAL_SYNERGY,Joint implementation of STR-NBS-004 and STR-NBS-002 yields compounding climate resilience benefits.
+REL-0073,STR-NBS-004,STR-WTR-002,MUTUAL_SYNERGY,Joint implementation of STR-NBS-004 and STR-WTR-002 yields compounding climate resilience benefits.
+REL-0074,STR-NBS-005,STR-WTR-006,MUTUAL_SYNERGY,Joint implementation of STR-NBS-005 and STR-WTR-006 yields compounding climate resilience benefits.
+REL-0075,STR-BLD-003,STR-CRT-001,MUTUAL_SYNERGY,Joint implementation of STR-BLD-003 and STR-CRT-001 yields compounding climate resilience benefits.
+REL-0076,STR-BLD-003,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-BLD-003 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0077,STR-HLT-001,STR-EWS-001,MUTUAL_SYNERGY,Joint implementation of STR-HLT-001 and STR-EWS-001 yields compounding climate resilience benefits.
+REL-0078,STR-HLT-001,STR-DRN-001,MUTUAL_SYNERGY,Joint implementation of STR-HLT-001 and STR-DRN-001 yields compounding climate resilience benefits.
+REL-0079,STR-EWS-002,STR-CST-001,MUTUAL_SYNERGY,Joint implementation of STR-EWS-002 and STR-CST-001 yields compounding climate resilience benefits.
+REL-0080,STR-EWS-002,STR-BLD-003,MUTUAL_SYNERGY,Joint implementation of STR-EWS-002 and STR-BLD-003 yields compounding climate resilience benefits.
+REL-0081,STR-CST-004,STR-CST-003,HARD_CONFLICT,Hard seawall elevation disrupts natural sand dune dynamics.
+REL-0082,STR-WTR-004,STR-WTR-005,SOFT_CONFLICT,Dual redundant water recycling and solar desalination in same district.

@@ -1,0 +1,4 @@
+dataset,total_records,missing_records,missing_percentage,handled_method
+raw/nasa_power,228950,0,0.00%,No missing values in primary daily variables
+processed/climate/rainfall_anomaly,228950,199,0.087%,Zero-variance cases filled with 0.0 climatological mean
+raw/openaq,14200,120,0.845%,Flagged with IMPUTED_BASELINE

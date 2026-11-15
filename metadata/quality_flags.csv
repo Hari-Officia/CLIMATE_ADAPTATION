@@ -1,0 +1,5 @@
+flag_code,flag_name,description,action_required
+PASSED_VERIFIED,Passed Verification,Data point verified against authoritative physical bounds.,None
+IMPUTED_BASELINE,Imputed Baseline,Missing value filled using 30-year district climatological baseline.,Document in QA report
+ACCESS_RESTRICTED,Access Restricted,Source dataset requires special credentials; fallback used.,Maintain record for Phase 2
+OUTLIER_FLAGGED,Outlier Flagged,Observation exceeds 3 standard deviations; retained for review.,Review in QA validation

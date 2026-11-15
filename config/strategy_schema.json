@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strategy Master Catalog Configuration",
+  "version": "1.0.0",
+  "data_files": {
+    "adaptation_strategies": "data/adaptation_strategies.csv",
+    "strategy_hazards": "data/strategy_hazards.csv",
+    "strategy_conditions": "data/strategy_conditions.csv",
+    "strategy_district": "data/strategy_district.csv",
+    "strategy_interactions": "data/strategy_interactions.csv",
+    "strategy_optimization": "data/strategy_optimization.csv",
+    "sources": "data/sources.csv",
+    "evidence_claims": "data/evidence_claims.csv"
+  },
+  "database_scripts": {
+    "schema": "database/schema.sql",
+    "seed_data": "database/seed_data.sql"
+  }
+}

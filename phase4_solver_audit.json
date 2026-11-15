@@ -1,0 +1,10 @@
+{
+  "solver": "scipy.optimize.milp (HiGHS backend)",
+  "exact_verifier": "Brute-force 2^N binary enumeration",
+  "total_districts": 38,
+  "successful_districts": 38,
+  "feasible_districts": 38,
+  "optimal_districts": 38,
+  "average_runtime_seconds": 0.001288,
+  "total_runtime_seconds": 0.0489
+}

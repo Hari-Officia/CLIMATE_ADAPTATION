@@ -1,0 +1,21 @@
+hazard,algorithm,dataset_split,metric,reported_value,recomputed_value,absolute_difference,match_status
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",Accuracy,0.9867,0.98665,0.00005,MATCH
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",Precision,0.1006,0.10059,0.00001,MATCH
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",Recall,0.3377,0.33775,0.00005,MATCH
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",F1,0.1550,0.15497,0.00003,MATCH
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",ROC-AUC,0.9062,0.90616,0.00004,MATCH
+Flood,XGBoost Classifier,"Test Set (41,648 samples)",PR-AUC,0.0745,0.07448,0.00002,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",Accuracy,0.9934,0.99344,0.00004,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",Precision,0.0093,0.00926,0.00004,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",Recall,0.0132,0.01316,0.00004,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",F1,0.0109,0.01087,0.00003,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",ROC-AUC,0.4050,0.40495,0.00005,MATCH
+Flood,XGBoost Classifier,"Validation Set (27,740 samples)",PR-AUC,0.0026,0.00257,0.00003,MATCH
+Drought,XGBoost Classifier,Notebook Execution,ROC-AUC,0.9998,0.99980,0.00000,MATCH
+Drought,XGBoost Classifier,Notebook Execution,PR-AUC,0.9993,0.99930,0.00000,MATCH
+Drought,XGBoost Classifier,Model Registry Snapshot,ROC-AUC,0.8650,0.99980,0.13480,MISMATCH (SNAPSHOT VS NOTEBOOK)
+Drought,XGBoost Classifier,Model Registry Snapshot,PR-AUC,0.8120,0.99930,0.18730,MISMATCH (SNAPSHOT VS NOTEBOOK)
+Heatwave,XGBoost Classifier,Notebook Execution,ROC-AUC,1.0000,1.00000,0.00000,MATCH
+Heatwave,XGBoost Classifier,Notebook Execution,PR-AUC,0.9964,0.99640,0.00000,MATCH
+Heatwave,XGBoost Classifier,Model Registry Snapshot,ROC-AUC,0.9100,1.00000,0.09000,MISMATCH (SNAPSHOT VS NOTEBOOK)
+Heatwave,XGBoost Classifier,Model Registry Snapshot,PR-AUC,0.8780,0.99640,0.11840,MISMATCH (SNAPSHOT VS NOTEBOOK)

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strategy Applicability Schema",
+  "version": "1.0.0",
+  "district_categories": [
+    "ALL_TAMIL_NADU",
+    "COASTAL_DISTRICTS",
+    "URBAN_DISTRICTS",
+    "RURAL_DISTRICTS",
+    "DISTRICT_SPECIFIC",
+    "NOT_ENOUGH_EVIDENCE"
+  ],
+  "eligibility_statuses": [
+    "ELIGIBLE",
+    "CONDITIONALLY_ELIGIBLE",
+    "INELIGIBLE"
+  ],
+  "operator_types": [
+    "AND",
+    "OR",
+    "NOT"
+  ],
+  "supported_parameters": [
+    "urban_flood_risk",
+    "drain_blockage_index",
+    "land_availability",
+    "cloudburst_vulnerability",
+    "impervious_surface",
+    "roof_area",
+    "groundwater_depletion",
+    "hydrogeology_suitable",
+    "lake_siltation",
+    "agricultural_water_demand",
+    "community_support",
+    "floodplain_encroachment_risk",
+    "master_plan_updated",
+    "urban_expansion_rate",
+    "blue_green_ratio",
+    "roadside_space",
+    "wetland_degradation",
+    "eco_restoration_possible",
+    "flood_inundation_depth",
+    "grid_vulnerability",
+    "road_waterlogging_frequency",
+    "heavy_vehicle_traffic",
+    "dem_resolution",
+    "terrain_slope",
+    "hospital_flood_risk",
+    "back_up_power",
+    "river_basin_flood_history",
+    "cellular_coverage",
+    "land_surface_temp",
+    "building_density",
+    "coastal_district",
+    "intertidal_mudflat",
+    "shoreline_erosion_rate"
+  ]
+}

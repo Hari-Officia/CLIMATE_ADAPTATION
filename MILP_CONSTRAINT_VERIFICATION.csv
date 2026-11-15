@@ -1,0 +1,153 @@
+district,constraint_name,constraint_value,limit,satisfied,violation_amount
+Ariyalur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Ariyalur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Ariyalur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Ariyalur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Chengalpattu,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Chengalpattu,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Chengalpattu,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Chengalpattu,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Chennai,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Chennai,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Chennai,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Chennai,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Coimbatore,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Coimbatore,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Coimbatore,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Coimbatore,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Cuddalore,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Cuddalore,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Cuddalore,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Cuddalore,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Dharmapuri,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Dharmapuri,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Dharmapuri,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Dharmapuri,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Dindigul,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Dindigul,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Dindigul,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Dindigul,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Erode,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Erode,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Erode,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Erode,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Kallakurichi,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Kallakurichi,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Kallakurichi,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Kallakurichi,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Kancheepuram,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Kancheepuram,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Kancheepuram,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Kancheepuram,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Kanniyakumari,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Kanniyakumari,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Kanniyakumari,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Kanniyakumari,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Karur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Karur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Karur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Karur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Krishnagiri,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Krishnagiri,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Krishnagiri,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Krishnagiri,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Madurai,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Madurai,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Madurai,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Madurai,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Mayiladuthurai,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Mayiladuthurai,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Mayiladuthurai,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Mayiladuthurai,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Nagapattinam,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Nagapattinam,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Nagapattinam,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Nagapattinam,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Namakkal,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Namakkal,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Namakkal,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Namakkal,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Nilgiris,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Nilgiris,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Nilgiris,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Nilgiris,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Perambalur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Perambalur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Perambalur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Perambalur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Pudukkottai,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Pudukkottai,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Pudukkottai,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Pudukkottai,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Ramanathapuram,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Ramanathapuram,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Ramanathapuram,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Ramanathapuram,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Ranipet,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Ranipet,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Ranipet,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Ranipet,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Salem,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Salem,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Salem,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Salem,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Sivaganga,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Sivaganga,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Sivaganga,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Sivaganga,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tenkasi,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tenkasi,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tenkasi,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tenkasi,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Thanjavur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Thanjavur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Thanjavur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Thanjavur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Theni,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Theni,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Theni,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Theni,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Thoothukudi,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Thoothukudi,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Thoothukudi,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Thoothukudi,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tiruchirappalli,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tiruchirappalli,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tiruchirappalli,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tiruchirappalli,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tirunelveli,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tirunelveli,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tirunelveli,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tirunelveli,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tirupathur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tirupathur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tirupathur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tirupathur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tiruppur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tiruppur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tiruppur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tiruppur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tiruvallur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tiruvallur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tiruvallur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tiruvallur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tiruvannamalai,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tiruvannamalai,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tiruvannamalai,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tiruvannamalai,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Tiruvarur,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Tiruvarur,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Tiruvarur,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Tiruvarur,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Vellore,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Vellore,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Vellore,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Vellore,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Viluppuram,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Viluppuram,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Viluppuram,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Viluppuram,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0
+Virudhunagar,Portfolio Size Limit (sum x_i <= K),5,5,TRUE,0.0
+Virudhunagar,Hard Conflict Pair Constraints (x_i + x_j <= 1),0,1,TRUE,0.0
+Virudhunagar,Strategy Dependency Constraints (x_A <= x_B),0,0,TRUE,0.0
+Virudhunagar,"Binary Variable Bounds (x_i in {0, 1})",1.0,1.0,TRUE,0.0

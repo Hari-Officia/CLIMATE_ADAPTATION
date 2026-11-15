@@ -1,0 +1,7 @@
+path,filename,algorithm,hazard,file_type,training_artifact,prediction_artifact,metrics_artifact,status
+Models/flood_xgboost.pkl,flood_xgboost.pkl,XGBoost Classifier (XGBClassifier),Flood,Pickle (.pkl),ProjectCollab/ClimateRisk.ipynb,backend/agents/risk_agent.py,config/master/models.json,ACTIVE
+Models/drought_xgboost.pkl,drought_xgboost.pkl,XGBoost Classifier (XGBClassifier),Drought,Pickle (.pkl),ProjectCollab/ClimateRisk.ipynb,backend/agents/risk_agent.py,config/master/models.json,ACTIVE
+Models/heatwave_xgboost.pkl,heatwave_xgboost.pkl,XGBoost Classifier (XGBClassifier),Heatwave,Pickle (.pkl),ProjectCollab/ClimateRisk.ipynb,backend/agents/risk_agent.py,config/master/models.json,ACTIVE
+lifecycle/baselines/release_3_0_0_model_snapshot.json,release_3_0_0_model_snapshot.json,XGBoost Classifier,"Flood, Drought, Heatwave",JSON Metadata Baseline,ProjectCollab/ClimateRisk.ipynb,lifecycle/baselines/,release_3_0_0_model_snapshot.json,OLD_VERSION
+config/models/model_registry.json,model_registry.json,XGBoost Classifier,"Flood, Drought, Heatwave",JSON Registry Snapshot,ProjectCollab/ClimateRisk.ipynb,config/models/,config/models/model_registry.json,OLD_VERSION
+config/master/models.json,models.json,XGBoost Classifier,"Flood, Drought, Heatwave",JSON Master Registry,ProjectCollab/ClimateRisk.ipynb,scripts/run_phase_d_pipeline.py,config/master/models.json,ACTIVE

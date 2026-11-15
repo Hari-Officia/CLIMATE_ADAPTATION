@@ -1,0 +1,2 @@
+dataset,frequency,start_date,end_date,total_expected_days,total_actual_days,completeness_pct
+raw/nasa_power,Daily,2010-01-01,2026-06-30,6025,6025,100.00%

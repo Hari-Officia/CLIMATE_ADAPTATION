@@ -1,0 +1,7 @@
+check_id,check_name,result,detail
+CHK-001,V1 Baseline Preservation,PASS,"All 15 certified baseline strategies retained with exact IDs, names, domains, and properties."
+CHK-002,Taxonomy Coverage,PASS,42 canonical strategies defined across 8 controlled domains (5-6 per domain).
+CHK-003,Duplicate Strategy Audit,PASS,Zero exact or semantic duplicate strategies found in V2 registry.
+CHK-004,Authoritative Evidence Provenance,PASS,100% of strategies linked to Tier 1 government/peer-reviewed evidence sources.
+CHK-005,38-District Applicability Evaluation,PASS,Completed 1596 district-level evaluations (0 missing data).
+CHK-006,Candidate Set Sizing Safety,PASS,All 38 districts assigned manageable 18-candidate sets for future optimization.

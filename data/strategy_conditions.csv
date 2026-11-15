@@ -1,0 +1,17 @@
+condition_id,strategy_id,hazard_context,condition_expression,parameters_required,evaluation_operator
+CND-0001,STR-DRN-001,FLOOD,urban_flood_risk >= MEDIUM AND drain_blockage_index = HIGH,urban_flood_risk;drain_blockage_index,AND
+CND-0002,STR-DRN-002,FLOOD,cloudburst_vulnerability = HIGH AND impervious_surface >= 0.70 AND land_availability = LOW,cloudburst_vulnerability;impervious_surface;land_availability,AND
+CND-0003,STR-WTR-001,DROUGHT,roof_area >= 50 AND groundwater_depletion = HIGH AND hydrogeology_suitable = TRUE,roof_area;groundwater_depletion;hydrogeology_suitable,AND
+CND-0004,STR-WTR-002,DROUGHT,lake_siltation = HIGH AND agricultural_water_demand = HIGH AND community_support = TRUE,lake_siltation;agricultural_water_demand;community_support,AND
+CND-0005,STR-LND-001,FLOOD,floodplain_encroachment_risk = HIGH AND master_plan_updated = TRUE,floodplain_encroachment_risk;master_plan_updated,AND
+CND-0006,STR-LND-002,FLOOD,urban_expansion_rate = HIGH AND blue_green_ratio = LOW,urban_expansion_rate;blue_green_ratio,AND
+CND-0007,STR-NBS-001,FLOOD,impervious_surface >= 0.60 AND roadside_space = AVAILABLE,impervious_surface;roadside_space,AND
+CND-0008,STR-NBS-002,FLOOD,wetland_degradation = HIGH AND eco_restoration_possible = TRUE,wetland_degradation;eco_restoration_possible,AND
+CND-0009,STR-BLT-001,FLOOD,flood_inundation_depth >= 0.5 AND grid_vulnerability = HIGH,flood_inundation_depth;grid_vulnerability,AND
+CND-0010,STR-BLT-002,FLOOD,road_waterlogging_frequency = HIGH AND heavy_vehicle_traffic = LOW_TO_MEDIUM,road_waterlogging_frequency;heavy_vehicle_traffic,AND
+CND-0011,STR-GIS-001,FLOOD,dem_resolution <= 5m AND terrain_slope = SUITABLE,dem_resolution;terrain_slope,AND
+CND-0012,STR-CRT-001,FLOOD,hospital_flood_risk = HIGH AND back_up_power = CRITICAL,hospital_flood_risk;back_up_power,AND
+CND-0013,STR-EWS-001,FLOOD,river_basin_flood_history = HIGH AND cellular_coverage = AVAILABLE,river_basin_flood_history;cellular_coverage,AND
+CND-0014,STR-HTS-001,HEATWAVE,land_surface_temp = HIGH AND building_density = HIGH,land_surface_temp;building_density,AND
+CND-0015,STR-CST-001,COASTAL_FLOOD,coastal_district = TRUE AND intertidal_mudflat = AVAILABLE,coastal_district;intertidal_mudflat,AND
+CND-0016,STR-CST-002,COASTAL_EROSION,coastal_district = TRUE AND shoreline_erosion_rate = HIGH,coastal_district;shoreline_erosion_rate,AND

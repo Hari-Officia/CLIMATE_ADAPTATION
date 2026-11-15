@@ -67,6 +67,26 @@ def optimize_district_portfolio(district_id: str, req: Optional[OptimizeRequest]
         max_k=max_k
     )
 
+@router.get("/districts/{district_id}/optimization")
+def get_district_optimization(district_id: str, solver_id: Optional[str] = "MILP_HIGHS", max_k: Optional[int] = 5):
+    """GET endpoint to retrieve classical MILP portfolio optimization for a district."""
+    return optimization_service.run_optimization(
+        district_id=district_id.lower(),
+        solver_id=solver_id,
+        scenario_id="BASELINE",
+        max_k=max_k
+    )
+
+@router.get("/optimization/38-districts")
+def get_38_districts_optimization_status():
+    """Retrieve verified Phase 4 MILP optimization summary for all 38 districts."""
+    val_csv_path = os.path.join(CONFIG_DIR, "..", "..", "phase4_38_district_validation.csv")
+    if os.path.exists(val_csv_path):
+        import pandas as pd
+        df = pd.read_csv(val_csv_path)
+        return df.to_dict(orient="records")
+    return []
+
 @router.get("/districts/{district_id}/optimization/compare-solvers")
 def compare_solvers_for_district(district_id: str, max_k: int = 5):
     """Compare Exact, MILP, and Greedy solvers on a district candidate set."""

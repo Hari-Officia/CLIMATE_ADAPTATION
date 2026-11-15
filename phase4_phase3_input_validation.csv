@@ -1,0 +1,6 @@
+metric,expected,actual,status
+Total Phase 3 evaluations,570,570,MATCH
+Fully Feasible Candidates (CANDIDATE),485,485,MATCH
+Conditional Candidates (CONDITIONAL_CANDIDATE),37,37,MATCH
+Excluded Strategies (EXCLUDED),48,48,MATCH
+District Count,38,38,MATCH

@@ -1,0 +1,609 @@
+Quantum-Assisted Multi-Agent Decision Support for Climate Adaptation: A Comparative Literature Survey and Research Framework
+Dhanush M, Harish S, Giridharan D
+Department of Information Technology, Rajalakshmi Engineering College, Chennai, India
+Supervisor: Mrs. K. Indumathi
+Abstract
+Abstract— Climate change produces spatially heterogeneous risks, including floods, droughts, heatwaves, and other climate-related hazards, requiring decision-support systems that can combine predictive, spatial, and planning information. This paper reviews 20 literature records covering machine-learning-based climate-risk prediction, geospatial analysis, multi-agent decision support, explainable artificial intelligence, climate adaptation planning, and classical or quantum optimization, which have largely been investigated as separate research directions. A systematic search-and-screening methodology is used to identify and filter the reviewed records, and the resulting literature is analyzed according to climate-risk prediction, spatial decision intelligence, multi-agent coordination, explainability, adaptation planning, and optimization. The synthesis indicates that current approaches commonly address individual stages of the decision process, while comparatively fewer studies integrate multi-hazard risk prediction, district-level spatial assessment, transparent adaptation prioritization, and constrained strategy optimization within a unified workflow. Based on the identified gap, this paper presents a research framework combining machine-learning-based risk prediction, GIS-based spatial analysis, multi-agent decision processing, explainable AI, structured adaptation-strategy selection, and QUBO/QAOA-based optimization. The framework is intended to support district-level climate-adaptation planning and to provide a reproducible basis for comparing classical optimization with quantum approximate optimization.
+Keywords— Climate adaptation; climate risk assessment; multi-agent systems; geospatial analysis; explainable artificial intelligence; machine learning; QUBO; QAOA; decision support; climate resilience.
+1. Introduction
+1.1 Background
+Climate adaptation requires decisions to be made under changing environmental conditions and across locations that differ in exposure, vulnerability, and physical characteristics. Climate-risk studies therefore need to move beyond prediction alone toward systems capable of translating predicted risk into interpretable and actionable adaptation decisions. The literature reviewed in this survey spans several research streams that, until now, have largely developed independently: multi-agent climate intelligence and policy support; climate-risk forecasting and machine learning; GIS and geospatial risk assessment; explainable climate-risk modelling; climate adaptation and resilience planning; disaster and resource decision support; and classical and quantum optimization.
+1.2 Problem Statement
+Although the literature is technically diverse, many studies concentrate on a single stage of the overall climate-adaptation decision process, which can be represented as a chain running from prediction through to strategy selection:
+Climate Prediction
+↓
+Risk Assessment
+↓
+Spatial Mapping
+↓
+Adaptation Planning
+↓
+Strategy Selection
+Different research communities tend to specialize in different links of this chain. Machine-learning studies concentrate on prediction and forecasting; GIS studies concentrate on spatial representation and susceptibility; multi-agent studies concentrate on coordination and decision processes; explainable-AI studies concentrate on interpretation and trust; and optimization studies concentrate on selecting or allocating actions. The central research question addressed by this survey is therefore not whether these individual technologies exist, but how they can be integrated into a coherent, end-to-end climate-adaptation decision-support workflow.
+1.3 Research Questions
+This survey is organized around three research questions:
+RQ1. How do existing studies individually address climate-risk prediction, spatial analysis, multi-agent coordination, explainability, adaptation planning, and optimization?
+RQ2. To what extent do existing studies integrate these capabilities into a single, end-to-end climate-adaptation decision workflow?
+RQ3. What framework and evaluation methodology would allow classical and quantum-assisted optimization to be compared on a shared, district-level adaptation-portfolio problem?
+1.4 Contributions of the Survey
+This survey makes four contributions:
+Contribution 1 – Literature Taxonomy. A thematic classification of research across climate-risk prediction and forecasting, GIS and geospatial climate analysis, multi-agent climate decision support, explainable AI, climate adaptation and resilience, and classical and quantum optimization.
+Contribution 2 – Comparative Analysis. The reviewed studies are compared according to hazard coverage, spatial resolution, data integration, prediction capability, explainability, adaptation capability, optimization, and decision-support integration.
+Contribution 3 – Research Gap. The survey identifies where the individual research directions remain disconnected from one another.
+Contribution 4 – Framework. A unified climate-adaptation framework is derived from the identified gap and used as the basis for the associated experimental study.
+2. Survey Methodology
+Before synthesizing the literature, this section documents how the underlying records were identified, screened, and filtered, so that the corpus discussed in Section 3 can be reproduced and audited.
+2.1 Search Strategy
+Databases / sources: [INSERT ACTUAL DATABASES USED – e.g., IEEE Xplore, Scopus, Web of Science, arXiv, Google Scholar].
+Search period: [INSERT YEAR RANGE ACTUALLY SEARCHED].
+Search terms: [INSERT ACTUAL SEARCH STRINGS, e.g., combinations of “climate adaptation”, “climate risk prediction”, “multi-agent decision support”, “explainable AI climate”, “QUBO”, “QAOA”].
+2.2 Inclusion Criteria
+Direct relevance to climate adaptation or climate-risk assessment.
+Relevance to at least one of: machine learning / AI prediction, GIS, multi-agent systems, explainable AI, or classical/quantum optimization.
+Publication within the defined recent search window.
+Peer-reviewed journal article, conference paper, or preprint with sufficient methodological detail to be compared.
+2.3 Exclusion Criteria
+Duplicate records identified across databases.
+Studies outside the climate/adaptation/optimization scope of this survey.
+Studies without sufficient methodological detail to support comparison.
+Non-climate applications, unless directly relevant to the AI/optimization methodology being surveyed (e.g., a general QUBO feature-selection method).
+2.4 Study Selection
+Records Identified
+↓
+Duplicates Removed
+↓
+Title / Abstract Screening
+↓
+Full-Text Screening
+↓
+Included Studies
+[INSERT ACTUAL SCREENING COUNTS AT EACH STAGE ONCE THE SCREENING LOG IS FINALIZED — do not report counts that have not been verified against the search log.]
+3. Related Work
+This section forms the core of the survey. Rather than describing each reviewed paper in isolation, the literature is organized into thematic research streams, followed by a synthesis of the gap that each stream leaves open.
+3.1 Climate-Risk Prediction and Forecasting
+Machine learning has become an important approach for climate-risk prediction and environmental forecasting. The reviewed literature includes tree-based models, recurrent networks, transformer architectures, and geospatial machine-learning methods for estimating climate variables and hazard susceptibility. Bihlo et al. investigate transformer-based sub-seasonal precipitation forecasting using climate reanalysis data, highlighting the importance of temporal and spatial patterns in rainfall prediction. Other work combines Random Forest, XGBoost, and LSTM models with explainability techniques for early climate-risk forecasting. Geospatial machine-learning approaches further extend prediction toward spatial flood-risk and susceptibility mapping.
+However, prediction-oriented studies generally focus on estimating a hazard or climate variable rather than integrating the resulting predictions with a complete adaptation strategy-selection process. This creates a separation between risk prediction and adaptation decision-making, which motivates the integrated framework proposed in this study.
+3.2 GIS and Geospatial Climate-Risk Analysis
+Geographic Information Systems provide the spatial layer required to translate climate and hazard information into location-specific risk assessments. The reviewed studies demonstrate the integration of GIS with machine learning for applications such as hazard-susceptibility analysis and environmental site selection. Lu et al. combine GIS and machine-learning models for spatial optimization, while Li et al. investigate geospatial machine learning for high-resolution flood mapping using satellite, terrain, and GIS information.
+These studies demonstrate the value of spatial resolution and geospatial features, but GIS is frequently treated as a mapping or prediction component. A broader decision-support architecture requires GIS outputs to be connected to exposure, vulnerability, adaptation priority, and strategy selection.
+3.3 Multi-Agent Systems for Climate Decision Support
+Multi-agent systems provide a mechanism for decomposing complex climate decision processes into specialized analytical roles. ClimatePolicyGen integrates environmental, socioeconomic, and infrastructure time-series information through specialized agents for climate-policy generation, while ClimateAgents combines data retrieval, statistical analysis, hypothesis generation, and automated reasoning for climate research.
+Role-based multi-agent approaches have also been investigated for climate-adaptation deliberation, with different agents representing expert, evaluator, dissemination, and decision-making functions. Other studies apply multi-agent reinforcement learning to resource allocation and post-hazard recovery problems.
+These studies establish the usefulness of agent specialization and collaborative decision processing. Within the reviewed literature, multi-agent systems primarily emphasize policy generation, deliberation, research assistance, or resource allocation, rather than integrating multi-hazard prediction, spatial risk assessment, adaptation prioritization, and formal strategy optimization within one pipeline.
+3.4 Explainable Artificial Intelligence for Climate Risk
+Explainable artificial intelligence addresses an important limitation of climate-risk prediction systems: the need to understand why a model produces a particular prediction. The reviewed explainable-AI literature examines methods such as SHAP, LIME, and counterfactual explanations alongside machine-learning models including Random Forest, XGBoost, and LSTM. One reviewed study specifically combines Random Forest, XGBoost, and LSTM with explainability methods for multi-hazard climate-risk forecasting. Such approaches are intended to improve transparency and usability in climate-risk forecasting.
+Despite this progress, explainability is often applied primarily at the prediction stage. There remains a need to connect model explanations with the broader adaptation decision process, including risk drivers, adaptation priority, and selected strategies.
+3.5 Climate Adaptation and Resilience Decision Support
+Climate-adaptation research increasingly considers decision-making under uncertainty, stakeholder interaction, and resource constraints. The reviewed studies include multi-agent adaptation deliberation, water and environmental resource management, disaster recovery, evacuation modelling, and climate-adaptation decision support. These works demonstrate that adaptation planning requires more than hazard prediction and should incorporate competing objectives, uncertainty, stakeholder considerations, and resource limitations.
+However, many adaptation studies remain scenario-specific, stakeholder-oriented, or focused on individual resource-management problems. There is comparatively less integration between predictive climate-risk models and formal portfolio selection of multiple adaptation strategies.
+3.6 Classical Optimization for Climate and Resource Planning
+Optimization techniques have long been used for climate-related resource allocation, disaster response, and environmental management. The reviewed studies formulate planning problems using constrained allocation, game-theoretic decision-making, reinforcement learning, and other optimization approaches. These methods demonstrate the importance of explicitly representing resource limitations and competing objectives in climate decisions.
+For adaptation planning, this optimization perspective can be extended from allocating resources to selecting a portfolio of interventions under constraints such as portfolio size, incompatibility, dependency, and expected risk-reduction objectives.
+3.7 Quantum Computing for Climate Applications
+Quantum computing has recently been explored for climate modelling, optimization, and related machine-learning problems. Because these applications differ considerably in what the quantum component actually does, the reviewed quantum literature is separated into three sub-streams below.
+3.7.1 Quantum Machine Learning for Climate Modelling
+A first group of studies applies quantum or hybrid quantum-classical machine-learning models directly to climate modelling and prediction tasks, exploring whether quantum circuits can represent climate variables or dynamics more efficiently than classical models.
+3.7.2 Quantum / Quantum-Inspired Feature Selection
+A second group formulates feature selection as a combinatorial optimization problem — typically a QUBO — solved on quantum annealers or gate-based simulators, aiming to identify compact, informative feature subsets for downstream machine-learning models in high-dimensional settings.
+3.7.3 Quantum Optimization for Decision Problems
+A third group applies quantum optimization, including QAOA, to combinatorial decision problems such as resource allocation and portfolio selection, evaluating quantum circuits as approximate solvers for constrained binary optimization.
+Across all three sub-streams, the literature indicates that quantum methods may be relevant to computationally difficult optimization and representation problems, but also identifies important limitations related to hardware noise, scalability, and practical deployment. Consequently, quantum methods should be evaluated against well-defined classical baselines rather than assumed to provide computational advantage. The framework proposed in this paper belongs primarily to the third category: quantum-assisted combinatorial optimization of adaptation-strategy portfolios, rather than quantum machine learning for hazard prediction.
+4. Taxonomy and Comparative Analysis of the Literature
+The initial search identified 20 literature records (Section 2). After removing duplicate records — including a repeated multi-agent resource-allocation entry — 18 unique studies were retained for detailed synthesis. Two further verified studies would be required to restore a clean 20-study corpus; until then, this survey reports 18 unique studies identified from an initial set of 20 literature records, numbered consecutively [1]–[18] below and in the References section, rather than reusing the original, duplicate-inclusive numbering.
+Table 1. Summary of the 18 reviewed studies
+No.
+Study
+Year
+Domain
+Method
+Main Contribution
+Limitation / Gap
+1
+ClimatePolicyGen (Poopradubsil & Thaipisutikul)
+2026
+Multi-agent policy generation
+LLM-based multi-agent framework, multivariate time series
+Automates climate-policy drafting from environmental/socio-economic/infrastructure data
+Focused on policy text generation, not risk prediction or optimization
+2
+ClimateAgents (Shan)
+2026
+Multi-agent research assistant
+Coordinated agents: retrieval, statistics, reasoning
+Supports exploratory social-climate analysis workflows
+Research-assistant framing; no adaptation-strategy optimization
+3
+[INSERT] – Bihlo et al., transformer precipitation forecasting
+[INSERT]
+Climate-risk prediction
+Transformer on reanalysis data
+Sub-seasonal precipitation forecasting
+Single-hazard prediction; no adaptation linkage
+4
+[INSERT] – Quantum ML for climate modelling
+[INSERT]
+Quantum ML
+Quantum / hybrid circuits
+Explores quantum representation of climate variables
+Small-scale demonstration; not adaptation-focused
+5
+[INSERT] – Role-based adaptation deliberation
+[INSERT]
+Multi-agent adaptation
+Expert / evaluator / decision agent roles
+Structured stakeholder deliberation for adaptation choices
+Deliberation-only; no formal optimization stage
+6
+[INSERT] – Multi-agent resource management
+[INSERT]
+Adaptation / resources
+Multi-agent coordination
+Water/environmental resource management
+Scenario-specific; limited hazard coverage
+7
+[INSERT] – Explainable multi-hazard forecasting
+[INSERT]
+Explainable AI
+RF, XGBoost, LSTM + SHAP/LIME
+Interpretable multi-hazard climate-risk forecasting
+Explainability limited to prediction stage
+8
+[INSERT] – MARL post-hazard resource allocation
+[INSERT]
+Multi-agent optimization
+Multi-agent reinforcement learning
+Post-disaster resource allocation
+Allocation-only; no strategy-portfolio selection
+9
+[INSERT] – GIS-ML spatial optimization (Lu et al.)
+[INSERT]
+GIS
+GIS + ML
+Spatial optimization of site/resource selection
+Mapping/optimization component only
+10
+[INSERT] – MARL resource-allocation survey
+[INSERT]
+Multi-agent optimization
+Survey
+Synthesizes MARL approaches to resource allocation
+Survey scope; no original adaptation framework
+11
+[INSERT] – Climate-adaptation decision support
+[INSERT]
+Adaptation
+Decision-support modelling
+Adaptation planning under uncertainty/resources
+Stakeholder-specific scope
+12
+[INSERT] – Agricultural/natural-resource adaptation
+[INSERT]
+Adaptation
+Domain planning study
+Adaptation planning for agriculture/resources
+Domain-specific; not generalized decision workflow
+13
+[INSERT] – Quantum-inspired feature selection
+[INSERT]
+Quantum optimization
+QUBO-based feature selection
+High-dimensional feature selection via quantum annealing
+Not applied to climate-adaptation portfolios
+14
+[INSERT] – Explainable multi-hazard forecasting (RF/XGB/LSTM)
+[INSERT]
+Explainable AI
+RF, XGBoost, LSTM + XAI
+Multi-hazard forecasting with interpretability
+Prediction-stage explainability only
+15
+[INSERT] – Geospatial flood mapping (Li et al.)
+[INSERT]
+GIS
+Satellite + terrain + GIS ML
+High-resolution flood-risk mapping
+Single-hazard, mapping-only scope
+16
+[INSERT] – Geospatial ML susceptibility mapping
+[INSERT]
+GIS
+Geospatial ML
+Hazard-susceptibility mapping
+No adaptation-strategy linkage
+17
+[INSERT] – Quantum-computing opportunities review
+[INSERT]
+Quantum computing
+Review
+Surveys quantum opportunities/limitations in climate applications
+Review only; no new optimization results
+18
+[INSERT] – Evacuation / disaster-resilience modelling
+[INSERT]
+Adaptation / resilience
+Simulation / decision modelling
+Evacuation planning and disaster-resilience assessment
+Event-response focus, not long-horizon adaptation portfolios
+Entries marked [INSERT] correspond to studies identified during screening whose exact publication year and verbatim source wording still need to be confirmed against the authors' reference-manager records before submission; study titles/methods reflect how each source is used in Section 3.
+Building on Table 1, the studies are further classified thematically (Table 2) and compared against a common set of decision-support capabilities (Table 3).
+Table 2. Thematic classification of reviewed studies
+Research Theme
+Main Problem Addressed
+Representative Studies
+Climate-risk prediction
+Forecasting hazards / climate variables
+3, 9, 14, 16
+GIS & geospatial analysis
+Spatial risk and environmental mapping
+15, 16
+Multi-agent climate intelligence
+Collaborative climate reasoning
+1, 2, 5, 8, 10, 11, 12
+Explainable AI
+Interpreting climate-risk models
+14
+Climate adaptation & resilience
+Adaptation planning and decision support
+5, 6, 12, 19, 20
+Resource / disaster optimization
+Allocation and response
+6, 8, 11, 19
+Quantum / quantum-inspired methods
+Quantum modelling / optimization
+3, 4, and related quantum studies
+Note: the representative-study numbers above refer to the original 20-record search list and should be re-mapped to the cleaned [1]–[18] numbering in Table 1 during final editing.
+Table 3. Capability comparison across research streams
+Capability
+Prediction-
+focused
+GIS-
+focused
+Multi-Agent-
+focused
+XAI-
+focused
+Adaptation-
+focused
+Quantum-
+focused
+Climate prediction
+✓
+Partial
+Partial
+✓
+Partial
+✓
+Multi-hazard assessment
+✓
+✓
+Partial
+✓
+Partial
+Partial
+Spatial mapping
+Partial
+✓
+Partial
+Partial
+Partial
+Partial
+Multi-agent coordination
+—
+—
+✓
+—
+✓
+Partial
+Explainability
+Partial
+Partial
+Partial
+✓
+Partial
+Partial
+Adaptation planning
+Partial
+Partial
+✓
+Partial
+✓
+Partial
+Portfolio optimization
+Partial
+✓
+Partial
+—
+Partial
+✓
+End-to-end decision workflow
+Partial
+Partial
+Partial
+—
+Partial
+Partial
+Capability indicators summarize the dominant characteristics of the reviewed studies within each research stream and should not be interpreted as properties of every individual study. “Partial” indicates a stream addresses only part of a capability; “—” is used only where this is clearly established rather than assumed.
+5. Synthesis and Identified Research Gap
+The reviewed literature demonstrates substantial progress in individual components of climate decision intelligence. Machine-learning studies improve climate and hazard prediction; GIS provides spatial representation of environmental risk; multi-agent systems enable role-based analytical coordination; explainable-AI methods improve transparency of predictive models; adaptation studies address planning under uncertainty and resource constraints; and quantum research explores alternative approaches to computationally difficult modelling and optimization problems.
+However, these research directions remain largely distributed across separate methodological streams. Prediction models generally terminate at risk estimation, GIS studies emphasize spatial representation, multi-agent systems focus on coordination or policy reasoning, explainability studies primarily interpret model outputs, and optimization research focuses on resource allocation or selected quantum-computing tasks.
+Within the reviewed corpus, the principal gap identified by this survey is the limited integration of these capabilities into a single district-level climate-adaptation decision workflow that connects multi-hazard risk prediction, spatial context, explainable assessment, adaptation prioritization, and constrained strategy-portfolio optimization. This gap motivates the integrated framework proposed in the remainder of this paper.
+Table 4. Identified research gaps
+Research Direction
+Existing Capability
+Identified Gap
+Climate-risk ML
+Hazard prediction
+Limited linkage to adaptation portfolio selection
+GIS
+Spatial risk visualization
+Limited integration with full decision workflow
+Multi-agent systems
+Collaborative analysis
+Limited integration with formal optimization
+Explainable AI
+Prediction interpretation
+Limited explanation across the complete decision chain
+Adaptation planning
+Scenario / resource planning
+Limited coupling with predictive risk models
+Classical optimization
+Resource / strategy allocation
+Often isolated from ML/GIS decision pipelines
+Quantum optimization
+Quantum optimization research
+Limited evaluation on integrated climate-adaptation portfolios
+End-to-end systems
+Individual modules
+Limited integration across all stages
+6. Proposed Research Framework
+Motivated by the gap identified in Section 5, this survey proposes an integrated climate-adaptation decision-support framework. The framework keeps explainable AI as an explanatory layer that runs across the pipeline, rather than treating it as a standalone conversational feature, and treats optimization as a formal final stage rather than an ad-hoc heuristic. The remainder of this section presents the framework's components as parts of one integrated pipeline rather than as independent systems.
+6.1 Overall Workflow
+Climate Data
+↓
+Risk Prediction
+↓
+Exposure / Vulnerability / Resilience
+↓
+Adaptation Priority
+↓
+Strategy Applicability
+↓
+Classical Optimization
+↓
+QUBO
+↓
+QAOA
+↓
+Portfolio Validation
+↓
+Explainable Decision Output
+Figure 1. End-to-end workflow of the proposed climate-adaptation decision framework.
+6.2 Climate-Risk Prediction
+The framework uses machine-learning models to estimate the probability of major climate hazards including flood, drought, and heatwave. Climate observations and derived indicators are transformed into a standardized feature representation before model inference. The predicted probabilities provide the hazard-level input for subsequent spatial and adaptation analysis.
+Dataset: Tamil_Nadu_Final_Hazard_Features.csv
+Records: 228,950
+Districts: 38
+Period: 1 January 2010 – 30 June 2026
+Model input contract: 53 features
+6.3 Spatial Risk, Exposure, Vulnerability and Resilience
+Hazard probability alone does not represent overall climate risk. The framework therefore separates hazard information from exposure, vulnerability, and resilience context, drawing on the GIS-based spatial analysis discussed in Section 3.2. These components are spatially aligned with the selected district and used to support adaptation-priority assessment.
+Hazard + Exposure + Vulnerability + Resilience
+↓
+Adaptation Priority
+6.4 Adaptation Strategy Intelligence
+The framework uses a structured adaptation-strategy library to represent candidate interventions. Applicability rules determine which strategies are relevant to the hazard and location context before optimization. This prevents the optimization stage from evaluating arbitrary or unsupported interventions.
+The current implementation defines 14 canonical adaptation strategies across 10 adaptation domains.
+6.5 Explainable AI
+Explainable AI is used to improve the interpretability of climate-risk predictions and decision outputs. Model explanations identify the contribution of relevant climate features to risk predictions, allowing users to understand the factors associated with a predicted hazard level. The framework extends interpretability from prediction toward decision support by linking risk evidence to adaptation-priority and strategy-selection outputs, while stopping short of claiming that the explanation itself determines the strategy chosen.
+Prediction
+↓
+Explanation of Prediction
+↓
+Decision Context
+↓
+Strategy Optimization
+6.6 Classical Optimization
+Adaptation strategy selection is represented as a binary portfolio-optimization problem. Each candidate strategy is represented by a binary decision variable:
+xᵢ ∈ {0, 1}
+where xᵢ = 1 indicates that strategy i is selected. The current benchmark contains 14 canonical strategies and a portfolio-size constraint of K = 5. Classical exact enumeration and mixed-integer linear programming (MILP) provide reference solutions for evaluating heuristic and quantum approaches. The formulation also incorporates conflict, dependency, and interaction constraints between strategies.
+6.7 QUBO Formulation
+The constrained adaptation-portfolio problem is transformed into a Quadratic Unconstrained Binary Optimization (QUBO) formulation. For the current canonical benchmark, the core objective term is a binary quadratic function with a penalty enforcing the required portfolio size:
+E(x) = −cᵀx + P·(Σᵢ xᵢ − K)²
+where c represents the strategy objective contributions, x is the vector of binary decision variables, K is the required portfolio size, and P is the penalty coefficient enforcing that constraint. The equation above illustrates the portfolio-size component of the QUBO objective; the complete validated implementation additionally includes penalty terms for the conflict, dependency, and interaction constraints between strategies described in Section 6.6, which are combined additively with the portfolio-size term. This full QUBO formulation was verified against the constrained classical objective through a dedicated mathematical reconciliation step, confirming its consistency with the classical model.
+6.8 Quantum Approximate Optimization Algorithm (QAOA)
+QAOA is evaluated as an approximate quantum optimization method operating on the validated QUBO representation described in Section 6.7. The quantum search space is defined by the same binary strategy variables used by the classical model. Measured bitstrings are decoded and evaluated using the same feasibility and objective functions as the classical baselines.
+Quantum advantage is not assumed and is evaluated empirically against classical reference methods throughout the remainder of this paper.
+7. Experimental Methodology
+7.1 Risk-Prediction Experiment
+Dataset: 228,950 records, 38 districts, 53 model features, daily period 2010–2026
+Model: XGBoost
+Hazards: Flood, drought, heatwave
+Metrics: ROC-AUC, PR-AUC, calibration, temporal validation, leakage analysis
+7.2 Classical Optimization Experiment
+Classical baselines: Exact enumeration, MILP, Greedy, Simulated Annealing
+Benchmark scale: 38 districts, 14 canonical strategies, K = 5
+7.3 QAOA Experiment
+Quantum method: QAOA
+Run configuration: 1,900 QAOA runs, 1,024 shots per run
+7.4 Benchmark Configuration and Reproducibility
+The table below records the exact software and configuration details needed to reproduce the benchmark; placeholders should be replaced with verified values before submission.
+Table 5. Reproducibility configuration
+Item
+Value
+Dataset version
+[INSERT VERSION / HASH]
+Model version
+[INSERT]
+QUBO version
+[INSERT]
+QAOA configuration
+[INSERT]
+Software environment
+[INSERT]
+Random-seed policy
+[INSERT]
+Hardware / simulator
+[INSERT]
+8. Results and Discussion
+8.1 Risk-Prediction Benchmark Results
+Table 6. Risk-prediction benchmark performance by hazard
+Hazard
+ROC-AUC
+PR-AUC
+Flood
+≈ 0.906
+≈ 0.0475
+Drought
+≈ 0.9999
+≈ 0.9992
+Heatwave
+≈ 1.000
+≈ 0.9964
+The flood model shows substantially different ROC-AUC and PR-AUC values because of severe class imbalance. The extremely high drought and heatwave metrics should be interpreted cautiously and evaluated for target-feature leakage and temporal generalization before being considered operational performance. These figures describe benchmark performance on the dataset used in this study and should not be read as universal model performance.
+8.2 QAOA Optimization Results
+Table 7. QAOA benchmark summary
+Metric
+Result
+Districts
+38
+QAOA runs
+1,900
+Shots / run
+1,024
+Best observed gap
+0.0267
+Mean gap
+0.0845
+Median gap
+0.0743
+Worst gap
+0.1429
+QAOA produced feasible solutions and operated consistently on the validated QUBO formulation across the benchmarked instances. However, the observed results do not establish quantum computational advantage over the tested classical methods; subsequent benchmarking phases preserved this conclusion.
+8.3 Classical vs. QAOA Comparison
+Table 8. Classical and quantum optimization comparison (qualitative)
+Criterion
+Exact
+MILP
+Greedy
+SA
+QAOA
+Exact ground truth
+✓
+✓
+—
+—
+—
+Feasible portfolio
+✓
+✓
+✓
+✓
+✓
+Binary QUBO execution
+—
+—
+—
+—
+✓
+Approximate search
+—
+—
+✓
+✓
+✓
+Quantum circuit
+—
+—
+—
+—
+✓
+Benchmark reference
+✓
+✓
+✓
+✓
+✓
+The purpose of this comparison is to characterize solution quality, feasibility, computational cost, and scaling behaviour rather than to declare a universally superior optimization approach. Exact enumeration and MILP remain the reference methods for ground-truth solutions at the current problem scale; Greedy and Simulated Annealing provide fast approximate classical baselines; and QAOA is evaluated on equal footing using the same feasibility and objective definitions.
+Table 9. Classical and quantum optimization comparison (quantitative)
+Method
+Objective
+Gap
+Runtime
+Feasible
+Exact
+[VERIFIED VALUE]
+0
+[VERIFIED VALUE]
+Yes
+MILP
+[VERIFIED VALUE]
+0
+[VERIFIED VALUE]
+Yes
+Greedy
+[VERIFIED VALUE]
+[VERIFIED VALUE]
+[VERIFIED VALUE]
+Yes
+Simulated Annealing
+[VERIFIED VALUE]
+[VERIFIED VALUE]
+[VERIFIED VALUE]
+Yes
+QAOA
+[VERIFIED VALUE]
+0.0267 (best)
+[VERIFIED VALUE]
+[VERIFIED VALUE]
+Values marked [VERIFIED VALUE] must be taken directly from the certified benchmark reports before submission; only the QAOA best-gap figure (0.0267) has been carried over from the verified results in Table 7.
+8.4 Robustness and Sensitivity Analysis
+A dedicated robustness study was carried out to characterize QAOA behaviour beyond the single benchmark configuration reported in Section 8.2. The study varies circuit depth, noise conditions, parameter initialization, and problem scale, and reports what was observed under each condition rather than treating simulator resource limits as mathematical impossibility results.
+8.4.1 Circuit Depth
+Circuit depth was varied across p = 1, 2, 3, 4, and 5 layers to characterize the trade-off between solution quality and circuit complexity.
+8.4.2 Noise Conditions
+Five noise conditions were evaluated: ideal (noiseless) simulation, depolarizing noise, readout noise, combined noise, and hardware-calibrated simulation.
+8.4.3 Warm-Starting
+Two warm-start strategies were tested: parameter warm start, in which optimized angles from a smaller or related instance seed the optimizer, and state warm start, in which the initial quantum state itself is biased toward a classically obtained solution.
+8.4.4 Problem Scaling
+Scaling behaviour was assessed across problem sizes of N = 4, 8, 12, 14, 16, and 20 binary variables, within the limits of the statevector simulators used.
+9. Research Limitations
+9.1 Data Limitations
+Rare hazard labels and temporal label limitations.
+Potential target-feature leakage for some hazard models.
+Need for longer-term adaptation-outcome data.
+9.2 Spatial Limitations
+Further validation of fine-scale and coastal risk processes is required.
+9.3 Optimization Limitations
+The current canonical strategy space contains 14 strategies.
+Larger QUBO scaling remains computationally challenging.
+9.4 Hardware Limitations
+Physical IBM-QPU execution has not yet been verified.
+Current quantum evidence is based on simulator and hardware-calibrated simulation experiments.
+9.5 Scientific Limitation
+Quantum advantage has not been established.
+10. Future Work
+Future research will extend the framework in five directions. First, longer-term observed adaptation outcomes will be incorporated to evaluate whether selected strategies produce measurable reductions in climate risk. Second, larger and more spatially resolved infrastructure and vulnerability datasets will be integrated. Third, compound and coastal hazards will be modelled with greater spatial and physical detail. Fourth, larger adaptation portfolios will be studied to evaluate the scaling behaviour of QUBO and QAOA relative to classical optimization. Finally, authenticated physical quantum-hardware experiments will be conducted when access is available, with hardware results compared against the same classical ground-truth formulations.
+11. Conclusion
+This paper surveyed recent research across climate-risk prediction, GIS-based spatial analysis, multi-agent decision support, explainable AI, climate adaptation, and classical and quantum optimization. The reviewed literature demonstrates substantial progress within individual research areas but also shows fragmentation between prediction, spatial assessment, interpretability, adaptation planning, and portfolio optimization.
+Based on this synthesis, an integrated climate-adaptation decision framework was formulated in which machine-learning models estimate hazard risk, spatial analysis provides geographic context, explainable AI improves transparency, structured strategy rules define candidate interventions, and classical and quantum optimization methods evaluate adaptation portfolios. The experimental component provides a reproducible basis for comparing QAOA with classical optimization while maintaining the same objective and feasibility definitions.
+Current findings demonstrate the technical feasibility of the integrated optimization formulation, but they do not establish quantum computational advantage. Future work should focus on larger problem instances, stronger temporal and adaptation-outcome validation, improved spatial modelling, and authenticated physical quantum-hardware evaluation.
+References
+The literature search identified 20 records; after removing duplicate entries — including a repeated multi-agent resource-allocation record — 18 unique studies remain and are numbered [1]–[18] below, consistent with Table 1. Entries [1] and [2] have been verified against their original publication records. All entries marked [INSERT] require the authors to confirm exact author names, title wording, venue, year, and DOI from their reference-manager records before this list is treated as submission-ready; no bibliographic detail has been invented for these records.
+[1] T. Poopradubsil and T. Thaipisutikul, “ClimatePolicyGen: A multi-agent framework for climate policy generation using multivariate and multimodal time series inputs,” Intelligent Systems with Applications, vol. 30, Art. no. 200662, May 2026, doi: 10.1016/j.iswa.2026.200662.
+[2] S. Shan, “ClimateAgents: A multi-agent research assistant for social-climate dynamics analysis,” arXiv preprint arXiv:2603.13840, 2026.
+[3] [INSERT AUTHORS], “Bihlo et al. – transformer-based sub-seasonal precipitation forecasting using climate reanalysis data,” [INSERT VENUE], [INSERT YEAR]. (exact title/venue/DOI to be confirmed)
+[4] [INSERT AUTHORS], “Quantum machine learning for climate modelling,” [INSERT VENUE], [INSERT YEAR].
+[5] [INSERT AUTHORS], “Role-based multi-agent climate-adaptation deliberation (expert / evaluator / dissemination / decision-making agent roles),” [INSERT VENUE], [INSERT YEAR].
+[6] [INSERT AUTHORS], “Multi-agent framework for environmental and water resource management,” [INSERT VENUE], [INSERT YEAR].
+[7] [INSERT AUTHORS], “Interpretable multi-hazard climate-risk forecasting combining Random Forest, XGBoost, and LSTM with explainability methods (SHAP/LIME),” [INSERT VENUE], [INSERT YEAR].
+[8] [INSERT AUTHORS], “Multi-agent deep reinforcement learning for post-hazard resource allocation,” [INSERT VENUE], [INSERT YEAR].
+[9] [INSERT AUTHORS], “Lu et al. – GIS and machine-learning-based spatial optimization,” [INSERT VENUE], [INSERT YEAR]. (exact title/venue/DOI to be confirmed)
+[10] [INSERT AUTHORS], “Survey of multi-agent reinforcement learning approaches to resource allocation,” [INSERT VENUE], [INSERT YEAR].
+[11] [INSERT AUTHORS], “Climate-adaptation decision-support study incorporating stakeholder and resource constraints,” [INSERT VENUE], [INSERT YEAR].
+[12] [INSERT AUTHORS], “Agricultural and natural-resource adaptation planning under climate uncertainty,” [INSERT VENUE], [INSERT YEAR].
+[13] [INSERT AUTHORS], “Quantum / quantum-inspired optimization (QUBO) for feature selection in high-dimensional machine-learning problems,” [INSERT VENUE], [INSERT YEAR].
+[14] [INSERT AUTHORS], “Multi-hazard climate-risk forecasting with Random Forest, XGBoost, LSTM, and explainable-AI attribution,” [INSERT VENUE], [INSERT YEAR].
+[15] [INSERT AUTHORS], “Li et al. – geospatial machine learning for high-resolution flood-risk mapping using satellite, terrain, and GIS data,” [INSERT VENUE], [INSERT YEAR]. (exact title/venue/DOI to be confirmed)
+[16] [INSERT AUTHORS], “Geospatial machine-learning approach for hazard-susceptibility mapping,” [INSERT VENUE], [INSERT YEAR].
+[17] [INSERT AUTHORS], “Review of quantum-computing opportunities and limitations in climate applications,” [INSERT VENUE], [INSERT YEAR].
+[18] [INSERT AUTHORS], “Evacuation modelling and disaster-resilience decision support,” [INSERT VENUE], [INSERT YEAR].

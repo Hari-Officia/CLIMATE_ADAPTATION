@@ -1,0 +1,263 @@
+[
+  {
+    "entry_number": 1,
+    "citation_line": "Poopradubsil, T. & Thaipisutikul, T., \"ClimatePolicyGen: A Multi-Agent Framework for Climate Policy Generation Using Multivariate and Multimodal Time Series Inputs,\" Intelligent Systems with Applications, Vol. 30, 2026.",
+    "focus": "Proposes ClimatePolicyGen, a multi-agent framework that employs Large Language Models (LLMs) to generate climate policies by integrating environmental, socio-economic, and infrastructure time-series data for decision support",
+    "findings": "The framework improved policy coherence by 12.3% and policy relevance by 18.7% compared with baseline approaches. It successfully generated region-specific climate adaptation and mitigation policies using five specialized AI agents.",
+    "future_work": "Integrate real-time climate data, strengthen policy validation through expert evaluation, and extend the framework for global climate governance and national decision-support applications.",
+    "all_raw_lines": [
+      "Poopradubsil, T. & Thaipisutikul, T., \"ClimatePolicyGen: A Multi-Agent Framework for Climate Policy Generation Using Multivariate and Multimodal Time Series Inputs,\" Intelligent Systems with Applications, Vol. 30, 2026.",
+      "Proposes ClimatePolicyGen, a multi-agent framework that employs Large Language Models (LLMs) to generate climate policies by integrating environmental, socio-economic, and infrastructure time-series data for decision support",
+      "The framework improved policy coherence by 12.3% and policy relevance by 18.7% compared with baseline approaches. It successfully generated region-specific climate adaptation and mitigation policies using five specialized AI agents.",
+      "Integrate real-time climate data, strengthen policy validation through expert evaluation, and extend the framework for global climate governance and national decision-support applications."
+    ]
+  },
+  {
+    "entry_number": 2,
+    "citation_line": "Shan, S., \"ClimateAgents: A Multi-Agent Research Assistant for Social-Climate Dynamics Analysis,\" arXiv Preprint, 2026",
+    "focus": "Introduces ClimateAgents, a collaborative multi-agent system that combines data retrieval, statistical analysis, hypothesis generation, and automated reasoning to support climate research and socio-environmental decision making.",
+    "findings": "The specialized AI agents effectively analyzed relationships between climate indicators and socio-economic variables, producing interpretable analytical reports and supporting adaptive climate research workflows.",
+    "future_work": "Expand the framework with additional climate datasets, policy simulation modules, and real-time environmental monitoring to support climate adaptation planning.",
+    "all_raw_lines": [
+      "Shan, S., \"ClimateAgents: A Multi-Agent Research Assistant for Social-Climate Dynamics Analysis,\" arXiv Preprint, 2026",
+      "Introduces ClimateAgents, a collaborative multi-agent system that combines data retrieval, statistical analysis, hypothesis generation, and automated reasoning to support climate research and socio-environmental decision making.",
+      "The specialized AI agents effectively analyzed relationships between climate indicators and socio-economic variables, producing interpretable analytical reports and supporting adaptive climate research workflows.",
+      "Expand the framework with additional climate datasets, policy simulation modules, and real-time environmental monitoring to support climate adaptation planning."
+    ]
+  },
+  {
+    "entry_number": 3,
+    "citation_line": "Schwabe, M., et al., \"Quantum Machine Learning for Climate Modelling,\" IEEE International Conference on Quantum Artificial Intelligence (QAI), 2025.",
+    "focus": "Develops Quantum Machine Learning (QML) models using Quantum Neural Networks to improve climate modelling and Earth System prediction by efficiently processing high-dimensional climate datasets.",
+    "findings": "The proposed QML framework demonstrated promising improvements in computational efficiency and prediction accuracy for complex climate simulations, highlighting the potential of quantum computing in climate science.",
+    "future_work": "Validate hybrid quantum-classical models on large-scale real-world climate datasets and deploy them on fault-tolerant quantum hardware for operational climate forecasting.",
+    "all_raw_lines": [
+      "Schwabe, M., et al., \"Quantum Machine Learning for Climate Modelling,\" IEEE International Conference on Quantum Artificial Intelligence (QAI), 2025.",
+      "Develops Quantum Machine Learning (QML) models using Quantum Neural Networks to improve climate modelling and Earth System prediction by efficiently processing high-dimensional climate datasets.",
+      "The proposed QML framework demonstrated promising improvements in computational efficiency and prediction accuracy for complex climate simulations, highlighting the potential of quantum computing in climate science.",
+      "Validate hybrid quantum-classical models on large-scale real-world climate datasets and deploy them on fault-tolerant quantum hardware for operational climate forecasting."
+    ]
+  },
+  {
+    "entry_number": 4,
+    "citation_line": "Schwabe, M., et al., \"Opportunities and Challenges of Quantum Computing for Climate Modelling,\" arXiv Preprint, 2025.",
+    "focus": "Reviews the applications of quantum computing in climate modelling, optimization, uncertainty quantification, and environmental decision support while discussing current technological limitations.",
+    "findings": "Quantum optimization techniques can significantly accelerate climate simulations and improve decision-making, although current hardware scalability and quantum noise remain major challenges.",
+    "future_work": "Develop scalable quantum algorithms and benchmark them against advanced classical climate models for practical climate adaptation and mitigation planning.",
+    "all_raw_lines": [
+      "Schwabe, M., et al., \"Opportunities and Challenges of Quantum Computing for Climate Modelling,\" arXiv Preprint, 2025.",
+      "Reviews the applications of quantum computing in climate modelling, optimization, uncertainty quantification, and environmental decision support while discussing current technological limitations.",
+      "Quantum optimization techniques can significantly accelerate climate simulations and improve decision-making, although current hardware scalability and quantum noise remain major challenges.",
+      "Develop scalable quantum algorithms and benchmark them against advanced classical climate models for practical climate adaptation and mitigation planning."
+    ]
+  },
+  {
+    "entry_number": 5,
+    "citation_line": "Gürcan, Ö., et al., \"A Role-Based Multi-Agent Model for Climate Adaptation Deliberation Across Living Labs,\" AIAA SciTech Forum, 2026.",
+    "focus": "Develops a role-based multi-agent architecture consisting of Expert, Evaluator, Disseminator, and Decision-Maker agents to facilitate collaborative climate adaptation planning among stakeholders.",
+    "findings": "The framework improved transparency, stakeholder collaboration, and decision quality while enabling reusable climate adaptation strategies across different Living Lab case studies.",
+    "future_work": "Validate the framework using real-world climate adaptation projects and integrate intelligent decision-support modules for automated policy planning.",
+    "all_raw_lines": [
+      "Gürcan, Ö., et al., \"A Role-Based Multi-Agent Model for Climate Adaptation Deliberation Across Living Labs,\" AIAA SciTech Forum, 2026.",
+      "Develops a role-based multi-agent architecture consisting of Expert, Evaluator, Disseminator, and Decision-Maker agents to facilitate collaborative climate adaptation planning among stakeholders.",
+      "The framework improved transparency, stakeholder collaboration, and decision quality while enabling reusable climate adaptation strategies across different Living Lab case studies.",
+      "Validate the framework using real-world climate adaptation projects and integrate intelligent decision-support modules for automated policy planning."
+    ]
+  },
+  {
+    "entry_number": 6,
+    "citation_line": "\"A Multi-Agent Decision-Making Framework for Evaluating Water and Environmental Resources Management Scenarios Under Climate Change,\" Science of the Total Environment, 2022.",
+    "focus": "Presents a multi-agent decision-support framework that combines game theory and environmental resource management to evaluate climate adaptation strategies under uncertain climate conditions.",
+    "findings": "The framework successfully optimized water resource allocation and environmental management decisions while balancing stakeholder objectives under climate change scenarios.",
+    "future_work": "Integrate AI-based optimization algorithms, larger climate datasets, and real-time monitoring systems to improve climate adaptation and mitigation planning.",
+    "all_raw_lines": [
+      "\"A Multi-Agent Decision-Making Framework for Evaluating Water and Environmental Resources Management Scenarios Under Climate Change,\" Science of the Total Environment, 2022.",
+      "Presents a multi-agent decision-support framework that combines game theory and environmental resource management to evaluate climate adaptation strategies under uncertain climate conditions.",
+      "The framework successfully optimized water resource allocation and environmental management decisions while balancing stakeholder objectives under climate change scenarios.",
+      "Integrate AI-based optimization algorithms, larger climate datasets, and real-time monitoring systems to improve climate adaptation and mitigation planning."
+    ]
+  },
+  {
+    "entry_number": 7,
+    "citation_line": "\"A RAG-Based Multi-Agent LLM System for Natural Hazard Resilience and Adaptation (WildfireGPT),\" arXiv Preprint, 2025.",
+    "focus": "Develops a Retrieval-Augmented Generation (RAG)-based Multi-Agent LLM framework that integrates climate projections, scientific literature, and hazard information to support climate adaptation and disaster resilience planning.",
+    "findings": "The multi-agent framework generated more accurate, explainable, and context-aware recommendations than conventional single-agent AI systems, improving decision support for natural hazard adaptation.",
+    "future_work": "Expand the framework to support additional climate hazards such as floods, droughts, cyclones, and wildfire mitigation while integrating live environmental monitoring.",
+    "all_raw_lines": [
+      "\"A RAG-Based Multi-Agent LLM System for Natural Hazard Resilience and Adaptation (WildfireGPT),\" arXiv Preprint, 2025.",
+      "Develops a Retrieval-Augmented Generation (RAG)-based Multi-Agent LLM framework that integrates climate projections, scientific literature, and hazard information to support climate adaptation and disaster resilience planning.",
+      "The multi-agent framework generated more accurate, explainable, and context-aware recommendations than conventional single-agent AI systems, improving decision support for natural hazard adaptation.",
+      "Expand the framework to support additional climate hazards such as floods, droughts, cyclones, and wildfire mitigation while integrating live environmental monitoring."
+    ]
+  },
+  {
+    "entry_number": 8,
+    "citation_line": "“Multi-Agent Deep Reinforcement Learning Based Decision Support Model for Resilient Community Post-Hazard Recovery,” Engineering Applications of Artificial Intelligence, 2025.",
+    "focus": "Uses a multi-period optimization model with a Proximal Policy Optimization-based multi-agent DRL approach to allocate relief goods efficiently and equitably during the critical 72-hour disaster response window.",
+    "findings": "The DRL-based decision support approach improved the efficiency, effectiveness, and equity of relief distribution compared to conventional allocation methods under uncertainty.",
+    "future_work": "Extending the model to multi-hazard and multi-region relief coordination scenarios.",
+    "all_raw_lines": [
+      "“Multi-Agent Deep Reinforcement Learning Based Decision Support Model for Resilient Community Post-Hazard Recovery,” Engineering Applications of Artificial Intelligence, 2025.",
+      "Uses a multi-period optimization model with a Proximal Policy Optimization-based multi-agent DRL approach to allocate relief goods efficiently and equitably during the critical 72-hour disaster response window.",
+      "The DRL-based decision support approach improved the efficiency, effectiveness, and equity of relief distribution compared to conventional allocation methods under uncertainty.",
+      "Extending the model to multi-hazard and multi-region relief coordination scenarios."
+    ]
+  },
+  {
+    "entry_number": 9,
+    "citation_line": "Bihlo, A., et al., \"Sub-seasonal Precipitation Forecasting Using Transformer Networks,\" ETH Zurich Research Collection, 2024.",
+    "focus": "This paper proposes a Transformer-based deep learning model for sub-seasonal precipitation forecasting using climate reanalysis data. The model captures long-term spatial and temporal weather patterns to improve rainfall prediction and support climate adaptation planning.",
+    "findings": "The proposed model achieved better forecasting accuracy than conventional LSTM and CNN models. It effectively predicted long-term rainfall patterns while reducing forecasting errors across different climate regions.",
+    "future_work": "Future research aims to integrate satellite observations, improve prediction of extreme rainfall events, and develop real-time forecasting systems for disaster management.",
+    "all_raw_lines": [
+      "Bihlo, A., et al., \"Sub-seasonal Precipitation Forecasting Using Transformer Networks,\" ETH Zurich Research Collection, 2024.",
+      "This paper proposes a Transformer-based deep learning model for sub-seasonal precipitation forecasting using climate reanalysis data. The model captures long-term spatial and temporal weather patterns to improve rainfall prediction and support climate adaptation planning.",
+      "The proposed model achieved better forecasting accuracy than conventional LSTM and CNN models. It effectively predicted long-term rainfall patterns while reducing forecasting errors across different climate regions.",
+      "Future research aims to integrate satellite observations, improve prediction of extreme rainfall events, and develop real-time forecasting systems for disaster management."
+    ]
+  },
+  {
+    "entry_number": 10,
+    "citation_line": "\"Exploring Equity of Climate Policies Using Multi-Agent Multi-Objective Reinforcement Learning,\" arXiv Preprint, 2025.",
+    "focus": "Presents a Multi-Agent Multi-Objective Reinforcement Learning framework that evaluates climate policies by balancing emissions reduction, economic development, and social equity to support sustainable climate decision making.",
+    "findings": "The framework produced climate policy recommendations that achieved better trade-offs between environmental sustainability and socio-economic objectives compared with conventional optimization approaches.",
+    "future_work": "Extend the framework with real-time environmental data, larger socio-economic datasets, and government policy evaluation systems to support national climate adaptation and mitigation planning.",
+    "all_raw_lines": [
+      "\"Exploring Equity of Climate Policies Using Multi-Agent Multi-Objective Reinforcement Learning,\" arXiv Preprint, 2025.",
+      "Presents a Multi-Agent Multi-Objective Reinforcement Learning framework that evaluates climate policies by balancing emissions reduction, economic development, and social equity to support sustainable climate decision making.",
+      "The framework produced climate policy recommendations that achieved better trade-offs between environmental sustainability and socio-economic objectives compared with conventional optimization approaches.",
+      "Extend the framework with real-time environmental data, larger socio-economic datasets, and government policy evaluation systems to support national climate adaptation and mitigation planning."
+    ]
+  },
+  {
+    "entry_number": 11,
+    "citation_line": "“Multi-Agent Reinforcement Learning for Resources Allocation Optimization: A Survey,” Artificial Intelligence Review (Springer), 2025.",
+    "focus": "Comprehensively reviews MARL algorithms (MADQN, MAPPO, MAAC, MADDPG) applied to resource-allocation problems across energy, IoT, and disaster-resilience domains.",
+    "findings": "Decentralized MARL approaches effectively handle real-time, distributed resource-allocation control in dynamic environments such as smart grids and resilient smart-farm task allocation (MaaRS).",
+    "future_work": "Standardizing MARL benchmarks and improving sample efficiency for resource-constrained deployment.",
+    "all_raw_lines": [
+      "“Multi-Agent Reinforcement Learning for Resources Allocation Optimization: A Survey,” Artificial Intelligence Review (Springer), 2025.",
+      "Comprehensively reviews MARL algorithms (MADQN, MAPPO, MAAC, MADDPG) applied to resource-allocation problems across energy, IoT, and disaster-resilience domains.",
+      "Decentralized MARL approaches effectively handle real-time, distributed resource-allocation control in dynamic environments such as smart grids and resilient smart-farm task allocation (MaaRS).",
+      "Standardizing MARL benchmarks and improving sample efficiency for resource-constrained deployment."
+    ]
+  },
+  {
+    "entry_number": 12,
+    "citation_line": "Gürcan, Ö. et al., “A Role-Based Multi-Agent Model for Climate Adaptation Deliberation Across Living Labs,” AIAA SciTech Forum, 2026.",
+    "focus": "A role-based Multi-Agent Computer Model in which stakeholder agents (Expert Evaluator, Disseminator, Positioning Agent, Decision-Maker) simulate climate-adaptation deliberation across four phases.",
+    "findings": "The configurable, role-based architecture improved interpretability and reusability of adaptation-governance simulations across different Living Lab case studies.",
+    "future_work": "Validating the model against empirical deliberation data from multiple real Living Labs.",
+    "all_raw_lines": [
+      "Gürcan, Ö. et al., “A Role-Based Multi-Agent Model for Climate Adaptation Deliberation Across Living Labs,” AIAA SciTech Forum, 2026.",
+      "A role-based Multi-Agent Computer Model in which stakeholder agents (Expert Evaluator, Disseminator, Positioning Agent, Decision-Maker) simulate climate-adaptation deliberation across four phases.",
+      "The configurable, role-based architecture improved interpretability and reusability of adaptation-governance simulations across different Living Lab case studies.",
+      "Validating the model against empirical deliberation data from multiple real Living Labs."
+    ]
+  },
+  {
+    "entry_number": 13,
+    "citation_line": "“A RAG-Based Multi-Agent LLM System for Natural Hazard Resilience and Adaptation” (WildfireGPT), arXiv preprint, 2025.",
+    "focus": "A user-centered multi-agent RAG system integrating hazard projections, observational data, and literature to deliver tailored wildfire adaptation and risk insights.",
+    "findings": "Evaluation across ten expert-led case studies showed the multi-agent design significantly outperformed existing single-model LLM decision-support tools for hazard resilience.",
+    "future_work": "Extending the multi-agent architecture to additional hazard types such as floods and hurricanes.",
+    "all_raw_lines": [
+      "“A RAG-Based Multi-Agent LLM System for Natural Hazard Resilience and Adaptation” (WildfireGPT), arXiv preprint, 2025.",
+      "A user-centered multi-agent RAG system integrating hazard projections, observational data, and literature to deliver tailored wildfire adaptation and risk insights.",
+      "Evaluation across ten expert-led case studies showed the multi-agent design significantly outperformed existing single-model LLM decision-support tools for hazard resilience.",
+      "Extending the multi-agent architecture to additional hazard types such as floods and hurricanes."
+    ]
+  },
+  {
+    "entry_number": 14,
+    "citation_line": "Nandan, M. & Gupta, S.K., “Interpretable Machine Learning Models for Early Climate Risk Forecasting and Disaster Mitigation,” SGS – Engineering & Sciences, 1(3), 2025.",
+    "focus": "Combines predictive models (Random Forest, XGBoost, LSTM) with explainable AI methods (SHAP, LIME, counterfactuals) in an interpretable ML framework for multi-hazard climate risk forecasting.",
+    "findings": "A PRISMA-guided review (2018–2025) shows XAI methods improve trust and usability of climate-risk models but reveals persistent gaps in scalability and multi-hazard integration.",
+    "future_work": "Improving stakeholder usability of explanations and integrating multi-hazard interpretable models into operational disaster-management workflows.",
+    "all_raw_lines": [
+      "Nandan, M. & Gupta, S.K., “Interpretable Machine Learning Models for Early Climate Risk Forecasting and Disaster Mitigation,” SGS – Engineering & Sciences, 1(3), 2025.",
+      "Combines predictive models (Random Forest, XGBoost, LSTM) with explainable AI methods (SHAP, LIME, counterfactuals) in an interpretable ML framework for multi-hazard climate risk forecasting.",
+      "A PRISMA-guided review (2018–2025) shows XAI methods improve trust and usability of climate-risk models but reveals persistent gaps in scalability and multi-hazard integration.",
+      "Improving stakeholder usability of explanations and integrating multi-hazard interpretable models into operational disaster-management workflows."
+    ]
+  },
+  {
+    "entry_number": 15,
+    "citation_line": "Lu, W., Qi, S., Zheng, B. et al., “Optimisation Study of Carbon Dioxide Geological Storage Sites Based on GIS and Machine Learning Algorithms,” Geomechanics and Geophysics for Geo-Energy and Geo-Resources (Springer), 11, 19, 2025.",
+    "focus": "Integrates GIS spatial analysis with machine learning models, including XGBoost and deep neural networks, to optimize CO₂ geological storage site selection.",
+    "findings": "All five ML models reached about 95% prediction precision, with the deep neural network model achieving the highest precision (96.4%) for site-selection screening.",
+    "future_work": "Extending the GIS-ML framework to offshore storage sites and incorporating long-term leakage-risk monitoring.",
+    "all_raw_lines": [
+      "Lu, W., Qi, S., Zheng, B. et al., “Optimisation Study of Carbon Dioxide Geological Storage Sites Based on GIS and Machine Learning Algorithms,” Geomechanics and Geophysics for Geo-Energy and Geo-Resources (Springer), 11, 19, 2025.",
+      "Integrates GIS spatial analysis with machine learning models, including XGBoost and deep neural networks, to optimize CO₂ geological storage site selection.",
+      "All five ML models reached about 95% prediction precision, with the deep neural network model achieving the highest precision (96.4%) for site-selection screening.",
+      "Extending the GIS-ML framework to offshore storage sites and incorporating long-term leakage-risk monitoring."
+    ]
+  },
+  {
+    "entry_number": 16,
+    "citation_line": "Li, Y., et al., \"Geospatial Machine Learning for High-Resolution Flood Mapping,\" International Journal of Applied Earth Observation and Geoinformation, 2025.",
+    "focus": "This paper proposes a geospatial machine learning framework for high-resolution flood mapping using satellite imagery, GIS data, and terrain information. The model aims to improve flood risk assessment and support climate adaptation and disaster management.",
+    "findings": "The proposed model accurately identified flood-prone areas with higher spatial resolution than traditional mapping methods. It improved flood susceptibility analysis and provided reliable information for emergency planning and environmental decision support.",
+    "future_work": "Future work focuses on integrating real-time satellite data, climate projections, and Explainable AI techniques to enhance flood prediction accuracy and support sustainable climate adaptation planning.",
+    "all_raw_lines": [
+      "Li, Y., et al., \"Geospatial Machine Learning for High-Resolution Flood Mapping,\" International Journal of Applied Earth Observation and Geoinformation, 2025.",
+      "This paper proposes a geospatial machine learning framework for high-resolution flood mapping using satellite imagery, GIS data, and terrain information. The model aims to improve flood risk assessment and support climate adaptation and disaster management.",
+      "The proposed model accurately identified flood-prone areas with higher spatial resolution than traditional mapping methods. It improved flood susceptibility analysis and provided reliable information for emergency planning and environmental decision support.",
+      "Future work focuses on integrating real-time satellite data, climate projections, and Explainable AI techniques to enhance flood prediction accuracy and support sustainable climate adaptation planning."
+    ]
+  },
+  {
+    "entry_number": 17,
+    "citation_line": "Jensen, H., & Nielsen, C., \"Dynamic Policy Simulation and Adaptive Climate Mitigation Frameworks Using Deep Reinforcement Learning,\" Environmental Modeling & Assessment, 2025.",
+    "focus": "This paper proposes a Reinforcement Learning (RL)-based framework for adaptive climate mitigation planning. The model continuously learns from environmental and policy data to recommend optimal mitigation strategies for reducing greenhouse gas emissions.",
+    "findings": "The RL framework successfully adapted mitigation strategies under changing climate conditions and outperformed conventional optimization methods. It demonstrated improved decision-making by dynamically selecting actions that reduced emissions while maintaining sustainable development goals.",
+    "future_work": "Future research aims to integrate real-time climate datasets, multi-agent reinforcement learning, and explainable AI techniques to support national and regional climate mitigation planning.",
+    "all_raw_lines": [
+      "Jensen, H., & Nielsen, C., \"Dynamic Policy Simulation and Adaptive Climate Mitigation Frameworks Using Deep Reinforcement Learning,\" Environmental Modeling & Assessment, 2025.",
+      "This paper proposes a Reinforcement Learning (RL)-based framework for adaptive climate mitigation planning. The model continuously learns from environmental and policy data to recommend optimal mitigation strategies for reducing greenhouse gas emissions.",
+      "The RL framework successfully adapted mitigation strategies under changing climate conditions and outperformed conventional optimization methods. It demonstrated improved decision-making by dynamically selecting actions that reduced emissions while maintaining sustainable development goals.",
+      "Future research aims to integrate real-time climate datasets, multi-agent reinforcement learning, and explainable AI techniques to support national and regional climate mitigation planning."
+    ]
+  },
+  {
+    "entry_number": 18,
+    "citation_line": "Long-Term Climate Mitigation and Policy Evaluation Frameworks Through the Integration of Deep Machine Learning with Integrated Assessment Models, Nature Climate Change, 2025.",
+    "focus": "This paper integrates Deep Machine Learning with Integrated Assessment Models (IAMs) to improve climate impact prediction, policy evaluation, and long-term mitigation planning. The approach combines climate, economic, and energy system data for comprehensive decision support.",
+    "findings": "The proposed framework improved prediction accuracy and computational efficiency compared to traditional IAMs. It effectively analyzed multiple climate scenarios and supported policymakers in selecting sustainable adaptation and mitigation strategies.",
+    "future_work": "Future work includes incorporating real-time climate observations, socio-economic indicators, and quantum computing techniques to develop more accurate and scalable climate decision-support systems.",
+    "all_raw_lines": [
+      "Long-Term Climate Mitigation and Policy Evaluation Frameworks Through the Integration of Deep Machine Learning with Integrated Assessment Models, Nature Climate Change, 2025.",
+      "This paper integrates Deep Machine Learning with Integrated Assessment Models (IAMs) to improve climate impact prediction, policy evaluation, and long-term mitigation planning. The approach combines climate, economic, and energy system data for comprehensive decision support.",
+      "The proposed framework improved prediction accuracy and computational efficiency compared to traditional IAMs. It effectively analyzed multiple climate scenarios and supported policymakers in selecting sustainable adaptation and mitigation strategies.",
+      "Future work includes incorporating real-time climate observations, socio-economic indicators, and quantum computing techniques to develop more accurate and scalable climate decision-support systems."
+    ]
+  },
+  {
+    "entry_number": 19,
+    "citation_line": "Wang, Y., et al., \"Evacuation Dynamics Using Agent-Based Modeling for Urban Disaster Management,\" Springer Urban Computing Journal, 2025.",
+    "focus": "This paper develops an Agent-Based Modeling (ABM) framework to simulate human evacuation behavior during natural disasters. The model supports emergency planning by analyzing crowd movement, evacuation routes, and disaster response strategies.",
+    "findings": "The simulation improved evacuation efficiency by identifying optimal routes and reducing congestion during emergency situations. The model also helped decision-makers evaluate different disaster response policies under various hazard scenarios.",
+    "future_work": "Future research will integrate real-time sensor data, GIS-based hazard mapping, and Multi-Agent AI techniques to enhance emergency response and climate adaptation planning.",
+    "all_raw_lines": [
+      "Wang, Y., et al., \"Evacuation Dynamics Using Agent-Based Modeling for Urban Disaster Management,\" Springer Urban Computing Journal, 2025.",
+      "This paper develops an Agent-Based Modeling (ABM) framework to simulate human evacuation behavior during natural disasters. The model supports emergency planning by analyzing crowd movement, evacuation routes, and disaster response strategies.",
+      "The simulation improved evacuation efficiency by identifying optimal routes and reducing congestion during emergency situations. The model also helped decision-makers evaluate different disaster response policies under various hazard scenarios.",
+      "Future research will integrate real-time sensor data, GIS-based hazard mapping, and Multi-Agent AI techniques to enhance emergency response and climate adaptation planning."
+    ]
+  },
+  {
+    "entry_number": 20,
+    "citation_line": "Ikendi, S., Lyons, A., & Pathak, T. B., \"Advancing Decision Support for Climate Adaptation in Agriculture and Natural Resources,\" Frontiers in Environmental Science, Vol. 13, 2025.",
+    "focus": "This paper presents a decision-support framework for climate adaptation in agriculture and natural resource management using climate data and stakeholder inputs.",
+    "findings": "The framework improved climate adaptation planning by enhancing data accessibility, supporting informed decision-making, and increasing stakeholder participation.",
+    "future_work": "Future work focuses on integrating AI techniques, real-time climate data, and advanced decision-support tools for sustainable climate adaptation.",
+    "all_raw_lines": [
+      "Ikendi, S., Lyons, A., & Pathak, T. B., \"Advancing Decision Support for Climate Adaptation in Agriculture and Natural Resources,\" Frontiers in Environmental Science, Vol. 13, 2025.",
+      "This paper presents a decision-support framework for climate adaptation in agriculture and natural resource management using climate data and stakeholder inputs.",
+      "The framework improved climate adaptation planning by enhancing data accessibility, supporting informed decision-making, and increasing stakeholder participation.",
+      "Future work focuses on integrating AI techniques, real-time climate data, and advanced decision-support tools for sustainable climate adaptation.",
+      "SUPERVISOR SIGNATURE           REVIEWER SIGNATURE               PROJECT CO-ORDINATOR SIGNATURE"
+    ]
+  }
+]

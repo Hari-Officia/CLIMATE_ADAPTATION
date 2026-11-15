@@ -1,0 +1,85 @@
+strategy_id,district_name,applicability_category,eligibility_status,evidence_rationale
+STR-DRN-001,Chennai,URBAN_DISTRICTS,ELIGIBLE,High density urban storm network requiring routine desilting per CCAP 2050
+STR-DRN-001,Chengalpattu,URBAN_DISTRICTS,ELIGIBLE,Rapid peri-urban growth along river basins requiring drain capacity expansion
+STR-DRN-001,Tiruvallur,URBAN_DISTRICTS,ELIGIBLE,Industrial runoff and low-elevation arterial drain maintenance priority
+STR-DRN-001,Coimbatore,URBAN_DISTRICTS,ELIGIBLE,Major inland urban center with storm channel inundation risks
+STR-DRN-001,Madurai,URBAN_DISTRICTS,ELIGIBLE,Vaigai basin urban drainage network clearance priority
+STR-DRN-001,Tiruchirappalli,URBAN_DISTRICTS,ELIGIBLE,Cauvery floodplain urban drainage maintenance zone
+STR-DRN-001,Salem,URBAN_DISTRICTS,ELIGIBLE,Inland valley municipal drainage channel clearance
+STR-DRN-001,Tiruppur,URBAN_DISTRICTS,ELIGIBLE,Noyyal basin industrial-urban stormwater drainage clearance
+STR-DRN-001,Erode,URBAN_DISTRICTS,ELIGIBLE,Municipal stormwater channel maintenance zone
+STR-DRN-001,Vellore,URBAN_DISTRICTS,ELIGIBLE,Palar basin urban drainage clearance zone
+STR-DRN-001,Thoothukudi,URBAN_DISTRICTS,ELIGIBLE,Coastal urban municipal stormwater network desilting
+STR-DRN-001,Tirunelveli,URBAN_DISTRICTS,ELIGIBLE,Tamiraparani basin urban drainage clearance
+STR-DRN-001,Kanchipuram,URBAN_DISTRICTS,ELIGIBLE,Heritage urban center stormwater channel restoration
+STR-DRN-001,Ranipet,URBAN_DISTRICTS,ELIGIBLE,Industrial urban cluster stormwater channel desilting
+STR-DRN-002,Chennai,URBAN_DISTRICTS,ELIGIBLE,High spatial constraint and extreme cloudburst risk in metropolitan core
+STR-DRN-002,Chengalpattu,URBAN_DISTRICTS,CONDITIONALLY_ELIGIBLE,Applicable in high-density IT corridor nodes with land constraints
+STR-DRN-002,Tiruvallur,URBAN_DISTRICTS,CONDITIONALLY_ELIGIBLE,Applicable in dense industrial nodes with low infiltration capacity
+STR-DRN-002,Coimbatore,URBAN_DISTRICTS,CONDITIONALLY_ELIGIBLE,Applicable in commercial CBD core during high rainfall intensity events
+STR-WTR-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,Statutory state-wide mandatory rooftop rainwater harvesting framework across all 38 districts
+STR-WTR-002,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,State-wide traditional Eri and temple tank restoration network across all 38 districts
+STR-LND-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,State-wide statutory floodplain zoning under TNCDBR 2019 for all 38 districts
+STR-LND-002,Chennai,URBAN_DISTRICTS,ELIGIBLE,Metropolitan blue-green zoning per Chennai Climate Action Plan 2050
+STR-LND-002,Chengalpattu,URBAN_DISTRICTS,ELIGIBLE,Peri-urban blue-green corridor reservation along expansion axis
+STR-LND-002,Coimbatore,URBAN_DISTRICTS,ELIGIBLE,Inland urban green infrastructure integration master plan
+STR-LND-002,Madurai,URBAN_DISTRICTS,ELIGIBLE,Vaigai riverfront green buffer zoning plan
+STR-NBS-001,Chennai,URBAN_DISTRICTS,ELIGIBLE,High impervious street margin cover requiring roadside bioswales
+STR-NBS-001,Coimbatore,URBAN_DISTRICTS,ELIGIBLE,Permeable pavement and rain garden network in municipal zone
+STR-NBS-001,Tiruchirappalli,URBAN_DISTRICTS,ELIGIBLE,Urban bioswale network along major arterial corridors
+STR-NBS-002,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,Tamil Nadu Wetlands Mission eco-restoration mandate spanning all 38 districts
+STR-BLT-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,TANGEDCO electrical substation flood elevation mandate across all 38 districts
+STR-BLT-002,Chennai,URBAN_DISTRICTS,ELIGIBLE,Permeable pavement urban road cross-section retrofit in flood-prone corridors
+STR-BLT-002,Coimbatore,URBAN_DISTRICTS,ELIGIBLE,Municipal arterial road permeable sub-base construction
+STR-GIS-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,State-wide GIS DEM contour runoff retention pond planning for all 38 districts
+STR-CRT-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,State-wide critical health and disaster relief shelter resilience retrofits
+STR-EWS-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,TNSDMA IoT hydro-meteorological river gauge sensor network for all 38 districts
+STR-HTS-001,ALL_TAMIL_NADU,ALL_TAMIL_NADU,ELIGIBLE,State-wide cool roof and urban tree canopy heat resilience mandate for all 38 districts
+STR-CST-001,Chennai,COASTAL_DISTRICTS,ELIGIBLE,Estuarine mangrove bio-shield restoration along Ennore and Adyar creeks
+STR-CST-001,Chengalpattu,COASTAL_DISTRICTS,ELIGIBLE,Kovalam creek mangrove and coastal dune bioshield buffer
+STR-CST-001,Tiruvallur,COASTAL_DISTRICTS,ELIGIBLE,Pulicat lagoon mangrove wetland bio-shield zone
+STR-CST-001,Cuddalore,COASTAL_DISTRICTS,ELIGIBLE,Pichavaram mangrove ecosystem expansion and wave attenuation belt
+STR-CST-001,Viluppuram,COASTAL_DISTRICTS,ELIGIBLE,Coastal bio-shield belt along Kaliveli estuary margin
+STR-CST-001,Mayiladuthurai,COASTAL_DISTRICTS,ELIGIBLE,Kaveri delta estuarine mangrove buffer zone
+STR-CST-001,Nagapattinam,COASTAL_DISTRICTS,ELIGIBLE,Muthupet mangrove coastal surge defense corridor
+STR-CST-001,Tiruvarur,COASTAL_DISTRICTS,ELIGIBLE,Deltaic wetland bio-shield vegetation zone
+STR-CST-001,Thanjavur,COASTAL_DISTRICTS,ELIGIBLE,Palk strait coastal mangrove buffer belt
+STR-CST-001,Pudukkottai,COASTAL_DISTRICTS,ELIGIBLE,Coastal intertidal mudflat mangrove planting zone
+STR-CST-001,Ramanathapuram,COASTAL_DISTRICTS,ELIGIBLE,Gulf of Mannar coastal bio-shield restoration plot
+STR-CST-001,Thoothukudi,COASTAL_DISTRICTS,ELIGIBLE,Coastal industrial margin mangrove surge protection belt
+STR-CST-001,Tirunelveli,COASTAL_DISTRICTS,ELIGIBLE,Radhapuram coastal bio-shield buffer strip
+STR-CST-001,Kanyakumari,COASTAL_DISTRICTS,ELIGIBLE,Manakudy estuary mangrove eco-defense belt
+STR-CST-001,Ariyalur,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Dharmapuri,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Dindigul,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Erode,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Kallakurichi,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Karur,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Krishnagiri,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Namakkal,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Nilgiris,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Perambalur,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Ranipet,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Salem,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Sivaganga,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Tenkasi,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Theni,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Tirupathur,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Tiruppur,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Tiruvannamalai,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Vellore,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-001,Virudhunagar,INLAND_DISTRICTS,INELIGIBLE,Inland district lacking coastal intertidal estuarine mudflats
+STR-CST-002,Chennai,COASTAL_DISTRICTS,ELIGIBLE,Severe marine erosion along northern coastal harbor stretch
+STR-CST-002,Chengalpattu,COASTAL_DISTRICTS,ELIGIBLE,Shoreline stabilization along Mahabalipuram coastal stretch
+STR-CST-002,Tiruvallur,COASTAL_DISTRICTS,ELIGIBLE,Pazhaverkadu coastal breakwater wave attenuation zone
+STR-CST-002,Cuddalore,COASTAL_DISTRICTS,ELIGIBLE,High storm surge wave dissipation artificial reef zone
+STR-CST-002,Viluppuram,COASTAL_DISTRICTS,ELIGIBLE,Submerged breakwater deployment along eroding beach segments
+STR-CST-002,Mayiladuthurai,COASTAL_DISTRICTS,ELIGIBLE,Poompuhar shoreline protection and wave attenuation reef
+STR-CST-002,Nagapattinam,COASTAL_DISTRICTS,ELIGIBLE,Offshore wave barrier for coastal fishing villages
+STR-CST-002,Tiruvarur,COASTAL_DISTRICTS,ELIGIBLE,Coastal deltaic wave energy attenuation reef
+STR-CST-002,Thanjavur,COASTAL_DISTRICTS,ELIGIBLE,Palk bay submerged eco-reef wave barrier
+STR-CST-002,Pudukkottai,COASTAL_DISTRICTS,ELIGIBLE,Submerged artificial breakwater reef deployment
+STR-CST-002,Ramanathapuram,COASTAL_DISTRICTS,ELIGIBLE,Island coastal erosion protection and artificial reef zone
+STR-CST-002,Thoothukudi,COASTAL_DISTRICTS,ELIGIBLE,Industrial harbor and beach erosion wave dissipation zone
+STR-CST-002,Tirunelveli,COASTAL_DISTRICTS,ELIGIBLE,Radhapuram high wave action coastal defense reef
+STR-CST-002,Kanyakumari,COASTAL_DISTRICTS,ELIGIBLE,High energy wave coastline submerged breakwater installation

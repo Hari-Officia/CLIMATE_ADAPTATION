@@ -43,7 +43,7 @@ export default function Sidebar() {
     {
       title: 'KNOWLEDGE',
       items: [
-        { to: '/strategies', label: 'Strategy Registry (14)', icon: Layers },
+        { to: '/strategies', label: 'Strategy Registry (42)', icon: Layers },
         { to: '/evidence', label: 'Evidence & RAG', icon: FileText },
         { to: '/sources', label: 'Source Hierarchy', icon: BookOpen }
       ]
@@ -51,7 +51,7 @@ export default function Sidebar() {
     {
       title: 'RESEARCH TRACK',
       items: [
-        { to: '/research/quantum', label: 'Quantum Advantage Track', icon: Sparkles },
+        { to: '/research/quantum', label: 'Quantum Research Track', icon: Sparkles },
         { to: '/optimization', label: 'Classical MILP', icon: Cpu },
         { to: '/qaoa', label: 'QAOA Research', icon: Cpu },
         { to: '/research', label: 'Research Gaps', icon: AlertTriangle },

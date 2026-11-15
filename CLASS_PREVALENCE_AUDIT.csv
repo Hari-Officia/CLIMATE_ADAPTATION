@@ -1,0 +1,7 @@
+hazard,split,total,positive,negative,prevalence
+Flood,Train,105298,718,104580,0.6819%
+Flood,Validation,27740,76,27664,0.2740%
+Flood,Test,41648,151,41497,0.3626%
+Flood,Full Dataset,223212,945,222267,0.4234%
+Heatwave,Full Dataset,223212,1074,222138,0.4812%
+Drought,Full Dataset,223212,66661,156551,29.8644%

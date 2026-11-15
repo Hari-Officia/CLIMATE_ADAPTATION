@@ -1,0 +1,4 @@
+record_id,source_id,dataset_id,retrieval_timestamp,source_version,original_filename,original_variable,processing_script,processing_version,transformation,quality_flag
+PROV-CLM-001,INT-NASA-POWER,DS-NASA-DAILY,2026-09-01T00:00:00Z,MERRA-2 Native,ClimateData/*.csv,"PRECTOTCORR, T2M_MAX, T2M_MIN",scripts/preprocessing/clean_climate.py,v1.0,3d/7d/30d rolling accumulation & climatological anomaly derivation,PASSED_VERIFIED
+PROV-SPT-001,INT-GEOBOUNDARIES,DS-IND-ADM2,2026-09-01T00:00:00Z,v4.0,geoBoundaries-IND-ADM2.geojson,"shapeName, geometry",scripts/spatial/normalize_boundaries.py,v1.0,WGS84 EPSG:4326 geometry validation & EPSG:32644 area projection,PASSED_VERIFIED
+PROV-STR-001,TN-CAP-003,DS-TN-STRATEGIES,2026-09-01T00:00:00Z,v1.0,strategies.json,"strategy_id, expected_effect",scripts/normalization/normalize_strategies.py,v1.0,Categorical domain mapping & optimization coefficient derivation,PASSED_VERIFIED

@@ -1,0 +1,547 @@
+district_id,strategy_id,linear_coefficient,is_selected,selection_reason
+ariyalur,STR-DRN-001,0.645,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ariyalur,STR-DRN-002,0.665,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ariyalur,STR-WTR-001,0.645,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-WTR-002,0.665,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ariyalur,STR-LND-001,0.625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-LND-002,0.605,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-NBS-001,0.565,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-NBS-002,0.625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-BLT-001,0.665,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ariyalur,STR-BLT-002,0.545,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-GIS-001,0.605,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-CRT-001,0.685,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ariyalur,STR-EWS-001,0.645,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ariyalur,STR-HTS-001,0.645,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-DRN-001,0.7825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chengalpattu,STR-DRN-002,0.8025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chengalpattu,STR-WTR-001,0.7825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-WTR-002,0.8025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chengalpattu,STR-LND-001,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-LND-002,0.7425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-NBS-001,0.7025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-NBS-002,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-BLT-001,0.8025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chengalpattu,STR-BLT-002,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-GIS-001,0.7425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-CRT-001,0.8225,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chengalpattu,STR-EWS-001,0.7825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-HTS-001,0.7825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chengalpattu,STR-CST-001,0.7825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-DRN-001,0.8,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chennai,STR-DRN-002,0.82,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chennai,STR-WTR-001,0.8,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-WTR-002,0.82,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chennai,STR-LND-001,0.78,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-LND-002,0.76,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-NBS-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-NBS-002,0.78,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-BLT-001,0.82,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chennai,STR-BLT-002,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-GIS-001,0.76,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-CRT-001,0.84,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+chennai,STR-EWS-001,0.8,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-HTS-001,0.8,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+chennai,STR-CST-001,0.8,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-DRN-001,0.6875,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+coimbatore,STR-DRN-002,0.7075,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+coimbatore,STR-WTR-001,0.6875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-WTR-002,0.7075,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+coimbatore,STR-LND-001,0.6675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-LND-002,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-NBS-001,0.6075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-NBS-002,0.6675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-BLT-001,0.7075,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+coimbatore,STR-BLT-002,0.5875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-GIS-001,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-CRT-001,0.7275,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+coimbatore,STR-EWS-001,0.6875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+coimbatore,STR-HTS-001,0.6875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-DRN-001,0.74,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+cuddalore,STR-DRN-002,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+cuddalore,STR-WTR-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-WTR-002,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+cuddalore,STR-LND-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-LND-002,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-NBS-001,0.66,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-NBS-002,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-BLT-001,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+cuddalore,STR-BLT-002,0.64,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-GIS-001,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-CRT-001,0.78,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+cuddalore,STR-EWS-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-HTS-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+cuddalore,STR-CST-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-DRN-001,0.6125,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dharmapuri,STR-DRN-002,0.6325,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dharmapuri,STR-WTR-001,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-WTR-002,0.6325,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dharmapuri,STR-LND-001,0.5925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-LND-002,0.5725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-NBS-001,0.5325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-NBS-002,0.5925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-BLT-001,0.6325,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dharmapuri,STR-BLT-002,0.5125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-GIS-001,0.5725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-CRT-001,0.6525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dharmapuri,STR-EWS-001,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dharmapuri,STR-HTS-001,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-DRN-001,0.6525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dindigul,STR-DRN-002,0.6725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dindigul,STR-WTR-001,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-WTR-002,0.6725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dindigul,STR-LND-001,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-LND-002,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-NBS-001,0.5725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-NBS-002,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-BLT-001,0.6725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dindigul,STR-BLT-002,0.5525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-GIS-001,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-CRT-001,0.6925,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+dindigul,STR-EWS-001,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+dindigul,STR-HTS-001,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-DRN-001,0.67,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+erode,STR-DRN-002,0.69,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+erode,STR-WTR-001,0.67,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-WTR-002,0.69,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+erode,STR-LND-001,0.65,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-LND-002,0.63,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-NBS-001,0.59,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-NBS-002,0.65,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-BLT-001,0.69,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+erode,STR-BLT-002,0.57,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-GIS-001,0.63,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-CRT-001,0.71,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+erode,STR-EWS-001,0.67,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+erode,STR-HTS-001,0.67,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-DRN-001,0.62,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kallakurichi,STR-DRN-002,0.64,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kallakurichi,STR-WTR-001,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-WTR-002,0.64,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kallakurichi,STR-LND-001,0.6,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-LND-002,0.58,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-NBS-001,0.54,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-NBS-002,0.6,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-BLT-001,0.64,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kallakurichi,STR-BLT-002,0.52,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-GIS-001,0.58,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-CRT-001,0.66,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kallakurichi,STR-EWS-001,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kallakurichi,STR-HTS-001,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-DRN-001,0.785,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kancheepuram,STR-DRN-002,0.805,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kancheepuram,STR-WTR-001,0.785,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-WTR-002,0.805,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kancheepuram,STR-LND-001,0.765,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-LND-002,0.745,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-NBS-001,0.705,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-NBS-002,0.765,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-BLT-001,0.805,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kancheepuram,STR-BLT-002,0.685,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-GIS-001,0.745,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-CRT-001,0.825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kancheepuram,STR-EWS-001,0.785,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kancheepuram,STR-HTS-001,0.785,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-DRN-001,0.8075,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kanniyakumari,STR-DRN-002,0.8275,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kanniyakumari,STR-WTR-001,0.8075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-WTR-002,0.8275,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kanniyakumari,STR-LND-001,0.7875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-LND-002,0.7675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-NBS-001,0.7275,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-NBS-002,0.7875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-BLT-001,0.8275,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kanniyakumari,STR-BLT-002,0.7075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-GIS-001,0.7675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-CRT-001,0.8475,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+kanniyakumari,STR-EWS-001,0.8075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-HTS-001,0.8075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+kanniyakumari,STR-CST-001,0.8075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-DRN-001,0.66,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+karur,STR-DRN-002,0.68,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+karur,STR-WTR-001,0.66,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-WTR-002,0.68,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+karur,STR-LND-001,0.64,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-LND-002,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-NBS-001,0.58,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-NBS-002,0.64,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-BLT-001,0.68,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+karur,STR-BLT-002,0.56,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-GIS-001,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-CRT-001,0.7,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+karur,STR-EWS-001,0.66,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+karur,STR-HTS-001,0.66,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-DRN-001,0.63,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+krishnagiri,STR-DRN-002,0.65,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+krishnagiri,STR-WTR-001,0.63,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-WTR-002,0.65,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+krishnagiri,STR-LND-001,0.61,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-LND-002,0.59,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-NBS-001,0.55,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-NBS-002,0.61,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-BLT-001,0.65,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+krishnagiri,STR-BLT-002,0.53,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-GIS-001,0.59,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-CRT-001,0.67,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+krishnagiri,STR-EWS-001,0.63,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+krishnagiri,STR-HTS-001,0.63,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-DRN-001,0.6675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+madurai,STR-DRN-002,0.6875,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+madurai,STR-WTR-001,0.6675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-WTR-002,0.6875,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+madurai,STR-LND-001,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-LND-002,0.6275,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-NBS-001,0.5875,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-NBS-002,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-BLT-001,0.6875,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+madurai,STR-BLT-002,0.5675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-GIS-001,0.6275,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-CRT-001,0.7075,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+madurai,STR-EWS-001,0.6675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+madurai,STR-HTS-001,0.6675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-DRN-001,0.7325,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+mayiladuthurai,STR-DRN-002,0.7525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+mayiladuthurai,STR-WTR-001,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-WTR-002,0.7525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+mayiladuthurai,STR-LND-001,0.7125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-LND-002,0.6925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-NBS-001,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-NBS-002,0.7125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-BLT-001,0.7525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+mayiladuthurai,STR-BLT-002,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-GIS-001,0.6925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-CRT-001,0.7725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+mayiladuthurai,STR-EWS-001,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-HTS-001,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+mayiladuthurai,STR-CST-001,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-DRN-001,0.7225,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nagapattinam,STR-DRN-002,0.7425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nagapattinam,STR-WTR-001,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-WTR-002,0.7425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nagapattinam,STR-LND-001,0.7025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-LND-002,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-NBS-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-NBS-002,0.7025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-BLT-001,0.7425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nagapattinam,STR-BLT-002,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-GIS-001,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-CRT-001,0.7625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nagapattinam,STR-EWS-001,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-HTS-001,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nagapattinam,STR-CST-001,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-DRN-001,0.6725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+namakkal,STR-DRN-002,0.6925,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+namakkal,STR-WTR-001,0.6725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-WTR-002,0.6925,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+namakkal,STR-LND-001,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-LND-002,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-NBS-001,0.5925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-NBS-002,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-BLT-001,0.6925,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+namakkal,STR-BLT-002,0.5725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-GIS-001,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-CRT-001,0.7125,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+namakkal,STR-EWS-001,0.6725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+namakkal,STR-HTS-001,0.6725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-DRN-001,0.69,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nilgiris,STR-DRN-002,0.71,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nilgiris,STR-WTR-001,0.69,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-WTR-002,0.71,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nilgiris,STR-LND-001,0.67,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-LND-002,0.65,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-NBS-001,0.61,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-NBS-002,0.67,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-BLT-001,0.71,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nilgiris,STR-BLT-002,0.59,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-GIS-001,0.65,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-CRT-001,0.73,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+nilgiris,STR-EWS-001,0.69,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+nilgiris,STR-HTS-001,0.69,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-DRN-001,0.6325,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+perambalur,STR-DRN-002,0.6525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+perambalur,STR-WTR-001,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-WTR-002,0.6525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+perambalur,STR-LND-001,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-LND-002,0.5925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-NBS-001,0.5525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-NBS-002,0.6125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-BLT-001,0.6525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+perambalur,STR-BLT-002,0.5325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-GIS-001,0.5925,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-CRT-001,0.6725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+perambalur,STR-EWS-001,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+perambalur,STR-HTS-001,0.6325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-DRN-001,0.6375,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+pudukkottai,STR-DRN-002,0.6575,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+pudukkottai,STR-WTR-001,0.6375,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-WTR-002,0.6575,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+pudukkottai,STR-LND-001,0.6175,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-LND-002,0.5975,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-NBS-001,0.5575,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-NBS-002,0.6175,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-BLT-001,0.6575,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+pudukkottai,STR-BLT-002,0.5375,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-GIS-001,0.5975,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-CRT-001,0.6775,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+pudukkottai,STR-EWS-001,0.6375,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-HTS-001,0.6375,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+pudukkottai,STR-CST-001,0.6375,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-DRN-001,0.715,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ramanathapuram,STR-DRN-002,0.735,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ramanathapuram,STR-WTR-001,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-WTR-002,0.735,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ramanathapuram,STR-LND-001,0.695,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-LND-002,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-NBS-001,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-NBS-002,0.695,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-BLT-001,0.735,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ramanathapuram,STR-BLT-002,0.615,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-GIS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-CRT-001,0.755,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ramanathapuram,STR-EWS-001,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-HTS-001,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ramanathapuram,STR-CST-001,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-DRN-001,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ranipet,STR-DRN-002,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ranipet,STR-WTR-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-WTR-002,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ranipet,STR-LND-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-LND-002,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-NBS-001,0.5825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-NBS-002,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-BLT-001,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ranipet,STR-BLT-002,0.5625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-GIS-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-CRT-001,0.7025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+ranipet,STR-EWS-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+ranipet,STR-HTS-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-DRN-001,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+salem,STR-DRN-002,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+salem,STR-WTR-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-WTR-002,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+salem,STR-LND-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-LND-002,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-NBS-001,0.595,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-NBS-002,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-BLT-001,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+salem,STR-BLT-002,0.575,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-GIS-001,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-CRT-001,0.715,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+salem,STR-EWS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+salem,STR-HTS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-DRN-001,0.6425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+sivaganga,STR-DRN-002,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+sivaganga,STR-WTR-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-WTR-002,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+sivaganga,STR-LND-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-LND-002,0.6025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-NBS-001,0.5625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-NBS-002,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-BLT-001,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+sivaganga,STR-BLT-002,0.5425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-GIS-001,0.6025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-CRT-001,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+sivaganga,STR-EWS-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+sivaganga,STR-HTS-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-DRN-001,0.655,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tenkasi,STR-DRN-002,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tenkasi,STR-WTR-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-WTR-002,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tenkasi,STR-LND-001,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-LND-002,0.615,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-NBS-001,0.575,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-NBS-002,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-BLT-001,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tenkasi,STR-BLT-002,0.555,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-GIS-001,0.615,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-CRT-001,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tenkasi,STR-EWS-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tenkasi,STR-HTS-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-DRN-001,0.755,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thanjavur,STR-DRN-002,0.775,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thanjavur,STR-WTR-001,0.755,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-WTR-002,0.775,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thanjavur,STR-LND-001,0.735,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-LND-002,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-NBS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-NBS-002,0.735,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-BLT-001,0.775,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thanjavur,STR-BLT-002,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-GIS-001,0.715,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-CRT-001,0.795,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thanjavur,STR-EWS-001,0.755,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-HTS-001,0.755,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thanjavur,STR-CST-001,0.755,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-DRN-001,0.665,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+theni,STR-DRN-002,0.685,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+theni,STR-WTR-001,0.665,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-WTR-002,0.685,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+theni,STR-LND-001,0.645,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-LND-002,0.625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-NBS-001,0.585,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-NBS-002,0.645,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-BLT-001,0.685,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+theni,STR-BLT-002,0.565,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-GIS-001,0.625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-CRT-001,0.705,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+theni,STR-EWS-001,0.665,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+theni,STR-HTS-001,0.665,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-DRN-001,0.7525,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thoothukudi,STR-DRN-002,0.7725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thoothukudi,STR-WTR-001,0.7525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-WTR-002,0.7725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thoothukudi,STR-LND-001,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-LND-002,0.7125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-NBS-001,0.6725,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-NBS-002,0.7325,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-BLT-001,0.7725,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thoothukudi,STR-BLT-002,0.6525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-GIS-001,0.7125,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-CRT-001,0.7925,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+thoothukudi,STR-EWS-001,0.7525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-HTS-001,0.7525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+thoothukudi,STR-CST-001,0.7525,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-DRN-001,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruchirappalli,STR-DRN-002,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruchirappalli,STR-WTR-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-WTR-002,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruchirappalli,STR-LND-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-LND-002,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-NBS-001,0.595,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-NBS-002,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-BLT-001,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruchirappalli,STR-BLT-002,0.575,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-GIS-001,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-CRT-001,0.715,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruchirappalli,STR-EWS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruchirappalli,STR-HTS-001,0.675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-DRN-001,0.7625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirunelveli,STR-DRN-002,0.7825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirunelveli,STR-WTR-001,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-WTR-002,0.7825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirunelveli,STR-LND-001,0.7425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-LND-002,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-NBS-001,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-NBS-002,0.7425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-BLT-001,0.7825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirunelveli,STR-BLT-002,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-GIS-001,0.7225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-CRT-001,0.8025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirunelveli,STR-EWS-001,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-HTS-001,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirunelveli,STR-CST-001,0.7625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-DRN-001,0.6475,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirupathur,STR-DRN-002,0.6675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirupathur,STR-WTR-001,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-WTR-002,0.6675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirupathur,STR-LND-001,0.6275,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-LND-002,0.6075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-NBS-001,0.5675,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-NBS-002,0.6275,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-BLT-001,0.6675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirupathur,STR-BLT-002,0.5475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-GIS-001,0.6075,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-CRT-001,0.6875,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tirupathur,STR-EWS-001,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tirupathur,STR-HTS-001,0.6475,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-DRN-001,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruppur,STR-DRN-002,0.7025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruppur,STR-WTR-001,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-WTR-002,0.7025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruppur,STR-LND-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-LND-002,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-NBS-001,0.6025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-NBS-002,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-BLT-001,0.7025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruppur,STR-BLT-002,0.5825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-GIS-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-CRT-001,0.7225,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruppur,STR-EWS-001,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruppur,STR-HTS-001,0.6825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-DRN-001,0.79,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvallur,STR-DRN-002,0.81,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvallur,STR-WTR-001,0.79,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-WTR-002,0.81,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvallur,STR-LND-001,0.77,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-LND-002,0.75,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-NBS-001,0.71,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-NBS-002,0.77,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-BLT-001,0.81,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvallur,STR-BLT-002,0.69,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-GIS-001,0.75,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-CRT-001,0.83,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvallur,STR-EWS-001,0.79,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-HTS-001,0.79,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvallur,STR-CST-001,0.79,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-DRN-001,0.6225,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvannamalai,STR-DRN-002,0.6425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvannamalai,STR-WTR-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-WTR-002,0.6425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvannamalai,STR-LND-001,0.6025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-LND-002,0.5825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-NBS-001,0.5425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-NBS-002,0.6025,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-BLT-001,0.6425,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvannamalai,STR-BLT-002,0.5225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-GIS-001,0.5825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-CRT-001,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvannamalai,STR-EWS-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvannamalai,STR-HTS-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-DRN-001,0.74,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvarur,STR-DRN-002,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvarur,STR-WTR-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-WTR-002,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvarur,STR-LND-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-LND-002,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-NBS-001,0.66,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-NBS-002,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-BLT-001,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvarur,STR-BLT-002,0.64,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-GIS-001,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-CRT-001,0.78,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+tiruvarur,STR-EWS-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-HTS-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+tiruvarur,STR-CST-001,0.74,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-DRN-001,0.6625,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+vellore,STR-DRN-002,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+vellore,STR-WTR-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-WTR-002,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+vellore,STR-LND-001,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-LND-002,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-NBS-001,0.5825,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-NBS-002,0.6425,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-BLT-001,0.6825,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+vellore,STR-BLT-002,0.5625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-GIS-001,0.6225,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-CRT-001,0.7025,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+vellore,STR-EWS-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+vellore,STR-HTS-001,0.6625,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-DRN-001,0.72,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+viluppuram,STR-DRN-002,0.74,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+viluppuram,STR-WTR-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-WTR-002,0.74,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+viluppuram,STR-LND-001,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-LND-002,0.68,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-NBS-001,0.64,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-NBS-002,0.7,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-BLT-001,0.74,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+viluppuram,STR-BLT-002,0.62,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-GIS-001,0.68,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-CRT-001,0.76,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+viluppuram,STR-EWS-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-HTS-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+viluppuram,STR-CST-001,0.72,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-DRN-001,0.655,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+virudhunagar,STR-DRN-002,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+virudhunagar,STR-WTR-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-WTR-002,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+virudhunagar,STR-LND-001,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-LND-002,0.615,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-NBS-001,0.575,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-NBS-002,0.635,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-BLT-001,0.675,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+virudhunagar,STR-BLT-002,0.555,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-GIS-001,0.615,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-CRT-001,0.695,1,Selected by HiGHS MILP solver maximizing benefit objective under portfolio size and dependency constraints.
+virudhunagar,STR-EWS-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.
+virudhunagar,STR-HTS-001,0.655,0,Not selected due to lower marginal benefit or portfolio size capacity limit.

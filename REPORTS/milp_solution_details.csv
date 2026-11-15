@@ -1,0 +1,533 @@
+District,Strategy ID,Strategy Name,Selected,Objective Contribution
+Ariyalur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Ariyalur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Ariyalur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Ariyalur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Ariyalur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Ariyalur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Ariyalur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Ariyalur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Ariyalur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Ariyalur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Ariyalur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Ariyalur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Ariyalur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Ariyalur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Chengalpattu,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Chengalpattu,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Chengalpattu,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Chengalpattu,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Chengalpattu,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Chengalpattu,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Chengalpattu,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Chengalpattu,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Chengalpattu,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Chengalpattu,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Chengalpattu,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Chengalpattu,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Chengalpattu,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Chengalpattu,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Chennai,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Chennai,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Chennai,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Chennai,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Chennai,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Chennai,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Chennai,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Chennai,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Chennai,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Chennai,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Chennai,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Chennai,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Chennai,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Chennai,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Coimbatore,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Coimbatore,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Coimbatore,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Coimbatore,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Coimbatore,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Coimbatore,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Coimbatore,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Coimbatore,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Coimbatore,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Coimbatore,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,0,0.0000
+Coimbatore,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Coimbatore,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Coimbatore,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Coimbatore,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Cuddalore,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Cuddalore,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Cuddalore,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Cuddalore,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Cuddalore,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Cuddalore,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Cuddalore,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Cuddalore,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Cuddalore,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Cuddalore,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Cuddalore,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Cuddalore,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Cuddalore,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Cuddalore,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Dharmapuri,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Dharmapuri,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Dharmapuri,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Dharmapuri,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Dharmapuri,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Dharmapuri,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Dharmapuri,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Dharmapuri,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Dharmapuri,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Dharmapuri,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Dharmapuri,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Dharmapuri,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Dharmapuri,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Dharmapuri,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Dindigul,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Dindigul,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Dindigul,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Dindigul,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Dindigul,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Dindigul,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Dindigul,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Dindigul,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Dindigul,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Dindigul,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Dindigul,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Dindigul,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Dindigul,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Dindigul,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Erode,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Erode,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Erode,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Erode,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Erode,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Erode,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Erode,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Erode,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Erode,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Erode,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Erode,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Erode,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Erode,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Erode,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Kallakurichi,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Kallakurichi,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Kallakurichi,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Kallakurichi,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Kallakurichi,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Kallakurichi,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Kallakurichi,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Kallakurichi,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Kallakurichi,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Kallakurichi,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Kallakurichi,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Kallakurichi,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Kallakurichi,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Kallakurichi,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Kancheepuram,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Kancheepuram,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Kancheepuram,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Kancheepuram,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Kancheepuram,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Kancheepuram,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Kancheepuram,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Kancheepuram,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Kancheepuram,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Kancheepuram,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Kancheepuram,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Kancheepuram,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Kancheepuram,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Kancheepuram,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Kanniyakumari,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Kanniyakumari,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Kanniyakumari,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Kanniyakumari,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Kanniyakumari,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Kanniyakumari,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Kanniyakumari,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Kanniyakumari,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Kanniyakumari,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Kanniyakumari,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Kanniyakumari,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Kanniyakumari,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Kanniyakumari,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Kanniyakumari,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Karur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Karur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Karur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Karur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Karur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Karur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Karur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Karur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Karur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Karur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Karur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Karur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Karur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Karur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Krishnagiri,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Krishnagiri,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Krishnagiri,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Krishnagiri,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Krishnagiri,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Krishnagiri,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Krishnagiri,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Krishnagiri,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Krishnagiri,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Krishnagiri,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Krishnagiri,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Krishnagiri,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Krishnagiri,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Krishnagiri,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Madurai,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Madurai,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Madurai,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Madurai,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Madurai,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Madurai,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Madurai,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Madurai,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Madurai,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Madurai,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Madurai,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Madurai,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Madurai,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Madurai,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Mayiladuthurai,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Mayiladuthurai,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Mayiladuthurai,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Mayiladuthurai,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Mayiladuthurai,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Mayiladuthurai,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Mayiladuthurai,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Mayiladuthurai,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Mayiladuthurai,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Mayiladuthurai,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Mayiladuthurai,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Mayiladuthurai,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Mayiladuthurai,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Mayiladuthurai,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Nagapattinam,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Nagapattinam,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Nagapattinam,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Nagapattinam,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Nagapattinam,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Nagapattinam,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Nagapattinam,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Nagapattinam,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Nagapattinam,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Nagapattinam,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Nagapattinam,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Nagapattinam,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Nagapattinam,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Nagapattinam,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Namakkal,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Namakkal,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Namakkal,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Namakkal,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Namakkal,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Namakkal,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Namakkal,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Namakkal,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Namakkal,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Namakkal,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Namakkal,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Namakkal,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Namakkal,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Namakkal,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Nilgiris,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Nilgiris,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Nilgiris,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Nilgiris,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Nilgiris,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Nilgiris,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Nilgiris,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Nilgiris,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Nilgiris,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Nilgiris,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Nilgiris,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Nilgiris,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Nilgiris,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Nilgiris,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Perambalur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Perambalur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Perambalur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Perambalur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Perambalur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Perambalur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Perambalur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Perambalur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Perambalur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Perambalur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Perambalur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Perambalur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Perambalur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Perambalur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Pudukkottai,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Pudukkottai,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Pudukkottai,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Pudukkottai,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Pudukkottai,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Pudukkottai,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Pudukkottai,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Pudukkottai,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Pudukkottai,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Pudukkottai,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Pudukkottai,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Pudukkottai,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Pudukkottai,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Pudukkottai,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Ramanathapuram,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Ramanathapuram,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Ramanathapuram,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Ramanathapuram,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Ramanathapuram,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Ramanathapuram,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Ramanathapuram,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Ramanathapuram,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Ramanathapuram,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Ramanathapuram,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Ramanathapuram,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Ramanathapuram,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Ramanathapuram,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Ramanathapuram,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Ranipet,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Ranipet,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Ranipet,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Ranipet,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Ranipet,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Ranipet,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Ranipet,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Ranipet,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Ranipet,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Ranipet,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Ranipet,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Ranipet,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Ranipet,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Ranipet,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Salem,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Salem,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Salem,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Salem,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Salem,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Salem,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Salem,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Salem,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Salem,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Salem,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Salem,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Salem,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Salem,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Salem,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Sivaganga,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Sivaganga,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Sivaganga,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Sivaganga,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Sivaganga,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Sivaganga,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Sivaganga,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Sivaganga,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Sivaganga,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Sivaganga,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Sivaganga,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Sivaganga,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Sivaganga,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Sivaganga,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tenkasi,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tenkasi,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tenkasi,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tenkasi,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tenkasi,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tenkasi,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tenkasi,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tenkasi,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tenkasi,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tenkasi,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tenkasi,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tenkasi,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tenkasi,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tenkasi,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Thanjavur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Thanjavur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Thanjavur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Thanjavur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Thanjavur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Thanjavur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Thanjavur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Thanjavur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Thanjavur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Thanjavur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Thanjavur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Thanjavur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Thanjavur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Thanjavur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Theni,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Theni,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Theni,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Theni,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Theni,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Theni,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Theni,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Theni,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Theni,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Theni,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Theni,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Theni,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Theni,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Theni,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Thoothukudi,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Thoothukudi,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Thoothukudi,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Thoothukudi,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Thoothukudi,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Thoothukudi,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Thoothukudi,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Thoothukudi,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Thoothukudi,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Thoothukudi,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Thoothukudi,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Thoothukudi,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Thoothukudi,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Thoothukudi,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tiruchirappalli,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tiruchirappalli,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tiruchirappalli,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tiruchirappalli,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tiruchirappalli,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tiruchirappalli,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tiruchirappalli,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tiruchirappalli,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tiruchirappalli,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tiruchirappalli,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tiruchirappalli,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tiruchirappalli,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tiruchirappalli,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tiruchirappalli,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tirunelveli,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tirunelveli,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tirunelveli,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tirunelveli,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tirunelveli,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tirunelveli,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tirunelveli,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tirunelveli,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tirunelveli,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tirunelveli,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tirunelveli,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tirunelveli,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tirunelveli,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tirunelveli,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tirupathur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tirupathur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tirupathur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tirupathur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tirupathur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tirupathur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tirupathur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tirupathur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tirupathur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tirupathur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tirupathur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tirupathur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tirupathur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tirupathur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tiruppur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tiruppur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tiruppur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tiruppur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tiruppur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tiruppur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tiruppur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tiruppur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tiruppur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tiruppur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tiruppur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tiruppur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tiruppur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tiruppur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tiruvallur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tiruvallur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tiruvallur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tiruvallur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tiruvallur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tiruvallur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tiruvallur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tiruvallur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tiruvallur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tiruvallur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tiruvallur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tiruvallur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tiruvallur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tiruvallur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tiruvannamalai,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tiruvannamalai,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tiruvannamalai,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tiruvannamalai,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tiruvannamalai,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tiruvannamalai,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tiruvannamalai,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tiruvannamalai,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tiruvannamalai,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tiruvannamalai,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tiruvannamalai,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tiruvannamalai,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tiruvannamalai,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tiruvannamalai,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Tiruvarur,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Tiruvarur,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Tiruvarur,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Tiruvarur,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Tiruvarur,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Tiruvarur,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Tiruvarur,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Tiruvarur,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Tiruvarur,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Tiruvarur,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Tiruvarur,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Tiruvarur,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Tiruvarur,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Tiruvarur,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Vellore,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Vellore,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Vellore,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Vellore,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Vellore,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Vellore,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Vellore,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Vellore,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Vellore,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Vellore,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Vellore,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Vellore,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Vellore,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Vellore,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Viluppuram,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Viluppuram,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Viluppuram,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Viluppuram,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Viluppuram,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Viluppuram,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Viluppuram,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Viluppuram,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Viluppuram,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Viluppuram,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Viluppuram,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Viluppuram,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Viluppuram,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Viluppuram,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700
+Virudhunagar,STR-DRN-001,Urban Primary Drain Desilting & Channel Widening,0,0.0000
+Virudhunagar,STR-DRN-002,Underground Stormwater Detention Basins,0,0.0000
+Virudhunagar,STR-WTR-001,Mandatory Rooftop Rainwater Harvesting (RWH) & Injection Shafts,1,0.8700
+Virudhunagar,STR-WTR-002,Traditional Temple Tank & Cascade Lake (Eri) De-silting and Restoration,0,0.0000
+Virudhunagar,STR-LND-001,Floodplain Zoning & Drainage Corridor Buffer Enforcements,0,0.0000
+Virudhunagar,STR-LND-002,Urban Micro-Zoning & Blue-Green Infrastructure Integration,0,0.0000
+Virudhunagar,STR-NBS-001,Urban Bioswales & Permeable Pavement Network,0,0.0000
+Virudhunagar,STR-NBS-002,Urban Wetland & Lake Eco-Restoration,0,0.0000
+Virudhunagar,STR-BLT-001,Plinth Elevation & Raised Critical Electrical Infrastructure,0,0.0000
+Virudhunagar,STR-BLT-002,Permeable Paving & Flood-Resilient Urban Road Cross-Sections,1,0.8700
+Virudhunagar,STR-GIS-001,DEM-Guided Low-Elevation Contour Runoff Retention Ponds,0,0.0000
+Virudhunagar,STR-CRT-001,Hospital & Emergency Shelter Flood Barrier & Auxiliary Power Retrofits,1,0.9400
+Virudhunagar,STR-EWS-001,IoT Hydro-Meteorological Sensors & Automated River Gauge Early Warning System,1,0.9400
+Virudhunagar,STR-HTS-001,High-Albedo Cool Roof Coating & Urban Tree Canopy Expansion,1,0.8700

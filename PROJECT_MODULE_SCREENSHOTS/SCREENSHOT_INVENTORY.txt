@@ -1,0 +1,300 @@
+PROJECT MODULE SCREENSHOT INVENTORY
+Project: Quantum Multi-Agent Decision Support System for Climate Adaptation Strategy Planning (Q-MADSS)
+Total Screenshots: 49
+Resolution: 1920 x 1080 (PNG Format)
+================================================================================
+
+Filename: 01_climate_data_acquisition_agent.png
+Module: Climate Data Acquisition Agent
+Type: Agent
+Description: Open-Meteo REST API NWP ingestion and 30-year climatology baseline fallback interface
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 02_multi_hazard_risk_prediction_agent.png
+Module: Multi-Hazard Risk Prediction Agent
+Type: Agent
+Description: XGBoost 53-feature vector multi-hazard risk prediction agent overview
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 03_forecast_agent.png
+Module: Forecast Agent
+Type: Agent
+Description: 7-day numerical weather prediction and temperature/precipitation forecast dashboard
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 04_adaptation_decision_support_agent.png
+Module: Adaptation Decision Support Agent
+Type: Agent
+Description: Multi-agent portfolio decision support & MILP-to-QUBO optimization agent interface
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 05_gis_dashboard.png
+Module: GIS Risk Mapping Module
+Type: GIS / Map
+Description: Interactive Leaflet GIS spatial risk dashboard for 38 Tamil Nadu districts
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 06_tamil_nadu_district_map.png
+Module: Tamil Nadu District Boundary Map
+Type: GIS / Map
+Description: geoBoundaries IND-ADM2 boundary rendering for all 38 districts
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 07_district_risk_heatmap.png
+Module: District Risk Choropleth Heatmap
+Type: GIS / Map
+Description: Composite IPCC AR6 risk category heatmap (Low, Moderate, High, Critical)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 08_flood_risk_map.png
+Module: Flood Risk Spatial Map
+Type: GIS / Map
+Description: XGBoost predicted flood hazard probability choropleth overlay
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 09_drought_risk_map.png
+Module: Drought Risk Spatial Map
+Type: GIS / Map
+Description: SPI_3 / SPI_6 deficit drought hazard probability spatial overlay
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 10_heatwave_risk_map.png
+Module: Heatwave Risk Spatial Map
+Type: GIS / Map
+Description: Extreme temperature anomaly heatwave probability spatial overlay
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 11_exposure_map.png
+Module: Exposure Assessment Map
+Type: GIS / Map
+Description: District population, agricultural, and infrastructure exposure score distribution
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 12_vulnerability_map.png
+Module: Vulnerability Assessment Map
+Type: GIS / Map
+Description: Social Vulnerability Index (SVI) district distribution map
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 13_resilience_map.png
+Module: Resilience / Adaptive Capacity Map
+Type: GIS / Map
+Description: District adaptive capacity gap and resilience index map
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 14_adaptation_priority_map.png
+Module: Adaptation Priority Map
+Type: GIS / Map
+Description: IPCC risk score adaptation priority intervention ranking map
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 15_strategy_applicability_map.png
+Module: Strategy Applicability Map
+Type: GIS / Map
+Description: Eligible adaptation candidate intervention spatial map
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 16_district_decision_workflow.png
+Module: District Decision Workflow
+Type: District Workflow
+Description: Complete district workflow for Ariyalur (forecast, risk, exposure, optimization)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 17_flood_risk_prediction.png
+Module: Flood Risk Prediction
+Type: Risk Prediction
+Description: XGBoost flood probability output, 3-day rainfall driver, and threshold status
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 18_drought_risk_prediction.png
+Module: Drought Risk Prediction
+Type: Risk Prediction
+Description: XGBoost drought probability output and SPI index metrics
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 19_heatwave_risk_prediction.png
+Module: Heatwave Risk Prediction
+Type: Risk Prediction
+Description: XGBoost heatwave probability output and daily max temperature anomaly metrics
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 20_exposure_assessment.png
+Module: Exposure Assessment
+Type: Exposure/Vulnerability
+Description: District population density, agricultural land, and infrastructure exposure metric breakdown
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 21_vulnerability_assessment.png
+Module: Vulnerability Assessment
+Type: Exposure/Vulnerability
+Description: Social Vulnerability Index (SVI) breakdown across economic sensitivity and infrastructure gap
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 22_resilience_assessment.png
+Module: Resilience Assessment
+Type: Exposure/Vulnerability
+Description: District adaptive capacity gap and baseline resilience score assessment
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 23_adaptation_priority.png
+Module: Adaptation Priority Assessment
+Type: Adaptation Module
+Description: Sector vulnerability priority ranking and funding priority levels
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 24_strategy_applicability.png
+Module: Strategy Applicability
+Type: Adaptation Module
+Description: Intervention sector applicability rules (Coastal, Water, Agriculture, Urban)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 25_adaptation_strategy_list.png
+Module: Adaptation Strategy Registry
+Type: Adaptation Module
+Description: Catalog of candidate adaptation interventions with costs and risk reduction percentages
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 26_adaptation_decision_support.png
+Module: Adaptation Decision Support Agent Interface
+Type: Adaptation Module
+Description: Integrated decision support control panel with budget sliders and strategy selector
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 27_classical_milp_optimization.png
+Module: Classical MILP Optimization
+Type: Classical Optimization
+Description: Classical Mixed-Integer Linear Program (MILP) exact solver results and optimal portfolio
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 28_qubo_formulation.png
+Module: QUBO Matrix Formulation Module
+Type: QUBO Formulation
+Description: Quadratic Unconstrained Binary Optimization (QUBO) matrix construction, hash, and penalty bound P
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 29_qaoa_dashboard.png
+Module: QAOA Research Dashboard
+Type: QAOA Module
+Description: Quantum Approximate Optimization Algorithm (QAOA) research & execution dashboard
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 30_qaoa_configuration.png
+Module: QAOA Circuit Configuration
+Type: QAOA Module
+Description: QAOA parameter setup: depth p=2, 1024 shots, COBYLA optimizer, Qiskit Aer backend
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 31_qaoa_result.png
+Module: QAOA Optimization Result & Gap
+Type: QAOA Module
+Description: QAOA execution results, objective value (1.8420), and relative optimality gap (2.67%)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 32_qaoa_selected_portfolio.png
+Module: QAOA Selected Portfolio Bitstring
+Type: QAOA Module
+Description: Optimal binary strategy selection bitstring decoded into strategy names
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 33_qaoa_validation.png
+Module: QAOA Constraint Validation
+Type: QAOA Module
+Description: 100% feasibility verification against financial budget B and portfolio size limit K
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 34_explainable_ai_dashboard.png
+Module: Explainable AI Dashboard
+Type: Explainable AI
+Description: SHAP feature attribution & explainable risk driver dashboard
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 35_risk_feature_explanation.png
+Module: Risk Feature Contribution
+Type: Explainable AI
+Description: Meteorological feature contribution breakdown explaining risk predictions
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 36_shap_explanation.png
+Module: TreeSHAP Feature Attributions
+Type: Explainable AI
+Description: Exact TreeSHAP feature importance values (rainfall_3d, temp_max, SPI_3)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 37_rag_evidence_retrieval.png
+Module: RAG Evidence Retrieval Interface
+Type: RAG / Evidence
+Description: ChromaDB vector search query interface for IPCC AR6 & state climate plans
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 38_evidence_sources.png
+Module: Evidence Sources Catalog
+Type: RAG / Evidence
+Description: Indexed knowledge base documents (IPCC AR6 WGII, TNSAPCC 2.0)
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 39_source_provenance.png
+Module: Data & Source Provenance Module
+Type: RAG / Evidence
+Description: Bibliographic provenance, source authority scores, and document hashes
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 40_llm_decision_explanation.png
+Module: LLM Decision Explanation Module
+Type: LLM Explanation
+Description: Context-grounded natural language explanation generated for decision support
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 41_main_dashboard.png
+Module: Main Executive Dashboard
+Type: Overall System
+Description: Complete executive overview with hazard widgets, risk distribution, and system status
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 42_system_architecture.png
+Module: System Architecture View
+Type: Overall System
+Description: Full-stack decoupled microservice architecture diagram view
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 43_end_to_end_workflow.png
+Module: End-to-End Methodology Workflow
+Type: Overall System
+Description: 6-stage development methodology and data processing pipeline flowchart
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 44_weather_forecast_dashboard.png
+Module: Weather 7-Day Forecast Dashboard
+Type: Additional Discovered Module
+Description: Detailed 7-day meteorological forecast chart and baseline comparison
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 45_system_status_monitoring.png
+Module: System Status & Database Monitoring
+Type: Additional Discovered Module
+Description: Real-time service health, PostgreSQL pool status, and Open-Meteo latency monitoring
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 46_research_gaps_analysis.png
+Module: Research Gaps & Literature Survey
+Type: Additional Discovered Module
+Description: Comparative literature survey matrix and research gap positioning
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 47_quantum_advantage_overview.png
+Module: Quantum Advantage Research Gate
+Type: Additional Discovered Module
+Description: QAOA scaling benchmarks, relative gap comparison, and quantum research metrics
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 48_user_profile.png
+Module: User Profile Management
+Type: Additional Discovered Module
+Description: User profile, role permissions (ADMIN / USER), and session state
+Implementation Status: Fully Implemented
+--------------------------------------------------
+Filename: 49_system_settings.png
+Module: System Settings & Configuration
+Type: Additional Discovered Module
+Description: API base URLs, fallback thresholds, and default optimization settings
+Implementation Status: Fully Implemented
+--------------------------------------------------
